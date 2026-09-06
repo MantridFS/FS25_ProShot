@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Aseta matala laatu"/>
+		<text name="proShot_menu_qualHigh" text="Aseta korkea laatu"/>
+		<text name="proShot_value_qualityLow" text="Matala laatu"/>
+		<text name="proShot_value_qualityHigh" text="Korkea laatu"/>
+		<text name="proShot_menu_advMenus" text="Edistyneet valikot"/>
+		<text name="proShot_menu_favourites" text="Suosikit"/>
+		<text name="proShot_menu_returnToAdvanced" text="Palaa lisävalikkoihin"/>
+		<text name="proShot_menu_resetAll" text="Palauta kaikki asetukset"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Nollaa myös taskulamput"/>
+		<text name="proShot_value_original" text="Alkuperäinen"/>
+		<text name="proShot_favourite_restoreSlot" text="Palauta paikka %d: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Tallenna paikkaan %d: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Poista paikka %d: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Tallenna nykyiset asetukset suosikiksi"/>
+		<text name="proShot_favourite_remove" text="Poista suosikki"/>
+		<text name="proShot_favourite_revertPreview" text="Palaa asetuksiin ennen Suosikit"/>
+		<text name="proShot_favourite_cancel" text="Palaa suosikkeihin"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Valitse paikka nykyisille asetuksille"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Valitse poistettava suosikki"/>
+		<text name="proShot_favourite_defaultName" text="Esiasetus %d"/>
+		<text name="proShot_favourite_namePrompt" text="Anna nimi suosikkipaikalle %d"/>
+		<text name="proShot_favourite_deleteTitle" text="Poista suosikki"/>
+		<text name="proShot_favourite_deletePrompt" text="Poistetaanko suosikkipaikka %d, ”%s”?"/>
+		<text name="proShot_favourite_emptyStatus" text="Paikka %d on tyhjä"/>
+		<text name="proShot_favourite_restoredStatus" text="Paikka %d palautettu"/>
+		<text name="proShot_favourite_revertedStatus" text="Palautettu Suosikkeja edeltäneisiin asetuksiin"/>
+		<text name="proShot_favourite_savedStatus" text="Paikka %d tallennettu: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Paikka %d poistettu: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Suosikkitiedostoa ei voitu kirjoittaa"/>
+		<text name="proShot_favourite_slotLabel" text="Paikka %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Valitse tallennettavat asetukset"/>
+		<text name="proShot_favourite_chooseGroups" text="Valitse ryhmät paikalle %d"/>
+		<text name="proShot_favourite_selectOneGroup" text="Valitse vähintään yksi asetusryhmä"/>
+		<text name="proShot_favourite_continueName" text="Jatka ja kirjoita nimi"/>
+		<text name="proShot_favourite_backToSlots" text="Palaa paikan valintaan"/>
+		<text name="proShot_favourite_group_camera" text="Kamera (FoV ja valotus)"/>
+		<text name="proShot_favourite_group_sky" text="Taivas"/>
+		<text name="proShot_favourite_group_groundLight" text="Maan valaistus"/>
+		<text name="proShot_favourite_group_effects" text="Värimäärittely ja tehosteet"/>
+		<text name="proShot_favourite_group_season" text="Kausi (mukaan lukien pakkanen ja lumi)"/>
+		<text name="proShot_favourite_group_weather" text="Sää (mukaan lukien sumu ja utu)"/>
+		<text name="proShot_menu_advQualityMenu" text="Laatuvalikko"/>
+		<text name="proShot_menu_advSunMenu" text="Taivasvalikko"/>
+		<text name="proShot_menu_advLightMenu" text="Taskulamppu-valikko"/>
+		<text name="proShot_menu_environment" text="Ympäristö-valikko"/>
+		<text name="proShot_menu_effects" text="Tehosteet-valikko"/>
+		<text name="proShot_menu_DoF" text="Syväterävyysvalikko"/>
+		<text name="proShot_menu_returnToMain" text="Palaa päävalikkoon"/>
+		<text name="proShot_takePicture" text="Ota Kuva"/>
+		<text name="proShot_hideHUD" text="Näytä/piilota HUD"/>
+		<text name="proShot_menu_advQ_VD" text="Pienennä/lisää katseluetäisyyttä"/>
+		<text name="proShot_menu_advQ_LOD" text="Pienennä/lisää LOD-etäisyyttä"/>
+		<text name="proShot_menu_advQ_TLOD" text="Pienennä/lisää maaston LOD-etäisyyttä"/>
+		<text name="proShot_menu_advQ_FVD" text="Pienennä/lisää kasvillisuuden katseluetäisyyttä"/>
+		<text name="proShot_menu_skyBrightness" text="Taivaan kirkkaus"/>
+		<text name="proShot_menu_groundLight" text="Maan valaistus"/>
+		<text name="proShot_menu_skyAndGround" text="Taivas ja maa"/>
+		<text name="proShot_menu_syncSkyToGround" text="Synkronoi taivas maahan"/>
+		<text name="proShot_menu_lightingIntensity" text="Valon voimakkuus"/>
+		<text name="proShot_menu_lightingTemperature" text="Valon lämpötila"/>
+		<text name="proShot_menu_colourTemperature" text="Värilämpötila"/>
+		<text name="proShot_menu_intensity" text="Intensiteetti"/>
+		<text name="proShot_menu_returnToSky" text="Palaa taivasvalikkoon"/>
+		<text name="proShot_infoBox_skyTemp" text="Taivaan värilämpötila"/>
+		<text name="proShot_infoBox_skyIntensity" text="Taivaan intensiteetti"/>
+		<text name="proShot_infoBox_groundTemp" text="Valon värilämpötila"/>
+		<text name="proShot_infoBox_groundIntensity" text="Valon intensiteetti"/>
+		<text name="proShot_menu_red" text="Vähennä/lisää punaista"/>
+		<text name="proShot_menu_green" text="Vähennä/lisää vihreää"/>
+		<text name="proShot_menu_blue" text="Vähennä/lisää sinistä"/>
+		<text name="proShot_menu_moonSize" text="Kuun koko"/>
+		<text name="proShot_menu_sunSize" text="Auringon koko"/>
+		<text name="proShot_menu_atmosRefraction" text="Ilmakehän taittuminen"/>
+		<text name="proShot_menu_light_temp" text="Viileämpi/lämpimämpi valo"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Kapea/leveä kartio"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Terävöittää/sumentaa tarkennusta"/>
+		<text name="proShot_menu_flashLight_intensity" text="Pienennä/nosta intensiteettiä"/>
+		<text name="proShot_menu_flashLight_distance" text="Pienennä/lisää etäisyyttä"/>
+		<text name="proShot_menu_flashLight_place" text="Aseta taskulamppu tähän"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Kytke taskulamppu päälle"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Poista viimeinen taskulamppu"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Aseta valo oletusasetuksiin"/>
+		<text name="proShot_flashLight_placed" text="Taskulamppu asetettu (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Taskulamput sijoitettu"/>
+		<text name="proShot_flashFavourite_title" text="Taskulamppujen suosikit"/>
+		<text name="proShot_flashFavourite_save" text="Tallenna suosikiksi"/>
+		<text name="proShot_flashFavourite_remove" text="Poista suosikki"/>
+		<text name="proShot_flashFavourite_cancel" text="Palaa Taskulamppu-valikkoon"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Suosikki %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Tallenna paikkaan %d: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Poista paikka %d: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Taskulamppu %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Anna taskulamppusuosikin nimi %d"/>
+		<text name="proShot_flashFavourite_restored" text="Taskulamppusuosikki %d palautettu: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Taskulamppusuosikki %d tallennettu: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Taskulamppusuosikki %d poistettu: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Poista taskulamppusuosikki"/>
+		<text name="proShot_flashFavourite_deletePrompt" text='Poistetaanko taskulamppusuosikki %d, "%s"?'/>
+		<text name="proShot_menu_exposure" text="Valotuksen säätö"/>
+		<text name="proShot_menu_FoV" text="Säädä näkökenttää"/>
+		<text name="proShot_menu_timeHorly" text="Säädä aikaa (tuntiittain)"/>
+		<text name="proShot_menu_timeMins" text="Säädä aikaa (minuutteja)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Neutraali"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Eloisa"/>
+		<text name="proShot_menu_effects_preset_deep" text="Syvä"/>
+		<text name="proShot_menu_effects_preset_cold" text="Viileä"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Harmaasävy"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Seepiasävy"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Aave"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Bloom-kynnys"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Bloom-voimakkuus"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Bloom-laatu"/>
+		<text name="proShot_effect_slotEntry" text="Tehostepaikka %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Tallenna tehostepaikkaan %d: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Palauta tehostepaikka %d: %s"/>
+		<text name="proShot_effect_customise" text="Mukautettu värimäärittely"/>
+		<text name="proShot_effect_global" text="Yleinen"/>
+		<text name="proShot_effect_shadows" text="Varjot"/>
+		<text name="proShot_effect_midtones" text="Keskisävyt"/>
+		<text name="proShot_effect_highlights" text="Huippuvalot"/>
+		<text name="proShot_effect_saturation" text="Kylläisyys"/>
+		<text name="proShot_effect_contrast" text="Kontrasti"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Vahvistus"/>
+		<text name="proShot_effect_scale" text="Asteikko"/>
+		<text name="proShot_effect_shadowsMax" text="Varjojen enimmäisluminanssi"/>
+		<text name="proShot_effect_highlightsMin" text="Huippuvalojen vähimmäisluminanssi"/>
+		<text name="proShot_effect_maxLuminance" text="Suurin luminanssi: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Minimi valoisuus: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Nollaa luminanssikynnykset"/>
+		<text name="proShot_menu_toneMapping" text="Sävykartoitus"/>
+		<text name="proShot_tone_slope" text="Kaltevuus"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Mustan leikkaus"/>
+		<text name="proShot_tone_whiteClip" text="Valkoisen leikkaus"/>
+		<text name="proShot_menu_fog" text="Vähennä/lisää sumua"/>
+		<text name="proShot_menu_haze" text="Vähennä/lisää utua"/>
+		<text name="proShot_infoBox_fog" text="Sumu"/>
+		<text name="proShot_infoBox_haze" text="Utu"/>
+		<text name="proShot_menu_fogAdvanced" text="Sumuvalikko"/>
+		<text name="proShot_fog_coverage" text="Vähennä/lisää sumun peittoa"/>
+		<text name="proShot_fog_softness" text="Vähennä/lisää peittävyyden pehmeyttä"/>
+		<text name="proShot_fog_groundDensity" text="Vähennä/lisää sumun tiheyttä"/>
+		<text name="proShot_fog_extraHeight" text="Vähennä/lisää sumun korkeutta"/>
+		<text name="proShot_fog_minValleyDepth" text="Pienennä/lisää laakson vähimmäissyvyyttä"/>
+		<text name="proShot_fog_coverageInfo" text="Kattavuus"/>
+		<text name="proShot_fog_softnessInfo" text="Pehmeys"/>
+		<text name="proShot_fog_groundDensityInfo" text="Tiheys"/>
+		<text name="proShot_fog_extraHeightInfo" text="Korkeus"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Laakson vähimmäissyvyys"/>
+		<text name="proShot_testing_enableTraffic" text="Kytke liikenne päälle"/>
+		<text name="proShot_testing_disableTraffic" text="Poista liikenne käytöstä"/>
+		<text name="proShot_testing_enablePedestrians" text="Kytke jalankulkijat päälle"/>
+		<text name="proShot_testing_disablePedestrians" text="Poista jalankulkijat käytöstä"/>
+		<text name="proShot_testing_pauseTraffic" text="Keskeytä liikenne"/>
+		<text name="proShot_testing_resumeTraffic" text="Jatka liikennettä"/>
+		<text name="proShot_testing_pausePedestrians" text="Pysäytä jalankulkijat"/>
+		<text name="proShot_testing_resumePedestrians" text="Jatka jalankulkijoita"/>
+		<text name="proShot_testing_localSnow" text="Paikallinen lumi"/>
+		<text name="proShot_testing_groundWetness" text="Vähennä/lisää maan kosteutta"/>
+		<text name="proShot_testing_removeTyreTracks" text="Poista rengasjäljet (ei voi kumota)"/>
+		<text name="proShot_testing_traffic" text="Liikenne"/>
+		<text name="proShot_testing_trafficMotion" text="Liikenteen liike"/>
+		<text name="proShot_testing_pedestrians" text="Jalankulkijat"/>
+		<text name="proShot_testing_pedestrianMotion" text="Jalankulkijoiden liike"/>
+		<text name="proShot_testing_paused" text="Keskeytetty"/>
+		<text name="proShot_testing_running" text="Liikkeessä"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Maan kosteus"/>
+		<text name="proShot_testing_wildlife" text="Villieläimet"/>
+		<text name="proShot_testing_tyreTracks" text="Rengasjälkien poisto"/>
+		<text name="proShot_testing_unavailable" text="Ei saatavilla tällä kartalla"/>
+		<text name="proShot_testing_irreversible" text="Ei voi kumota"/>
+		<text name="proShot_testing_trafficUnavailable" text="Tällä kartalla ei ole saatavilla liikennejärjestelmää"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Tällä kartalla ei ole saatavilla jalankulkujärjestelmää"/>
+		<text name="proShot_testing_birdUnavailable" text="Tälle kartalle ei ole määritelty sopivia lintuja"/>
+		<text name="proShot_testing_wildlifeRemoved" text="Poistettiin %d sijoitettua eläintä tai lintuparvea"/>
+		<text name="proShot_testing_spawnFailed" text="Villieläimen sijoittaminen epäonnistui"/>
+		<text name="proShot_testing_actionUnavailable" text="Tämä toiminto ei ole käytettävissä tällä kartalla"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Jalankulkijoiden tauko ei ole käytettävissä tässä peliversiossa"/>
+		<text name="proShot_testing_snowRadius" text="Pienennä/lisää sädettä"/>
+		<text name="proShot_testing_snowHeight" text="Laske / nosta lunta korostetulla alueella"/>
+		<text name="proShot_testing_snowTarget" text="Kohde"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Säde"/>
+		<text name="proShot_testing_snowHeightInfo" text="Lunta keskellä"/>
+		<text name="proShot_testing_noTarget" text="Ei maastokohdetta"/>
+		<text name="proShot_testing_snowNoTarget" text="Näytön keskeltä ei löytynyt maastoa"/>
+		<text name="proShot_testing_snowLowered" text="Lunta vähennettiin korostetulla alueella"/>
+		<text name="proShot_testing_snowRaised" text="Lunta lisättiin korostetulla alueella"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Poista rengasjäljet"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Valitse, kuinka suuri osa rengasjäljen kartasta poistetaan."/>
+		<text name="proShot_testing_tyreTracks100m" text="100 metrin säteellä kamerasta"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Koko kartta"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Poistetaanko renkaan jäljet 100 metrin etäisyydeltä kamerasta? Tätä ei voi kumota."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Poistetaanko kaikki rengasjäljet kartalta? Tätä ei voi kumota."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Rengasjäljet poistettu 100 metrin etäisyydeltä kamerasta"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Kaikki renkaan jäljet poistettu"/>
+		<text name="proShot_wildlife_menu" text="Eläimet"/>
+		<text name="proShot_wildlife_selectAnimal" text="Vaihda kohteeseen %s"/>
+		<text name="proShot_wildlife_selectBird" text="Vaihda kohteeseen %s"/>
+		<text name="proShot_wildlife_spawn" text="Sijoita %s"/>
+		<text name="proShot_wildlife_spawnFlying" text="Sijoita %s lentoon"/>
+		<text name="proShot_wildlife_pauseBirds" text="Pysäytä linnut"/>
+		<text name="proShot_wildlife_resumeBirds" text="Jatka lintujen liikettä"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Pysäytä villieläimet"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Jatka villieläinten liikettä"/>
+		<text name="proShot_wildlife_removeLastBird" text="Poista viimeinen lintu"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Poista viimeinen villieläin"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Valittu villieläin"/>
+		<text name="proShot_wildlife_selectedBird" text="Valittu lintu"/>
+		<text name="proShot_wildlife_animalMotion" text="Villieläinten liike"/>
+		<text name="proShot_wildlife_birdMotion" text="Lintujen liike"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Sijoitetut villieläimet"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Sijoitetut linnut"/>
+		<text name="proShot_wildlife_unavailable" text="Tälle kartalle ei ole määritetty villieläimiä"/>
+		<text name="proShot_wildlife_spawned" text="%s sijoitettiin kameran eteen"/>
+		<text name="proShot_wildlife_tooFar" text="Liian kaukana"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Linnut sijoitettu taivaalle, kohteen yläpuolelle"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Linnut sijoitettu"/>
+		<text name="proShot_wildlife_placedGround" text="Villieläin sijoitettiin maahan"/>
+		<text name="proShot_wildlife_placedObject" text="Villieläin sijoitettiin esineen päälle"/>
+		<text name="proShot_wildlife_groundOnly" text="Ne kuuluvat maahan"/>
+		<text name="proShot_animals_offsetX" text="Eläimen X-siirtymä"/>
+		<text name="proShot_animals_offsetY" text="Eläimen Y-siirtymä"/>
+		<text name="proShot_animals_offsetZ" text="Eläimen Z-siirtymä"/>
+		<text name="proShot_animals_resetOffsets" text="Nollaa eläimen siirtymät"/>
+		<text name="proShot_animals_rotation" text="Eläimen suunta"/>
+		<text name="proShot_farm_select" text="Valitse tuotantoeläin"/>
+		<text name="proShot_farm_place" text="Sijoita %s"/>
+		<text name="proShot_farm_removeLast" text="Poista viimeisin tuotantoeläin"/>
+		<text name="proShot_farm_removedLast" text="Viimeisin tuotantoeläin poistettu"/>
+		<text name="proShot_farm_noneToRemove" text="Ei poistettavia sijoitettuja tuotantoeläimiä"/>
+		<text name="proShot_farm_selected" text="Valittu tuotantoeläin"/>
+		<text name="proShot_farm_spawned" text="Sijoitetut tuotantoeläimet"/>
+		<text name="proShot_farm_unavailable" text="Tällä kartalla ei ole tuotantoeläimiä"/>
+		<text name="proShot_farm_selectTitle" text="Valitse tuotantoeläin"/>
+		<text name="proShot_farm_selectText" text="Valitse eläin ja ikä."/>
+		<text name="proShot_farm_breedTitle" text="Valitse rotu"/>
+		<text name="proShot_farm_breedText" text="Valitse rotu tai ulkonäkö."/>
+		<text name="proShot_farm_loadFailed" text="Tuotantoeläintä ei voitu ladata"/>
+		<text name="proShot_farm_placedGround" text="Tuotantoeläin sijoitettu maahan"/>
+		<text name="proShot_farm_placedObject" text="Tuotantoeläin sijoitettu kohteen päälle"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Poikanen"/>
+		<text name="proShot_farm_stageYoung" text="Nuori"/>
+		<text name="proShot_farm_stageAdult" text="Aikuinen"/>
+		<text name="proShot_farm_calf" text="Vasikka"/>
+		<text name="proShot_farm_youngCow" text="Nuori lehmä"/>
+		<text name="proShot_farm_cow" text="Lehmä"/>
+		<text name="proShot_farm_buffaloCalf" text="Vesipuhvelin vasikka"/>
+		<text name="proShot_farm_youngBuffalo" text="Nuori vesipuhveli"/>
+		<text name="proShot_farm_waterBuffalo" text="Vesipuhveli"/>
+		<text name="proShot_farm_piglet" text="Porsas"/>
+		<text name="proShot_farm_youngPig" text="Nuori sika"/>
+		<text name="proShot_farm_pig" text="Sika"/>
+		<text name="proShot_farm_lamb" text="Karitsa"/>
+		<text name="proShot_farm_youngSheep" text="Nuori lammas"/>
+		<text name="proShot_farm_sheep" text="Lammas"/>
+		<text name="proShot_farm_kid" text="Kili"/>
+		<text name="proShot_farm_youngGoat" text="Nuori vuohi"/>
+		<text name="proShot_farm_goat" text="Vuohi"/>
+		<text name="proShot_farm_horse" text="Hevonen"/>
+		<text name="proShot_farm_chick" text="Tipu"/>
+		<text name="proShot_farm_hen" text="Kana"/>
+		<text name="proShot_farm_rooster" text="Kukko"/>
+		<text name="proShot_farm_menuCow" text="Lehmä"/>
+		<text name="proShot_farm_menuBuffalo" text="Vesipuhveli"/>
+		<text name="proShot_farm_menuPig" text="Sika"/>
+		<text name="proShot_farm_menuSheep" text="Lammas"/>
+		<text name="proShot_farm_menuGoat" text="Vuohi"/>
+		<text name="proShot_farm_menuHorse" text="Hevonen"/>
+		<text name="proShot_farm_menuChicken" text="Kana"/>
+		<text name="proShot_wildlife_birdRemoved" text="Viimeksi sijoitettu lintu poistettiin"/>
+		<text name="proShot_wildlife_animalRemoved" text="Viimeksi sijoitettu villieläin poistettiin"/>
+		<text name="proShot_wildlife_noBird" text="Poistettavia sijoitettuja lintuja ei ole"/>
+		<text name="proShot_wildlife_noAnimal" text="Poistettavia sijoitettuja villieläimiä ei ole"/>
+		<text name="proShot_wildlife_removeAll" text="Poista kaikki eläimet ja linnut"/>
+		<text name="proShot_scene_menu" text="Kohtauksen ohjaimet"/>
+		<text name="proShot_scene_hideParked" text="Piilota pysäköityjä ajoneuvoja"/>
+		<text name="proShot_scene_showParked" text="Näytä pysäköityjä ajoneuvoja"/>
+		<text name="proShot_scene_parkedVehicles" text="Pysäköidyt ajoneuvot"/>
+		<text name="proShot_scene_parkedUnavailable" text="Pysäköidyn ajoneuvon ohjaus ei ole käytettävissä tällä kartalla"/>
+		<text name="proShot_scene_reset" text="Palauta kohtauksen ohjaimet"/>
+		<text name="proShot_snow_strength" text="Vähennä/lisää työkalun voimakkuutta"/>
+		<text name="proShot_snow_strengthInfo" text="Työkalun voimakkuus"/>
+		<text name="proShot_snow_globalLevel" text="Vähennä/lisää yleistä lumitasoa"/>
+		<text name="proShot_snow_globalLevelInfo" text="Yleinen lumitaso"/>
+		<text name="proShot_focus_set" text="Tarkenna keskellä olevaan kohteeseen"/>
+		<text name="proShot_focus_narrow" text="Kavenna tarkennusaluetta"/>
+		<text name="proShot_focus_widen" text="Laajenna tarkennusaluetta"/>
+		<text name="proShot_focus_holdClear" text="Poista tarkennus pitämällä [%s] painettuna"/>
+		<text name="proShot_focus_noTarget" text="Kohdetta ei löytynyt näytön keskeltä"/>
+		<text name="proShot_focus_status" text="Keskitarkennus"/>
+		<text name="proShot_focus_distance" text="%.1f m (%.1f m)"/>
+		<text name="proShot_composition_grid" text="Ruudukkoapu: %s"/>
+		<text name="proShot_composition_aspect" text="Kuvasuhdeapu: %s"/>
+		<text name="proShot_composition_status" text="Sommittelu"/>
+		<text name="proShot_grid_thirds" text="Kolmannekset"/>
+		<text name="proShot_grid_goldenRatio" text="Kultainen suhde (Phi)"/>
+		<text name="proShot_grid_centre" text="Keskipiste"/>
+		<text name="proShot_grid_diagonals" text="Diagonaalit"/>
+		<text name="proShot_grid_diagonalMethod" text="Diagonaalinen menetelmä"/>
+		<text name="proShot_grid_goldenTriangles" text="Kultaiset kolmiot"/>
+		<text name="proShot_effect_resetSlot" text="Palauta paikka oletuksiin"/>
+		<text name="proShot_effect_saveSlotMenu" text="Tallenna nykyinen tehoste paikkaan"/>
+		<text name="proShot_effect_allSlotsDefault" text="Kaikki tehostepaikat ovat jo oletusarvoissa"/>
+		<text name="proShot_effect_emptySlot" text="Tehostepaikka %d on tyhjä"/>
+		<text name="proShot_effect_defaultName" text="Mukautettu tehoste %d"/>
+		<text name="proShot_effect_namePrompt" text="Anna nimi tehostepaikalle %d"/>
+		<text name="proShot_effect_saveFailed" text="Tehostetiedostoa ei voitu kirjoittaa"/>
+		<text name="proShot_effect_saved" text="Tehostepaikka %d tallennettu: %s"/>
+		<text name="proShot_effect_resetDone" text="Tehostepaikka %d palautettu oletuksiin"/>
+		<text name="proShot_effect_slotLabel" text="Paikka %d"/>
+		<text name="proShot_effect_editing" text="Muokkaus"/>
+		<text name="proShot_menu_revertThisScreen" text="Palauta muutokset tällä näytöllä"/>
+		<text name="proShot_infoBox_VD" text="Katseluetäisyys"/>
+		<text name="proShot_infoBox_FVD" text="Kasvillisuuden katseluetäisyys"/>
+		<text name="proShot_infoBox_exposure" text="Kameran valotus"/>
+		<text name="proShot_infoBox_FoV" text="Kameran näkökenttä"/>
+		<text name="proShot_infoBox_quality" text="Laatu esiasetus"/>
+		<text name="proShot_infoBox_sunDirection" text="Auringon suunta"/>
+		<text name="proShot_infoBox_colourGrading" text="Tehoste"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Värimäärittely"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Taskulamppujen lämpötila"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Taskulamppujen voimakkuus"/>
+		<text name="proShot_infoBox_flashlightRange" text="Valon kantama"/>
+		<text name="proShot_infoBox_flashlightCone" text="Kartion kulma"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Valon sumennus"/>
+		<text name="proShot_infoBox_title_environment" text="Ympäristö"/>
+		<text name="proShot_infoBox_season" text="Kausi"/>
+		<text name="proShot_infoBox_frost" text="Huurre"/>
+		<text name="proShot_infoBox_snowLevel" text="Lumen taso"/>
+		<text name="proShot_infoBox_title_effects" text="Tehosteet"/>
+		<text name="proShot_infoBox_help1b" text="Hiiren vasen painike tai WSAD näppäimet"/>
+		<text name="proShot_infoBox_help2a" text="Säädä korkeutta"/>
+		<text name="proShot_infoBox_help2b" text="Vierityspyörä tai QE-näppäimet"/>
+		<text name="proShot_infoBox_help3a" text="Lisää nopeutta"/>
+		<text name="proShot_infoBox_help3b" text="Pidä Shift-näppäintä painettuna"/>
+		<text name="proShot_infoBox_help4a" text="Pienennä nopeutta"/>
+		<text name="proShot_infoBox_help4b" text="Pidä Ctrl-näppäintä painettuna"/>
+		<text name="proShot_infoBox_help5b" text="Hiiren oikea painike"/>
+		<text name="proShot_infoBox_help6a" text="Siirrä auringonvaloa"/>
+		<text name="proShot_infoBox_help6b" text="Hiiren keskipainike"/>
+		<text name="proShot_infoBox_help7b" text="Numeronäppäimistö 1 ja 2"/>
+		<text name="proShot_infoBox_help8a" text="Palauta kallistus"/>
+		<text name="proShot_infoBox_help8b" text="Numeronäppäimistö 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Lähi-CoC-säde"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Lähisumennuksen loppuetäisyys"/>
+		<text name="proShot_DoF_farCoCRadius" text="Kauko-CoC-säde"/>
+		<text name="proShot_DoF_farBlurStart" text="Kaukosumennuksen aloitusetäisyys"/>
+		<text name="proShot_DoF_farBlurEnd" text="Täyden kaukosumennuksen etäisyys"/>
+		<text name="proShot_DoF_applyToSky" text="Sumenna taivas"/>
+		<text name="proShot_summer" text="Kesä"/>
+		<text name="proShot_autumn" text="Syksy"/>
+		<text name="proShot_winter" text="Talvi"/>
+		<text name="proShot_spring" text="Kevät"/>
+		<text name="proShot_early" text="alku"/>
+		<text name="proShot_mid" text="keski"/>
+		<text name="proShot_late" text="loppu"/>
+		<text name="proShot_seasonTweak" text="Kauden säätö"/>
+		<text name="proShot_variation" text="vaihtelua"/>
+		<text name="proShot_weather_SUN" text="Aurinkoinen"/>
+		<text name="proShot_weather_CLOUDY" text="Pilvinen"/>
+		<text name="proShot_weather_RAIN" text="Sateinen"/>
+		<text name="proShot_weather_SNOW" text="Luminen"/>
+		<text name="proShot_weather_HAIL" text="Rae"/>
+		<text name="proShot_menu_snowShader" text="Näytä/piilota huurre"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Lähi-CoC-säde (sumennuksen voimakkuus)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Kauko-CoC-säde (sumennuksen voimakkuus)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Lähisumennuksen loppuetäisyys"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Kaukosumennuksen aloitusetäisyys"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Täyden kaukosumennuksen etäisyys"/>
+		<text name="proShot_menu_resetThis" text="Palauta nämä asetukset"/>
+		<text name="input_PRO_SHOT_1" text="Valinta 1"/>
+		<text name="input_PRO_SHOT_2" text="Valinta 2"/>
+		<text name="input_PRO_SHOT_3" text="Valinta 3"/>
+		<text name="input_PRO_SHOT_4" text="Valinta 4"/>
+		<text name="input_PRO_SHOT_5" text="Valinta 5"/>
+		<text name="input_PRO_SHOT_6" text="Valinta 6"/>
+		<text name="input_PRO_SHOT_7" text="Valinta 7"/>
+		<text name="input_PRO_SHOT_8" text="Valinta 8"/>
+		<text name="input_PRO_SHOT_9" text="Valinta 9"/>
+		<text name="input_PRO_SHOT_0" text="Valinta 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Numeronäppäimistö 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Poista viimeisin tuotantoeläin"/>
+		<text name="input_PRO_SHOT_MINUS" text="Päänäppäimistön miinus"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Päänäppäimistön yhtä suuri/plus"/>
+		<text name="input_PRO_SHOT_47_1" text="Säätö 1+"/>
+		<text name="input_PRO_SHOT_47_2" text="Säätö 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Säätö 2+"/>
+		<text name="input_PRO_SHOT_58_2" text="Säätö 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Säätö 3+"/>
+		<text name="input_PRO_SHOT_69_2" text="Säätö 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Säätö 4+"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Säätö 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Säätö 5+"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Säätö 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Säätö 6+"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Säätö 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Säätö 7+"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Säätö 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Säätö 8+"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Säätö 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Palauta asetukset"/>
+		<text name="input_PRO_SHOT_ENTER" text="Ota Kuva"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="Ota HDR-kuvakaappaus"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="Ota HDR- ja syvyyskuvakaappaukset"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Palaa edelliseen valikkoon"/>
+		<text name="input_PRO_SHOT_F" text="Taskulamppu"/>
+		<text name="input_PRO_SHOT_F1" text="Näytä/piilota HUD"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Numeronäppäimistön Enter"/>
+	</texts>
+</l10n>

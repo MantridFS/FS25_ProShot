@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Đặt chất lượng thấp"/>
+		<text name="proShot_menu_qualHigh" text="Đặt chất lượng cao"/>
+		<text name="proShot_value_qualityLow" text="Chất lượng thấp"/>
+		<text name="proShot_value_qualityHigh" text="Chất lượng cao"/>
+		<text name="proShot_menu_advMenus" text="Menu nâng cao"/>
+		<text name="proShot_menu_favourites" text="Mục yêu thích"/>
+		<text name="proShot_menu_returnToAdvanced" text="Quay lại Menu nâng cao"/>
+		<text name="proShot_menu_resetAll" text="Đặt lại tất cả cài đặt"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Đặt lại cả đèn pin"/>
+		<text name="proShot_value_original" text="Ban đầu"/>
+		<text name="proShot_favourite_restoreSlot" text="Khôi phục ô %d: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Lưu vào ô %d: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Xóa ô %d: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Lưu cài đặt hiện tại làm mục yêu thích"/>
+		<text name="proShot_favourite_remove" text="Xóa một mục yêu thích"/>
+		<text name="proShot_favourite_revertPreview" text="Khôi phục cài đặt trước khi vào Mục yêu thích"/>
+		<text name="proShot_favourite_cancel" text="Quay lại mục yêu thích"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Chọn một ô cho cài đặt hiện tại"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Chọn mục yêu thích cần xóa"/>
+		<text name="proShot_favourite_defaultName" text="Cài đặt sẵn %d"/>
+		<text name="proShot_favourite_namePrompt" text="Nhập tên cho ô yêu thích %d"/>
+		<text name="proShot_favourite_deleteTitle" text="Xóa mục yêu thích"/>
+		<text name="proShot_favourite_deletePrompt" text="Xóa ô yêu thích %d, “%s”?"/>
+		<text name="proShot_favourite_emptyStatus" text="Ô %d đang trống"/>
+		<text name="proShot_favourite_restoredStatus" text="Đã khôi phục ô %d"/>
+		<text name="proShot_favourite_revertedStatus" text="Đã khôi phục cài đặt trước khi vào Mục yêu thích"/>
+		<text name="proShot_favourite_savedStatus" text="Đã lưu ô %d: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Đã xóa ô %d: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Không thể ghi tệp mục yêu thích"/>
+		<text name="proShot_favourite_slotLabel" text="Ô %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Chọn cài đặt cần lưu"/>
+		<text name="proShot_favourite_chooseGroups" text="Chọn nhóm cho ô %d"/>
+		<text name="proShot_favourite_selectOneGroup" text="Chọn ít nhất một nhóm cài đặt"/>
+		<text name="proShot_favourite_continueName" text="Tiếp tục và nhập tên"/>
+		<text name="proShot_favourite_backToSlots" text="Quay lại chọn ô"/>
+		<text name="proShot_favourite_group_camera" text="Camera (FoV và phơi sáng)"/>
+		<text name="proShot_favourite_group_sky" text="Bầu trời"/>
+		<text name="proShot_favourite_group_groundLight" text="Ánh sáng mặt đất"/>
+		<text name="proShot_favourite_group_effects" text="Chỉnh màu và hiệu ứng"/>
+		<text name="proShot_favourite_group_season" text="Mùa (bao gồm sương giá và tuyết)"/>
+		<text name="proShot_favourite_group_weather" text="Thời tiết (bao gồm sương mù và màn sương)"/>
+		<text name="proShot_menu_advQualityMenu" text="Menu Chất lượng"/>
+		<text name="proShot_menu_advSunMenu" text="Menu Bầu trời"/>
+		<text name="proShot_menu_advLightMenu" text="Menu Đèn pin"/>
+		<text name="proShot_menu_environment" text="Menu Môi trường"/>
+		<text name="proShot_menu_effects" text="Menu Hiệu ứng"/>
+		<text name="proShot_menu_DoF" text="Menu Độ sâu trường ảnh"/>
+		<text name="proShot_menu_returnToMain" text="Quay lại Menu chính"/>
+		<text name="proShot_takePicture" text="Chụp ảnh"/>
+		<text name="proShot_hideHUD" text="Bật/tắt HUD"/>
+		<text name="proShot_menu_advQ_VD" text="Giảm/Tăng khoảng cách nhìn"/>
+		<text name="proShot_menu_advQ_LOD" text="Giảm/Tăng khoảng cách LOD"/>
+		<text name="proShot_menu_advQ_TLOD" text="Giảm/Tăng khoảng cách LOD địa hình"/>
+		<text name="proShot_menu_advQ_FVD" text="Giảm/Tăng khoảng cách nhìn thực vật"/>
+		<text name="proShot_menu_skyBrightness" text="Độ sáng bầu trời"/>
+		<text name="proShot_menu_groundLight" text="Ánh sáng mặt đất"/>
+		<text name="proShot_menu_skyAndGround" text="Bầu trời và Mặt đất"/>
+		<text name="proShot_menu_syncSkyToGround" text="Đồng bộ Bầu trời với Mặt đất"/>
+		<text name="proShot_menu_lightingIntensity" text="Cường độ chiếu sáng"/>
+		<text name="proShot_menu_lightingTemperature" text="Nhiệt độ ánh sáng"/>
+		<text name="proShot_menu_colourTemperature" text="Nhiệt độ màu"/>
+		<text name="proShot_menu_intensity" text="Cường độ"/>
+		<text name="proShot_menu_returnToSky" text="Quay lại Menu Bầu trời"/>
+		<text name="proShot_infoBox_skyTemp" text="Nhiệt độ màu bầu trời"/>
+		<text name="proShot_infoBox_skyIntensity" text="Cường độ bầu trời"/>
+		<text name="proShot_infoBox_groundTemp" text="Nhiệt độ màu ánh sáng"/>
+		<text name="proShot_infoBox_groundIntensity" text="Cường độ ánh sáng"/>
+		<text name="proShot_menu_red" text="Giảm/Tăng Đỏ"/>
+		<text name="proShot_menu_green" text="Giảm/Tăng Xanh lá"/>
+		<text name="proShot_menu_blue" text="Giảm/Tăng Xanh dương"/>
+		<text name="proShot_menu_moonSize" text="Kích thước Mặt Trăng"/>
+		<text name="proShot_menu_sunSize" text="Kích thước Mặt Trời"/>
+		<text name="proShot_menu_atmosRefraction" text="Khúc xạ khí quyển"/>
+		<text name="proShot_menu_light_temp" text="Ánh sáng Lạnh hơn/Ấm hơn"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Thu hẹp/Mở rộng hình nón"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Làm nét/Làm mờ tiêu điểm"/>
+		<text name="proShot_menu_flashLight_intensity" text="Giảm/Tăng cường độ"/>
+		<text name="proShot_menu_flashLight_distance" text="Giảm/Tăng khoảng cách"/>
+		<text name="proShot_menu_flashLight_place" text="Đặt đèn pin ở đây"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Bật đèn pin"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Xóa đèn pin cuối"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Đặt ánh sáng về mặc định"/>
+		<text name="proShot_flashLight_placed" text="Đã đặt đèn pin (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Đèn pin đã đặt"/>
+		<text name="proShot_flashFavourite_title" text="Mục yêu thích Đèn pin"/>
+		<text name="proShot_flashFavourite_save" text="Lưu làm mục yêu thích"/>
+		<text name="proShot_flashFavourite_remove" text="Xóa mục yêu thích"/>
+		<text name="proShot_flashFavourite_cancel" text="Quay lại Menu Đèn pin"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Yêu thích %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Lưu vào ô %d: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Xóa ô %d: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Đèn pin %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Nhập tên cho mục yêu thích đèn pin %d"/>
+		<text name="proShot_flashFavourite_restored" text="Đã khôi phục mục yêu thích đèn pin %d: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Đã lưu mục yêu thích đèn pin %d: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Đã xóa mục yêu thích đèn pin %d: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Xóa mục yêu thích Đèn pin"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Xóa mục yêu thích đèn pin %d, “%s”?"/>
+		<text name="proShot_menu_exposure" text="Điều chỉnh phơi sáng"/>
+		<text name="proShot_menu_FoV" text="Điều chỉnh trường nhìn"/>
+		<text name="proShot_menu_timeHorly" text="Điều chỉnh thời gian (theo giờ)"/>
+		<text name="proShot_menu_timeMins" text="Điều chỉnh thời gian (phút)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Phẳng"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Rực rỡ"/>
+		<text name="proShot_menu_effects_preset_deep" text="Sâu"/>
+		<text name="proShot_menu_effects_preset_cold" text="Lạnh"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Thang xám"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Tông Sepia"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Bóng ma"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Ngưỡng bloom"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Cường độ bloom"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Chất lượng bloom"/>
+		<text name="proShot_effect_slotEntry" text="Ô hiệu ứng %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Lưu vào ô hiệu ứng %d: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Đặt lại ô hiệu ứng %d: %s"/>
+		<text name="proShot_effect_customise" text="Chỉnh màu tùy chỉnh"/>
+		<text name="proShot_effect_global" text="Toàn cục"/>
+		<text name="proShot_effect_shadows" text="Vùng tối"/>
+		<text name="proShot_effect_midtones" text="Tông trung"/>
+		<text name="proShot_effect_highlights" text="Vùng sáng"/>
+		<text name="proShot_effect_saturation" text="Độ bão hòa"/>
+		<text name="proShot_effect_contrast" text="Độ tương phản"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Gain"/>
+		<text name="proShot_effect_scale" text="Tỷ lệ"/>
+		<text name="proShot_effect_shadowsMax" text="Độ chói tối đa của vùng tối"/>
+		<text name="proShot_effect_highlightsMin" text="Độ chói tối thiểu của vùng sáng"/>
+		<text name="proShot_effect_maxLuminance" text="Độ chói tối đa: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Độ chói tối thiểu: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Đặt lại ngưỡng độ chói"/>
+		<text name="proShot_menu_toneMapping" text="Ánh xạ tông màu"/>
+		<text name="proShot_tone_slope" text="Độ dốc"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Cắt đen"/>
+		<text name="proShot_tone_whiteClip" text="Cắt trắng"/>
+		<text name="proShot_menu_fog" text="Giảm/Tăng sương mù"/>
+		<text name="proShot_menu_haze" text="Giảm/Tăng màn sương"/>
+		<text name="proShot_infoBox_fog" text="Sương mù"/>
+		<text name="proShot_infoBox_haze" text="Màn sương"/>
+		<text name="proShot_menu_fogAdvanced" text="Menu Sương mù"/>
+		<text name="proShot_fog_coverage" text="Giảm/Tăng độ phủ sương mù"/>
+		<text name="proShot_fog_softness" text="Giảm/Tăng độ mềm của vùng phủ"/>
+		<text name="proShot_fog_groundDensity" text="Giảm/Tăng mật độ sương mù"/>
+		<text name="proShot_fog_extraHeight" text="Giảm/Tăng độ cao sương mù"/>
+		<text name="proShot_fog_minValleyDepth" text="Giảm/Tăng độ sâu thung lũng tối thiểu"/>
+		<text name="proShot_fog_coverageInfo" text="Độ phủ"/>
+		<text name="proShot_fog_softnessInfo" text="Độ mềm"/>
+		<text name="proShot_fog_groundDensityInfo" text="Mật độ"/>
+		<text name="proShot_fog_extraHeightInfo" text="Độ cao"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Độ sâu thung lũng tối thiểu"/>
+		<text name="proShot_testing_enableTraffic" text="Bật giao thông"/>
+		<text name="proShot_testing_disableTraffic" text="Tắt giao thông"/>
+		<text name="proShot_testing_enablePedestrians" text="Bật người đi bộ"/>
+		<text name="proShot_testing_disablePedestrians" text="Tắt người đi bộ"/>
+		<text name="proShot_testing_pauseTraffic" text="Tạm dừng giao thông"/>
+		<text name="proShot_testing_resumeTraffic" text="Tiếp tục giao thông"/>
+		<text name="proShot_testing_pausePedestrians" text="Tạm dừng người đi bộ"/>
+		<text name="proShot_testing_resumePedestrians" text="Tiếp tục người đi bộ"/>
+		<text name="proShot_testing_localSnow" text="Tuyết cục bộ"/>
+		<text name="proShot_testing_groundWetness" text="Giảm/Tăng độ ướt mặt đất"/>
+		<text name="proShot_testing_removeTyreTracks" text="Xóa vết lốp xe (không thể hoàn tác)"/>
+		<text name="proShot_testing_traffic" text="Giao thông"/>
+		<text name="proShot_testing_trafficMotion" text="Chuyển động giao thông"/>
+		<text name="proShot_testing_pedestrians" text="Người đi bộ"/>
+		<text name="proShot_testing_pedestrianMotion" text="Chuyển động người đi bộ"/>
+		<text name="proShot_testing_paused" text="Đã tạm dừng"/>
+		<text name="proShot_testing_running" text="Đang chạy"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Độ ướt mặt đất"/>
+		<text name="proShot_testing_wildlife" text="Động vật hoang dã"/>
+		<text name="proShot_testing_tyreTracks" text="Xóa vết lốp xe"/>
+		<text name="proShot_testing_unavailable" text="Không khả dụng trên bản đồ này"/>
+		<text name="proShot_testing_irreversible" text="Không thể hoàn tác"/>
+		<text name="proShot_testing_trafficUnavailable" text="Không có hệ thống giao thông trên bản đồ này"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Không có hệ thống người đi bộ trên bản đồ này"/>
+		<text name="proShot_testing_birdUnavailable" text="Không có loài chim hoang dã phù hợp được định nghĩa cho bản đồ này"/>
+		<text name="proShot_testing_wildlifeRemoved" text="Đã xóa %d động vật và nhóm chim đã đặt"/>
+		<text name="proShot_testing_spawnFailed" text="Không thể tạo động vật hoang dã"/>
+		<text name="proShot_testing_actionUnavailable" text="Hành động này không khả dụng trên bản đồ này"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Tạm dừng người đi bộ không khả dụng trong phiên bản game này"/>
+		<text name="proShot_testing_snowRadius" text="Giảm/Tăng bán kính"/>
+		<text name="proShot_testing_snowHeight" text="Hạ/Nâng tuyết trong vùng được tô sáng"/>
+		<text name="proShot_testing_snowTarget" text="Mục tiêu"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Bán kính"/>
+		<text name="proShot_testing_snowHeightInfo" text="Tuyết ở giữa"/>
+		<text name="proShot_testing_noTarget" text="Không có mục tiêu địa hình"/>
+		<text name="proShot_testing_snowNoTarget" text="Không tìm thấy địa hình ở giữa màn hình"/>
+		<text name="proShot_testing_snowLowered" text="Đã hạ tuyết trong vùng được tô sáng"/>
+		<text name="proShot_testing_snowRaised" text="Đã nâng tuyết trong vùng được tô sáng"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Xóa Vết Lốp Xe"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Chọn mức độ bản đồ vết lốp cần xóa."/>
+		<text name="proShot_testing_tyreTracks100m" text="Trong phạm vi 100 m từ camera"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Toàn bộ bản đồ"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Xóa vết lốp trong phạm vi 100 m từ camera? Không thể hoàn tác."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Xóa mọi vết lốp khỏi bản đồ? Không thể hoàn tác."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Đã xóa vết lốp trong phạm vi 100 m từ camera"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Đã xóa tất cả vết lốp"/>
+		<text name="proShot_wildlife_menu" text="Động vật"/>
+		<text name="proShot_wildlife_selectAnimal" text="Đổi động vật hoang dã thành %s"/>
+		<text name="proShot_wildlife_selectBird" text="Đổi chim thành %s"/>
+		<text name="proShot_wildlife_spawn" text="Tạo %s"/>
+		<text name="proShot_wildlife_spawnFlying" text="Tạo %s đang bay"/>
+		<text name="proShot_wildlife_pauseBirds" text="Tạm dừng chim"/>
+		<text name="proShot_wildlife_resumeBirds" text="Tiếp tục chim"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Tạm dừng động vật hoang dã"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Tiếp tục động vật hoang dã"/>
+		<text name="proShot_wildlife_removeLastBird" text="Xóa chim cuối"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Xóa động vật hoang dã cuối"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Động vật hoang dã đã chọn"/>
+		<text name="proShot_wildlife_selectedBird" text="Chim đã chọn"/>
+		<text name="proShot_wildlife_animalMotion" text="Chuyển động động vật hoang dã"/>
+		<text name="proShot_wildlife_birdMotion" text="Chuyển động chim"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Động vật hoang dã đã tạo"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Chim đã tạo"/>
+		<text name="proShot_wildlife_unavailable" text="Không có động vật hoang dã được định nghĩa cho bản đồ này"/>
+		<text name="proShot_wildlife_spawned" text="Đã tạo %s phía trước camera"/>
+		<text name="proShot_wildlife_tooFar" text="Quá xa"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Chim được đặt trên trời, phía trên mục tiêu"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Chim đã đặt"/>
+		<text name="proShot_wildlife_placedGround" text="Động vật hoang dã được đặt trên mặt đất"/>
+		<text name="proShot_wildlife_placedObject" text="Động vật hoang dã được đặt trên vật thể"/>
+		<text name="proShot_wildlife_groundOnly" text="Chúng phải ở trên mặt đất"/>
+		<text name="proShot_animals_offsetX" text="Độ lệch X của động vật"/>
+		<text name="proShot_animals_offsetY" text="Độ lệch Y của động vật"/>
+		<text name="proShot_animals_offsetZ" text="Độ lệch Z của động vật"/>
+		<text name="proShot_animals_resetOffsets" text="Đặt lại độ lệch động vật"/>
+		<text name="proShot_animals_rotation" text="Xoay động vật"/>
+		<text name="proShot_farm_select" text="Chọn động vật trang trại"/>
+		<text name="proShot_farm_place" text="Đặt %s"/>
+		<text name="proShot_farm_removeLast" text="Xóa động vật trang trại cuối"/>
+		<text name="proShot_farm_removedLast" text="Đã xóa động vật trang trại cuối"/>
+		<text name="proShot_farm_noneToRemove" text="Không có động vật trang trại đã đặt để xóa"/>
+		<text name="proShot_farm_selected" text="Động vật trang trại đã chọn"/>
+		<text name="proShot_farm_spawned" text="Động vật trang trại đã đặt"/>
+		<text name="proShot_farm_unavailable" text="Không có động vật trang trại trên bản đồ này"/>
+		<text name="proShot_farm_selectTitle" text="Chọn Động vật Trang trại"/>
+		<text name="proShot_farm_selectText" text="Chọn một con vật và độ tuổi."/>
+		<text name="proShot_farm_breedTitle" text="Chọn Giống"/>
+		<text name="proShot_farm_breedText" text="Chọn một giống hoặc ngoại hình."/>
+		<text name="proShot_farm_loadFailed" text="Không thể tải động vật trang trại"/>
+		<text name="proShot_farm_placedGround" text="Động vật trang trại được đặt trên mặt đất"/>
+		<text name="proShot_farm_placedObject" text="Động vật trang trại được đặt trên vật thể"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Con non"/>
+		<text name="proShot_farm_stageYoung" text="Trẻ"/>
+		<text name="proShot_farm_stageAdult" text="Trưởng thành"/>
+		<text name="proShot_farm_calf" text="Bê"/>
+		<text name="proShot_farm_youngCow" text="Bò non"/>
+		<text name="proShot_farm_cow" text="Bò"/>
+		<text name="proShot_farm_buffaloCalf" text="Nghé"/>
+		<text name="proShot_farm_youngBuffalo" text="Trâu nước non"/>
+		<text name="proShot_farm_waterBuffalo" text="Trâu nước"/>
+		<text name="proShot_farm_piglet" text="Heo con"/>
+		<text name="proShot_farm_youngPig" text="Heo non"/>
+		<text name="proShot_farm_pig" text="Heo"/>
+		<text name="proShot_farm_lamb" text="Cừu con"/>
+		<text name="proShot_farm_youngSheep" text="Cừu non"/>
+		<text name="proShot_farm_sheep" text="Cừu"/>
+		<text name="proShot_farm_kid" text="Dê con"/>
+		<text name="proShot_farm_youngGoat" text="Dê non"/>
+		<text name="proShot_farm_goat" text="Dê"/>
+		<text name="proShot_farm_horse" text="Ngựa"/>
+		<text name="proShot_farm_chick" text="Gà con"/>
+		<text name="proShot_farm_hen" text="Gà mái"/>
+		<text name="proShot_farm_rooster" text="Gà trống"/>
+		<text name="proShot_farm_menuCow" text="Bò"/>
+		<text name="proShot_farm_menuBuffalo" text="Trâu nước"/>
+		<text name="proShot_farm_menuPig" text="Heo"/>
+		<text name="proShot_farm_menuSheep" text="Cừu"/>
+		<text name="proShot_farm_menuGoat" text="Dê"/>
+		<text name="proShot_farm_menuHorse" text="Ngựa"/>
+		<text name="proShot_farm_menuChicken" text="Gà"/>
+		<text name="proShot_wildlife_birdRemoved" text="Đã xóa chim được tạo cuối cùng"/>
+		<text name="proShot_wildlife_animalRemoved" text="Đã xóa động vật hoang dã được tạo cuối cùng"/>
+		<text name="proShot_wildlife_noBird" text="Không có chim đã tạo để xóa"/>
+		<text name="proShot_wildlife_noAnimal" text="Không có động vật hoang dã đã tạo để xóa"/>
+		<text name="proShot_wildlife_removeAll" text="Xóa tất cả động vật và chim"/>
+		<text name="proShot_scene_menu" text="Điều khiển Cảnh"/>
+		<text name="proShot_scene_hideParked" text="Ẩn xe đang đỗ"/>
+		<text name="proShot_scene_showParked" text="Hiện xe đang đỗ"/>
+		<text name="proShot_scene_parkedVehicles" text="Xe đang đỗ"/>
+		<text name="proShot_scene_parkedUnavailable" text="Điều khiển xe đang đỗ không khả dụng trên bản đồ này"/>
+		<text name="proShot_scene_reset" text="Đặt lại điều khiển cảnh"/>
+		<text name="proShot_snow_strength" text="Giảm/Tăng sức mạnh công cụ"/>
+		<text name="proShot_snow_strengthInfo" text="Sức mạnh công cụ"/>
+		<text name="proShot_snow_globalLevel" text="Giảm/Tăng mức tuyết toàn cục"/>
+		<text name="proShot_snow_globalLevelInfo" text="Mức tuyết toàn cục"/>
+		<text name="proShot_focus_set" text="Lấy nét vào vật thể ở giữa"/>
+		<text name="proShot_focus_narrow" text="Thu hẹp phạm vi lấy nét"/>
+		<text name="proShot_focus_widen" text="Mở rộng phạm vi lấy nét"/>
+		<text name="proShot_focus_holdClear" text="Nhấn giữ [%s] để xóa tiêu điểm"/>
+		<text name="proShot_focus_noTarget" text="Không tìm thấy vật thể ở giữa màn hình"/>
+		<text name="proShot_focus_status" text="Lấy nét trung tâm"/>
+		<text name="proShot_focus_distance" text="%.1f m (phạm vi %.1f m)"/>
+		<text name="proShot_composition_grid" text="Hướng dẫn lưới: %s"/>
+		<text name="proShot_composition_aspect" text="Hướng dẫn tỷ lệ khung hình: %s"/>
+		<text name="proShot_composition_status" text="Bố cục"/>
+		<text name="proShot_grid_thirds" text="Quy tắc một phần ba"/>
+		<text name="proShot_grid_goldenRatio" text="Tỷ lệ vàng (Phi)"/>
+		<text name="proShot_grid_centre" text="Trung tâm"/>
+		<text name="proShot_grid_diagonals" text="Đường chéo"/>
+		<text name="proShot_grid_diagonalMethod" text="Phương pháp đường chéo"/>
+		<text name="proShot_grid_goldenTriangles" text="Tam giác vàng"/>
+		<text name="proShot_effect_resetSlot" text="Đặt lại một ô về mặc định"/>
+		<text name="proShot_effect_saveSlotMenu" text="Lưu hiệu ứng hiện tại vào một ô"/>
+		<text name="proShot_effect_allSlotsDefault" text="Tất cả ô hiệu ứng đã ở mặc định"/>
+		<text name="proShot_effect_emptySlot" text="Ô hiệu ứng %d đang trống"/>
+		<text name="proShot_effect_defaultName" text="Hiệu ứng tùy chỉnh %d"/>
+		<text name="proShot_effect_namePrompt" text="Nhập tên cho ô hiệu ứng %d"/>
+		<text name="proShot_effect_saveFailed" text="Không thể ghi tệp hiệu ứng"/>
+		<text name="proShot_effect_saved" text="Đã lưu ô hiệu ứng %d: %s"/>
+		<text name="proShot_effect_resetDone" text="Đã đặt lại ô hiệu ứng %d về mặc định"/>
+		<text name="proShot_effect_slotLabel" text="Ô %d"/>
+		<text name="proShot_effect_editing" text="Đang chỉnh sửa"/>
+		<text name="proShot_menu_revertThisScreen" text="Hoàn tác thay đổi trên màn hình này"/>
+		<text name="proShot_infoBox_VD" text="Khoảng cách nhìn"/>
+		<text name="proShot_infoBox_FVD" text="Khoảng cách nhìn thực vật"/>
+		<text name="proShot_infoBox_exposure" text="Phơi sáng Camera"/>
+		<text name="proShot_infoBox_FoV" text="Trường nhìn Camera"/>
+		<text name="proShot_infoBox_quality" text="Preset Chất lượng"/>
+		<text name="proShot_infoBox_sunDirection" text="Hướng Mặt Trời"/>
+		<text name="proShot_infoBox_colourGrading" text="Hiệu ứng"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Chỉnh màu"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Nhiệt độ Đèn pin"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Cường độ Đèn pin"/>
+		<text name="proShot_infoBox_flashlightRange" text="Tầm chiếu sáng"/>
+		<text name="proShot_infoBox_flashlightCone" text="Góc hình nón"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Độ mờ ánh sáng"/>
+		<text name="proShot_infoBox_title_environment" text="Môi trường"/>
+		<text name="proShot_infoBox_season" text="Mùa"/>
+		<text name="proShot_infoBox_frost" text="Sương giá"/>
+		<text name="proShot_infoBox_snowLevel" text="Mức tuyết"/>
+		<text name="proShot_infoBox_title_effects" text="Hiệu ứng"/>
+		<text name="proShot_infoBox_help1b" text="Nút chuột trái hoặc phím WSAD"/>
+		<text name="proShot_infoBox_help2a" text="Điều chỉnh Độ cao"/>
+		<text name="proShot_infoBox_help2b" text="Con lăn chuột hoặc phím QE"/>
+		<text name="proShot_infoBox_help3a" text="Tăng Tốc độ"/>
+		<text name="proShot_infoBox_help3b" text="Giữ phím Shift"/>
+		<text name="proShot_infoBox_help4a" text="Giảm Tốc độ"/>
+		<text name="proShot_infoBox_help4b" text="Giữ phím Ctrl"/>
+		<text name="proShot_infoBox_help5b" text="Nút chuột phải"/>
+		<text name="proShot_infoBox_help6a" text="Di chuyển Ánh sáng Mặt Trời"/>
+		<text name="proShot_infoBox_help6b" text="Nút chuột giữa"/>
+		<text name="proShot_infoBox_help7b" text="Bàn phím số 1 và 2"/>
+		<text name="proShot_infoBox_help8a" text="Đặt lại Độ nghiêng"/>
+		<text name="proShot_infoBox_help8b" text="Bàn phím số 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Bán kính CoC gần"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Khoảng cách kết thúc mờ gần"/>
+		<text name="proShot_DoF_farCoCRadius" text="Bán kính CoC xa"/>
+		<text name="proShot_DoF_farBlurStart" text="Khoảng cách bắt đầu mờ xa"/>
+		<text name="proShot_DoF_farBlurEnd" text="Khoảng cách mờ hoàn toàn phía xa"/>
+		<text name="proShot_DoF_applyToSky" text="Làm mờ bầu trời"/>
+		<text name="proShot_summer" text="Mùa hè"/>
+		<text name="proShot_autumn" text="Mùa thu"/>
+		<text name="proShot_winter" text="Mùa đông"/>
+		<text name="proShot_spring" text="Mùa xuân"/>
+		<text name="proShot_early" text="đầu"/>
+		<text name="proShot_mid" text="giữa"/>
+		<text name="proShot_late" text="cuối"/>
+		<text name="proShot_seasonTweak" text="Tinh chỉnh mùa"/>
+		<text name="proShot_variation" text="biến thể"/>
+		<text name="proShot_weather_SUN" text="Nắng"/>
+		<text name="proShot_weather_CLOUDY" text="Nhiều mây"/>
+		<text name="proShot_weather_RAIN" text="Mưa"/>
+		<text name="proShot_weather_SNOW" text="Tuyết"/>
+		<text name="proShot_weather_HAIL" text="Mưa đá"/>
+		<text name="proShot_menu_snowShader" text="Bật/tắt sương giá"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Bán kính CoC gần (độ mạnh làm mờ)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Bán kính CoC xa (độ mạnh làm mờ)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Khoảng cách kết thúc mờ gần"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Khoảng cách bắt đầu mờ xa"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Khoảng cách mờ xa ở cường độ đầy đủ"/>
+		<text name="proShot_menu_resetThis" text="Đặt lại các cài đặt này"/>
+		<text name="input_PRO_SHOT_1" text="Lựa chọn 1"/>
+		<text name="input_PRO_SHOT_2" text="Lựa chọn 2"/>
+		<text name="input_PRO_SHOT_3" text="Lựa chọn 3"/>
+		<text name="input_PRO_SHOT_4" text="Lựa chọn 4"/>
+		<text name="input_PRO_SHOT_5" text="Lựa chọn 5"/>
+		<text name="input_PRO_SHOT_6" text="Lựa chọn 6"/>
+		<text name="input_PRO_SHOT_7" text="Lựa chọn 7"/>
+		<text name="input_PRO_SHOT_8" text="Lựa chọn 8"/>
+		<text name="input_PRO_SHOT_9" text="Lựa chọn 9"/>
+		<text name="input_PRO_SHOT_0" text="Lựa chọn 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Bàn phím số 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Xóa động vật trang trại cuối"/>
+		<text name="input_PRO_SHOT_MINUS" text="Phím trừ trên bàn phím chính"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Phím bằng/cộng trên bàn phím chính"/>
+		<text name="input_PRO_SHOT_47_1" text="Điều chỉnh 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="Điều chỉnh 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Điều chỉnh 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="Điều chỉnh 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Điều chỉnh 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="Điều chỉnh 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Điều chỉnh 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Điều chỉnh 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Điều chỉnh 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Điều chỉnh 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Điều chỉnh 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Điều chỉnh 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Điều chỉnh 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Điều chỉnh 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Điều chỉnh 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Điều chỉnh 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Hoàn nguyên cài đặt"/>
+		<text name="input_PRO_SHOT_ENTER" text="Chụp ảnh"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="Chụp ảnh màn hình HDR"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="Chụp ảnh màn hình HDR và độ sâu"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Quay lại Menu trước"/>
+		<text name="input_PRO_SHOT_F" text="Đèn pin"/>
+		<text name="input_PRO_SHOT_F1" text="Bật/tắt HUD"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Đặt Đèn pin"/>
+	</texts>
+</l10n>

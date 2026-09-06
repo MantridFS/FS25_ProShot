@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Düşük Kaliteyi Ayarla"/>
+		<text name="proShot_menu_qualHigh" text="Yüksek Kaliteyi Ayarla"/>
+		<text name="proShot_value_qualityLow" text="Düşük Kalite"/>
+		<text name="proShot_value_qualityHigh" text="Yüksek Kalite"/>
+		<text name="proShot_menu_advMenus" text="Gelişmiş Menüler"/>
+		<text name="proShot_menu_favourites" text="Favoriler"/>
+		<text name="proShot_menu_returnToAdvanced" text="Gelişmiş Menülere Dön"/>
+		<text name="proShot_menu_resetAll" text="Tüm ayarları sıfırla"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Fenerleri de sıfırla"/>
+		<text name="proShot_value_original" text="Orijinal"/>
+		<text name="proShot_favourite_restoreSlot" text="%d yuvasını geri yükle: %s"/>
+		<text name="proShot_favourite_saveSlot" text="%d yuvasına kaydet: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="%d yuvasını kaldır: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Mevcut ayarları favori olarak kaydet"/>
+		<text name="proShot_favourite_remove" text="Bir favoriyi kaldır"/>
+		<text name="proShot_favourite_revertPreview" text="Favorilerden önceki ayarlara dön"/>
+		<text name="proShot_favourite_cancel" text="Favorilere dön"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Mevcut ayarlar için bir yuva seç"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Kaldırılacak favoriyi seç"/>
+		<text name="proShot_favourite_defaultName" text="Ön Ayar %d"/>
+		<text name="proShot_favourite_namePrompt" text="%d numaralı favori yuvası için bir ad gir"/>
+		<text name="proShot_favourite_deleteTitle" text="Favoriyi Kaldır"/>
+		<text name="proShot_favourite_deletePrompt" text="%d numaralı favori yuvası “%s” kaldırılsın mı?"/>
+		<text name="proShot_favourite_emptyStatus" text="%d yuvası boş"/>
+		<text name="proShot_favourite_restoredStatus" text="%d yuvası geri yüklendi"/>
+		<text name="proShot_favourite_revertedStatus" text="Favorilerden önceki ayarlara dönüldü"/>
+		<text name="proShot_favourite_savedStatus" text="%d yuvası kaydedildi: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="%d yuvası kaldırıldı: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Favoriler dosyası yazılamadı"/>
+		<text name="proShot_favourite_slotLabel" text="Yuva %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Kaydedilecek ayarları seç"/>
+		<text name="proShot_favourite_chooseGroups" text="%d yuvası için grupları seç"/>
+		<text name="proShot_favourite_selectOneGroup" text="En az bir ayar grubu seç"/>
+		<text name="proShot_favourite_continueName" text="Devam et ve bir ad gir"/>
+		<text name="proShot_favourite_backToSlots" text="Yuva seçimine dön"/>
+		<text name="proShot_favourite_group_camera" text="Kamera (FoV ve pozlama)"/>
+		<text name="proShot_favourite_group_sky" text="Gökyüzü"/>
+		<text name="proShot_favourite_group_groundLight" text="Zemin ışığı"/>
+		<text name="proShot_favourite_group_effects" text="Renk derecelendirme ve efektler"/>
+		<text name="proShot_favourite_group_season" text="Mevsim (don ve kar dahil)"/>
+		<text name="proShot_favourite_group_weather" text="Hava durumu (sis ve pus dahil)"/>
+		<text name="proShot_menu_advQualityMenu" text="Kalite Menüsü"/>
+		<text name="proShot_menu_advSunMenu" text="Gökyüzü Menüsü"/>
+		<text name="proShot_menu_advLightMenu" text="Fener Menüsü"/>
+		<text name="proShot_menu_environment" text="Ortam Menüsü"/>
+		<text name="proShot_menu_effects" text="Efektler Menüsü"/>
+		<text name="proShot_menu_DoF" text="Alan Derinliği Menüsü"/>
+		<text name="proShot_menu_returnToMain" text="Ana Menüye Dön"/>
+		<text name="proShot_takePicture" text="Fotoğraf Çek"/>
+		<text name="proShot_hideHUD" text="HUD&#x27;u Aç/Kapat"/>
+		<text name="proShot_menu_advQ_VD" text="Görüş Mesafesini Azalt/Artır"/>
+		<text name="proShot_menu_advQ_LOD" text="LOD Mesafesini Azalt/Artır"/>
+		<text name="proShot_menu_advQ_TLOD" text="Arazi LOD Mesafesini Azalt/Artır"/>
+		<text name="proShot_menu_advQ_FVD" text="Bitki Görüş Mesafesini Azalt/Artır"/>
+		<text name="proShot_menu_skyBrightness" text="Gökyüzü parlaklığı"/>
+		<text name="proShot_menu_groundLight" text="Zemin ışığı"/>
+		<text name="proShot_menu_skyAndGround" text="Gökyüzü ve Zemin"/>
+		<text name="proShot_menu_syncSkyToGround" text="Gökyüzünü Zeminle Eşitle"/>
+		<text name="proShot_menu_lightingIntensity" text="Aydınlatma Yoğunluğu"/>
+		<text name="proShot_menu_lightingTemperature" text="Aydınlatma Sıcaklığı"/>
+		<text name="proShot_menu_colourTemperature" text="Renk sıcaklığı"/>
+		<text name="proShot_menu_intensity" text="Yoğunluk"/>
+		<text name="proShot_menu_returnToSky" text="Gökyüzü Menüsüne Dön"/>
+		<text name="proShot_infoBox_skyTemp" text="Gökyüzü renk sıcaklığı"/>
+		<text name="proShot_infoBox_skyIntensity" text="Gökyüzü yoğunluğu"/>
+		<text name="proShot_infoBox_groundTemp" text="Işık renk sıcaklığı"/>
+		<text name="proShot_infoBox_groundIntensity" text="Işık yoğunluğu"/>
+		<text name="proShot_menu_red" text="Kırmızıyı Azalt/Artır"/>
+		<text name="proShot_menu_green" text="Yeşili Azalt/Artır"/>
+		<text name="proShot_menu_blue" text="Maviyi Azalt/Artır"/>
+		<text name="proShot_menu_moonSize" text="Ay boyutu"/>
+		<text name="proShot_menu_sunSize" text="Güneş boyutu"/>
+		<text name="proShot_menu_atmosRefraction" text="Atmosfer kırılması"/>
+		<text name="proShot_menu_light_temp" text="Işığı Soğut/Isıt"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Koniyi Daralt/Genişlet"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Odağı Keskinleştir/Bulanıklaştır"/>
+		<text name="proShot_menu_flashLight_intensity" text="Yoğunluğu Azalt/Artır"/>
+		<text name="proShot_menu_flashLight_distance" text="Mesafeyi Azalt/Artır"/>
+		<text name="proShot_menu_flashLight_place" text="Feneri Buraya Yerleştir"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Feneri aç"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Son Feneri Kaldır"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Işığı varsayılanlara ayarla"/>
+		<text name="proShot_flashLight_placed" text="Fener yerleştirildi (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Yerleştirilen fenerler"/>
+		<text name="proShot_flashFavourite_title" text="Fener Favorileri"/>
+		<text name="proShot_flashFavourite_save" text="Favori Olarak Kaydet"/>
+		<text name="proShot_flashFavourite_remove" text="Favoriyi Kaldır"/>
+		<text name="proShot_flashFavourite_cancel" text="Fener Menüsüne Dön"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Favori %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="%d yuvasına kaydet: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="%d yuvasını kaldır: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Fener %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="%d numaralı fener favorisi için bir ad gir"/>
+		<text name="proShot_flashFavourite_restored" text="Fener favorisi %d geri yüklendi: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Fener favorisi %d kaydedildi: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Fener favorisi %d kaldırıldı: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Fener Favorisini Kaldır"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="%d numaralı fener favorisi “%s” kaldırılsın mı?"/>
+		<text name="proShot_menu_exposure" text="Pozlamayı Ayarla"/>
+		<text name="proShot_menu_FoV" text="Görüş Alanını Ayarla"/>
+		<text name="proShot_menu_timeHorly" text="Saati ayarla (saatlik)"/>
+		<text name="proShot_menu_timeMins" text="Saati ayarla (dakika)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Düz"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Canlı"/>
+		<text name="proShot_menu_effects_preset_deep" text="Derin"/>
+		<text name="proShot_menu_effects_preset_cold" text="Soğuk"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Gri Tonlama"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Sepya Tonu"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Hayalet"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Bloom eşiği"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Bloom miktarı"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Bloom kalitesi"/>
+		<text name="proShot_effect_slotEntry" text="Efekt yuvası %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="%d efekt yuvasına kaydet: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="%d efekt yuvasını sıfırla: %s"/>
+		<text name="proShot_effect_customise" text="Özel Renk Derecelendirme"/>
+		<text name="proShot_effect_global" text="Genel"/>
+		<text name="proShot_effect_shadows" text="Gölgeler"/>
+		<text name="proShot_effect_midtones" text="Orta Tonlar"/>
+		<text name="proShot_effect_highlights" text="Parlak Alanlar"/>
+		<text name="proShot_effect_saturation" text="Doygunluk"/>
+		<text name="proShot_effect_contrast" text="Kontrast"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Kazanç"/>
+		<text name="proShot_effect_scale" text="Ölçek"/>
+		<text name="proShot_effect_shadowsMax" text="Gölgelerin maksimum parlaklığı"/>
+		<text name="proShot_effect_highlightsMin" text="Parlak alanların minimum parlaklığı"/>
+		<text name="proShot_effect_maxLuminance" text="Maks. parlaklık: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Min. parlaklık: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Parlaklık eşiklerini sıfırla"/>
+		<text name="proShot_menu_toneMapping" text="Ton Eşleme"/>
+		<text name="proShot_tone_slope" text="Eğim"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Siyah kırpma"/>
+		<text name="proShot_tone_whiteClip" text="Beyaz kırpma"/>
+		<text name="proShot_menu_fog" text="Sisi Azalt/Artır"/>
+		<text name="proShot_menu_haze" text="Pusu Azalt/Artır"/>
+		<text name="proShot_infoBox_fog" text="Sis"/>
+		<text name="proShot_infoBox_haze" text="Pus"/>
+		<text name="proShot_menu_fogAdvanced" text="Sis Menüsü"/>
+		<text name="proShot_fog_coverage" text="Sis kapsamını Azalt/Artır"/>
+		<text name="proShot_fog_softness" text="Kapsam yumuşaklığını Azalt/Artır"/>
+		<text name="proShot_fog_groundDensity" text="Sis yoğunluğunu Azalt/Artır"/>
+		<text name="proShot_fog_extraHeight" text="Sis yüksekliğini Azalt/Artır"/>
+		<text name="proShot_fog_minValleyDepth" text="Minimum vadi derinliğini Azalt/Artır"/>
+		<text name="proShot_fog_coverageInfo" text="Kapsam"/>
+		<text name="proShot_fog_softnessInfo" text="Yumuşaklık"/>
+		<text name="proShot_fog_groundDensityInfo" text="Yoğunluk"/>
+		<text name="proShot_fog_extraHeightInfo" text="Yükseklik"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Minimum vadi derinliği"/>
+		<text name="proShot_testing_enableTraffic" text="Trafiği aç"/>
+		<text name="proShot_testing_disableTraffic" text="Trafiği kapat"/>
+		<text name="proShot_testing_enablePedestrians" text="Yayaları aç"/>
+		<text name="proShot_testing_disablePedestrians" text="Yayaları kapat"/>
+		<text name="proShot_testing_pauseTraffic" text="Trafiği duraklat"/>
+		<text name="proShot_testing_resumeTraffic" text="Trafiği sürdür"/>
+		<text name="proShot_testing_pausePedestrians" text="Yayaları duraklat"/>
+		<text name="proShot_testing_resumePedestrians" text="Yayaları sürdür"/>
+		<text name="proShot_testing_localSnow" text="Yerel Kar"/>
+		<text name="proShot_testing_groundWetness" text="Zemin ıslaklığını Azalt/Artır"/>
+		<text name="proShot_testing_removeTyreTracks" text="Lastik izlerini kaldır (geri alınamaz)"/>
+		<text name="proShot_testing_traffic" text="Trafik"/>
+		<text name="proShot_testing_trafficMotion" text="Trafik hareketi"/>
+		<text name="proShot_testing_pedestrians" text="Yayalar"/>
+		<text name="proShot_testing_pedestrianMotion" text="Yaya hareketi"/>
+		<text name="proShot_testing_paused" text="Duraklatıldı"/>
+		<text name="proShot_testing_running" text="Çalışıyor"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Zemin ıslaklığı"/>
+		<text name="proShot_testing_wildlife" text="Yaban hayatı"/>
+		<text name="proShot_testing_tyreTracks" text="Lastik izi kaldırma"/>
+		<text name="proShot_testing_unavailable" text="Bu haritada kullanılamıyor"/>
+		<text name="proShot_testing_irreversible" text="Geri alınamaz"/>
+		<text name="proShot_testing_trafficUnavailable" text="Bu haritada trafik sistemi yok"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Bu haritada yaya sistemi yok"/>
+		<text name="proShot_testing_birdUnavailable" text="Bu harita için uygun bir yabani kuş tanımlanmamış"/>
+		<text name="proShot_testing_wildlifeRemoved" text="%d yerleştirilmiş hayvan ve kuş grubu kaldırıldı"/>
+		<text name="proShot_testing_spawnFailed" text="Yaban hayatı oluşturulamadı"/>
+		<text name="proShot_testing_actionUnavailable" text="Bu eylem bu haritada kullanılamıyor"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Bu oyun sürümünde yayaları duraklatma kullanılamıyor"/>
+		<text name="proShot_testing_snowRadius" text="Yarıçapı Azalt/Artır"/>
+		<text name="proShot_testing_snowHeight" text="Vurgulanan alandaki karı Azalt/Artır"/>
+		<text name="proShot_testing_snowTarget" text="Hedef"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Yarıçap"/>
+		<text name="proShot_testing_snowHeightInfo" text="Merkezdeki kar"/>
+		<text name="proShot_testing_noTarget" text="Arazi hedefi yok"/>
+		<text name="proShot_testing_snowNoTarget" text="Ekranın merkezinde arazi bulunamadı"/>
+		<text name="proShot_testing_snowLowered" text="Vurgulanan alandaki kar azaltıldı"/>
+		<text name="proShot_testing_snowRaised" text="Vurgulanan alandaki kar artırıldı"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Lastik İzlerini Kaldır"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Lastik izi haritasının ne kadarının silineceğini seçin."/>
+		<text name="proShot_testing_tyreTracks100m" text="Kameranın 100 m çevresi"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Tüm harita"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Kameranın 100 m çevresindeki lastik izleri kaldırılsın mı? Bu işlem geri alınamaz."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Haritadaki tüm lastik izleri kaldırılsın mı? Bu işlem geri alınamaz."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Kameranın 100 m çevresindeki lastik izleri kaldırıldı"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Tüm lastik izleri kaldırıldı"/>
+		<text name="proShot_wildlife_menu" text="Hayvanlar"/>
+		<text name="proShot_wildlife_selectAnimal" text="Yaban hayatını %s olarak değiştir"/>
+		<text name="proShot_wildlife_selectBird" text="Kuşları %s olarak değiştir"/>
+		<text name="proShot_wildlife_spawn" text="%s oluştur"/>
+		<text name="proShot_wildlife_spawnFlying" text="Uçan %s oluştur"/>
+		<text name="proShot_wildlife_pauseBirds" text="Kuşları duraklat"/>
+		<text name="proShot_wildlife_resumeBirds" text="Kuşları sürdür"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Yaban hayatını duraklat"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Yaban hayatını sürdür"/>
+		<text name="proShot_wildlife_removeLastBird" text="Son kuşu kaldır"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Son yaban hayvanını kaldır"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Seçili yaban hayatı"/>
+		<text name="proShot_wildlife_selectedBird" text="Seçili kuş"/>
+		<text name="proShot_wildlife_animalMotion" text="Yaban hayatı hareketi"/>
+		<text name="proShot_wildlife_birdMotion" text="Kuş hareketi"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Oluşturulan yaban hayatı"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Oluşturulan kuşlar"/>
+		<text name="proShot_wildlife_unavailable" text="Bu harita için yaban hayatı tanımlanmamış"/>
+		<text name="proShot_wildlife_spawned" text="Kameranın önünde %s oluşturuldu"/>
+		<text name="proShot_wildlife_tooFar" text="Çok uzakta"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Kuşlar hedefin üzerinde gökyüzüne yerleştirildi"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Kuşlar yerleştirildi"/>
+		<text name="proShot_wildlife_placedGround" text="Yaban hayvanı zemine yerleştirildi"/>
+		<text name="proShot_wildlife_placedObject" text="Yaban hayvanı nesne üzerine yerleştirildi"/>
+		<text name="proShot_wildlife_groundOnly" text="Yere yerleştirilirler"/>
+		<text name="proShot_animals_offsetX" text="Hayvan X ofseti"/>
+		<text name="proShot_animals_offsetY" text="Hayvan Y ofseti"/>
+		<text name="proShot_animals_offsetZ" text="Hayvan Z ofseti"/>
+		<text name="proShot_animals_resetOffsets" text="Hayvan ofsetlerini sıfırla"/>
+		<text name="proShot_animals_rotation" text="Hayvan dönüşü"/>
+		<text name="proShot_farm_select" text="Çiftlik hayvanı seç"/>
+		<text name="proShot_farm_place" text="%s yerleştir"/>
+		<text name="proShot_farm_removeLast" text="Son çiftlik hayvanını kaldır"/>
+		<text name="proShot_farm_removedLast" text="Son çiftlik hayvanı kaldırıldı"/>
+		<text name="proShot_farm_noneToRemove" text="Kaldırılacak yerleştirilmiş çiftlik hayvanı yok"/>
+		<text name="proShot_farm_selected" text="Seçili çiftlik hayvanı"/>
+		<text name="proShot_farm_spawned" text="Yerleştirilen çiftlik hayvanları"/>
+		<text name="proShot_farm_unavailable" text="Bu haritada çiftlik hayvanı yok"/>
+		<text name="proShot_farm_selectTitle" text="Çiftlik Hayvanı Seç"/>
+		<text name="proShot_farm_selectText" text="Bir hayvan ve yaş seçin."/>
+		<text name="proShot_farm_breedTitle" text="Irk Seç"/>
+		<text name="proShot_farm_breedText" text="Bir ırk veya görünüm seçin."/>
+		<text name="proShot_farm_loadFailed" text="Çiftlik hayvanı yüklenemedi"/>
+		<text name="proShot_farm_placedGround" text="Çiftlik hayvanı zemine yerleştirildi"/>
+		<text name="proShot_farm_placedObject" text="Çiftlik hayvanı nesne üzerine yerleştirildi"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Yavru"/>
+		<text name="proShot_farm_stageYoung" text="Genç"/>
+		<text name="proShot_farm_stageAdult" text="Yetişkin"/>
+		<text name="proShot_farm_calf" text="Buzağı"/>
+		<text name="proShot_farm_youngCow" text="Genç inek"/>
+		<text name="proShot_farm_cow" text="İnek"/>
+		<text name="proShot_farm_buffaloCalf" text="Manda buzağısı"/>
+		<text name="proShot_farm_youngBuffalo" text="Genç su mandası"/>
+		<text name="proShot_farm_waterBuffalo" text="Su mandası"/>
+		<text name="proShot_farm_piglet" text="Domuz yavrusu"/>
+		<text name="proShot_farm_youngPig" text="Genç domuz"/>
+		<text name="proShot_farm_pig" text="Domuz"/>
+		<text name="proShot_farm_lamb" text="Kuzu"/>
+		<text name="proShot_farm_youngSheep" text="Genç koyun"/>
+		<text name="proShot_farm_sheep" text="Koyun"/>
+		<text name="proShot_farm_kid" text="Oğlak"/>
+		<text name="proShot_farm_youngGoat" text="Genç keçi"/>
+		<text name="proShot_farm_goat" text="Keçi"/>
+		<text name="proShot_farm_horse" text="At"/>
+		<text name="proShot_farm_chick" text="Civciv"/>
+		<text name="proShot_farm_hen" text="Tavuk"/>
+		<text name="proShot_farm_rooster" text="Horoz"/>
+		<text name="proShot_farm_menuCow" text="İnek"/>
+		<text name="proShot_farm_menuBuffalo" text="Su mandası"/>
+		<text name="proShot_farm_menuPig" text="Domuz"/>
+		<text name="proShot_farm_menuSheep" text="Koyun"/>
+		<text name="proShot_farm_menuGoat" text="Keçi"/>
+		<text name="proShot_farm_menuHorse" text="At"/>
+		<text name="proShot_farm_menuChicken" text="Tavuk"/>
+		<text name="proShot_wildlife_birdRemoved" text="Son oluşturulan kuş kaldırıldı"/>
+		<text name="proShot_wildlife_animalRemoved" text="Son oluşturulan yaban hayvanı kaldırıldı"/>
+		<text name="proShot_wildlife_noBird" text="Kaldırılacak oluşturulmuş kuş yok"/>
+		<text name="proShot_wildlife_noAnimal" text="Kaldırılacak oluşturulmuş yaban hayvanı yok"/>
+		<text name="proShot_wildlife_removeAll" text="Tüm hayvanları ve kuşları kaldır"/>
+		<text name="proShot_scene_menu" text="Sahne Kontrolleri"/>
+		<text name="proShot_scene_hideParked" text="Park edilmiş araçları gizle"/>
+		<text name="proShot_scene_showParked" text="Park edilmiş araçları göster"/>
+		<text name="proShot_scene_parkedVehicles" text="Park edilmiş araçlar"/>
+		<text name="proShot_scene_parkedUnavailable" text="Park edilmiş araç kontrolü bu haritada kullanılamıyor"/>
+		<text name="proShot_scene_reset" text="Sahne kontrollerini sıfırla"/>
+		<text name="proShot_snow_strength" text="Araç gücünü Azalt/Artır"/>
+		<text name="proShot_snow_strengthInfo" text="Araç gücü"/>
+		<text name="proShot_snow_globalLevel" text="Genel kar seviyesini Azalt/Artır"/>
+		<text name="proShot_snow_globalLevelInfo" text="Genel kar seviyesi"/>
+		<text name="proShot_focus_set" text="Merkezdeki nesneye odaklan"/>
+		<text name="proShot_focus_narrow" text="Odak aralığını daralt"/>
+		<text name="proShot_focus_widen" text="Odak aralığını genişlet"/>
+		<text name="proShot_focus_holdClear" text="Odağı temizlemek için [%s] tuşuna uzun basın"/>
+		<text name="proShot_focus_noTarget" text="Ekranın merkezinde nesne bulunamadı"/>
+		<text name="proShot_focus_status" text="Merkez odağı"/>
+		<text name="proShot_focus_distance" text="%.1f m (%.1f m aralık)"/>
+		<text name="proShot_composition_grid" text="Izgara yardımcısı: %s"/>
+		<text name="proShot_composition_aspect" text="En-boy oranı yardımcısı: %s"/>
+		<text name="proShot_composition_status" text="Kompozisyon"/>
+		<text name="proShot_grid_thirds" text="Üçler"/>
+		<text name="proShot_grid_goldenRatio" text="Altın Oran (Phi)"/>
+		<text name="proShot_grid_centre" text="Merkez"/>
+		<text name="proShot_grid_diagonals" text="Çaprazlar"/>
+		<text name="proShot_grid_diagonalMethod" text="Çapraz Yöntem"/>
+		<text name="proShot_grid_goldenTriangles" text="Altın Üçgenler"/>
+		<text name="proShot_effect_resetSlot" text="Bir yuvayı varsayılana sıfırla"/>
+		<text name="proShot_effect_saveSlotMenu" text="Mevcut efekti bir yuvaya kaydet"/>
+		<text name="proShot_effect_allSlotsDefault" text="Tüm efekt yuvaları zaten varsayılan"/>
+		<text name="proShot_effect_emptySlot" text="Efekt yuvası %d boş"/>
+		<text name="proShot_effect_defaultName" text="Özel Efekt %d"/>
+		<text name="proShot_effect_namePrompt" text="%d efekt yuvası için bir ad gir"/>
+		<text name="proShot_effect_saveFailed" text="Efekt dosyası yazılamadı"/>
+		<text name="proShot_effect_saved" text="Efekt yuvası %d kaydedildi: %s"/>
+		<text name="proShot_effect_resetDone" text="Efekt yuvası %d varsayılana sıfırlandı"/>
+		<text name="proShot_effect_slotLabel" text="Yuva %d"/>
+		<text name="proShot_effect_editing" text="Düzenleniyor"/>
+		<text name="proShot_menu_revertThisScreen" text="Bu ekrandaki değişiklikleri geri al"/>
+		<text name="proShot_infoBox_VD" text="Görüş Mesafesi"/>
+		<text name="proShot_infoBox_FVD" text="Bitki Görüş Mesafesi"/>
+		<text name="proShot_infoBox_exposure" text="Kamera Pozlaması"/>
+		<text name="proShot_infoBox_FoV" text="Kamera Görüş Alanı"/>
+		<text name="proShot_infoBox_quality" text="Kalite Ön Ayarı"/>
+		<text name="proShot_infoBox_sunDirection" text="Güneş Yönü"/>
+		<text name="proShot_infoBox_colourGrading" text="Efekt"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Renk Derecelendirme"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Fener Sıcaklığı"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Fener Yoğunluğu"/>
+		<text name="proShot_infoBox_flashlightRange" text="Işık Menzili"/>
+		<text name="proShot_infoBox_flashlightCone" text="Koni Açısı"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Işık Bulanıklığı"/>
+		<text name="proShot_infoBox_title_environment" text="Ortam"/>
+		<text name="proShot_infoBox_season" text="Mevsim"/>
+		<text name="proShot_infoBox_frost" text="Don"/>
+		<text name="proShot_infoBox_snowLevel" text="Kar seviyesi"/>
+		<text name="proShot_infoBox_title_effects" text="Efektler"/>
+		<text name="proShot_infoBox_help1b" text="Sol fare düğmesi veya WSAD tuşları"/>
+		<text name="proShot_infoBox_help2a" text="Yüksekliği Ayarla"/>
+		<text name="proShot_infoBox_help2b" text="Fare tekerleği veya QE tuşları"/>
+		<text name="proShot_infoBox_help3a" text="Hızı Artır"/>
+		<text name="proShot_infoBox_help3b" text="Shift tuşunu basılı tut"/>
+		<text name="proShot_infoBox_help4a" text="Hızı Azalt"/>
+		<text name="proShot_infoBox_help4b" text="Ctrl tuşunu basılı tut"/>
+		<text name="proShot_infoBox_help5b" text="Sağ fare düğmesi"/>
+		<text name="proShot_infoBox_help6a" text="Güneş Işığını Hareket Ettir"/>
+		<text name="proShot_infoBox_help6b" text="Orta fare düğmesi"/>
+		<text name="proShot_infoBox_help7b" text="Numpad 1 ve 2"/>
+		<text name="proShot_infoBox_help8a" text="Eğimi Sıfırla"/>
+		<text name="proShot_infoBox_help8b" text="Numpad 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Yakın CoC yarıçapı"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Yakın bulanıklık bitiş mesafesi"/>
+		<text name="proShot_DoF_farCoCRadius" text="Uzak CoC yarıçapı"/>
+		<text name="proShot_DoF_farBlurStart" text="Uzak bulanıklık başlangıç mesafesi"/>
+		<text name="proShot_DoF_farBlurEnd" text="Uzak tam bulanıklık mesafesi"/>
+		<text name="proShot_DoF_applyToSky" text="Gökyüzünü bulanıklaştır"/>
+		<text name="proShot_summer" text="Yaz"/>
+		<text name="proShot_autumn" text="Sonbahar"/>
+		<text name="proShot_winter" text="Kış"/>
+		<text name="proShot_spring" text="İlkbahar"/>
+		<text name="proShot_early" text="erken"/>
+		<text name="proShot_mid" text="orta"/>
+		<text name="proShot_late" text="geç"/>
+		<text name="proShot_seasonTweak" text="Mevsim ince ayarı"/>
+		<text name="proShot_variation" text="varyasyon"/>
+		<text name="proShot_weather_SUN" text="Güneşli"/>
+		<text name="proShot_weather_CLOUDY" text="Bulutlu"/>
+		<text name="proShot_weather_RAIN" text="Yağmurlu"/>
+		<text name="proShot_weather_SNOW" text="Karlı"/>
+		<text name="proShot_weather_HAIL" text="Dolu"/>
+		<text name="proShot_menu_snowShader" text="Donu aç/kapat"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Yakın CoC yarıçapı (bulanıklık gücü)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Uzak CoC yarıçapı (bulanıklık gücü)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Yakın bulanıklık bitiş mesafesi"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Uzak bulanıklık başlangıç mesafesi"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Uzak tam güçlü bulanıklık mesafesi"/>
+		<text name="proShot_menu_resetThis" text="Bu ayarları sıfırla"/>
+		<text name="input_PRO_SHOT_1" text="Seçim 1"/>
+		<text name="input_PRO_SHOT_2" text="Seçim 2"/>
+		<text name="input_PRO_SHOT_3" text="Seçim 3"/>
+		<text name="input_PRO_SHOT_4" text="Seçim 4"/>
+		<text name="input_PRO_SHOT_5" text="Seçim 5"/>
+		<text name="input_PRO_SHOT_6" text="Seçim 6"/>
+		<text name="input_PRO_SHOT_7" text="Seçim 7"/>
+		<text name="input_PRO_SHOT_8" text="Seçim 8"/>
+		<text name="input_PRO_SHOT_9" text="Seçim 9"/>
+		<text name="input_PRO_SHOT_0" text="Seçim 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Numpad 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Son çiftlik hayvanını kaldır"/>
+		<text name="input_PRO_SHOT_MINUS" text="Ana klavye eksi"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Ana klavye eşittir/artı"/>
+		<text name="input_PRO_SHOT_47_1" text="Ayar 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="Ayar 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Ayar 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="Ayar 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Ayar 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="Ayar 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Ayar 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Ayar 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Ayar 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Ayar 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Ayar 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Ayar 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Ayar 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Ayar 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Ayar 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Ayar 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Ayarları geri al"/>
+		<text name="input_PRO_SHOT_ENTER" text="Fotoğraf Çek"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="HDR ekran görüntüsü al"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="HDR ve derinlik ekran görüntüleri al"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Önceki Menüye Dön"/>
+		<text name="input_PRO_SHOT_F" text="Fener"/>
+		<text name="input_PRO_SHOT_F1" text="HUD&#x27;u Aç/Kapat"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Fener Yerleştir"/>
+	</texts>
+</l10n>

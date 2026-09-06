@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Alacsony minőség beállítása"/>
+		<text name="proShot_menu_qualHigh" text="Magas minőség beállítása"/>
+		<text name="proShot_value_qualityLow" text="Alacsony minőség"/>
+		<text name="proShot_value_qualityHigh" text="Magas minőség"/>
+		<text name="proShot_menu_advMenus" text="Speciális menük"/>
+		<text name="proShot_menu_favourites" text="Kedvencek"/>
+		<text name="proShot_menu_returnToAdvanced" text="Vissza a speciális menükhöz"/>
+		<text name="proShot_menu_resetAll" text="Összes beállítás visszaállítása"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="A zseblámpák visszaállítása is"/>
+		<text name="proShot_value_original" text="Eredeti"/>
+		<text name="proShot_favourite_restoreSlot" text="%d. hely visszaállítása: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Mentés a(z) %d. helyre: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="%d. hely eltávolítása: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Jelenlegi beállítások mentése kedvencként"/>
+		<text name="proShot_favourite_remove" text="Kedvenc eltávolítása"/>
+		<text name="proShot_favourite_revertPreview" text="Visszaállítás a Kedvencek előtti beállításokra"/>
+		<text name="proShot_favourite_cancel" text="Vissza a kedvencekhez"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Válassz helyet a jelenlegi beállításoknak"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Válassz eltávolítandó kedvencet"/>
+		<text name="proShot_favourite_defaultName" text="Előbeállítás %d"/>
+		<text name="proShot_favourite_namePrompt" text="Adj nevet a(z) %d. kedvenc helynek"/>
+		<text name="proShot_favourite_deleteTitle" text="Kedvenc eltávolítása"/>
+		<text name="proShot_favourite_deletePrompt" text="Eltávolítod a(z) %d. kedvenc helyet: „%s”?"/>
+		<text name="proShot_favourite_emptyStatus" text="A(z) %d. hely üres"/>
+		<text name="proShot_favourite_restoredStatus" text="A(z) %d. hely visszaállítva"/>
+		<text name="proShot_favourite_revertedStatus" text="Visszaállítva a Kedvencek előtti beállításokra"/>
+		<text name="proShot_favourite_savedStatus" text="A(z) %d. hely mentve: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="A(z) %d. hely eltávolítva: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Nem sikerült írni a kedvencek fájlját"/>
+		<text name="proShot_favourite_slotLabel" text="Hely %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Válaszd ki a mentendő beállításokat"/>
+		<text name="proShot_favourite_chooseGroups" text="Válassz csoportokat a(z) %d. helyhez"/>
+		<text name="proShot_favourite_selectOneGroup" text="Válassz legalább egy beállításcsoportot"/>
+		<text name="proShot_favourite_continueName" text="Folytatás és név megadása"/>
+		<text name="proShot_favourite_backToSlots" text="Vissza a hely kiválasztásához"/>
+		<text name="proShot_favourite_group_camera" text="Kamera (FoV és expozíció)"/>
+		<text name="proShot_favourite_group_sky" text="Égbolt"/>
+		<text name="proShot_favourite_group_groundLight" text="Talajmegvilágítás"/>
+		<text name="proShot_favourite_group_effects" text="Színkorrekció és effektek"/>
+		<text name="proShot_favourite_group_season" text="Évszak (faggyal és hóval)"/>
+		<text name="proShot_favourite_group_weather" text="Időjárás (köddel és párával)"/>
+		<text name="proShot_menu_advQualityMenu" text="Minőség menü"/>
+		<text name="proShot_menu_advSunMenu" text="Égbolt menü"/>
+		<text name="proShot_menu_advLightMenu" text="Zseblámpa menü"/>
+		<text name="proShot_menu_environment" text="Környezet menü"/>
+		<text name="proShot_menu_effects" text="Effektek menü"/>
+		<text name="proShot_menu_DoF" text="Mélységélesség menü"/>
+		<text name="proShot_menu_returnToMain" text="Vissza a főmenübe"/>
+		<text name="proShot_takePicture" text="Fénykép készítése"/>
+		<text name="proShot_hideHUD" text="HUD be/ki"/>
+		<text name="proShot_menu_advQ_VD" text="Látótávolság csökkentése/növelése"/>
+		<text name="proShot_menu_advQ_LOD" text="LOD-távolság csökkentése/növelése"/>
+		<text name="proShot_menu_advQ_TLOD" text="Terep LOD-távolságának csökkentése/növelése"/>
+		<text name="proShot_menu_advQ_FVD" text="Növényzet látótávolságának csökkentése/növelése"/>
+		<text name="proShot_menu_skyBrightness" text="Égbolt fényereje"/>
+		<text name="proShot_menu_groundLight" text="Talajmegvilágítás"/>
+		<text name="proShot_menu_skyAndGround" text="Égbolt és talaj"/>
+		<text name="proShot_menu_syncSkyToGround" text="Égbolt szinkronizálása a talajjal"/>
+		<text name="proShot_menu_lightingIntensity" text="Megvilágítás intenzitása"/>
+		<text name="proShot_menu_lightingTemperature" text="Megvilágítás hőmérséklete"/>
+		<text name="proShot_menu_colourTemperature" text="Színhőmérséklet"/>
+		<text name="proShot_menu_intensity" text="Intenzitás"/>
+		<text name="proShot_menu_returnToSky" text="Vissza az Égbolt menübe"/>
+		<text name="proShot_infoBox_skyTemp" text="Égbolt színhőmérséklete"/>
+		<text name="proShot_infoBox_skyIntensity" text="Égbolt intenzitása"/>
+		<text name="proShot_infoBox_groundTemp" text="Fény színhőmérséklete"/>
+		<text name="proShot_infoBox_groundIntensity" text="Fény intenzitása"/>
+		<text name="proShot_menu_red" text="Piros csökkentése/növelése"/>
+		<text name="proShot_menu_green" text="Zöld csökkentése/növelése"/>
+		<text name="proShot_menu_blue" text="Kék csökkentése/növelése"/>
+		<text name="proShot_menu_moonSize" text="Hold mérete"/>
+		<text name="proShot_menu_sunSize" text="Nap mérete"/>
+		<text name="proShot_menu_atmosRefraction" text="Légköri fénytörés"/>
+		<text name="proShot_menu_light_temp" text="Fény hidegebbre/melegebbre"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Fénykúp szűkítése/szélesítése"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Fókusz élesítése/elmosása"/>
+		<text name="proShot_menu_flashLight_intensity" text="Intenzitás csökkentése/növelése"/>
+		<text name="proShot_menu_flashLight_distance" text="Távolság csökkentése/növelése"/>
+		<text name="proShot_menu_flashLight_place" text="Zseblámpa elhelyezése ide"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Zseblámpa bekapcsolása"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Utolsó zseblámpa eltávolítása"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Fény alapértékeinek visszaállítása"/>
+		<text name="proShot_flashLight_placed" text="Zseblámpa elhelyezve (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Elhelyezett zseblámpák"/>
+		<text name="proShot_flashFavourite_title" text="Zseblámpa-kedvencek"/>
+		<text name="proShot_flashFavourite_save" text="Mentés kedvencként"/>
+		<text name="proShot_flashFavourite_remove" text="Kedvenc eltávolítása"/>
+		<text name="proShot_flashFavourite_cancel" text="Vissza a Zseblámpa menübe"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Kedvenc %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Mentés a(z) %d. helyre: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="%d. hely eltávolítása: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Zseblámpa %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Adj nevet a(z) %d. zseblámpa-kedvencnek"/>
+		<text name="proShot_flashFavourite_restored" text="Zseblámpa-kedvenc %d visszaállítva: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Zseblámpa-kedvenc %d mentve: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Zseblámpa-kedvenc %d eltávolítva: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Zseblámpa-kedvenc eltávolítása"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Eltávolítod a(z) %d. zseblámpa-kedvencet: „%s”?"/>
+		<text name="proShot_menu_exposure" text="Expozíció beállítása"/>
+		<text name="proShot_menu_FoV" text="Látómező beállítása"/>
+		<text name="proShot_menu_timeHorly" text="Idő beállítása (óránként)"/>
+		<text name="proShot_menu_timeMins" text="Idő beállítása (percenként)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Lapos"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Élénk"/>
+		<text name="proShot_menu_effects_preset_deep" text="Mély"/>
+		<text name="proShot_menu_effects_preset_cold" text="Hideg"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Szürkeárnyalatos"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Szépia tónus"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Fantom"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Bloom küszöb"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Bloom erősség"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Bloom minőség"/>
+		<text name="proShot_effect_slotEntry" text="Effekthely %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Mentés a(z) %d. effekthelyre: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="%d. effekthely visszaállítása: %s"/>
+		<text name="proShot_effect_customise" text="Egyéni színkorrekció"/>
+		<text name="proShot_effect_global" text="Globális"/>
+		<text name="proShot_effect_shadows" text="Árnyékok"/>
+		<text name="proShot_effect_midtones" text="Középtónusok"/>
+		<text name="proShot_effect_highlights" text="Csúcsfények"/>
+		<text name="proShot_effect_saturation" text="Telítettség"/>
+		<text name="proShot_effect_contrast" text="Kontraszt"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Erősítés"/>
+		<text name="proShot_effect_scale" text="Skála"/>
+		<text name="proShot_effect_shadowsMax" text="Árnyékok maximális fénysűrűsége"/>
+		<text name="proShot_effect_highlightsMin" text="Csúcsfények minimális fénysűrűsége"/>
+		<text name="proShot_effect_maxLuminance" text="Max. fénysűrűség: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Min. fénysűrűség: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Fénysűrűségi küszöbök visszaállítása"/>
+		<text name="proShot_menu_toneMapping" text="Tónusleképezés"/>
+		<text name="proShot_tone_slope" text="Meredekség"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Fekete vágás"/>
+		<text name="proShot_tone_whiteClip" text="Fehér vágás"/>
+		<text name="proShot_menu_fog" text="Köd csökkentése/növelése"/>
+		<text name="proShot_menu_haze" text="Pára csökkentése/növelése"/>
+		<text name="proShot_infoBox_fog" text="Köd"/>
+		<text name="proShot_infoBox_haze" text="Pára"/>
+		<text name="proShot_menu_fogAdvanced" text="Köd menü"/>
+		<text name="proShot_fog_coverage" text="Ködfedettség csökkentése/növelése"/>
+		<text name="proShot_fog_softness" text="Fedettség lágyságának csökkentése/növelése"/>
+		<text name="proShot_fog_groundDensity" text="Ködsűrűség csökkentése/növelése"/>
+		<text name="proShot_fog_extraHeight" text="Ködmagasság csökkentése/növelése"/>
+		<text name="proShot_fog_minValleyDepth" text="Minimális völgymélység csökkentése/növelése"/>
+		<text name="proShot_fog_coverageInfo" text="Fedettség"/>
+		<text name="proShot_fog_softnessInfo" text="Lágyság"/>
+		<text name="proShot_fog_groundDensityInfo" text="Sűrűség"/>
+		<text name="proShot_fog_extraHeightInfo" text="Magasság"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Minimális völgymélység"/>
+		<text name="proShot_testing_enableTraffic" text="Forgalom bekapcsolása"/>
+		<text name="proShot_testing_disableTraffic" text="Forgalom kikapcsolása"/>
+		<text name="proShot_testing_enablePedestrians" text="Gyalogosok bekapcsolása"/>
+		<text name="proShot_testing_disablePedestrians" text="Gyalogosok kikapcsolása"/>
+		<text name="proShot_testing_pauseTraffic" text="Forgalom szüneteltetése"/>
+		<text name="proShot_testing_resumeTraffic" text="Forgalom folytatása"/>
+		<text name="proShot_testing_pausePedestrians" text="Gyalogosok szüneteltetése"/>
+		<text name="proShot_testing_resumePedestrians" text="Gyalogosok folytatása"/>
+		<text name="proShot_testing_localSnow" text="Helyi hó"/>
+		<text name="proShot_testing_groundWetness" text="Talajnedvesség csökkentése/növelése"/>
+		<text name="proShot_testing_removeTyreTracks" text="Keréknyomok eltávolítása (nem vonható vissza)"/>
+		<text name="proShot_testing_traffic" text="Forgalom"/>
+		<text name="proShot_testing_trafficMotion" text="Forgalom mozgása"/>
+		<text name="proShot_testing_pedestrians" text="Gyalogosok"/>
+		<text name="proShot_testing_pedestrianMotion" text="Gyalogosok mozgása"/>
+		<text name="proShot_testing_paused" text="Szüneteltetve"/>
+		<text name="proShot_testing_running" text="Fut"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Talajnedvesség"/>
+		<text name="proShot_testing_wildlife" text="Vadvilág"/>
+		<text name="proShot_testing_tyreTracks" text="Keréknyom-eltávolítás"/>
+		<text name="proShot_testing_unavailable" text="Ezen a térképen nem érhető el"/>
+		<text name="proShot_testing_irreversible" text="Nem vonható vissza"/>
+		<text name="proShot_testing_trafficUnavailable" text="Ezen a térképen nincs forgalmi rendszer"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Ezen a térképen nincs gyalogosrendszer"/>
+		<text name="proShot_testing_birdUnavailable" text="Ezen a térképen nincs megfelelő vadmadár definiálva"/>
+		<text name="proShot_testing_wildlifeRemoved" text="%d elhelyezett állat és madárcsoport eltávolítva"/>
+		<text name="proShot_testing_spawnFailed" text="A vadvilág létrehozása sikertelen"/>
+		<text name="proShot_testing_actionUnavailable" text="Ez a művelet ezen a térképen nem érhető el"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="A gyalogosok szüneteltetése ebben a játékverzióban nem érhető el"/>
+		<text name="proShot_testing_snowRadius" text="Sugár csökkentése/növelése"/>
+		<text name="proShot_testing_snowHeight" text="Hó csökkentése/növelése a kijelölt területen"/>
+		<text name="proShot_testing_snowTarget" text="Cél"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Sugár"/>
+		<text name="proShot_testing_snowHeightInfo" text="Hó középen"/>
+		<text name="proShot_testing_noTarget" text="Nincs terepcél"/>
+		<text name="proShot_testing_snowNoTarget" text="Nem található terep a képernyő közepén"/>
+		<text name="proShot_testing_snowLowered" text="A hó csökkentve a kijelölt területen"/>
+		<text name="proShot_testing_snowRaised" text="A hó növelve a kijelölt területen"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Keréknyomok eltávolítása"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Válaszd ki, hogy a keréknyomtérkép mekkora részét törlöd."/>
+		<text name="proShot_testing_tyreTracks100m" text="A kamera 100 m-es körzetében"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Teljes térkép"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Eltávolítod a keréknyomokat a kamera 100 m-es körzetében? Ez nem vonható vissza."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Eltávolítod az összes keréknyomot a térképről? Ez nem vonható vissza."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Keréknyomok eltávolítva a kamera 100 m-es körzetében"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Minden keréknyom eltávolítva"/>
+		<text name="proShot_wildlife_menu" text="Állatok"/>
+		<text name="proShot_wildlife_selectAnimal" text="Vadvilág váltása erre: %s"/>
+		<text name="proShot_wildlife_selectBird" text="Madarak váltása erre: %s"/>
+		<text name="proShot_wildlife_spawn" text="%s létrehozása"/>
+		<text name="proShot_wildlife_spawnFlying" text="Repülő %s létrehozása"/>
+		<text name="proShot_wildlife_pauseBirds" text="Madarak szüneteltetése"/>
+		<text name="proShot_wildlife_resumeBirds" text="Madarak folytatása"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Vadvilág szüneteltetése"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Vadvilág folytatása"/>
+		<text name="proShot_wildlife_removeLastBird" text="Utolsó madár eltávolítása"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Utolsó vadállat eltávolítása"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Kiválasztott vadállat"/>
+		<text name="proShot_wildlife_selectedBird" text="Kiválasztott madár"/>
+		<text name="proShot_wildlife_animalMotion" text="Vadvilág mozgása"/>
+		<text name="proShot_wildlife_birdMotion" text="Madarak mozgása"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Létrehozott vadállatok"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Létrehozott madarak"/>
+		<text name="proShot_wildlife_unavailable" text="Ezen a térképen nincs vadvilág definiálva"/>
+		<text name="proShot_wildlife_spawned" text="%s létrehozva a kamera előtt"/>
+		<text name="proShot_wildlife_tooFar" text="Túl messze"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Madarak elhelyezve az égen, a cél fölött"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Madarak elhelyezve"/>
+		<text name="proShot_wildlife_placedGround" text="Vadállat elhelyezve a talajon"/>
+		<text name="proShot_wildlife_placedObject" text="Vadállat elhelyezve objektumon"/>
+		<text name="proShot_wildlife_groundOnly" text="A talajra kerülnek"/>
+		<text name="proShot_animals_offsetX" text="Állat X-eltolása"/>
+		<text name="proShot_animals_offsetY" text="Állat Y-eltolása"/>
+		<text name="proShot_animals_offsetZ" text="Állat Z-eltolása"/>
+		<text name="proShot_animals_resetOffsets" text="Állateltolások visszaállítása"/>
+		<text name="proShot_animals_rotation" text="Állat forgatása"/>
+		<text name="proShot_farm_select" text="Haszonállat kiválasztása"/>
+		<text name="proShot_farm_place" text="%s elhelyezése"/>
+		<text name="proShot_farm_removeLast" text="Utolsó haszonállat eltávolítása"/>
+		<text name="proShot_farm_removedLast" text="Utolsó haszonállat eltávolítva"/>
+		<text name="proShot_farm_noneToRemove" text="Nincs eltávolítható elhelyezett haszonállat"/>
+		<text name="proShot_farm_selected" text="Kiválasztott haszonállat"/>
+		<text name="proShot_farm_spawned" text="Elhelyezett haszonállatok"/>
+		<text name="proShot_farm_unavailable" text="Ezen a térképen nem érhetők el haszonállatok"/>
+		<text name="proShot_farm_selectTitle" text="Haszonállat kiválasztása"/>
+		<text name="proShot_farm_selectText" text="Válassz állatot és életkort."/>
+		<text name="proShot_farm_breedTitle" text="Fajta kiválasztása"/>
+		<text name="proShot_farm_breedText" text="Válassz fajtát vagy megjelenést."/>
+		<text name="proShot_farm_loadFailed" text="A haszonállat nem tölthető be"/>
+		<text name="proShot_farm_placedGround" text="Haszonállat elhelyezve a talajon"/>
+		<text name="proShot_farm_placedObject" text="Haszonállat elhelyezve objektumon"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Kölyök"/>
+		<text name="proShot_farm_stageYoung" text="Fiatal"/>
+		<text name="proShot_farm_stageAdult" text="Felnőtt"/>
+		<text name="proShot_farm_calf" text="Borjú"/>
+		<text name="proShot_farm_youngCow" text="Fiatal tehén"/>
+		<text name="proShot_farm_cow" text="Tehén"/>
+		<text name="proShot_farm_buffaloCalf" text="Bivalyborjú"/>
+		<text name="proShot_farm_youngBuffalo" text="Fiatal vízibivaly"/>
+		<text name="proShot_farm_waterBuffalo" text="Vízibivaly"/>
+		<text name="proShot_farm_piglet" text="Malac"/>
+		<text name="proShot_farm_youngPig" text="Fiatal sertés"/>
+		<text name="proShot_farm_pig" text="Sertés"/>
+		<text name="proShot_farm_lamb" text="Bárány"/>
+		<text name="proShot_farm_youngSheep" text="Fiatal juh"/>
+		<text name="proShot_farm_sheep" text="Juh"/>
+		<text name="proShot_farm_kid" text="Gidácska"/>
+		<text name="proShot_farm_youngGoat" text="Fiatal kecske"/>
+		<text name="proShot_farm_goat" text="Kecske"/>
+		<text name="proShot_farm_horse" text="Ló"/>
+		<text name="proShot_farm_chick" text="Csibe"/>
+		<text name="proShot_farm_hen" text="Tyúk"/>
+		<text name="proShot_farm_rooster" text="Kakas"/>
+		<text name="proShot_farm_menuCow" text="Tehén"/>
+		<text name="proShot_farm_menuBuffalo" text="Vízibivaly"/>
+		<text name="proShot_farm_menuPig" text="Sertés"/>
+		<text name="proShot_farm_menuSheep" text="Juh"/>
+		<text name="proShot_farm_menuGoat" text="Kecske"/>
+		<text name="proShot_farm_menuHorse" text="Ló"/>
+		<text name="proShot_farm_menuChicken" text="Tyúk"/>
+		<text name="proShot_wildlife_birdRemoved" text="Az utoljára létrehozott madár eltávolítva"/>
+		<text name="proShot_wildlife_animalRemoved" text="Az utoljára létrehozott vadállat eltávolítva"/>
+		<text name="proShot_wildlife_noBird" text="Nincs eltávolítható létrehozott madár"/>
+		<text name="proShot_wildlife_noAnimal" text="Nincs eltávolítható létrehozott vadállat"/>
+		<text name="proShot_wildlife_removeAll" text="Minden állat és madár eltávolítása"/>
+		<text name="proShot_scene_menu" text="Jelenetvezérlők"/>
+		<text name="proShot_scene_hideParked" text="Parkoló járművek elrejtése"/>
+		<text name="proShot_scene_showParked" text="Parkoló járművek megjelenítése"/>
+		<text name="proShot_scene_parkedVehicles" text="Parkoló járművek"/>
+		<text name="proShot_scene_parkedUnavailable" text="A parkoló járművek vezérlése ezen a térképen nem érhető el"/>
+		<text name="proShot_scene_reset" text="Jelenetvezérlők visszaállítása"/>
+		<text name="proShot_snow_strength" text="Eszközerő csökkentése/növelése"/>
+		<text name="proShot_snow_strengthInfo" text="Eszközerő"/>
+		<text name="proShot_snow_globalLevel" text="Globális hószint csökkentése/növelése"/>
+		<text name="proShot_snow_globalLevelInfo" text="Globális hószint"/>
+		<text name="proShot_focus_set" text="Fókusz a középső objektumra"/>
+		<text name="proShot_focus_narrow" text="Fókusztartomány szűkítése"/>
+		<text name="proShot_focus_widen" text="Fókusztartomány szélesítése"/>
+		<text name="proShot_focus_holdClear" text="Tartsd lenyomva a(z) [%s] gombot a fókusz törléséhez"/>
+		<text name="proShot_focus_noTarget" text="Nem található objektum a képernyő közepén"/>
+		<text name="proShot_focus_status" text="Középső fókusz"/>
+		<text name="proShot_focus_distance" text="%.1f m (%.1f m tartomány)"/>
+		<text name="proShot_composition_grid" text="Rácssegéd: %s"/>
+		<text name="proShot_composition_aspect" text="Képaránysegéd: %s"/>
+		<text name="proShot_composition_status" text="Kompozíció"/>
+		<text name="proShot_grid_thirds" text="Harmadolás"/>
+		<text name="proShot_grid_goldenRatio" text="Aranymetszés (Phi)"/>
+		<text name="proShot_grid_centre" text="Közép"/>
+		<text name="proShot_grid_diagonals" text="Átlók"/>
+		<text name="proShot_grid_diagonalMethod" text="Átlós módszer"/>
+		<text name="proShot_grid_goldenTriangles" text="Arany háromszögek"/>
+		<text name="proShot_effect_resetSlot" text="Hely visszaállítása alapértékre"/>
+		<text name="proShot_effect_saveSlotMenu" text="Jelenlegi effekt mentése egy helyre"/>
+		<text name="proShot_effect_allSlotsDefault" text="Minden effekthely már alapértéken van"/>
+		<text name="proShot_effect_emptySlot" text="A(z) %d. effekthely üres"/>
+		<text name="proShot_effect_defaultName" text="Egyéni effekt %d"/>
+		<text name="proShot_effect_namePrompt" text="Adj nevet a(z) %d. effekthelynek"/>
+		<text name="proShot_effect_saveFailed" text="Nem sikerült írni az effektek fájlját"/>
+		<text name="proShot_effect_saved" text="Effekthely %d mentve: %s"/>
+		<text name="proShot_effect_resetDone" text="Effekthely %d visszaállítva alapértékre"/>
+		<text name="proShot_effect_slotLabel" text="Hely %d"/>
+		<text name="proShot_effect_editing" text="Szerkesztés"/>
+		<text name="proShot_menu_revertThisScreen" text="A képernyő módosításainak visszavonása"/>
+		<text name="proShot_infoBox_VD" text="Látótávolság"/>
+		<text name="proShot_infoBox_FVD" text="Növényzet látótávolsága"/>
+		<text name="proShot_infoBox_exposure" text="Kameraexpozíció"/>
+		<text name="proShot_infoBox_FoV" text="Kamera látómezeje"/>
+		<text name="proShot_infoBox_quality" text="Minőségi előbeállítás"/>
+		<text name="proShot_infoBox_sunDirection" text="Nap iránya"/>
+		<text name="proShot_infoBox_colourGrading" text="Effekt"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Színkorrekció"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Zseblámpa hőmérséklete"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Zseblámpa intenzitása"/>
+		<text name="proShot_infoBox_flashlightRange" text="Fény hatótávolsága"/>
+		<text name="proShot_infoBox_flashlightCone" text="Kúpszög"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Fény elmosása"/>
+		<text name="proShot_infoBox_title_environment" text="Környezet"/>
+		<text name="proShot_infoBox_season" text="Évszak"/>
+		<text name="proShot_infoBox_frost" text="Fagy"/>
+		<text name="proShot_infoBox_snowLevel" text="Hószint"/>
+		<text name="proShot_infoBox_title_effects" text="Effektek"/>
+		<text name="proShot_infoBox_help1b" text="Bal egérgomb vagy WSAD billentyűk"/>
+		<text name="proShot_infoBox_help2a" text="Magasság beállítása"/>
+		<text name="proShot_infoBox_help2b" text="Egérgörgő vagy QE billentyűk"/>
+		<text name="proShot_infoBox_help3a" text="Sebesség növelése"/>
+		<text name="proShot_infoBox_help3b" text="Shift billentyű nyomva tartása"/>
+		<text name="proShot_infoBox_help4a" text="Sebesség csökkentése"/>
+		<text name="proShot_infoBox_help4b" text="Ctrl billentyű nyomva tartása"/>
+		<text name="proShot_infoBox_help5b" text="Jobb egérgomb"/>
+		<text name="proShot_infoBox_help6a" text="Napfény mozgatása"/>
+		<text name="proShot_infoBox_help6b" text="Középső egérgomb"/>
+		<text name="proShot_infoBox_help7b" text="Numerikus billentyűzet 1 és 2"/>
+		<text name="proShot_infoBox_help8a" text="Dőlés visszaállítása"/>
+		<text name="proShot_infoBox_help8b" text="Numerikus billentyűzet 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Közeli CoC sugár"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Közeli elmosás végének távolsága"/>
+		<text name="proShot_DoF_farCoCRadius" text="Távoli CoC sugár"/>
+		<text name="proShot_DoF_farBlurStart" text="Távoli elmosás kezdetének távolsága"/>
+		<text name="proShot_DoF_farBlurEnd" text="Távoli teljes elmosás távolsága"/>
+		<text name="proShot_DoF_applyToSky" text="Égbolt elmosása"/>
+		<text name="proShot_summer" text="Nyár"/>
+		<text name="proShot_autumn" text="Ősz"/>
+		<text name="proShot_winter" text="Tél"/>
+		<text name="proShot_spring" text="Tavasz"/>
+		<text name="proShot_early" text="korai"/>
+		<text name="proShot_mid" text="középső"/>
+		<text name="proShot_late" text="késői"/>
+		<text name="proShot_seasonTweak" text="Évszak finomhangolása"/>
+		<text name="proShot_variation" text="változat"/>
+		<text name="proShot_weather_SUN" text="Napos"/>
+		<text name="proShot_weather_CLOUDY" text="Felhős"/>
+		<text name="proShot_weather_RAIN" text="Esős"/>
+		<text name="proShot_weather_SNOW" text="Havas"/>
+		<text name="proShot_weather_HAIL" text="Jégeső"/>
+		<text name="proShot_menu_snowShader" text="Fagy be/ki"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Közeli CoC sugár (elmosás erőssége)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Távoli CoC sugár (elmosás erőssége)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Közeli elmosás végének távolsága"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Távoli elmosás kezdetének távolsága"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Távoli teljes erősségű elmosás távolsága"/>
+		<text name="proShot_menu_resetThis" text="Ezeknek a beállításoknak a visszaállítása"/>
+		<text name="input_PRO_SHOT_1" text="Kiválasztás 1"/>
+		<text name="input_PRO_SHOT_2" text="Kiválasztás 2"/>
+		<text name="input_PRO_SHOT_3" text="Kiválasztás 3"/>
+		<text name="input_PRO_SHOT_4" text="Kiválasztás 4"/>
+		<text name="input_PRO_SHOT_5" text="Kiválasztás 5"/>
+		<text name="input_PRO_SHOT_6" text="Kiválasztás 6"/>
+		<text name="input_PRO_SHOT_7" text="Kiválasztás 7"/>
+		<text name="input_PRO_SHOT_8" text="Kiválasztás 8"/>
+		<text name="input_PRO_SHOT_9" text="Kiválasztás 9"/>
+		<text name="input_PRO_SHOT_0" text="Kiválasztás 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Numerikus billentyűzet 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Utolsó haszonállat eltávolítása"/>
+		<text name="input_PRO_SHOT_MINUS" text="Fő billentyűzet mínusz"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Fő billentyűzet egyenlőségjel/plusz"/>
+		<text name="input_PRO_SHOT_47_1" text="Beállítás 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="Beállítás 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Beállítás 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="Beállítás 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Beállítás 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="Beállítás 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Beállítás 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Beállítás 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Beállítás 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Beállítás 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Beállítás 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Beállítás 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Beállítás 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Beállítás 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Beállítás 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Beállítás 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Beállítások visszavonása"/>
+		<text name="input_PRO_SHOT_ENTER" text="Fénykép készítése"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="HDR-képernyőkép készítése"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="HDR- és mélységi képernyőképek készítése"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Vissza az előző menübe"/>
+		<text name="input_PRO_SHOT_F" text="Zseblámpa"/>
+		<text name="input_PRO_SHOT_F1" text="HUD be/ki"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Zseblámpa elhelyezése"/>
+	</texts>
+</l10n>

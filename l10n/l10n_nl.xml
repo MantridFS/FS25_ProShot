@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Lage kwaliteit instellen"/>
+		<text name="proShot_menu_qualHigh" text="Hoge kwaliteit instellen"/>
+		<text name="proShot_value_qualityLow" text="Lage kwaliteit"/>
+		<text name="proShot_value_qualityHigh" text="Hoge kwaliteit"/>
+		<text name="proShot_menu_advMenus" text="Geavanceerde menu's"/>
+		<text name="proShot_menu_favourites" text="Favorieten"/>
+		<text name="proShot_menu_returnToAdvanced" text="Keer terug naar geavanceerde menu's"/>
+		<text name="proShot_menu_resetAll" text="Reset alle instellingen"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Reset ook zaklampen"/>
+		<text name="proShot_value_original" text="Origineel"/>
+		<text name="proShot_favourite_restoreSlot" text="Slot %d herstellen: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Opslaan in slot %d: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Slot %d verwijderen: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Sla huidige instellingen op als favoriet"/>
+		<text name="proShot_favourite_remove" text="Verwijder een favoriet"/>
+		<text name="proShot_favourite_revertPreview" text="Keer terug naar de instellingen van vóór Favorieten"/>
+		<text name="proShot_favourite_cancel" text="Terug naar favorieten"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Kies een slot voor de huidige instellingen"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Kies een favoriet om te verwijderen"/>
+		<text name="proShot_favourite_defaultName" text="Voorinstelling %d"/>
+		<text name="proShot_favourite_namePrompt" text="Voer een naam in voor favorietslot %d"/>
+		<text name="proShot_favourite_deleteTitle" text="Favoriet verwijderen"/>
+		<text name="proShot_favourite_deletePrompt" text="Favorietslot %d, “%s”, verwijderen?"/>
+		<text name="proShot_favourite_emptyStatus" text="Slot %d is leeg"/>
+		<text name="proShot_favourite_restoredStatus" text="Slot %d hersteld"/>
+		<text name="proShot_favourite_revertedStatus" text="Teruggezet naar instellingen van vóór Favorieten"/>
+		<text name="proShot_favourite_savedStatus" text="Slot %d opgeslagen: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Slot %d verwijderd: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Kon het favorietenbestand niet schrijven"/>
+		<text name="proShot_favourite_slotLabel" text="Slot %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Kies instellingen om op te slaan"/>
+		<text name="proShot_favourite_chooseGroups" text="Kies groepen voor slot %d"/>
+		<text name="proShot_favourite_selectOneGroup" text="Selecteer ten minste één instellingengroep"/>
+		<text name="proShot_favourite_continueName" text="Ga verder en voer een naam in"/>
+		<text name="proShot_favourite_backToSlots" text="Terug naar slotselectie"/>
+		<text name="proShot_favourite_group_camera" text="Camera (FoV en belichting)"/>
+		<text name="proShot_favourite_group_sky" text="Lucht"/>
+		<text name="proShot_favourite_group_groundLight" text="Grondverlichting"/>
+		<text name="proShot_favourite_group_effects" text="Kleurcorrectie en effecten"/>
+		<text name="proShot_favourite_group_season" text="Seizoen (inclusief vorst en sneeuw)"/>
+		<text name="proShot_favourite_group_weather" text="Weer (inclusief mist en nevel)"/>
+		<text name="proShot_menu_advQualityMenu" text="Kwaliteitsmenu"/>
+		<text name="proShot_menu_advSunMenu" text="Hemelmenu"/>
+		<text name="proShot_menu_advLightMenu" text="Zaklampmenu"/>
+		<text name="proShot_menu_environment" text="Milieumenu"/>
+		<text name="proShot_menu_effects" text="Effectenmenu"/>
+		<text name="proShot_menu_DoF" text="Menu scherptediepte"/>
+		<text name="proShot_menu_returnToMain" text="Keer terug naar het hoofdmenu"/>
+		<text name="proShot_takePicture" text="Maak een foto"/>
+		<text name="proShot_hideHUD" text="HUD tonen/verbergen"/>
+		<text name="proShot_menu_advQ_VD" text="Kijkafstand verlagen/verhogen"/>
+		<text name="proShot_menu_advQ_LOD" text="LOD-afstand verlagen/verhogen"/>
+		<text name="proShot_menu_advQ_TLOD" text="Terrein-LOD-afstand verlagen/verhogen"/>
+		<text name="proShot_menu_advQ_FVD" text="Kijkafstand begroeiing verlagen/verhogen"/>
+		<text name="proShot_menu_skyBrightness" text="Helderheid van de hemel"/>
+		<text name="proShot_menu_groundLight" text="Grondverlichting"/>
+		<text name="proShot_menu_skyAndGround" text="Hemel en grond"/>
+		<text name="proShot_menu_syncSkyToGround" text="Lucht met grond synchroniseren"/>
+		<text name="proShot_menu_lightingIntensity" text="Verlichtingsintensiteit"/>
+		<text name="proShot_menu_lightingTemperature" text="Verlichtingstemperatuur"/>
+		<text name="proShot_menu_colourTemperature" text="Kleur temperatuur"/>
+		<text name="proShot_menu_intensity" text="Intensiteit"/>
+		<text name="proShot_menu_returnToSky" text="Terug naar het hemelmenu"/>
+		<text name="proShot_infoBox_skyTemp" text="Kleurtemperatuur van de lucht"/>
+		<text name="proShot_infoBox_skyIntensity" text="Luchtintensiteit"/>
+		<text name="proShot_infoBox_groundTemp" text="Lichte kleurtemperatuur"/>
+		<text name="proShot_infoBox_groundIntensity" text="Lichtintensiteit"/>
+		<text name="proShot_menu_red" text="Verkleinen/verhogen Rood"/>
+		<text name="proShot_menu_green" text="Groen verminderen/vergroten"/>
+		<text name="proShot_menu_blue" text="Blauw verkleinen/verhogen"/>
+		<text name="proShot_menu_moonSize" text="Grootte van de maan"/>
+		<text name="proShot_menu_sunSize" text="Grootte van de zon"/>
+		<text name="proShot_menu_atmosRefraction" text="Breking van de atmosfeer"/>
+		<text name="proShot_menu_light_temp" text="Licht koeler/warmer"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Smalle/verbredende kegel"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Scherpstellen/vervagen Focus"/>
+		<text name="proShot_menu_flashLight_intensity" text="Verlaag/verhoog de intensiteit"/>
+		<text name="proShot_menu_flashLight_distance" text="Afstand verkleinen/vergroten"/>
+		<text name="proShot_menu_flashLight_place" text="Plaats hier de zaklamp"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Zaklamp aanzetten"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Verwijder de laatste zaklamp"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Zet het licht op de standaardwaarden"/>
+		<text name="proShot_flashLight_placed" text="Zaklamp geplaatst (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Zaklampen geplaatst"/>
+		<text name="proShot_flashFavourite_title" text="Zaklamp favorieten"/>
+		<text name="proShot_flashFavourite_save" text="Opslaan als favoriet"/>
+		<text name="proShot_flashFavourite_remove" text="Favoriet verwijderen"/>
+		<text name="proShot_flashFavourite_cancel" text="Keer terug naar het zaklampmenu"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Favoriet %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Opslaan in slot %d: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Slot %d verwijderen: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Zaklamp %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Voer een naam in voor zaklampfavoriet %d"/>
+		<text name="proShot_flashFavourite_restored" text="Zaklampfavoriet %d hersteld: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Zaklampfavoriet %d opgeslagen: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Zaklampfavoriet %d verwijderd: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Zaklampfavoriet verwijderen"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Zaklamp favoriet %d, “%s” verwijderen?"/>
+		<text name="proShot_menu_exposure" text="Belichting aanpassen"/>
+		<text name="proShot_menu_FoV" text="Gezichtsveld aanpassen"/>
+		<text name="proShot_menu_timeHorly" text="Tijd aanpassen (per uur)"/>
+		<text name="proShot_menu_timeMins" text="Tijd aanpassen (minuten)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Neutraal"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Levendig"/>
+		<text name="proShot_menu_effects_preset_deep" text="Diep"/>
+		<text name="proShot_menu_effects_preset_cold" text="Koel"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Grijswaarden"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Sepiatint"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Fantoom"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Bloom-drempel"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Bloom-sterkte"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Bloom-kwaliteit"/>
+		<text name="proShot_effect_slotEntry" text="Effectslot %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Opslaan in effectslot %d: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Effectslot %d resetten: %s"/>
+		<text name="proShot_effect_customise" text="Aangepaste kleurcorrectie"/>
+		<text name="proShot_effect_global" text="Globaal"/>
+		<text name="proShot_effect_shadows" text="Schaduwen"/>
+		<text name="proShot_effect_midtones" text="Middentonen"/>
+		<text name="proShot_effect_highlights" text="Hooglichten"/>
+		<text name="proShot_effect_saturation" text="Verzadiging"/>
+		<text name="proShot_effect_contrast" text="Contrast"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Versterking"/>
+		<text name="proShot_effect_scale" text="Schaal"/>
+		<text name="proShot_effect_shadowsMax" text="Maximale luminantie schaduwen"/>
+		<text name="proShot_effect_highlightsMin" text="Minimale luminantie hooglichten"/>
+		<text name="proShot_effect_maxLuminance" text="Maximale helderheid: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Minimale helderheid: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Herstel luminantiedrempels"/>
+		<text name="proShot_menu_toneMapping" text="Tonemapping"/>
+		<text name="proShot_tone_slope" text="Helling"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Zwartclipping"/>
+		<text name="proShot_tone_whiteClip" text="Witclipping"/>
+		<text name="proShot_menu_fog" text="Verminder/verhoog mist"/>
+		<text name="proShot_menu_haze" text="Nevel verminderen/verhogen"/>
+		<text name="proShot_infoBox_fog" text="Mist"/>
+		<text name="proShot_infoBox_haze" text="Nevel"/>
+		<text name="proShot_menu_fogAdvanced" text="Mistmenu"/>
+		<text name="proShot_fog_coverage" text="Verminder/vergroot de mistdekking"/>
+		<text name="proShot_fog_softness" text="Verminder/verhoog de zachtheid van de dekking"/>
+		<text name="proShot_fog_groundDensity" text="Verminder/verhoog de mistdichtheid"/>
+		<text name="proShot_fog_extraHeight" text="Verlaag/verhoog de misthoogte"/>
+		<text name="proShot_fog_minValleyDepth" text="Minimale daldiepte verkleinen/verhogen"/>
+		<text name="proShot_fog_coverageInfo" text="Dekking"/>
+		<text name="proShot_fog_softnessInfo" text="Zachtheid"/>
+		<text name="proShot_fog_groundDensityInfo" text="Dikte"/>
+		<text name="proShot_fog_extraHeightInfo" text="Hoogte"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Minimale daldiepte"/>
+		<text name="proShot_testing_enableTraffic" text="Schakel verkeer in"/>
+		<text name="proShot_testing_disableTraffic" text="Schakel het verkeer uit"/>
+		<text name="proShot_testing_enablePedestrians" text="Zet voetgangers aan"/>
+		<text name="proShot_testing_disablePedestrians" text="Schakel voetgangers uit"/>
+		<text name="proShot_testing_pauseTraffic" text="Pauzeer het verkeer"/>
+		<text name="proShot_testing_resumeTraffic" text="Hervat het verkeer"/>
+		<text name="proShot_testing_pausePedestrians" text="Pauzeer voetgangers"/>
+		<text name="proShot_testing_resumePedestrians" text="Hervat voetgangers"/>
+		<text name="proShot_testing_localSnow" text="Lokale sneeuw"/>
+		<text name="proShot_testing_groundWetness" text="Verminder/verhoog de vochtigheid van de grond"/>
+		<text name="proShot_testing_removeTyreTracks" text="Bandensporen verwijderen (kan niet ongedaan worden gemaakt)"/>
+		<text name="proShot_testing_traffic" text="Verkeer"/>
+		<text name="proShot_testing_trafficMotion" text="Verkeersbeweging"/>
+		<text name="proShot_testing_pedestrians" text="Voetgangers"/>
+		<text name="proShot_testing_pedestrianMotion" text="Voetgangersbeweging"/>
+		<text name="proShot_testing_paused" text="Gepauzeerd"/>
+		<text name="proShot_testing_running" text="In beweging"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Grondvochtigheid"/>
+		<text name="proShot_testing_wildlife" text="Wilde dieren"/>
+		<text name="proShot_testing_tyreTracks" text="Bandensporen verwijderen"/>
+		<text name="proShot_testing_unavailable" text="Niet beschikbaar op deze kaart"/>
+		<text name="proShot_testing_irreversible" text="Kan niet ongedaan worden gemaakt"/>
+		<text name="proShot_testing_trafficUnavailable" text="Er is geen verkeerssysteem beschikbaar op deze kaart"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Er is geen voetgangerssysteem beschikbaar op deze kaart"/>
+		<text name="proShot_testing_birdUnavailable" text="Er zijn geen geschikte vogelsoorten gedefinieerd voor deze kaart"/>
+		<text name="proShot_testing_wildlifeRemoved" text="%d geplaatste dieren of vogelgroepen verwijderd"/>
+		<text name="proShot_testing_spawnFailed" text="Plaatsen van wild dier mislukt"/>
+		<text name="proShot_testing_actionUnavailable" text="Deze actie is niet beschikbaar op deze kaart"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Voetgangerspauzeren is niet beschikbaar in deze gamebuild"/>
+		<text name="proShot_testing_snowRadius" text="Radius verkleinen/vergroten"/>
+		<text name="proShot_testing_snowHeight" text="Sneeuw laten zakken/optillen in het gemarkeerde gebied"/>
+		<text name="proShot_testing_snowTarget" text="Doel"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Radius"/>
+		<text name="proShot_testing_snowHeightInfo" text="Sneeuw in het midden"/>
+		<text name="proShot_testing_noTarget" text="Geen terreindoel"/>
+		<text name="proShot_testing_snowNoTarget" text="Geen terrein gevonden in het midden van het scherm"/>
+		<text name="proShot_testing_snowLowered" text="Sneeuw verlaagd in het gemarkeerde gebied"/>
+		<text name="proShot_testing_snowRaised" text="Opgeheven sneeuw in het gemarkeerde gebied"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Bandensporen verwijderen"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Kies hoeveel van de bandensporenkaart u wilt wissen."/>
+		<text name="proShot_testing_tyreTracks100m" text="Binnen 100 m van de camera"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Hele kaart"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Bandensporen binnen 100 m van de camera verwijderen? Dit kan niet ongedaan worden gemaakt."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Elk bandenspoor van de kaart verwijderen? Dit kan niet ongedaan worden gemaakt."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Bandensporen binnen 100 m van de camera verwijderd"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Alle bandensporen verwijderd"/>
+		<text name="proShot_wildlife_menu" text="Dieren"/>
+		<text name="proShot_wildlife_selectAnimal" text="Wisselen naar %s"/>
+		<text name="proShot_wildlife_selectBird" text="Wisselen naar %s"/>
+		<text name="proShot_wildlife_spawn" text="%s plaatsen"/>
+		<text name="proShot_wildlife_spawnFlying" text="%s vliegend plaatsen"/>
+		<text name="proShot_wildlife_pauseBirds" text="Vogels pauzeren"/>
+		<text name="proShot_wildlife_resumeBirds" text="Vogels hervatten"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Wilde dieren pauzeren"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Wilde dieren hervatten"/>
+		<text name="proShot_wildlife_removeLastBird" text="Laatste vogel verwijderen"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Laatste wilde dier verwijderen"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Geselecteerd wild dier"/>
+		<text name="proShot_wildlife_selectedBird" text="Geselecteerde vogel"/>
+		<text name="proShot_wildlife_animalMotion" text="Beweging wilde dieren"/>
+		<text name="proShot_wildlife_birdMotion" text="Vogelbeweging"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Geplaatste wilde dieren"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Geplaatste vogels"/>
+		<text name="proShot_wildlife_unavailable" text="Voor deze kaart zijn geen wilde dieren gedefinieerd"/>
+		<text name="proShot_wildlife_spawned" text="%s vóór de camera geplaatst"/>
+		<text name="proShot_wildlife_tooFar" text="Te ver weg"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Vogels geplaatst in de lucht, boven het doel"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Vogels geplaatst"/>
+		<text name="proShot_wildlife_placedGround" text="Wild dier op de grond geplaatst"/>
+		<text name="proShot_wildlife_placedObject" text="Wild dier op een object geplaatst"/>
+		<text name="proShot_wildlife_groundOnly" text="Ze horen op de grond"/>
+		<text name="proShot_animals_offsetX" text="Dieroffset X"/>
+		<text name="proShot_animals_offsetY" text="Dieroffset Y"/>
+		<text name="proShot_animals_offsetZ" text="Dieroffset Z"/>
+		<text name="proShot_animals_resetOffsets" text="Dieroffsets resetten"/>
+		<text name="proShot_animals_rotation" text="Dierrotatie"/>
+		<text name="proShot_farm_select" text="Boerderijdier selecteren"/>
+		<text name="proShot_farm_place" text="%s plaatsen"/>
+		<text name="proShot_farm_removeLast" text="Laatste boerderijdier verwijderen"/>
+		<text name="proShot_farm_removedLast" text="Laatste boerderijdier verwijderd"/>
+		<text name="proShot_farm_noneToRemove" text="Geen geplaatste boerderijdieren om te verwijderen"/>
+		<text name="proShot_farm_selected" text="Geselecteerd boerderijdier"/>
+		<text name="proShot_farm_spawned" text="Geplaatste boerderijdieren"/>
+		<text name="proShot_farm_unavailable" text="Er zijn geen boerderijdieren beschikbaar op deze kaart"/>
+		<text name="proShot_farm_selectTitle" text="Boerderijdier selecteren"/>
+		<text name="proShot_farm_selectText" text="Kies een dier en leeftijd."/>
+		<text name="proShot_farm_breedTitle" text="Ras selecteren"/>
+		<text name="proShot_farm_breedText" text="Kies een ras of uiterlijk."/>
+		<text name="proShot_farm_loadFailed" text="Het boerderijdier kon niet worden geladen"/>
+		<text name="proShot_farm_placedGround" text="Boerderijdier op de grond geplaatst"/>
+		<text name="proShot_farm_placedObject" text="Boerderijdier op een object geplaatst"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Jong"/>
+		<text name="proShot_farm_stageYoung" text="Jongvolwassen"/>
+		<text name="proShot_farm_stageAdult" text="Volwassen"/>
+		<text name="proShot_farm_calf" text="Kalf"/>
+		<text name="proShot_farm_youngCow" text="Jonge koe"/>
+		<text name="proShot_farm_cow" text="Koe"/>
+		<text name="proShot_farm_buffaloCalf" text="Buffelkalf"/>
+		<text name="proShot_farm_youngBuffalo" text="Jonge waterbuffel"/>
+		<text name="proShot_farm_waterBuffalo" text="Waterbuffel"/>
+		<text name="proShot_farm_piglet" text="Big"/>
+		<text name="proShot_farm_youngPig" text="Jong varken"/>
+		<text name="proShot_farm_pig" text="Varken"/>
+		<text name="proShot_farm_lamb" text="Lam"/>
+		<text name="proShot_farm_youngSheep" text="Jong schaap"/>
+		<text name="proShot_farm_sheep" text="Schaap"/>
+		<text name="proShot_farm_kid" text="Geitje"/>
+		<text name="proShot_farm_youngGoat" text="Jonge geit"/>
+		<text name="proShot_farm_goat" text="Geit"/>
+		<text name="proShot_farm_horse" text="Paard"/>
+		<text name="proShot_farm_chick" text="Kuiken"/>
+		<text name="proShot_farm_hen" text="Hen"/>
+		<text name="proShot_farm_rooster" text="Haan"/>
+		<text name="proShot_farm_menuCow" text="Koe"/>
+		<text name="proShot_farm_menuBuffalo" text="Waterbuffel"/>
+		<text name="proShot_farm_menuPig" text="Varken"/>
+		<text name="proShot_farm_menuSheep" text="Schaap"/>
+		<text name="proShot_farm_menuGoat" text="Geit"/>
+		<text name="proShot_farm_menuHorse" text="Paard"/>
+		<text name="proShot_farm_menuChicken" text="Kip"/>
+		<text name="proShot_wildlife_birdRemoved" text="De laatst geplaatste vogel is verwijderd"/>
+		<text name="proShot_wildlife_animalRemoved" text="Het laatst geplaatste wilde dier is verwijderd"/>
+		<text name="proShot_wildlife_noBird" text="Er zijn geen geplaatste vogels om te verwijderen"/>
+		<text name="proShot_wildlife_noAnimal" text="Er zijn geen geplaatste wilde dieren om te verwijderen"/>
+		<text name="proShot_wildlife_removeAll" text="Alle dieren en vogels verwijderen"/>
+		<text name="proShot_scene_menu" text="Scènebediening"/>
+		<text name="proShot_scene_hideParked" text="Verberg geparkeerde voertuigen"/>
+		<text name="proShot_scene_showParked" text="Geparkeerde voertuigen tonen"/>
+		<text name="proShot_scene_parkedVehicles" text="Geparkeerde voertuigen"/>
+		<text name="proShot_scene_parkedUnavailable" text="Controle van geparkeerde voertuigen is niet beschikbaar op deze kaart"/>
+		<text name="proShot_scene_reset" text="Scènebediening opnieuw instellen"/>
+		<text name="proShot_snow_strength" text="Gereedschapssterkte verlagen/verhogen"/>
+		<text name="proShot_snow_strengthInfo" text="Gereedschapssterkte"/>
+		<text name="proShot_snow_globalLevel" text="Globaal sneeuwniveau verlagen/verhogen"/>
+		<text name="proShot_snow_globalLevelInfo" text="Globaal sneeuwniveau"/>
+		<text name="proShot_focus_set" text="Scherpstellen op het middelste object"/>
+		<text name="proShot_focus_narrow" text="Scherpstelbereik verkleinen"/>
+		<text name="proShot_focus_widen" text="Scherpstelbereik vergroten"/>
+		<text name="proShot_focus_holdClear" text="Houd [%s] lang ingedrukt om de focus te wissen"/>
+		<text name="proShot_focus_noTarget" text="Geen object gevonden in het midden van het scherm"/>
+		<text name="proShot_focus_status" text="Centrale focus"/>
+		<text name="proShot_focus_distance" text="%.1f m (%.1f m bereik)"/>
+		<text name="proShot_composition_grid" text="Rasterhulp: %s"/>
+		<text name="proShot_composition_aspect" text="Beeldverhoudingshulp: %s"/>
+		<text name="proShot_composition_status" text="Compositie"/>
+		<text name="proShot_grid_thirds" text="Derden"/>
+		<text name="proShot_grid_goldenRatio" text="Gulden Snede (Phi)"/>
+		<text name="proShot_grid_centre" text="Midden"/>
+		<text name="proShot_grid_diagonals" text="Diagonalen"/>
+		<text name="proShot_grid_diagonalMethod" text="Diagonale methode"/>
+		<text name="proShot_grid_goldenTriangles" text="Gouden Driehoeken"/>
+		<text name="proShot_effect_resetSlot" text="Een slot terugzetten naar standaard"/>
+		<text name="proShot_effect_saveSlotMenu" text="Huidig effect in een slot opslaan"/>
+		<text name="proShot_effect_allSlotsDefault" text="Alle effectslots staan al op standaard"/>
+		<text name="proShot_effect_emptySlot" text="Effectslot %d is leeg"/>
+		<text name="proShot_effect_defaultName" text="Aangepast effect %d"/>
+		<text name="proShot_effect_namePrompt" text="Voer een naam in voor effectslot %d"/>
+		<text name="proShot_effect_saveFailed" text="Kan het effectenbestand niet schrijven"/>
+		<text name="proShot_effect_saved" text="Effectslot %d opgeslagen: %s"/>
+		<text name="proShot_effect_resetDone" text="Effectslot %d teruggezet naar standaard"/>
+		<text name="proShot_effect_slotLabel" text="Slot %d"/>
+		<text name="proShot_effect_editing" text="Bewerken"/>
+		<text name="proShot_menu_revertThisScreen" text="Wijzigingen op dit scherm ongedaan maken"/>
+		<text name="proShot_infoBox_VD" text="Kijkafstand"/>
+		<text name="proShot_infoBox_FVD" text="Kijkafstand begroeiing"/>
+		<text name="proShot_infoBox_exposure" text="Camerabelichting"/>
+		<text name="proShot_infoBox_FoV" text="Gezichtsveld van de camera"/>
+		<text name="proShot_infoBox_quality" text="Kwaliteit vooraf ingesteld"/>
+		<text name="proShot_infoBox_sunDirection" text="Zon Richting"/>
+		<text name="proShot_infoBox_colourGrading" text="Effect"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Kleurcorrectie"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Zaklamp temperatuur"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Zaklampintensiteit"/>
+		<text name="proShot_infoBox_flashlightRange" text="Lichtbereik"/>
+		<text name="proShot_infoBox_flashlightCone" text="Kegelhoek"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Lichtvervaging"/>
+		<text name="proShot_infoBox_title_environment" text="Omgeving"/>
+		<text name="proShot_infoBox_season" text="Seizoen"/>
+		<text name="proShot_infoBox_frost" text="Rijp"/>
+		<text name="proShot_infoBox_snowLevel" text="Sneeuwniveau"/>
+		<text name="proShot_infoBox_title_effects" text="Effecten"/>
+		<text name="proShot_infoBox_help1b" text="Linkermuisknop of WSAD-toetsen"/>
+		<text name="proShot_infoBox_help2a" text="Hoogte aanpassen"/>
+		<text name="proShot_infoBox_help2b" text="Scrollwiel of QE-toetsen"/>
+		<text name="proShot_infoBox_help3a" text="Verhoog de snelheid"/>
+		<text name="proShot_infoBox_help3b" text="Houd de Shift-toets ingedrukt"/>
+		<text name="proShot_infoBox_help4a" text="Verlaag de snelheid"/>
+		<text name="proShot_infoBox_help4b" text="Houd de Ctrl-toets ingedrukt"/>
+		<text name="proShot_infoBox_help5b" text="Rechtermuisknop"/>
+		<text name="proShot_infoBox_help6a" text="Verplaats zonlicht"/>
+		<text name="proShot_infoBox_help6b" text="Middelste muisknop"/>
+		<text name="proShot_infoBox_help7b" text="Numeriek toetsenblok 1 en 2"/>
+		<text name="proShot_infoBox_help8a" text="Kanteling opnieuw instellen"/>
+		<text name="proShot_infoBox_help8b" text="Numeriek toetsenblok 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Nabije CoC-straal"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Eindafstand nabije onscherpte"/>
+		<text name="proShot_DoF_farCoCRadius" text="Verre CoC-straal"/>
+		<text name="proShot_DoF_farBlurStart" text="Startafstand verre onscherpte"/>
+		<text name="proShot_DoF_farBlurEnd" text="Afstand volledige verre onscherpte"/>
+		<text name="proShot_DoF_applyToSky" text="Hemel vervagen"/>
+		<text name="proShot_summer" text="Zomer"/>
+		<text name="proShot_autumn" text="Herfst"/>
+		<text name="proShot_winter" text="Winter"/>
+		<text name="proShot_spring" text="Lente"/>
+		<text name="proShot_early" text="vroeg"/>
+		<text name="proShot_mid" text="midden"/>
+		<text name="proShot_late" text="laat"/>
+		<text name="proShot_seasonTweak" text="Seizoensaanpassing"/>
+		<text name="proShot_variation" text="variatie"/>
+		<text name="proShot_weather_SUN" text="Zonnig"/>
+		<text name="proShot_weather_CLOUDY" text="Bewolkt"/>
+		<text name="proShot_weather_RAIN" text="Regenachtig"/>
+		<text name="proShot_weather_SNOW" text="Sneeuw"/>
+		<text name="proShot_weather_HAIL" text="Hagel"/>
+		<text name="proShot_menu_snowShader" text="Rijp tonen/verbergen"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Nabije CoC-straal (onscherptesterkte)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Verre CoC-straal (onscherptesterkte)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Eindafstand nabije onscherpte"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Startafstand verre onscherpte"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Afstand volledige verre onscherpte"/>
+		<text name="proShot_menu_resetThis" text="Reset deze instellingen"/>
+		<text name="input_PRO_SHOT_1" text="Selectie 1"/>
+		<text name="input_PRO_SHOT_2" text="Selectie 2"/>
+		<text name="input_PRO_SHOT_3" text="Selectie 3"/>
+		<text name="input_PRO_SHOT_4" text="Selectie 4"/>
+		<text name="input_PRO_SHOT_5" text="Selectie 5"/>
+		<text name="input_PRO_SHOT_6" text="Selectie 6"/>
+		<text name="input_PRO_SHOT_7" text="Selectie 7"/>
+		<text name="input_PRO_SHOT_8" text="Selectie 8"/>
+		<text name="input_PRO_SHOT_9" text="Selectie 9"/>
+		<text name="input_PRO_SHOT_0" text="Selectie 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Numeriek toetsenblok 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Laatste boerderijdier verwijderen"/>
+		<text name="input_PRO_SHOT_MINUS" text="Minteken op hoofdtoetsenbord"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Gelijkteken/plus op hoofdtoetsenbord"/>
+		<text name="input_PRO_SHOT_47_1" text="Aanpassing 1+"/>
+		<text name="input_PRO_SHOT_47_2" text="Aanpassing 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Aanpassing 2+"/>
+		<text name="input_PRO_SHOT_58_2" text="Aanpassing 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Aanpassing 3+"/>
+		<text name="input_PRO_SHOT_69_2" text="Aanpassing 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Aanpassing 4+"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Aanpassing 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Aanpassing 5+"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Aanpassing 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Aanpassing 6+"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Aanpassing 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Aanpassing 7+"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Aanpassing 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Aanpassing 8+"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Aanpassing 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Instellingen terugzetten"/>
+		<text name="input_PRO_SHOT_ENTER" text="Maak een foto"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="HDR-screenshot maken"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="HDR- en dieptescreenshots maken"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Keer terug naar het vorige menu"/>
+		<text name="input_PRO_SHOT_F" text="Zaklamp"/>
+		<text name="input_PRO_SHOT_F1" text="HUD tonen/verbergen"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Enter op numeriek toetsenblok"/>
+	</texts>
+</l10n>

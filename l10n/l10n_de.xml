@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Niedrige Qualität einstellen"/>
+		<text name="proShot_menu_qualHigh" text="Hohe Qualität einstellen"/>
+		<text name="proShot_value_qualityLow" text="Niedrige Qualität"/>
+		<text name="proShot_value_qualityHigh" text="Hohe Qualität"/>
+		<text name="proShot_menu_advMenus" text="Erweiterte Menüs"/>
+		<text name="proShot_menu_favourites" text="Favoriten"/>
+		<text name="proShot_menu_returnToAdvanced" text="Kehren Sie zu den erweiterten Menüs zurück"/>
+		<text name="proShot_menu_resetAll" text="Alle Einstellungen zurücksetzen"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Setzen Sie auch Taschenlampen zurück"/>
+		<text name="proShot_value_original" text="Original"/>
+		<text name="proShot_favourite_restoreSlot" text="Slot %d wiederherstellen: %s"/>
+		<text name="proShot_favourite_saveSlot" text="In Slot %d speichern: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Slot %d entfernen: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Aktuelle Einstellungen als Favorit speichern"/>
+		<text name="proShot_favourite_remove" text="Einen Favoriten entfernen"/>
+		<text name="proShot_favourite_revertPreview" text="Kehren Sie zu den Einstellungen vor den Favoriten zurück"/>
+		<text name="proShot_favourite_cancel" text="Zurück zu den Favoriten"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Slot für die aktuellen Einstellungen wählen"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Wählen Sie einen Favoriten zum Entfernen aus"/>
+		<text name="proShot_favourite_defaultName" text="Voreinstellung %d"/>
+		<text name="proShot_favourite_namePrompt" text="Namen für Favoriten-Slot %d eingeben"/>
+		<text name="proShot_favourite_deleteTitle" text="Favorit entfernen"/>
+		<text name="proShot_favourite_deletePrompt" text="Favoriten-Slot %d „%s“ entfernen?"/>
+		<text name="proShot_favourite_emptyStatus" text="Slot %d ist leer"/>
+		<text name="proShot_favourite_restoredStatus" text="Slot %d wiederhergestellt"/>
+		<text name="proShot_favourite_revertedStatus" text="Auf die Einstellungen vor den Favoriten zurückgesetzt"/>
+		<text name="proShot_favourite_savedStatus" text="Slot %d gespeichert: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Slot %d entfernt: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Die Favoritendatei konnte nicht geschrieben werden"/>
+		<text name="proShot_favourite_slotLabel" text="Slot %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Wählen Sie die zu speichernden Einstellungen aus"/>
+		<text name="proShot_favourite_chooseGroups" text="Gruppen für Slot %d wählen"/>
+		<text name="proShot_favourite_selectOneGroup" text="Wählen Sie mindestens eine Einstellungsgruppe aus"/>
+		<text name="proShot_favourite_continueName" text="Fahren Sie fort und geben Sie einen Namen ein"/>
+		<text name="proShot_favourite_backToSlots" text="Zurück zur Slot-Auswahl"/>
+		<text name="proShot_favourite_group_camera" text="Kamera (FoV und Belichtung)"/>
+		<text name="proShot_favourite_group_sky" text="Himmel"/>
+		<text name="proShot_favourite_group_groundLight" text="Bodenbeleuchtung"/>
+		<text name="proShot_favourite_group_effects" text="Farbkorrektur und Effekte"/>
+		<text name="proShot_favourite_group_season" text="Jahreszeit (einschließlich Frost und Schnee)"/>
+		<text name="proShot_favourite_group_weather" text="Wetter (einschließlich Nebel und Dunst)"/>
+		<text name="proShot_menu_advQualityMenu" text="Qualitätsmenü"/>
+		<text name="proShot_menu_advSunMenu" text="Himmel-Menü"/>
+		<text name="proShot_menu_advLightMenu" text="Taschenlampen-Menü"/>
+		<text name="proShot_menu_environment" text="Umgebungsmenü"/>
+		<text name="proShot_menu_effects" text="Effekte-Menü"/>
+		<text name="proShot_menu_DoF" text="Schärfentiefe-Menü"/>
+		<text name="proShot_menu_returnToMain" text="Zurück zum Hauptmenü"/>
+		<text name="proShot_takePicture" text="Machen Sie ein Foto"/>
+		<text name="proShot_hideHUD" text="HUD ein-/ausblenden"/>
+		<text name="proShot_menu_advQ_VD" text="Sichtweite verringern/erhöhen"/>
+		<text name="proShot_menu_advQ_LOD" text="LOD-Distanz verringern/erhöhen"/>
+		<text name="proShot_menu_advQ_TLOD" text="Gelände-LOD-Distanz verringern/erhöhen"/>
+		<text name="proShot_menu_advQ_FVD" text="Vegetationssichtweite verringern/erhöhen"/>
+		<text name="proShot_menu_skyBrightness" text="Himmelshelligkeit"/>
+		<text name="proShot_menu_groundLight" text="Bodenbeleuchtung"/>
+		<text name="proShot_menu_skyAndGround" text="Himmel und Erde"/>
+		<text name="proShot_menu_syncSkyToGround" text="Himmel mit Boden synchronisieren"/>
+		<text name="proShot_menu_lightingIntensity" text="Beleuchtungsintensität"/>
+		<text name="proShot_menu_lightingTemperature" text="Beleuchtungstemperatur"/>
+		<text name="proShot_menu_colourTemperature" text="Farbtemperatur"/>
+		<text name="proShot_menu_intensity" text="Intensität"/>
+		<text name="proShot_menu_returnToSky" text="Zurück zum Himmel-Menü"/>
+		<text name="proShot_infoBox_skyTemp" text="Farbtemperatur des Himmels"/>
+		<text name="proShot_infoBox_skyIntensity" text="Himmelsintensität"/>
+		<text name="proShot_infoBox_groundTemp" text="Lichtfarbtemperatur"/>
+		<text name="proShot_infoBox_groundIntensity" text="Lichtintensität"/>
+		<text name="proShot_menu_red" text="Rot verringern/erhöhen"/>
+		<text name="proShot_menu_green" text="Grün verringern/erhöhen"/>
+		<text name="proShot_menu_blue" text="Blau reduzieren/erhöhen"/>
+		<text name="proShot_menu_moonSize" text="Mondgröße"/>
+		<text name="proShot_menu_sunSize" text="Sonnengröße"/>
+		<text name="proShot_menu_atmosRefraction" text="Brechung der Atmosphäre"/>
+		<text name="proShot_menu_light_temp" text="Licht kühler/wärmer"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Schmaler/weiterer Kegel"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Fokus schärfen/unschärfen"/>
+		<text name="proShot_menu_flashLight_intensity" text="Intensität verringern/erhöhen"/>
+		<text name="proShot_menu_flashLight_distance" text="Distanz verringern/erhöhen"/>
+		<text name="proShot_menu_flashLight_place" text="Platzieren Sie hier die Taschenlampe"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Taschenlampe einschalten"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Letzte Taschenlampe entfernen"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Stellen Sie das Licht auf die Standardeinstellungen ein"/>
+		<text name="proShot_flashLight_placed" text="Taschenlampe platziert (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Taschenlampen platziert"/>
+		<text name="proShot_flashFavourite_title" text="Taschenlampen-Favoriten"/>
+		<text name="proShot_flashFavourite_save" text="Als Favorit speichern"/>
+		<text name="proShot_flashFavourite_remove" text="Favorit entfernen"/>
+		<text name="proShot_flashFavourite_cancel" text="Kehren Sie zum Taschenlampen-Menü zurück"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Favorit %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="In Slot %d speichern: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Slot %d entfernen: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Taschenlampe %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Geben Sie einen Namen für den Taschenlampenfavoriten ein: %d"/>
+		<text name="proShot_flashFavourite_restored" text="Taschenlampen-Favorit %d wiederhergestellt: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Taschenlampen-Favorit %d gespeichert: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Taschenlampen-Favorit %d entfernt: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Taschenlampen-Favoriten entfernen"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Taschenlampenfavorit %d, „%s“ entfernen?"/>
+		<text name="proShot_menu_exposure" text="Belichtungsanpassung"/>
+		<text name="proShot_menu_FoV" text="Sichtfeld anpassen"/>
+		<text name="proShot_menu_timeHorly" text="Zeit anpassen (stündlich)"/>
+		<text name="proShot_menu_timeMins" text="Zeit anpassen (Minuten)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Neutral"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Kräftig"/>
+		<text name="proShot_menu_effects_preset_deep" text="Tief"/>
+		<text name="proShot_menu_effects_preset_cold" text="Kühl"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Graustufen"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Sepiaton"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Phantom"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Bloom-Schwellenwert"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Bloom-Stärke"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Bloom-Qualität"/>
+		<text name="proShot_effect_slotEntry" text="Effekt-Slot %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="In Effekt-Slot %d speichern: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Effekt-Slot %d zurücksetzen: %s"/>
+		<text name="proShot_effect_customise" text="Benutzerdefinierte Farbkorrektur"/>
+		<text name="proShot_effect_global" text="Global"/>
+		<text name="proShot_effect_shadows" text="Schatten"/>
+		<text name="proShot_effect_midtones" text="Mitteltöne"/>
+		<text name="proShot_effect_highlights" text="Lichter"/>
+		<text name="proShot_effect_saturation" text="Sättigung"/>
+		<text name="proShot_effect_contrast" text="Kontrast"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Verstärkung"/>
+		<text name="proShot_effect_scale" text="Skalierung"/>
+		<text name="proShot_effect_shadowsMax" text="Maximale Schattenluminanz"/>
+		<text name="proShot_effect_highlightsMin" text="Minimale Lichterluminanz"/>
+		<text name="proShot_effect_maxLuminance" text="Maximale Leuchtdichte: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Min. Leuchtdichte: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Luminanzschwellenwerte zurücksetzen"/>
+		<text name="proShot_menu_toneMapping" text="Tonemapping"/>
+		<text name="proShot_tone_slope" text="Steigung"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Schwarz-Clipping"/>
+		<text name="proShot_tone_whiteClip" text="Weiß-Clipping"/>
+		<text name="proShot_menu_fog" text="Nebel reduzieren/erhöhen"/>
+		<text name="proShot_menu_haze" text="Dunst verringern/erhöhen"/>
+		<text name="proShot_infoBox_fog" text="Nebel"/>
+		<text name="proShot_infoBox_haze" text="Dunst"/>
+		<text name="proShot_menu_fogAdvanced" text="Nebelmenü"/>
+		<text name="proShot_fog_coverage" text="Nebelabdeckung reduzieren/erhöhen"/>
+		<text name="proShot_fog_softness" text="Reduzieren/Erhöhen Sie die Weichheit der Abdeckung"/>
+		<text name="proShot_fog_groundDensity" text="Nebeldichte verringern/erhöhen"/>
+		<text name="proShot_fog_extraHeight" text="Nebelhöhe verringern/erhöhen"/>
+		<text name="proShot_fog_minValleyDepth" text="Mindesttaltiefe verringern/erhöhen"/>
+		<text name="proShot_fog_coverageInfo" text="Abdeckung"/>
+		<text name="proShot_fog_softnessInfo" text="Weichheit"/>
+		<text name="proShot_fog_groundDensityInfo" text="Dichte"/>
+		<text name="proShot_fog_extraHeightInfo" text="Höhe"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Mindesttaltiefe"/>
+		<text name="proShot_testing_enableTraffic" text="Schalten Sie den Verkehr ein"/>
+		<text name="proShot_testing_disableTraffic" text="Schalten Sie den Verkehr aus"/>
+		<text name="proShot_testing_enablePedestrians" text="Schalten Sie Fußgänger ein"/>
+		<text name="proShot_testing_disablePedestrians" text="Fußgänger ausschalten"/>
+		<text name="proShot_testing_pauseTraffic" text="Pausieren Sie den Verkehr"/>
+		<text name="proShot_testing_resumeTraffic" text="Verkehr wieder aufnehmen"/>
+		<text name="proShot_testing_pausePedestrians" text="Halten Sie Fußgänger an"/>
+		<text name="proShot_testing_resumePedestrians" text="Fußgänger wieder aufnehmen"/>
+		<text name="proShot_testing_localSnow" text="Lokaler Schnee"/>
+		<text name="proShot_testing_groundWetness" text="Bodenfeuchtigkeit reduzieren/erhöhen"/>
+		<text name="proShot_testing_removeTyreTracks" text="Reifenspuren entfernen (kann nicht rückgängig gemacht werden)"/>
+		<text name="proShot_testing_traffic" text="Verkehr"/>
+		<text name="proShot_testing_trafficMotion" text="Verkehrsbewegung"/>
+		<text name="proShot_testing_pedestrians" text="Fußgänger"/>
+		<text name="proShot_testing_pedestrianMotion" text="Fußgängerbewegung"/>
+		<text name="proShot_testing_paused" text="Angehalten"/>
+		<text name="proShot_testing_running" text="In Bewegung"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Bodennässe"/>
+		<text name="proShot_testing_wildlife" text="Wildtiere"/>
+		<text name="proShot_testing_tyreTracks" text="Reifenspuren entfernen"/>
+		<text name="proShot_testing_unavailable" text="Auf dieser Karte nicht verfügbar"/>
+		<text name="proShot_testing_irreversible" text="Kann nicht rückgängig gemacht werden"/>
+		<text name="proShot_testing_trafficUnavailable" text="Auf dieser Karte ist kein Verkehrssystem verfügbar"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Auf dieser Karte ist kein Fußgängersystem verfügbar"/>
+		<text name="proShot_testing_birdUnavailable" text="Für diese Karte sind keine geeigneten Vogelarten definiert"/>
+		<text name="proShot_testing_wildlifeRemoved" text="%d platzierte Tiere bzw. Vogelgruppen entfernt"/>
+		<text name="proShot_testing_spawnFailed" text="Wildtier konnte nicht platziert werden"/>
+		<text name="proShot_testing_actionUnavailable" text="Diese Aktion ist auf dieser Karte nicht verfügbar"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Das Anhalten von Fußgängern ist in dieser Spielversion nicht verfügbar"/>
+		<text name="proShot_testing_snowRadius" text="Radius verkleinern/vergrößern"/>
+		<text name="proShot_testing_snowHeight" text="Senken/Erhöhen Sie den Schnee im markierten Bereich"/>
+		<text name="proShot_testing_snowTarget" text="Ziel"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Radius"/>
+		<text name="proShot_testing_snowHeightInfo" text="Schnee in der Mitte"/>
+		<text name="proShot_testing_noTarget" text="Kein Geländeziel"/>
+		<text name="proShot_testing_snowNoTarget" text="In der Mitte des Bildschirms wurde kein Gelände gefunden"/>
+		<text name="proShot_testing_snowLowered" text="Im hervorgehobenen Bereich ist der Schnee gefallen"/>
+		<text name="proShot_testing_snowRaised" text="Erhöhter Schnee im hervorgehobenen Bereich"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Reifenspuren entfernen"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Wählen Sie aus, wie viel von der Reifenspurkarte gelöscht werden soll."/>
+		<text name="proShot_testing_tyreTracks100m" text="Innerhalb von 100 m von der Kamera"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Ganze Karte"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Reifenspuren im Umkreis von 100 m um die Kamera entfernen? Dies kann nicht rückgängig gemacht werden."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Jede Reifenspur von der Karte entfernen? Dies kann nicht rückgängig gemacht werden."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Reifenspuren im Umkreis von 100 m um die Kamera entfernt"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Alle Reifenspuren entfernt"/>
+		<text name="proShot_wildlife_menu" text="Tiere"/>
+		<text name="proShot_wildlife_selectAnimal" text="Zu %s wechseln"/>
+		<text name="proShot_wildlife_selectBird" text="Zu %s wechseln"/>
+		<text name="proShot_wildlife_spawn" text="%s platzieren"/>
+		<text name="proShot_wildlife_spawnFlying" text="%s im Flug platzieren"/>
+		<text name="proShot_wildlife_pauseBirds" text="Vögel pausieren"/>
+		<text name="proShot_wildlife_resumeBirds" text="Vögel fortsetzen"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Wildtiere pausieren"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Wildtiere fortsetzen"/>
+		<text name="proShot_wildlife_removeLastBird" text="Letzten Vogel entfernen"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Letztes Wildtier entfernen"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Ausgewähltes Wildtier"/>
+		<text name="proShot_wildlife_selectedBird" text="Ausgewählter Vogel"/>
+		<text name="proShot_wildlife_animalMotion" text="Wildtierbewegung"/>
+		<text name="proShot_wildlife_birdMotion" text="Vogelbewegung"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Platzierte Wildtiere"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Platzierte Vögel"/>
+		<text name="proShot_wildlife_unavailable" text="Für diese Karte sind keine Wildtiere definiert"/>
+		<text name="proShot_wildlife_spawned" text="%s vor der Kamera platziert"/>
+		<text name="proShot_wildlife_tooFar" text="Zu weit weg"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Vögel im Himmel über dem Ziel platziert"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Vögel platziert"/>
+		<text name="proShot_wildlife_placedGround" text="Wildtier auf dem Boden platziert"/>
+		<text name="proShot_wildlife_placedObject" text="Wildtier auf einem Objekt platziert"/>
+		<text name="proShot_wildlife_groundOnly" text="Sie gehören auf den Boden"/>
+		<text name="proShot_animals_offsetX" text="Tier-Versatz X"/>
+		<text name="proShot_animals_offsetY" text="Tier-Versatz Y"/>
+		<text name="proShot_animals_offsetZ" text="Tier-Versatz Z"/>
+		<text name="proShot_animals_resetOffsets" text="Tier-Versätze zurücksetzen"/>
+		<text name="proShot_animals_rotation" text="Tier-Drehung"/>
+		<text name="proShot_farm_select" text="Nutztier auswählen"/>
+		<text name="proShot_farm_place" text="%s platzieren"/>
+		<text name="proShot_farm_removeLast" text="Letztes Nutztier entfernen"/>
+		<text name="proShot_farm_removedLast" text="Letztes Nutztier entfernt"/>
+		<text name="proShot_farm_noneToRemove" text="Keine platzierten Nutztiere zum Entfernen"/>
+		<text name="proShot_farm_selected" text="Ausgewähltes Nutztier"/>
+		<text name="proShot_farm_spawned" text="Platzierte Nutztiere"/>
+		<text name="proShot_farm_unavailable" text="Auf dieser Karte sind keine Nutztiere verfügbar"/>
+		<text name="proShot_farm_selectTitle" text="Nutztier auswählen"/>
+		<text name="proShot_farm_selectText" text="Tier und Alter auswählen."/>
+		<text name="proShot_farm_breedTitle" text="Rasse auswählen"/>
+		<text name="proShot_farm_breedText" text="Rasse oder Aussehen auswählen."/>
+		<text name="proShot_farm_loadFailed" text="Das Nutztier konnte nicht geladen werden"/>
+		<text name="proShot_farm_placedGround" text="Nutztier auf dem Boden platziert"/>
+		<text name="proShot_farm_placedObject" text="Nutztier auf einem Objekt platziert"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Jungtier"/>
+		<text name="proShot_farm_stageYoung" text="Jung"/>
+		<text name="proShot_farm_stageAdult" text="Ausgewachsen"/>
+		<text name="proShot_farm_calf" text="Kalb"/>
+		<text name="proShot_farm_youngCow" text="Junge Kuh"/>
+		<text name="proShot_farm_cow" text="Kuh"/>
+		<text name="proShot_farm_buffaloCalf" text="Büffelkalb"/>
+		<text name="proShot_farm_youngBuffalo" text="Junger Wasserbüffel"/>
+		<text name="proShot_farm_waterBuffalo" text="Wasserbüffel"/>
+		<text name="proShot_farm_piglet" text="Ferkel"/>
+		<text name="proShot_farm_youngPig" text="Jungschwein"/>
+		<text name="proShot_farm_pig" text="Schwein"/>
+		<text name="proShot_farm_lamb" text="Lamm"/>
+		<text name="proShot_farm_youngSheep" text="Jungschaf"/>
+		<text name="proShot_farm_sheep" text="Schaf"/>
+		<text name="proShot_farm_kid" text="Zicklein"/>
+		<text name="proShot_farm_youngGoat" text="Junge Ziege"/>
+		<text name="proShot_farm_goat" text="Ziege"/>
+		<text name="proShot_farm_horse" text="Pferd"/>
+		<text name="proShot_farm_chick" text="Küken"/>
+		<text name="proShot_farm_hen" text="Henne"/>
+		<text name="proShot_farm_rooster" text="Hahn"/>
+		<text name="proShot_farm_menuCow" text="Kuh"/>
+		<text name="proShot_farm_menuBuffalo" text="Wasserbüffel"/>
+		<text name="proShot_farm_menuPig" text="Schwein"/>
+		<text name="proShot_farm_menuSheep" text="Schaf"/>
+		<text name="proShot_farm_menuGoat" text="Ziege"/>
+		<text name="proShot_farm_menuHorse" text="Pferd"/>
+		<text name="proShot_farm_menuChicken" text="Huhn"/>
+		<text name="proShot_wildlife_birdRemoved" text="Der letzte platzierte Vogel wurde entfernt"/>
+		<text name="proShot_wildlife_animalRemoved" text="Das letzte platzierte Wildtier wurde entfernt"/>
+		<text name="proShot_wildlife_noBird" text="Keine platzierten Vögel zum Entfernen"/>
+		<text name="proShot_wildlife_noAnimal" text="Keine platzierten Wildtiere zum Entfernen"/>
+		<text name="proShot_wildlife_removeAll" text="Alle Tiere und Vögel entfernen"/>
+		<text name="proShot_scene_menu" text="Szenensteuerung"/>
+		<text name="proShot_scene_hideParked" text="Geparkte Fahrzeuge ausblenden"/>
+		<text name="proShot_scene_showParked" text="Geparkte Fahrzeuge anzeigen"/>
+		<text name="proShot_scene_parkedVehicles" text="Geparkte Fahrzeuge"/>
+		<text name="proShot_scene_parkedUnavailable" text="Die Kontrolle geparkter Fahrzeuge ist auf dieser Karte nicht verfügbar"/>
+		<text name="proShot_scene_reset" text="Szenensteuerung zurücksetzen"/>
+		<text name="proShot_snow_strength" text="Werkzeugstärke verringern/erhöhen"/>
+		<text name="proShot_snow_strengthInfo" text="Werkzeugstärke"/>
+		<text name="proShot_snow_globalLevel" text="Globalen Schneepegel verringern/erhöhen"/>
+		<text name="proShot_snow_globalLevelInfo" text="Globaler Schneepegel"/>
+		<text name="proShot_focus_set" text="Auf das mittlere Objekt fokussieren"/>
+		<text name="proShot_focus_narrow" text="Fokusbereich verengen"/>
+		<text name="proShot_focus_widen" text="Fokusbereich erweitern"/>
+		<text name="proShot_focus_holdClear" text="[%s] lange drücken, um den Fokus aufzuheben"/>
+		<text name="proShot_focus_noTarget" text="In der Mitte des Bildschirms wurde kein Objekt gefunden"/>
+		<text name="proShot_focus_status" text="Zentraler Fokus"/>
+		<text name="proShot_focus_distance" text="%.1f m (%.1f m Reichweite)"/>
+		<text name="proShot_composition_grid" text="Rasterhilfe: %s"/>
+		<text name="proShot_composition_aspect" text="Seitenverhältnis-Hilfe: %s"/>
+		<text name="proShot_composition_status" text="Bildkomposition"/>
+		<text name="proShot_grid_thirds" text="Drittel"/>
+		<text name="proShot_grid_goldenRatio" text="Goldener Schnitt (Phi)"/>
+		<text name="proShot_grid_centre" text="Zentrum"/>
+		<text name="proShot_grid_diagonals" text="Diagonalen"/>
+		<text name="proShot_grid_diagonalMethod" text="Diagonale Methode"/>
+		<text name="proShot_grid_goldenTriangles" text="Goldene Dreiecke"/>
+		<text name="proShot_effect_resetSlot" text="Einen Slot auf Standard zurücksetzen"/>
+		<text name="proShot_effect_saveSlotMenu" text="Aktuellen Effekt in einem Slot speichern"/>
+		<text name="proShot_effect_allSlotsDefault" text="Alle Effekt-Slots sind bereits auf Standard"/>
+		<text name="proShot_effect_emptySlot" text="Effekt-Slot %d ist leer"/>
+		<text name="proShot_effect_defaultName" text="Benutzerdefinierter Effekt %d"/>
+		<text name="proShot_effect_namePrompt" text="Geben Sie einen Namen für den Effekt-Slot %d ein."/>
+		<text name="proShot_effect_saveFailed" text="Die Effektdatei konnte nicht geschrieben werden"/>
+		<text name="proShot_effect_saved" text="Effekt-Slot %d gespeichert: %s"/>
+		<text name="proShot_effect_resetDone" text="Effekt-Slot %d auf Standard zurückgesetzt"/>
+		<text name="proShot_effect_slotLabel" text="Slot %d"/>
+		<text name="proShot_effect_editing" text="Bearbeitung"/>
+		<text name="proShot_menu_revertThisScreen" text="Machen Sie Änderungen auf diesem Bildschirm rückgängig"/>
+		<text name="proShot_infoBox_VD" text="Sichtweite"/>
+		<text name="proShot_infoBox_FVD" text="Vegetationssichtweite"/>
+		<text name="proShot_infoBox_exposure" text="Kamerabelichtung"/>
+		<text name="proShot_infoBox_FoV" text="Sichtfeld der Kamera"/>
+		<text name="proShot_infoBox_quality" text="Qualitätsvoreinstellung"/>
+		<text name="proShot_infoBox_sunDirection" text="Sonnenrichtung"/>
+		<text name="proShot_infoBox_colourGrading" text="Effekt"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Farbkorrektur"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Taschenlampentemperatur"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Taschenlampenintensität"/>
+		<text name="proShot_infoBox_flashlightRange" text="Lichtreichweite"/>
+		<text name="proShot_infoBox_flashlightCone" text="Kegelwinkel"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Lichtunschärfe"/>
+		<text name="proShot_infoBox_title_environment" text="Umfeld"/>
+		<text name="proShot_infoBox_season" text="Jahreszeit"/>
+		<text name="proShot_infoBox_frost" text="Frost"/>
+		<text name="proShot_infoBox_snowLevel" text="Schneehöhe"/>
+		<text name="proShot_infoBox_title_effects" text="Effekte"/>
+		<text name="proShot_infoBox_help1b" text="Linke Maustaste oder WSAD-Tasten"/>
+		<text name="proShot_infoBox_help2a" text="Höhe anpassen"/>
+		<text name="proShot_infoBox_help2b" text="Scrollrad oder QE-Tasten"/>
+		<text name="proShot_infoBox_help3a" text="Geschwindigkeit erhöhen"/>
+		<text name="proShot_infoBox_help3b" text="Halten Sie die Umschalttaste gedrückt"/>
+		<text name="proShot_infoBox_help4a" text="Geschwindigkeit verringern"/>
+		<text name="proShot_infoBox_help4b" text="Halten Sie die Strg-Taste gedrückt"/>
+		<text name="proShot_infoBox_help5b" text="Rechte Maustaste"/>
+		<text name="proShot_infoBox_help6a" text="Bewegen Sie Sonnenlicht"/>
+		<text name="proShot_infoBox_help6b" text="Mittlere Maustaste"/>
+		<text name="proShot_infoBox_help7b" text="Ziffernblock 1 und 2"/>
+		<text name="proShot_infoBox_help8a" text="Neigung zurücksetzen"/>
+		<text name="proShot_infoBox_help8b" text="Ziffernblock 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Nah-CoC-Radius"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Enddistanz der Nahunschärfe"/>
+		<text name="proShot_DoF_farCoCRadius" text="Fern-CoC-Radius"/>
+		<text name="proShot_DoF_farBlurStart" text="Startdistanz der Fernunschärfe"/>
+		<text name="proShot_DoF_farBlurEnd" text="Volldistanz der Fernunschärfe"/>
+		<text name="proShot_DoF_applyToSky" text="Himmel weichzeichnen"/>
+		<text name="proShot_summer" text="Sommer"/>
+		<text name="proShot_autumn" text="Herbst"/>
+		<text name="proShot_winter" text="Winter"/>
+		<text name="proShot_spring" text="Frühling"/>
+		<text name="proShot_early" text="früh"/>
+		<text name="proShot_mid" text="Mitte"/>
+		<text name="proShot_late" text="spät"/>
+		<text name="proShot_seasonTweak" text="Saisonanpassung"/>
+		<text name="proShot_variation" text="Variation"/>
+		<text name="proShot_weather_SUN" text="Sonnig"/>
+		<text name="proShot_weather_CLOUDY" text="Wolkig"/>
+		<text name="proShot_weather_RAIN" text="Regnerisch"/>
+		<text name="proShot_weather_SNOW" text="Schneebedeckt"/>
+		<text name="proShot_weather_HAIL" text="Hagel"/>
+		<text name="proShot_menu_snowShader" text="Frost ein-/ausblenden"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Nah-CoC-Radius (Unschärfestärke)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Fern-CoC-Radius (Unschärfestärke)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Enddistanz der Nahunschärfe"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Startdistanz der Fernunschärfe"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Volldistanz der Fernunschärfe"/>
+		<text name="proShot_menu_resetThis" text="Setzen Sie diese Einstellungen zurück"/>
+		<text name="input_PRO_SHOT_1" text="Auswahl 1"/>
+		<text name="input_PRO_SHOT_2" text="Auswahl 2"/>
+		<text name="input_PRO_SHOT_3" text="Auswahl 3"/>
+		<text name="input_PRO_SHOT_4" text="Auswahl 4"/>
+		<text name="input_PRO_SHOT_5" text="Auswahl 5"/>
+		<text name="input_PRO_SHOT_6" text="Auswahl 6"/>
+		<text name="input_PRO_SHOT_7" text="Auswahl 7"/>
+		<text name="input_PRO_SHOT_8" text="Auswahl 8"/>
+		<text name="input_PRO_SHOT_9" text="Auswahl 9"/>
+		<text name="input_PRO_SHOT_0" text="Auswahl 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Ziffernblock 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Letztes Nutztier entfernen"/>
+		<text name="input_PRO_SHOT_MINUS" text="Minus der Haupttastatur"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Gleich/Plus der Haupttastatur"/>
+		<text name="input_PRO_SHOT_47_1" text="Anpassung 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="Anpassung 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Anpassung 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="Anpassung 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Anpassung 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="Anpassung 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Anpassung 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Anpassung 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Anpassung 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Anpassung 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Anpassung 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Anpassung 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Anpassung 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Anpassung 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Anpassung 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Anpassung 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Einstellungen zurücksetzen"/>
+		<text name="input_PRO_SHOT_ENTER" text="Machen Sie ein Foto"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="HDR-Screenshot aufnehmen"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="HDR- und Tiefen-Screenshots aufnehmen"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Zurück zum vorherigen Menü"/>
+		<text name="input_PRO_SHOT_F" text="Taschenlampe"/>
+		<text name="input_PRO_SHOT_F1" text="HUD ein-/ausblenden"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Eingabetaste des Ziffernblocks"/>
+	</texts>
+</l10n>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="低品質に設定"/>
+		<text name="proShot_menu_qualHigh" text="高品質に設定"/>
+		<text name="proShot_value_qualityLow" text="低品質"/>
+		<text name="proShot_value_qualityHigh" text="高品質"/>
+		<text name="proShot_menu_advMenus" text="詳細メニュー"/>
+		<text name="proShot_menu_favourites" text="お気に入り"/>
+		<text name="proShot_menu_returnToAdvanced" text="詳細メニューに戻る"/>
+		<text name="proShot_menu_resetAll" text="すべての設定をリセット"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="フラッシュライトもリセット"/>
+		<text name="proShot_value_original" text="元の状態"/>
+		<text name="proShot_favourite_restoreSlot" text="スロット %d を復元: %s"/>
+		<text name="proShot_favourite_saveSlot" text="スロット %d に保存: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="スロット %d を削除: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="現在の設定をお気に入りとして保存"/>
+		<text name="proShot_favourite_remove" text="お気に入りを削除"/>
+		<text name="proShot_favourite_revertPreview" text="お気に入りを開く前の設定に戻す"/>
+		<text name="proShot_favourite_cancel" text="お気に入りに戻る"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="現在の設定を保存するスロットを選択"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="削除するお気に入りを選択"/>
+		<text name="proShot_favourite_defaultName" text="プリセット %d"/>
+		<text name="proShot_favourite_namePrompt" text="お気に入りスロット %d の名前を入力"/>
+		<text name="proShot_favourite_deleteTitle" text="お気に入りを削除"/>
+		<text name="proShot_favourite_deletePrompt" text="お気に入りスロット %d「%s」を削除しますか？"/>
+		<text name="proShot_favourite_emptyStatus" text="スロット %d は空です"/>
+		<text name="proShot_favourite_restoredStatus" text="スロット %d を復元しました"/>
+		<text name="proShot_favourite_revertedStatus" text="お気に入りを開く前の設定に戻しました"/>
+		<text name="proShot_favourite_savedStatus" text="スロット %d を保存しました: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="スロット %d を削除しました: %s"/>
+		<text name="proShot_favourite_saveFailed" text="お気に入りファイルを書き込めませんでした"/>
+		<text name="proShot_favourite_slotLabel" text="スロット %d"/>
+		<text name="proShot_favourite_groupsTitle" text="保存する設定を選択"/>
+		<text name="proShot_favourite_chooseGroups" text="スロット %d のグループを選択"/>
+		<text name="proShot_favourite_selectOneGroup" text="設定グループを1つ以上選択してください"/>
+		<text name="proShot_favourite_continueName" text="続行して名前を入力"/>
+		<text name="proShot_favourite_backToSlots" text="スロット選択に戻る"/>
+		<text name="proShot_favourite_group_camera" text="カメラ（FoV と露出）"/>
+		<text name="proShot_favourite_group_sky" text="空"/>
+		<text name="proShot_favourite_group_groundLight" text="地表光"/>
+		<text name="proShot_favourite_group_effects" text="カラーグレーディングとエフェクト"/>
+		<text name="proShot_favourite_group_season" text="季節（霜と雪を含む）"/>
+		<text name="proShot_favourite_group_weather" text="天候（霧とかすみを含む）"/>
+		<text name="proShot_menu_advQualityMenu" text="品質メニュー"/>
+		<text name="proShot_menu_advSunMenu" text="空メニュー"/>
+		<text name="proShot_menu_advLightMenu" text="フラッシュライトメニュー"/>
+		<text name="proShot_menu_environment" text="環境メニュー"/>
+		<text name="proShot_menu_effects" text="エフェクトメニュー"/>
+		<text name="proShot_menu_DoF" text="被写界深度メニュー"/>
+		<text name="proShot_menu_returnToMain" text="メインメニューに戻る"/>
+		<text name="proShot_takePicture" text="写真を撮る"/>
+		<text name="proShot_hideHUD" text="HUD を切り替え"/>
+		<text name="proShot_menu_advQ_VD" text="描画距離を下げる/上げる"/>
+		<text name="proShot_menu_advQ_LOD" text="LOD 距離を下げる/上げる"/>
+		<text name="proShot_menu_advQ_TLOD" text="地形 LOD 距離を下げる/上げる"/>
+		<text name="proShot_menu_advQ_FVD" text="植生の描画距離を下げる/上げる"/>
+		<text name="proShot_menu_skyBrightness" text="空の明るさ"/>
+		<text name="proShot_menu_groundLight" text="地表光"/>
+		<text name="proShot_menu_skyAndGround" text="空と地表"/>
+		<text name="proShot_menu_syncSkyToGround" text="空を地表に同期"/>
+		<text name="proShot_menu_lightingIntensity" text="照明強度"/>
+		<text name="proShot_menu_lightingTemperature" text="照明色温度"/>
+		<text name="proShot_menu_colourTemperature" text="色温度"/>
+		<text name="proShot_menu_intensity" text="強度"/>
+		<text name="proShot_menu_returnToSky" text="空メニューに戻る"/>
+		<text name="proShot_infoBox_skyTemp" text="空の色温度"/>
+		<text name="proShot_infoBox_skyIntensity" text="空の強度"/>
+		<text name="proShot_infoBox_groundTemp" text="光の色温度"/>
+		<text name="proShot_infoBox_groundIntensity" text="光の強度"/>
+		<text name="proShot_menu_red" text="赤を下げる/上げる"/>
+		<text name="proShot_menu_green" text="緑を下げる/上げる"/>
+		<text name="proShot_menu_blue" text="青を下げる/上げる"/>
+		<text name="proShot_menu_moonSize" text="月の大きさ"/>
+		<text name="proShot_menu_sunSize" text="太陽の大きさ"/>
+		<text name="proShot_menu_atmosRefraction" text="大気屈折"/>
+		<text name="proShot_menu_light_temp" text="光を寒色/暖色に"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="コーンを狭める/広げる"/>
+		<text name="proShot_menu_flashLight_dropOff" text="フォーカスを鋭く/ぼかす"/>
+		<text name="proShot_menu_flashLight_intensity" text="強度を下げる/上げる"/>
+		<text name="proShot_menu_flashLight_distance" text="距離を下げる/上げる"/>
+		<text name="proShot_menu_flashLight_place" text="ここにフラッシュライトを設置"/>
+		<text name="proShot_menu_flashLight_turnOn" text="フラッシュライトを点灯"/>
+		<text name="proShot_menu_flashLight_removeLast" text="最後のフラッシュライトを削除"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="ライトをデフォルトに戻す"/>
+		<text name="proShot_flashLight_placed" text="フラッシュライトを設置しました（%d）"/>
+		<text name="proShot_flashLight_placedCount" text="設置済みフラッシュライト"/>
+		<text name="proShot_flashFavourite_title" text="フラッシュライトのお気に入り"/>
+		<text name="proShot_flashFavourite_save" text="お気に入りとして保存"/>
+		<text name="proShot_flashFavourite_remove" text="お気に入りを削除"/>
+		<text name="proShot_flashFavourite_cancel" text="フラッシュライトメニューに戻る"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="お気に入り %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="スロット %d に保存: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="スロット %d を削除: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="フラッシュライト %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="フラッシュライトのお気に入り %d の名前を入力"/>
+		<text name="proShot_flashFavourite_restored" text="フラッシュライトのお気に入り %d を復元: %s"/>
+		<text name="proShot_flashFavourite_saved" text="フラッシュライトのお気に入り %d を保存: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="フラッシュライトのお気に入り %d を削除: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="フラッシュライトのお気に入りを削除"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="フラッシュライトのお気に入り %d「%s」を削除しますか？"/>
+		<text name="proShot_menu_exposure" text="露出を調整"/>
+		<text name="proShot_menu_FoV" text="視野角を調整"/>
+		<text name="proShot_menu_timeHorly" text="時刻を調整（時間単位）"/>
+		<text name="proShot_menu_timeMins" text="時刻を調整（分単位）"/>
+		<text name="proShot_menu_effects_preset_flat" text="フラット"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="ビビッド"/>
+		<text name="proShot_menu_effects_preset_deep" text="ディープ"/>
+		<text name="proShot_menu_effects_preset_cold" text="コールド"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="グレースケール"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="セピア調"/>
+		<text name="proShot_menu_effects_preset_phantom" text="ファントム"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="ブルームしきい値"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="ブルーム強度"/>
+		<text name="proShot_menu_effects_bloomQuality" text="ブルーム品質"/>
+		<text name="proShot_effect_slotEntry" text="エフェクトスロット %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="エフェクトスロット %d に保存: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="エフェクトスロット %d をリセット: %s"/>
+		<text name="proShot_effect_customise" text="カスタムカラーグレーディング"/>
+		<text name="proShot_effect_global" text="全体"/>
+		<text name="proShot_effect_shadows" text="シャドウ"/>
+		<text name="proShot_effect_midtones" text="中間調"/>
+		<text name="proShot_effect_highlights" text="ハイライト"/>
+		<text name="proShot_effect_saturation" text="彩度"/>
+		<text name="proShot_effect_contrast" text="コントラスト"/>
+		<text name="proShot_effect_gamma" text="ガンマ"/>
+		<text name="proShot_effect_gain" text="ゲイン"/>
+		<text name="proShot_effect_scale" text="スケール"/>
+		<text name="proShot_effect_shadowsMax" text="シャドウの最大輝度"/>
+		<text name="proShot_effect_highlightsMin" text="ハイライトの最小輝度"/>
+		<text name="proShot_effect_maxLuminance" text="最大輝度: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="最小輝度: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="輝度しきい値をリセット"/>
+		<text name="proShot_menu_toneMapping" text="トーンマッピング"/>
+		<text name="proShot_tone_slope" text="スロープ"/>
+		<text name="proShot_tone_toe" text="トー"/>
+		<text name="proShot_tone_shoulder" text="ショルダー"/>
+		<text name="proShot_tone_blackClip" text="ブラッククリップ"/>
+		<text name="proShot_tone_whiteClip" text="ホワイトクリップ"/>
+		<text name="proShot_menu_fog" text="霧を減らす/増やす"/>
+		<text name="proShot_menu_haze" text="かすみを減らす/増やす"/>
+		<text name="proShot_infoBox_fog" text="霧"/>
+		<text name="proShot_infoBox_haze" text="かすみ"/>
+		<text name="proShot_menu_fogAdvanced" text="霧メニュー"/>
+		<text name="proShot_fog_coverage" text="霧の範囲を減らす/増やす"/>
+		<text name="proShot_fog_softness" text="範囲のぼかしを減らす/増やす"/>
+		<text name="proShot_fog_groundDensity" text="霧の密度を減らす/増やす"/>
+		<text name="proShot_fog_extraHeight" text="霧の高さを下げる/上げる"/>
+		<text name="proShot_fog_minValleyDepth" text="最小谷深度を下げる/上げる"/>
+		<text name="proShot_fog_coverageInfo" text="範囲"/>
+		<text name="proShot_fog_softnessInfo" text="ぼかし"/>
+		<text name="proShot_fog_groundDensityInfo" text="密度"/>
+		<text name="proShot_fog_extraHeightInfo" text="高さ"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="最小谷深度"/>
+		<text name="proShot_testing_enableTraffic" text="交通をオン"/>
+		<text name="proShot_testing_disableTraffic" text="交通をオフ"/>
+		<text name="proShot_testing_enablePedestrians" text="歩行者をオン"/>
+		<text name="proShot_testing_disablePedestrians" text="歩行者をオフ"/>
+		<text name="proShot_testing_pauseTraffic" text="交通を一時停止"/>
+		<text name="proShot_testing_resumeTraffic" text="交通を再開"/>
+		<text name="proShot_testing_pausePedestrians" text="歩行者を一時停止"/>
+		<text name="proShot_testing_resumePedestrians" text="歩行者を再開"/>
+		<text name="proShot_testing_localSnow" text="局所的な雪"/>
+		<text name="proShot_testing_groundWetness" text="地面の濡れを下げる/上げる"/>
+		<text name="proShot_testing_removeTyreTracks" text="タイヤ跡を削除（元に戻せません）"/>
+		<text name="proShot_testing_traffic" text="交通"/>
+		<text name="proShot_testing_trafficMotion" text="交通の動き"/>
+		<text name="proShot_testing_pedestrians" text="歩行者"/>
+		<text name="proShot_testing_pedestrianMotion" text="歩行者の動き"/>
+		<text name="proShot_testing_paused" text="一時停止中"/>
+		<text name="proShot_testing_running" text="稼働中"/>
+		<text name="proShot_testing_groundWetnessInfo" text="地面の濡れ"/>
+		<text name="proShot_testing_wildlife" text="野生動物"/>
+		<text name="proShot_testing_tyreTracks" text="タイヤ跡の削除"/>
+		<text name="proShot_testing_unavailable" text="このマップでは利用できません"/>
+		<text name="proShot_testing_irreversible" text="元に戻せません"/>
+		<text name="proShot_testing_trafficUnavailable" text="このマップには交通システムがありません"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="このマップには歩行者システムがありません"/>
+		<text name="proShot_testing_birdUnavailable" text="このマップには適切な野鳥が定義されていません"/>
+		<text name="proShot_testing_wildlifeRemoved" text="配置した動物と鳥のグループを %d 個削除しました"/>
+		<text name="proShot_testing_spawnFailed" text="野生動物の生成に失敗しました"/>
+		<text name="proShot_testing_actionUnavailable" text="この操作はこのマップでは利用できません"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="このゲームビルドでは歩行者の一時停止を利用できません"/>
+		<text name="proShot_testing_snowRadius" text="半径を小さく/大きく"/>
+		<text name="proShot_testing_snowHeight" text="強調範囲の雪を下げる/上げる"/>
+		<text name="proShot_testing_snowTarget" text="ターゲット"/>
+		<text name="proShot_testing_snowRadiusInfo" text="半径"/>
+		<text name="proShot_testing_snowHeightInfo" text="中央の雪"/>
+		<text name="proShot_testing_noTarget" text="地形ターゲットなし"/>
+		<text name="proShot_testing_snowNoTarget" text="画面中央に地形が見つかりません"/>
+		<text name="proShot_testing_snowLowered" text="強調範囲の雪を下げました"/>
+		<text name="proShot_testing_snowRaised" text="強調範囲の雪を上げました"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="タイヤ跡を削除"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="タイヤ跡マップをどこまで消去するか選択してください。"/>
+		<text name="proShot_testing_tyreTracks100m" text="カメラから100 m以内"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="マップ全体"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="カメラから100 m以内のタイヤ跡を削除しますか？元に戻せません。"/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="マップ上のすべてのタイヤ跡を削除しますか？元に戻せません。"/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="カメラから100 m以内のタイヤ跡を削除しました"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="すべてのタイヤ跡を削除しました"/>
+		<text name="proShot_wildlife_menu" text="動物"/>
+		<text name="proShot_wildlife_selectAnimal" text="野生動物を %s に切り替え"/>
+		<text name="proShot_wildlife_selectBird" text="鳥を %s に切り替え"/>
+		<text name="proShot_wildlife_spawn" text="%s を生成"/>
+		<text name="proShot_wildlife_spawnFlying" text="飛行中の %s を生成"/>
+		<text name="proShot_wildlife_pauseBirds" text="鳥を一時停止"/>
+		<text name="proShot_wildlife_resumeBirds" text="鳥を再開"/>
+		<text name="proShot_wildlife_pauseAnimals" text="野生動物を一時停止"/>
+		<text name="proShot_wildlife_resumeAnimals" text="野生動物を再開"/>
+		<text name="proShot_wildlife_removeLastBird" text="最後の鳥を削除"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="最後の野生動物を削除"/>
+		<text name="proShot_wildlife_selectedAnimal" text="選択中の野生動物"/>
+		<text name="proShot_wildlife_selectedBird" text="選択中の鳥"/>
+		<text name="proShot_wildlife_animalMotion" text="野生動物の動き"/>
+		<text name="proShot_wildlife_birdMotion" text="鳥の動き"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="生成した野生動物"/>
+		<text name="proShot_wildlife_spawnedBirds" text="生成した鳥"/>
+		<text name="proShot_wildlife_unavailable" text="このマップには野生動物が定義されていません"/>
+		<text name="proShot_wildlife_spawned" text="カメラ前方に %s を生成しました"/>
+		<text name="proShot_wildlife_tooFar" text="遠すぎます"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="ターゲット上空に鳥を配置しました"/>
+		<text name="proShot_wildlife_birdsPlaced" text="鳥を配置しました"/>
+		<text name="proShot_wildlife_placedGround" text="野生動物を地面に配置しました"/>
+		<text name="proShot_wildlife_placedObject" text="野生動物をオブジェクト上に配置しました"/>
+		<text name="proShot_wildlife_groundOnly" text="地面に配置してください"/>
+		<text name="proShot_animals_offsetX" text="動物の X オフセット"/>
+		<text name="proShot_animals_offsetY" text="動物の Y オフセット"/>
+		<text name="proShot_animals_offsetZ" text="動物の Z オフセット"/>
+		<text name="proShot_animals_resetOffsets" text="動物のオフセットをリセット"/>
+		<text name="proShot_animals_rotation" text="動物の回転"/>
+		<text name="proShot_farm_select" text="家畜を選択"/>
+		<text name="proShot_farm_place" text="%s を配置"/>
+		<text name="proShot_farm_removeLast" text="最後の家畜を削除"/>
+		<text name="proShot_farm_removedLast" text="最後の家畜を削除しました"/>
+		<text name="proShot_farm_noneToRemove" text="削除できる配置済み家畜がありません"/>
+		<text name="proShot_farm_selected" text="選択中の家畜"/>
+		<text name="proShot_farm_spawned" text="配置済み家畜"/>
+		<text name="proShot_farm_unavailable" text="このマップでは家畜を利用できません"/>
+		<text name="proShot_farm_selectTitle" text="家畜を選択"/>
+		<text name="proShot_farm_selectText" text="動物と年齢を選択してください。"/>
+		<text name="proShot_farm_breedTitle" text="品種を選択"/>
+		<text name="proShot_farm_breedText" text="品種または外見を選択してください。"/>
+		<text name="proShot_farm_loadFailed" text="家畜を読み込めませんでした"/>
+		<text name="proShot_farm_placedGround" text="家畜を地面に配置しました"/>
+		<text name="proShot_farm_placedObject" text="家畜をオブジェクト上に配置しました"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="幼体"/>
+		<text name="proShot_farm_stageYoung" text="若い"/>
+		<text name="proShot_farm_stageAdult" text="成体"/>
+		<text name="proShot_farm_calf" text="子牛"/>
+		<text name="proShot_farm_youngCow" text="若い牛"/>
+		<text name="proShot_farm_cow" text="牛"/>
+		<text name="proShot_farm_buffaloCalf" text="水牛の子"/>
+		<text name="proShot_farm_youngBuffalo" text="若い水牛"/>
+		<text name="proShot_farm_waterBuffalo" text="水牛"/>
+		<text name="proShot_farm_piglet" text="子豚"/>
+		<text name="proShot_farm_youngPig" text="若い豚"/>
+		<text name="proShot_farm_pig" text="豚"/>
+		<text name="proShot_farm_lamb" text="子羊"/>
+		<text name="proShot_farm_youngSheep" text="若い羊"/>
+		<text name="proShot_farm_sheep" text="羊"/>
+		<text name="proShot_farm_kid" text="子ヤギ"/>
+		<text name="proShot_farm_youngGoat" text="若いヤギ"/>
+		<text name="proShot_farm_goat" text="ヤギ"/>
+		<text name="proShot_farm_horse" text="馬"/>
+		<text name="proShot_farm_chick" text="ひよこ"/>
+		<text name="proShot_farm_hen" text="雌鶏"/>
+		<text name="proShot_farm_rooster" text="雄鶏"/>
+		<text name="proShot_farm_menuCow" text="牛"/>
+		<text name="proShot_farm_menuBuffalo" text="水牛"/>
+		<text name="proShot_farm_menuPig" text="豚"/>
+		<text name="proShot_farm_menuSheep" text="羊"/>
+		<text name="proShot_farm_menuGoat" text="ヤギ"/>
+		<text name="proShot_farm_menuHorse" text="馬"/>
+		<text name="proShot_farm_menuChicken" text="鶏"/>
+		<text name="proShot_wildlife_birdRemoved" text="最後に生成した鳥を削除しました"/>
+		<text name="proShot_wildlife_animalRemoved" text="最後に生成した野生動物を削除しました"/>
+		<text name="proShot_wildlife_noBird" text="削除できる生成済みの鳥がありません"/>
+		<text name="proShot_wildlife_noAnimal" text="削除できる生成済みの野生動物がありません"/>
+		<text name="proShot_wildlife_removeAll" text="すべての動物と鳥を削除"/>
+		<text name="proShot_scene_menu" text="シーンコントロール"/>
+		<text name="proShot_scene_hideParked" text="駐車車両を非表示"/>
+		<text name="proShot_scene_showParked" text="駐車車両を表示"/>
+		<text name="proShot_scene_parkedVehicles" text="駐車車両"/>
+		<text name="proShot_scene_parkedUnavailable" text="このマップでは駐車車両の制御を利用できません"/>
+		<text name="proShot_scene_reset" text="シーンコントロールをリセット"/>
+		<text name="proShot_snow_strength" text="ツール強度を下げる/上げる"/>
+		<text name="proShot_snow_strengthInfo" text="ツール強度"/>
+		<text name="proShot_snow_globalLevel" text="全体の積雪量を下げる/上げる"/>
+		<text name="proShot_snow_globalLevelInfo" text="全体の積雪量"/>
+		<text name="proShot_focus_set" text="中央のオブジェクトにフォーカス"/>
+		<text name="proShot_focus_narrow" text="フォーカス範囲を狭める"/>
+		<text name="proShot_focus_widen" text="フォーカス範囲を広げる"/>
+		<text name="proShot_focus_holdClear" text="[%s] を長押ししてフォーカスを解除"/>
+		<text name="proShot_focus_noTarget" text="画面中央にオブジェクトが見つかりません"/>
+		<text name="proShot_focus_status" text="中央フォーカス"/>
+		<text name="proShot_focus_distance" text="%.1f m（範囲 %.1f m）"/>
+		<text name="proShot_composition_grid" text="グリッド補助: %s"/>
+		<text name="proShot_composition_aspect" text="アスペクト比補助: %s"/>
+		<text name="proShot_composition_status" text="構図"/>
+		<text name="proShot_grid_thirds" text="三分割"/>
+		<text name="proShot_grid_goldenRatio" text="黄金比（Phi）"/>
+		<text name="proShot_grid_centre" text="中央"/>
+		<text name="proShot_grid_diagonals" text="対角線"/>
+		<text name="proShot_grid_diagonalMethod" text="対角線法"/>
+		<text name="proShot_grid_goldenTriangles" text="黄金三角形"/>
+		<text name="proShot_effect_resetSlot" text="スロットをデフォルトにリセット"/>
+		<text name="proShot_effect_saveSlotMenu" text="現在のエフェクトをスロットに保存"/>
+		<text name="proShot_effect_allSlotsDefault" text="すべてのエフェクトスロットはすでにデフォルトです"/>
+		<text name="proShot_effect_emptySlot" text="エフェクトスロット %d は空です"/>
+		<text name="proShot_effect_defaultName" text="カスタムエフェクト %d"/>
+		<text name="proShot_effect_namePrompt" text="エフェクトスロット %d の名前を入力"/>
+		<text name="proShot_effect_saveFailed" text="エフェクトファイルを書き込めませんでした"/>
+		<text name="proShot_effect_saved" text="エフェクトスロット %d を保存: %s"/>
+		<text name="proShot_effect_resetDone" text="エフェクトスロット %d をデフォルトにリセットしました"/>
+		<text name="proShot_effect_slotLabel" text="スロット %d"/>
+		<text name="proShot_effect_editing" text="編集中"/>
+		<text name="proShot_menu_revertThisScreen" text="この画面の変更を元に戻す"/>
+		<text name="proShot_infoBox_VD" text="描画距離"/>
+		<text name="proShot_infoBox_FVD" text="植生の描画距離"/>
+		<text name="proShot_infoBox_exposure" text="カメラ露出"/>
+		<text name="proShot_infoBox_FoV" text="カメラ視野角"/>
+		<text name="proShot_infoBox_quality" text="品質プリセット"/>
+		<text name="proShot_infoBox_sunDirection" text="太陽の方向"/>
+		<text name="proShot_infoBox_colourGrading" text="エフェクト"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="カラーグレーディング"/>
+		<text name="proShot_infoBox_flashlightTemp" text="フラッシュライト色温度"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="フラッシュライト強度"/>
+		<text name="proShot_infoBox_flashlightRange" text="ライト範囲"/>
+		<text name="proShot_infoBox_flashlightCone" text="コーン角度"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="ライトのぼかし"/>
+		<text name="proShot_infoBox_title_environment" text="環境"/>
+		<text name="proShot_infoBox_season" text="季節"/>
+		<text name="proShot_infoBox_frost" text="霜"/>
+		<text name="proShot_infoBox_snowLevel" text="積雪量"/>
+		<text name="proShot_infoBox_title_effects" text="エフェクト"/>
+		<text name="proShot_infoBox_help1b" text="マウス左ボタンまたは WSAD キー"/>
+		<text name="proShot_infoBox_help2a" text="高さを調整"/>
+		<text name="proShot_infoBox_help2b" text="マウスホイールまたは QE キー"/>
+		<text name="proShot_infoBox_help3a" text="速度を上げる"/>
+		<text name="proShot_infoBox_help3b" text="Shift キーを押し続ける"/>
+		<text name="proShot_infoBox_help4a" text="速度を下げる"/>
+		<text name="proShot_infoBox_help4b" text="Ctrl キーを押し続ける"/>
+		<text name="proShot_infoBox_help5b" text="マウス右ボタン"/>
+		<text name="proShot_infoBox_help6a" text="太陽光を移動"/>
+		<text name="proShot_infoBox_help6b" text="マウス中ボタン"/>
+		<text name="proShot_infoBox_help7b" text="テンキー 1 と 2"/>
+		<text name="proShot_infoBox_help8a" text="傾きをリセット"/>
+		<text name="proShot_infoBox_help8b" text="テンキー 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="近距離 CoC 半径"/>
+		<text name="proShot_DoF_nearBlurEnd" text="近距離ぼかし終了距離"/>
+		<text name="proShot_DoF_farCoCRadius" text="遠距離 CoC 半径"/>
+		<text name="proShot_DoF_farBlurStart" text="遠距離ぼかし開始距離"/>
+		<text name="proShot_DoF_farBlurEnd" text="遠距離完全ぼかし距離"/>
+		<text name="proShot_DoF_applyToSky" text="空をぼかす"/>
+		<text name="proShot_summer" text="夏"/>
+		<text name="proShot_autumn" text="秋"/>
+		<text name="proShot_winter" text="冬"/>
+		<text name="proShot_spring" text="春"/>
+		<text name="proShot_early" text="初期"/>
+		<text name="proShot_mid" text="中期"/>
+		<text name="proShot_late" text="後期"/>
+		<text name="proShot_seasonTweak" text="季節の微調整"/>
+		<text name="proShot_variation" text="バリエーション"/>
+		<text name="proShot_weather_SUN" text="晴れ"/>
+		<text name="proShot_weather_CLOUDY" text="曇り"/>
+		<text name="proShot_weather_RAIN" text="雨"/>
+		<text name="proShot_weather_SNOW" text="雪"/>
+		<text name="proShot_weather_HAIL" text="ひょう"/>
+		<text name="proShot_menu_snowShader" text="霜を切り替え"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="近距離 CoC 半径（ぼかし強度）"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="遠距離 CoC 半径（ぼかし強度）"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="近距離ぼかし終了距離"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="遠距離ぼかし開始距離"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="遠距離最大ぼかし距離"/>
+		<text name="proShot_menu_resetThis" text="これらの設定をリセット"/>
+		<text name="input_PRO_SHOT_1" text="選択 1"/>
+		<text name="input_PRO_SHOT_2" text="選択 2"/>
+		<text name="input_PRO_SHOT_3" text="選択 3"/>
+		<text name="input_PRO_SHOT_4" text="選択 4"/>
+		<text name="input_PRO_SHOT_5" text="選択 5"/>
+		<text name="input_PRO_SHOT_6" text="選択 6"/>
+		<text name="input_PRO_SHOT_7" text="選択 7"/>
+		<text name="input_PRO_SHOT_8" text="選択 8"/>
+		<text name="input_PRO_SHOT_9" text="選択 9"/>
+		<text name="input_PRO_SHOT_0" text="選択 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="テンキー 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="最後の家畜を削除"/>
+		<text name="input_PRO_SHOT_MINUS" text="メインキーボードのマイナス"/>
+		<text name="input_PRO_SHOT_EQUALS" text="メインキーボードのイコール/プラス"/>
+		<text name="input_PRO_SHOT_47_1" text="調整 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="調整 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="調整 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="調整 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="調整 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="調整 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="調整 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="調整 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="調整 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="調整 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="調整 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="調整 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="調整 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="調整 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="調整 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="調整 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="設定を元に戻す"/>
+		<text name="input_PRO_SHOT_ENTER" text="写真を撮る"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="HDR スクリーンショットを撮影"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="HDR と深度のスクリーンショットを撮影"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="前のメニューに戻る"/>
+		<text name="input_PRO_SHOT_F" text="フラッシュライト"/>
+		<text name="input_PRO_SHOT_F1" text="HUD を切り替え"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="フラッシュライトを設置"/>
+	</texts>
+</l10n>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Nastavit nízkou kvalitu"/>
+		<text name="proShot_menu_qualHigh" text="Nastavit vysokou kvalitu"/>
+		<text name="proShot_value_qualityLow" text="Nízká kvalita"/>
+		<text name="proShot_value_qualityHigh" text="Vysoká kvalita"/>
+		<text name="proShot_menu_advMenus" text="Pokročilé nabídky"/>
+		<text name="proShot_menu_favourites" text="Oblíbené"/>
+		<text name="proShot_menu_returnToAdvanced" text="Návrat do rozšířených nabídek"/>
+		<text name="proShot_menu_resetAll" text="Obnovte všechna nastavení"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Resetujte také baterky"/>
+		<text name="proShot_value_original" text="Originál"/>
+		<text name="proShot_favourite_restoreSlot" text="Obnovit slot %d: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Uložit do slotu %d: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Odstranit slot %d: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Uložit aktuální nastavení jako oblíbené"/>
+		<text name="proShot_favourite_remove" text="Odebrat oblíbenou položku"/>
+		<text name="proShot_favourite_revertPreview" text="Vrátit se k nastavení z předchozího nastavení Oblíbené"/>
+		<text name="proShot_favourite_cancel" text="Návrat k oblíbeným"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Vybrat slot pro aktuální nastavení"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Vyberte oblíbenou položku, kterou chcete odstranit"/>
+		<text name="proShot_favourite_defaultName" text="Přednastaveno %d"/>
+		<text name="proShot_favourite_namePrompt" text="Zadejte název pro oblíbený slot %d"/>
+		<text name="proShot_favourite_deleteTitle" text="Odebrat oblíbené"/>
+		<text name="proShot_favourite_deletePrompt" text="Odstranit oblíbený slot %d „%s“?"/>
+		<text name="proShot_favourite_emptyStatus" text="Slot %d je prázdný"/>
+		<text name="proShot_favourite_restoredStatus" text="Slot %d obnoven"/>
+		<text name="proShot_favourite_revertedStatus" text="Obnoveno na nastavení z dřívějších Oblíbených"/>
+		<text name="proShot_favourite_savedStatus" text="Slot %d uložen: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Slot %d odstraněn: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Soubor oblíbených položek nelze zapsat"/>
+		<text name="proShot_favourite_slotLabel" text="Slot %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Vyberte nastavení, která chcete uložit"/>
+		<text name="proShot_favourite_chooseGroups" text="Vybrat skupiny pro slot %d"/>
+		<text name="proShot_favourite_selectOneGroup" text="Vyberte alespoň jednu skupinu nastavení"/>
+		<text name="proShot_favourite_continueName" text="Pokračujte a zadejte jméno"/>
+		<text name="proShot_favourite_backToSlots" text="Návrat k výběru slotu"/>
+		<text name="proShot_favourite_group_camera" text="Fotoaparát (FoV a expozice)"/>
+		<text name="proShot_favourite_group_sky" text="Nebe"/>
+		<text name="proShot_favourite_group_groundLight" text="Osvětlení země"/>
+		<text name="proShot_favourite_group_effects" text="Barevná korekce a efekty"/>
+		<text name="proShot_favourite_group_season" text="Sezóna (včetně mrazu a sněhu)"/>
+		<text name="proShot_favourite_group_weather" text="Počasí (včetně mlhy a oparu)"/>
+		<text name="proShot_menu_advQualityMenu" text="Nabídka kvality"/>
+		<text name="proShot_menu_advSunMenu" text="Nabídka oblohy"/>
+		<text name="proShot_menu_advLightMenu" text="Nabídka svítilny"/>
+		<text name="proShot_menu_environment" text="Nabídka prostředí"/>
+		<text name="proShot_menu_effects" text="Nabídka efektů"/>
+		<text name="proShot_menu_DoF" text="Nabídka hloubky ostrosti"/>
+		<text name="proShot_menu_returnToMain" text="Návrat do hlavní nabídky"/>
+		<text name="proShot_takePicture" text="Pořídit snímek"/>
+		<text name="proShot_hideHUD" text="Zobrazit/skrýt HUD"/>
+		<text name="proShot_menu_advQ_VD" text="Snížit/zvýšit dohledovou vzdálenost"/>
+		<text name="proShot_menu_advQ_LOD" text="Snížit/zvýšit vzdálenost LOD"/>
+		<text name="proShot_menu_advQ_TLOD" text="Snížit/zvýšit vzdálenost LOD terénu"/>
+		<text name="proShot_menu_advQ_FVD" text="Snížit/zvýšit dohledovou vzdálenost vegetace"/>
+		<text name="proShot_menu_skyBrightness" text="Jas oblohy"/>
+		<text name="proShot_menu_groundLight" text="Osvětlení země"/>
+		<text name="proShot_menu_skyAndGround" text="Obloha a země"/>
+		<text name="proShot_menu_syncSkyToGround" text="Synchronizovat oblohu se zemí"/>
+		<text name="proShot_menu_lightingIntensity" text="Intenzita osvětlení"/>
+		<text name="proShot_menu_lightingTemperature" text="Teplota osvětlení"/>
+		<text name="proShot_menu_colourTemperature" text="Teplota barev"/>
+		<text name="proShot_menu_intensity" text="Intenzita"/>
+		<text name="proShot_menu_returnToSky" text="Návrat do nabídky oblohy"/>
+		<text name="proShot_infoBox_skyTemp" text="Teplota barev oblohy"/>
+		<text name="proShot_infoBox_skyIntensity" text="Intenzita oblohy"/>
+		<text name="proShot_infoBox_groundTemp" text="Teplota barvy světla"/>
+		<text name="proShot_infoBox_groundIntensity" text="Intenzita světla"/>
+		<text name="proShot_menu_red" text="Snížit/Zvýšit červenou"/>
+		<text name="proShot_menu_green" text="Snížit/Zvýšit zelenou"/>
+		<text name="proShot_menu_blue" text="Snížit/Zvýšit modrou"/>
+		<text name="proShot_menu_moonSize" text="Velikost měsíce"/>
+		<text name="proShot_menu_sunSize" text="Velikost slunce"/>
+		<text name="proShot_menu_atmosRefraction" text="Lom atmosféry"/>
+		<text name="proShot_menu_light_temp" text="Chladnější/teplejší světlo"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Úzký/rozšířený kužel"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Zaostřit/rozostřit"/>
+		<text name="proShot_menu_flashLight_intensity" text="Nižší/Zvýšení intenzity"/>
+		<text name="proShot_menu_flashLight_distance" text="Zmenšit/Zvětšit vzdálenost"/>
+		<text name="proShot_menu_flashLight_place" text="Sem umístěte baterku"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Zapněte baterku"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Odebrat poslední svítilnu"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Nastavte světlo na výchozí hodnoty"/>
+		<text name="proShot_flashLight_placed" text="Svítilna umístěna (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Umístěny baterky"/>
+		<text name="proShot_flashFavourite_title" text="Oblíbené svítilny"/>
+		<text name="proShot_flashFavourite_save" text="Uložit jako oblíbené"/>
+		<text name="proShot_flashFavourite_remove" text="Odebrat oblíbené"/>
+		<text name="proShot_flashFavourite_cancel" text="Návrat do nabídky Svítilna"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Oblíbené %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Uložit do slotu %d: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Odstranit slot %d: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Svítilna %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Zadejte název oblíbené svítilny %d"/>
+		<text name="proShot_flashFavourite_restored" text="Oblíbená svítilna %d obnovena: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Oblíbená svítilna %d uložena: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Oblíbená svítilna %d odstraněna: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Odebrat oblíbenou svítilnu"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Odebrat oblíbenou svítilnu %d, „%s“?"/>
+		<text name="proShot_menu_exposure" text="Nastavení expozice"/>
+		<text name="proShot_menu_FoV" text="Nastavení zorného pole"/>
+		<text name="proShot_menu_timeHorly" text="Upravit čas (hodinu)"/>
+		<text name="proShot_menu_timeMins" text="Upravit čas (minuty)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Neutrální"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Živý"/>
+		<text name="proShot_menu_effects_preset_deep" text="Hluboký"/>
+		<text name="proShot_menu_effects_preset_cold" text="Studený"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Stupně šedi"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Sépiový odstín"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Přízrak"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Práh efektu Bloom"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Intenzita efektu Bloom"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Kvalita efektu Bloom"/>
+		<text name="proShot_effect_slotEntry" text="Slot efektu %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Uložit do slotu efektu %d: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Obnovit slot efektu %d: %s"/>
+		<text name="proShot_effect_customise" text="Vlastní barevná korekce"/>
+		<text name="proShot_effect_global" text="Globální"/>
+		<text name="proShot_effect_shadows" text="Stíny"/>
+		<text name="proShot_effect_midtones" text="Střední tóny"/>
+		<text name="proShot_effect_highlights" text="Světla"/>
+		<text name="proShot_effect_saturation" text="Nasycení"/>
+		<text name="proShot_effect_contrast" text="Kontrast"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Zesílení"/>
+		<text name="proShot_effect_scale" text="Měřítko"/>
+		<text name="proShot_effect_shadowsMax" text="Maximální jas stínů"/>
+		<text name="proShot_effect_highlightsMin" text="Minimální jas světel"/>
+		<text name="proShot_effect_maxLuminance" text="Maximální jas: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Minimální svítivost: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Resetovat prahové hodnoty jasu"/>
+		<text name="proShot_menu_toneMapping" text="Mapování tónů"/>
+		<text name="proShot_tone_slope" text="Sklon"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Ořez černé"/>
+		<text name="proShot_tone_whiteClip" text="Ořez bílé"/>
+		<text name="proShot_menu_fog" text="Snížit/Zvýšit mlhu"/>
+		<text name="proShot_menu_haze" text="Snížit/zvýšit opar"/>
+		<text name="proShot_infoBox_fog" text="Mlha"/>
+		<text name="proShot_infoBox_haze" text="Opar"/>
+		<text name="proShot_menu_fogAdvanced" text="Nabídka mlhy"/>
+		<text name="proShot_fog_coverage" text="Snížit/Zvýšit pokrytí mlhou"/>
+		<text name="proShot_fog_softness" text="Snížení/zvýšení měkkosti krytí"/>
+		<text name="proShot_fog_groundDensity" text="Snížit/Zvýšit hustotu mlhy"/>
+		<text name="proShot_fog_extraHeight" text="Snížení/zvýšení výšky mlhy"/>
+		<text name="proShot_fog_minValleyDepth" text="Snížit/zvětšit minimální hloubku údolí"/>
+		<text name="proShot_fog_coverageInfo" text="Krytí"/>
+		<text name="proShot_fog_softnessInfo" text="Měkkost"/>
+		<text name="proShot_fog_groundDensityInfo" text="Hustota"/>
+		<text name="proShot_fog_extraHeightInfo" text="Výška"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Minimální hloubka údolí"/>
+		<text name="proShot_testing_enableTraffic" text="Zapněte provoz"/>
+		<text name="proShot_testing_disableTraffic" text="Vypněte provoz"/>
+		<text name="proShot_testing_enablePedestrians" text="Zapněte chodce"/>
+		<text name="proShot_testing_disablePedestrians" text="Vypněte chodce"/>
+		<text name="proShot_testing_pauseTraffic" text="Pozastavit provoz"/>
+		<text name="proShot_testing_resumeTraffic" text="Obnovit provoz"/>
+		<text name="proShot_testing_pausePedestrians" text="Zastavte chodce"/>
+		<text name="proShot_testing_resumePedestrians" text="Obnovit chodce"/>
+		<text name="proShot_testing_localSnow" text="Místní sníh"/>
+		<text name="proShot_testing_groundWetness" text="Snížit/Zvýšit půdní vlhkost"/>
+		<text name="proShot_testing_removeTyreTracks" text="Odstraňte stopy pneumatik (nelze vrátit zpět)"/>
+		<text name="proShot_testing_traffic" text="Provoz"/>
+		<text name="proShot_testing_trafficMotion" text="Dopravní pohyb"/>
+		<text name="proShot_testing_pedestrians" text="Chodci"/>
+		<text name="proShot_testing_pedestrianMotion" text="Pohyb chodců"/>
+		<text name="proShot_testing_paused" text="Pozastaveno"/>
+		<text name="proShot_testing_running" text="V pohybu"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Přízemní vlhkost"/>
+		<text name="proShot_testing_wildlife" text="Divoká zvěř"/>
+		<text name="proShot_testing_tyreTracks" text="Odstranění stop pneumatik"/>
+		<text name="proShot_testing_unavailable" text="Na této mapě nedostupné"/>
+		<text name="proShot_testing_irreversible" text="Nelze vrátit zpět"/>
+		<text name="proShot_testing_trafficUnavailable" text="Na této mapě není k dispozici žádný dopravní systém"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Na této mapě není k dispozici žádný pěší systém"/>
+		<text name="proShot_testing_birdUnavailable" text="Pro tuto mapu není definována žádná vhodná divoká zvěř"/>
+		<text name="proShot_testing_wildlifeRemoved" text="Odstraněno zvířat a skupin ptáků: %d"/>
+		<text name="proShot_testing_spawnFailed" text="Umístění zvířete se nezdařilo"/>
+		<text name="proShot_testing_actionUnavailable" text="Tato akce není na této mapě dostupná"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Pozastavení chodců není v tomto sestavení hry k dispozici"/>
+		<text name="proShot_testing_snowRadius" text="Zmenšit/Zvětšit poloměr"/>
+		<text name="proShot_testing_snowHeight" text="Snížit/Zvedat sníh ve zvýrazněné oblasti"/>
+		<text name="proShot_testing_snowTarget" text="Cíl"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Poloměr"/>
+		<text name="proShot_testing_snowHeightInfo" text="Sníh ve středu"/>
+		<text name="proShot_testing_noTarget" text="Žádný terénní cíl"/>
+		<text name="proShot_testing_snowNoTarget" text="Uprostřed obrazovky nebyl nalezen žádný terén"/>
+		<text name="proShot_testing_snowLowered" text="Snížený sníh ve zvýrazněné oblasti"/>
+		<text name="proShot_testing_snowRaised" text="Zvednutý sníh ve zvýrazněné oblasti"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Odstraňte stopy pneumatik"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Vyberte, jak velkou část mapy stopy pneumatik chcete vymazat."/>
+		<text name="proShot_testing_tyreTracks100m" text="Do 100 m od kamery"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Celá mapa"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Odstranit stopy pneumatik do 100 m od kamery? Toto nelze vrátit zpět."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Odstranit všechny stopy pneumatik z mapy? Toto nelze vrátit zpět."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Stopy pneumatik byly odstraněny do 100 m od kamery"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Odstraněny všechny stopy pneumatik"/>
+		<text name="proShot_wildlife_menu" text="Zvířata"/>
+		<text name="proShot_wildlife_selectAnimal" text="Přepnout na: %s"/>
+		<text name="proShot_wildlife_selectBird" text="Přepnout na: %s"/>
+		<text name="proShot_wildlife_spawn" text="Umístit: %s"/>
+		<text name="proShot_wildlife_spawnFlying" text="Umístit za letu: %s"/>
+		<text name="proShot_wildlife_pauseBirds" text="Pozastavit ptáky"/>
+		<text name="proShot_wildlife_resumeBirds" text="Pokračovat v pohybu ptáků"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Pozastavit divokou zvěř"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Pokračovat v pohybu zvěře"/>
+		<text name="proShot_wildlife_removeLastBird" text="Odstranit posledního ptáka"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Odstranit poslední zvíře"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Vybrané zvíře"/>
+		<text name="proShot_wildlife_selectedBird" text="Vybraný pták"/>
+		<text name="proShot_wildlife_animalMotion" text="Pohyb zvěře"/>
+		<text name="proShot_wildlife_birdMotion" text="Pohyb ptáků"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Umístěná zvířata"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Umístění ptáci"/>
+		<text name="proShot_wildlife_unavailable" text="Pro tuto mapu není definována žádná zvěř"/>
+		<text name="proShot_wildlife_spawned" text="Umístěno před kameru: %s"/>
+		<text name="proShot_wildlife_tooFar" text="Příliš daleko"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Ptáci umístěni na obloze nad cílem"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Ptáci umístěni"/>
+		<text name="proShot_wildlife_placedGround" text="Zvíře umístěno na zemi"/>
+		<text name="proShot_wildlife_placedObject" text="Zvíře umístěno na objektu"/>
+		<text name="proShot_wildlife_groundOnly" text="Patří na zem"/>
+		<text name="proShot_animals_offsetX" text="Posun zvířete X"/>
+		<text name="proShot_animals_offsetY" text="Posun zvířete Y"/>
+		<text name="proShot_animals_offsetZ" text="Posun zvířete Z"/>
+		<text name="proShot_animals_resetOffsets" text="Vynulovat posuny zvířete"/>
+		<text name="proShot_animals_rotation" text="Natočení zvířete"/>
+		<text name="proShot_farm_select" text="Vybrat hospodářské zvíře"/>
+		<text name="proShot_farm_place" text="Umístit: %s"/>
+		<text name="proShot_farm_removeLast" text="Odebrat poslední hospodářské zvíře"/>
+		<text name="proShot_farm_removedLast" text="Poslední hospodářské zvíře bylo odebráno"/>
+		<text name="proShot_farm_noneToRemove" text="Nejsou umístěna žádná hospodářská zvířata k odebrání"/>
+		<text name="proShot_farm_selected" text="Vybrané hospodářské zvíře"/>
+		<text name="proShot_farm_spawned" text="Umístěná hospodářská zvířata"/>
+		<text name="proShot_farm_unavailable" text="Na této mapě nejsou k dispozici žádná hospodářská zvířata"/>
+		<text name="proShot_farm_selectTitle" text="Výběr hospodářského zvířete"/>
+		<text name="proShot_farm_selectText" text="Vyberte zvíře a věk."/>
+		<text name="proShot_farm_breedTitle" text="Výběr plemene"/>
+		<text name="proShot_farm_breedText" text="Vyberte plemeno nebo vzhled."/>
+		<text name="proShot_farm_loadFailed" text="Hospodářské zvíře se nepodařilo načíst"/>
+		<text name="proShot_farm_placedGround" text="Hospodářské zvíře umístěno na zem"/>
+		<text name="proShot_farm_placedObject" text="Hospodářské zvíře umístěno na objekt"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Mládě"/>
+		<text name="proShot_farm_stageYoung" text="Mladé"/>
+		<text name="proShot_farm_stageAdult" text="Dospělé"/>
+		<text name="proShot_farm_calf" text="Tele"/>
+		<text name="proShot_farm_youngCow" text="Mladá kráva"/>
+		<text name="proShot_farm_cow" text="Kráva"/>
+		<text name="proShot_farm_buffaloCalf" text="Buvolí tele"/>
+		<text name="proShot_farm_youngBuffalo" text="Mladý vodní buvol"/>
+		<text name="proShot_farm_waterBuffalo" text="Vodní buvol"/>
+		<text name="proShot_farm_piglet" text="Sele"/>
+		<text name="proShot_farm_youngPig" text="Mladé prase"/>
+		<text name="proShot_farm_pig" text="Prase"/>
+		<text name="proShot_farm_lamb" text="Jehně"/>
+		<text name="proShot_farm_youngSheep" text="Mladá ovce"/>
+		<text name="proShot_farm_sheep" text="Ovce"/>
+		<text name="proShot_farm_kid" text="Kůzle"/>
+		<text name="proShot_farm_youngGoat" text="Mladá koza"/>
+		<text name="proShot_farm_goat" text="Koza"/>
+		<text name="proShot_farm_horse" text="Kůň"/>
+		<text name="proShot_farm_chick" text="Kuře"/>
+		<text name="proShot_farm_hen" text="Slepice"/>
+		<text name="proShot_farm_rooster" text="Kohout"/>
+		<text name="proShot_farm_menuCow" text="Kráva"/>
+		<text name="proShot_farm_menuBuffalo" text="Vodní buvol"/>
+		<text name="proShot_farm_menuPig" text="Prase"/>
+		<text name="proShot_farm_menuSheep" text="Ovce"/>
+		<text name="proShot_farm_menuGoat" text="Koza"/>
+		<text name="proShot_farm_menuHorse" text="Kůň"/>
+		<text name="proShot_farm_menuChicken" text="Slepice"/>
+		<text name="proShot_wildlife_birdRemoved" text="Poslední umístěný pták byl odstraněn"/>
+		<text name="proShot_wildlife_animalRemoved" text="Poslední umístěné zvíře bylo odstraněno"/>
+		<text name="proShot_wildlife_noBird" text="Nejsou žádní umístění ptáci k odstranění"/>
+		<text name="proShot_wildlife_noAnimal" text="Nejsou žádná umístěná zvířata k odstranění"/>
+		<text name="proShot_wildlife_removeAll" text="Odstranit všechna zvířata a ptáky"/>
+		<text name="proShot_scene_menu" text="Ovládání scény"/>
+		<text name="proShot_scene_hideParked" text="Skryjte zaparkovaná vozidla"/>
+		<text name="proShot_scene_showParked" text="Zobrazit zaparkovaná vozidla"/>
+		<text name="proShot_scene_parkedVehicles" text="Zaparkovaná vozidla"/>
+		<text name="proShot_scene_parkedUnavailable" text="Kontrola zaparkovaných vozidel není na této mapě k dispozici"/>
+		<text name="proShot_scene_reset" text="Resetujte ovládání scény"/>
+		<text name="proShot_snow_strength" text="Snížit/zvýšit sílu nástroje"/>
+		<text name="proShot_snow_strengthInfo" text="Síla nástroje"/>
+		<text name="proShot_snow_globalLevel" text="Snížit/zvýšit globální úroveň sněhu"/>
+		<text name="proShot_snow_globalLevelInfo" text="Globální úroveň sněhu"/>
+		<text name="proShot_focus_set" text="Zaostřit na objekt uprostřed"/>
+		<text name="proShot_focus_narrow" text="Zúžit rozsah zaostření"/>
+		<text name="proShot_focus_widen" text="Rozšířit rozsah zaostření"/>
+		<text name="proShot_focus_holdClear" text="Podržením [%s] zrušíte zaostření"/>
+		<text name="proShot_focus_noTarget" text="Uprostřed obrazovky nebyl nalezen žádný objekt"/>
+		<text name="proShot_focus_status" text="Zaostření na střed"/>
+		<text name="proShot_focus_distance" text="%.1f m (dosah %.1f m)"/>
+		<text name="proShot_composition_grid" text="Pomocná mřížka: %s"/>
+		<text name="proShot_composition_aspect" text="Pomůcka poměru stran: %s"/>
+		<text name="proShot_composition_status" text="Kompozice"/>
+		<text name="proShot_grid_thirds" text="Třetiny"/>
+		<text name="proShot_grid_goldenRatio" text="Zlatý poměr (Phi)"/>
+		<text name="proShot_grid_centre" text="Střed"/>
+		<text name="proShot_grid_diagonals" text="Úhlopříčky"/>
+		<text name="proShot_grid_diagonalMethod" text="Diagonální metoda"/>
+		<text name="proShot_grid_goldenTriangles" text="Zlaté trojúhelníky"/>
+		<text name="proShot_effect_resetSlot" text="Obnovit slot na výchozí hodnoty"/>
+		<text name="proShot_effect_saveSlotMenu" text="Uložit aktuální efekt do slotu"/>
+		<text name="proShot_effect_allSlotsDefault" text="Všechny sloty efektů již mají výchozí hodnoty"/>
+		<text name="proShot_effect_emptySlot" text="Slot efektu %d je prázdný"/>
+		<text name="proShot_effect_defaultName" text="Vlastní efekt %d"/>
+		<text name="proShot_effect_namePrompt" text="Zadejte název pro efektový slot %d"/>
+		<text name="proShot_effect_saveFailed" text="Nelze zapsat soubor efektů"/>
+		<text name="proShot_effect_saved" text="Slot efektu %d uložen: %s"/>
+		<text name="proShot_effect_resetDone" text="Slot efektu %d obnoven"/>
+		<text name="proShot_effect_slotLabel" text="Slot %d"/>
+		<text name="proShot_effect_editing" text="Editace"/>
+		<text name="proShot_menu_revertThisScreen" text="Vrátit změny na této obrazovce"/>
+		<text name="proShot_infoBox_VD" text="Dohledová vzdálenost"/>
+		<text name="proShot_infoBox_FVD" text="Dohledová vzdálenost vegetace"/>
+		<text name="proShot_infoBox_exposure" text="Expozice fotoaparátu"/>
+		<text name="proShot_infoBox_FoV" text="Zorné pole kamery"/>
+		<text name="proShot_infoBox_quality" text="Předvolba kvality"/>
+		<text name="proShot_infoBox_sunDirection" text="Směr Slunce"/>
+		<text name="proShot_infoBox_colourGrading" text="Efekt"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Barevná korekce"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Teplota svítilny"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Intenzita svítilny"/>
+		<text name="proShot_infoBox_flashlightRange" text="Dosah světla"/>
+		<text name="proShot_infoBox_flashlightCone" text="Úhel kužele"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Rozostření světla"/>
+		<text name="proShot_infoBox_title_environment" text="Prostředí"/>
+		<text name="proShot_infoBox_season" text="Sezóna"/>
+		<text name="proShot_infoBox_frost" text="Jinovatka"/>
+		<text name="proShot_infoBox_snowLevel" text="Úroveň sněhu"/>
+		<text name="proShot_infoBox_title_effects" text="Efekty"/>
+		<text name="proShot_infoBox_help1b" text="Levé tlačítko myši nebo klávesy WSAD"/>
+		<text name="proShot_infoBox_help2a" text="Upravte výšku"/>
+		<text name="proShot_infoBox_help2b" text="Rolovací kolečko nebo klávesy QE"/>
+		<text name="proShot_infoBox_help3a" text="Zvyšte rychlost"/>
+		<text name="proShot_infoBox_help3b" text="Podržte klávesu Shift"/>
+		<text name="proShot_infoBox_help4a" text="Snížit rychlost"/>
+		<text name="proShot_infoBox_help4b" text="Podržte klávesu Ctrl"/>
+		<text name="proShot_infoBox_help5b" text="Pravé tlačítko myši"/>
+		<text name="proShot_infoBox_help6a" text="Přesuňte sluneční světlo"/>
+		<text name="proShot_infoBox_help6b" text="Střední tlačítko myši"/>
+		<text name="proShot_infoBox_help7b" text="Numerická klávesnice 1 a 2"/>
+		<text name="proShot_infoBox_help8a" text="Resetovat naklonění"/>
+		<text name="proShot_infoBox_help8b" text="Numerická klávesnice 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Poloměr blízkého CoC"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Koncová vzdálenost blízkého rozostření"/>
+		<text name="proShot_DoF_farCoCRadius" text="Poloměr vzdáleného CoC"/>
+		<text name="proShot_DoF_farBlurStart" text="Počáteční vzdálenost vzdáleného rozostření"/>
+		<text name="proShot_DoF_farBlurEnd" text="Vzdálenost plného vzdáleného rozostření"/>
+		<text name="proShot_DoF_applyToSky" text="Rozostřit oblohu"/>
+		<text name="proShot_summer" text="Letní"/>
+		<text name="proShot_autumn" text="Podzim"/>
+		<text name="proShot_winter" text="Zima"/>
+		<text name="proShot_spring" text="Jaro"/>
+		<text name="proShot_early" text="rané"/>
+		<text name="proShot_mid" text="střední"/>
+		<text name="proShot_late" text="pozdní"/>
+		<text name="proShot_seasonTweak" text="Sezónní úprava"/>
+		<text name="proShot_variation" text="variace"/>
+		<text name="proShot_weather_SUN" text="Slunný"/>
+		<text name="proShot_weather_CLOUDY" text="Zataženo"/>
+		<text name="proShot_weather_RAIN" text="Deštivý"/>
+		<text name="proShot_weather_SNOW" text="Zasněžený"/>
+		<text name="proShot_weather_HAIL" text="Kroupy"/>
+		<text name="proShot_menu_snowShader" text="Zobrazit/skrýt jinovatku"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Poloměr blízkého CoC (síla rozostření)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Poloměr vzdáleného CoC (síla rozostření)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Koncová vzdálenost blízkého rozostření"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Počáteční vzdálenost vzdáleného rozostření"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Vzdálenost plného vzdáleného rozostření"/>
+		<text name="proShot_menu_resetThis" text="Obnovte tato nastavení"/>
+		<text name="input_PRO_SHOT_1" text="Výběr 1"/>
+		<text name="input_PRO_SHOT_2" text="Výběr 2"/>
+		<text name="input_PRO_SHOT_3" text="Výběr 3"/>
+		<text name="input_PRO_SHOT_4" text="Výběr 4"/>
+		<text name="input_PRO_SHOT_5" text="Výběr 5"/>
+		<text name="input_PRO_SHOT_6" text="Výběr 6"/>
+		<text name="input_PRO_SHOT_7" text="Výběr 7"/>
+		<text name="input_PRO_SHOT_8" text="Výběr 8"/>
+		<text name="input_PRO_SHOT_9" text="Výběr 9"/>
+		<text name="input_PRO_SHOT_0" text="Výběr 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Numerická klávesnice 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Odebrat poslední hospodářské zvíře"/>
+		<text name="input_PRO_SHOT_MINUS" text="Minus na hlavní klávesnici"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Rovná se/plus na hlavní klávesnici"/>
+		<text name="input_PRO_SHOT_47_1" text="Úprava 1+"/>
+		<text name="input_PRO_SHOT_47_2" text="Úprava 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Úprava 2+"/>
+		<text name="input_PRO_SHOT_58_2" text="Úprava 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Úprava 3+"/>
+		<text name="input_PRO_SHOT_69_2" text="Úprava 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Nastavení 4+"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Úprava 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Nastavení 5+"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Úprava 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Nastavení 6+"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Úprava 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Nastavení 7+"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Úprava 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Nastavení 8+"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Úprava 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Vrátit nastavení"/>
+		<text name="input_PRO_SHOT_ENTER" text="Pořídit snímek"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="Pořídit snímek HDR"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="Pořídit snímky HDR a hloubky"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Návrat do předchozí nabídky"/>
+		<text name="input_PRO_SHOT_F" text="Svítilna"/>
+		<text name="input_PRO_SHOT_F1" text="Zobrazit/skrýt HUD"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Enter na numerické klávesnici"/>
+	</texts>
+</l10n>
