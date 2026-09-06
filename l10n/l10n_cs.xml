@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="设为低画质"/>
+		<text name="proShot_menu_qualHigh" text="设为高画质"/>
+		<text name="proShot_value_qualityLow" text="低画质"/>
+		<text name="proShot_value_qualityHigh" text="高画质"/>
+		<text name="proShot_menu_advMenus" text="高级菜单"/>
+		<text name="proShot_menu_favourites" text="收藏"/>
+		<text name="proShot_menu_returnToAdvanced" text="返回高级菜单"/>
+		<text name="proShot_menu_resetAll" text="重置所有设置"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="同时重置手电筒"/>
+		<text name="proShot_value_original" text="原始"/>
+		<text name="proShot_favourite_restoreSlot" text="恢复槽位 %d：%s"/>
+		<text name="proShot_favourite_saveSlot" text="保存到槽位 %d：%s"/>
+		<text name="proShot_favourite_deleteSlot" text="移除槽位 %d：%s"/>
+		<text name="proShot_favourite_saveCurrent" text="将当前设置保存为收藏"/>
+		<text name="proShot_favourite_remove" text="移除收藏"/>
+		<text name="proShot_favourite_revertPreview" text="恢复到进入收藏前的设置"/>
+		<text name="proShot_favourite_cancel" text="返回收藏"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="为当前设置选择槽位"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="选择要移除的收藏"/>
+		<text name="proShot_favourite_defaultName" text="预设 %d"/>
+		<text name="proShot_favourite_namePrompt" text="输入收藏槽位 %d 的名称"/>
+		<text name="proShot_favourite_deleteTitle" text="移除收藏"/>
+		<text name="proShot_favourite_deletePrompt" text="移除收藏槽位 %d“%s”？"/>
+		<text name="proShot_favourite_emptyStatus" text="槽位 %d 为空"/>
+		<text name="proShot_favourite_restoredStatus" text="已恢复槽位 %d"/>
+		<text name="proShot_favourite_revertedStatus" text="已恢复到进入收藏前的设置"/>
+		<text name="proShot_favourite_savedStatus" text="已保存槽位 %d：%s"/>
+		<text name="proShot_favourite_deletedStatus" text="已移除槽位 %d：%s"/>
+		<text name="proShot_favourite_saveFailed" text="无法写入收藏文件"/>
+		<text name="proShot_favourite_slotLabel" text="槽位 %d"/>
+		<text name="proShot_favourite_groupsTitle" text="选择要保存的设置"/>
+		<text name="proShot_favourite_chooseGroups" text="选择槽位 %d 的设置组"/>
+		<text name="proShot_favourite_selectOneGroup" text="至少选择一个设置组"/>
+		<text name="proShot_favourite_continueName" text="继续并输入名称"/>
+		<text name="proShot_favourite_backToSlots" text="返回槽位选择"/>
+		<text name="proShot_favourite_group_camera" text="相机（视野和曝光）"/>
+		<text name="proShot_favourite_group_sky" text="天空"/>
+		<text name="proShot_favourite_group_groundLight" text="地面光照"/>
+		<text name="proShot_favourite_group_effects" text="调色与效果"/>
+		<text name="proShot_favourite_group_season" text="季节（包括霜冻和积雪）"/>
+		<text name="proShot_favourite_group_weather" text="天气（包括雾和霾）"/>
+		<text name="proShot_menu_advQualityMenu" text="画质菜单"/>
+		<text name="proShot_menu_advSunMenu" text="天空菜单"/>
+		<text name="proShot_menu_advLightMenu" text="手电筒菜单"/>
+		<text name="proShot_menu_environment" text="环境菜单"/>
+		<text name="proShot_menu_effects" text="效果菜单"/>
+		<text name="proShot_menu_DoF" text="景深菜单"/>
+		<text name="proShot_menu_returnToMain" text="返回主菜单"/>
+		<text name="proShot_takePicture" text="拍照"/>
+		<text name="proShot_hideHUD" text="切换 HUD"/>
+		<text name="proShot_menu_advQ_VD" text="减小/增大视距"/>
+		<text name="proShot_menu_advQ_LOD" text="减小/增大 LOD 距离"/>
+		<text name="proShot_menu_advQ_TLOD" text="减小/增大地形 LOD 距离"/>
+		<text name="proShot_menu_advQ_FVD" text="减小/增大植被视距"/>
+		<text name="proShot_menu_skyBrightness" text="天空亮度"/>
+		<text name="proShot_menu_groundLight" text="地面光照"/>
+		<text name="proShot_menu_skyAndGround" text="天空与地面"/>
+		<text name="proShot_menu_syncSkyToGround" text="将天空同步到地面"/>
+		<text name="proShot_menu_lightingIntensity" text="光照强度"/>
+		<text name="proShot_menu_lightingTemperature" text="光照色温"/>
+		<text name="proShot_menu_colourTemperature" text="色温"/>
+		<text name="proShot_menu_intensity" text="强度"/>
+		<text name="proShot_menu_returnToSky" text="返回天空菜单"/>
+		<text name="proShot_infoBox_skyTemp" text="天空色温"/>
+		<text name="proShot_infoBox_skyIntensity" text="天空强度"/>
+		<text name="proShot_infoBox_groundTemp" text="灯光色温"/>
+		<text name="proShot_infoBox_groundIntensity" text="灯光强度"/>
+		<text name="proShot_menu_red" text="减少/增加红色"/>
+		<text name="proShot_menu_green" text="减少/增加绿色"/>
+		<text name="proShot_menu_blue" text="减少/增加蓝色"/>
+		<text name="proShot_menu_moonSize" text="月亮大小"/>
+		<text name="proShot_menu_sunSize" text="太阳大小"/>
+		<text name="proShot_menu_atmosRefraction" text="大气折射"/>
+		<text name="proShot_menu_light_temp" text="灯光更冷/更暖"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="缩窄/加宽光锥"/>
+		<text name="proShot_menu_flashLight_dropOff" text="锐化/柔化焦点"/>
+		<text name="proShot_menu_flashLight_intensity" text="降低/提高强度"/>
+		<text name="proShot_menu_flashLight_distance" text="减小/增大距离"/>
+		<text name="proShot_menu_flashLight_place" text="在此放置手电筒"/>
+		<text name="proShot_menu_flashLight_turnOn" text="打开手电筒"/>
+		<text name="proShot_menu_flashLight_removeLast" text="移除最后一个手电筒"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="将灯光恢复默认值"/>
+		<text name="proShot_flashLight_placed" text="已放置手电筒（%d）"/>
+		<text name="proShot_flashLight_placedCount" text="已放置手电筒"/>
+		<text name="proShot_flashFavourite_title" text="手电筒收藏"/>
+		<text name="proShot_flashFavourite_save" text="保存为收藏"/>
+		<text name="proShot_flashFavourite_remove" text="移除收藏"/>
+		<text name="proShot_flashFavourite_cancel" text="返回手电筒菜单"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="收藏 %d：%s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="保存到槽位 %d：%s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="移除槽位 %d：%s"/>
+		<text name="proShot_flashFavourite_defaultName" text="手电筒 %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="输入手电筒收藏 %d 的名称"/>
+		<text name="proShot_flashFavourite_restored" text="已恢复手电筒收藏 %d：%s"/>
+		<text name="proShot_flashFavourite_saved" text="已保存手电筒收藏 %d：%s"/>
+		<text name="proShot_flashFavourite_deleted" text="已移除手电筒收藏 %d：%s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="移除手电筒收藏"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="移除手电筒收藏 %d“%s”？"/>
+		<text name="proShot_menu_exposure" text="调整曝光"/>
+		<text name="proShot_menu_FoV" text="调整视野"/>
+		<text name="proShot_menu_timeHorly" text="调整时间（小时）"/>
+		<text name="proShot_menu_timeMins" text="调整时间（分钟）"/>
+		<text name="proShot_menu_effects_preset_flat" text="平淡"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="鲜艳"/>
+		<text name="proShot_menu_effects_preset_deep" text="深邃"/>
+		<text name="proShot_menu_effects_preset_cold" text="冷色"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="灰度"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="棕褐色调"/>
+		<text name="proShot_menu_effects_preset_phantom" text="幻影"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Bloom 阈值"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Bloom 强度"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Bloom 质量"/>
+		<text name="proShot_effect_slotEntry" text="效果槽位 %d：%s"/>
+		<text name="proShot_effect_saveSlot" text="保存到效果槽位 %d：%s"/>
+		<text name="proShot_effect_resetSlotEntry" text="重置效果槽位 %d：%s"/>
+		<text name="proShot_effect_customise" text="自定义调色"/>
+		<text name="proShot_effect_global" text="全局"/>
+		<text name="proShot_effect_shadows" text="阴影"/>
+		<text name="proShot_effect_midtones" text="中间调"/>
+		<text name="proShot_effect_highlights" text="高光"/>
+		<text name="proShot_effect_saturation" text="饱和度"/>
+		<text name="proShot_effect_contrast" text="对比度"/>
+		<text name="proShot_effect_gamma" text="伽马"/>
+		<text name="proShot_effect_gain" text="增益"/>
+		<text name="proShot_effect_scale" text="缩放"/>
+		<text name="proShot_effect_shadowsMax" text="阴影最大亮度"/>
+		<text name="proShot_effect_highlightsMin" text="高光最小亮度"/>
+		<text name="proShot_effect_maxLuminance" text="最大亮度：%.2f"/>
+		<text name="proShot_effect_minLuminance" text="最小亮度：%.2f"/>
+		<text name="proShot_effect_resetLuminance" text="重置亮度阈值"/>
+		<text name="proShot_menu_toneMapping" text="色调映射"/>
+		<text name="proShot_tone_slope" text="斜率"/>
+		<text name="proShot_tone_toe" text="趾部"/>
+		<text name="proShot_tone_shoulder" text="肩部"/>
+		<text name="proShot_tone_blackClip" text="黑色裁切"/>
+		<text name="proShot_tone_whiteClip" text="白色裁切"/>
+		<text name="proShot_menu_fog" text="减少/增加雾"/>
+		<text name="proShot_menu_haze" text="减少/增加霾"/>
+		<text name="proShot_infoBox_fog" text="雾"/>
+		<text name="proShot_infoBox_haze" text="霾"/>
+		<text name="proShot_menu_fogAdvanced" text="雾菜单"/>
+		<text name="proShot_fog_coverage" text="减少/增加雾覆盖范围"/>
+		<text name="proShot_fog_softness" text="减少/增加覆盖柔和度"/>
+		<text name="proShot_fog_groundDensity" text="减少/增加雾密度"/>
+		<text name="proShot_fog_extraHeight" text="减少/增加雾高度"/>
+		<text name="proShot_fog_minValleyDepth" text="减少/增加最小山谷深度"/>
+		<text name="proShot_fog_coverageInfo" text="覆盖范围"/>
+		<text name="proShot_fog_softnessInfo" text="柔和度"/>
+		<text name="proShot_fog_groundDensityInfo" text="密度"/>
+		<text name="proShot_fog_extraHeightInfo" text="高度"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="最小山谷深度"/>
+		<text name="proShot_testing_enableTraffic" text="开启交通"/>
+		<text name="proShot_testing_disableTraffic" text="关闭交通"/>
+		<text name="proShot_testing_enablePedestrians" text="开启行人"/>
+		<text name="proShot_testing_disablePedestrians" text="关闭行人"/>
+		<text name="proShot_testing_pauseTraffic" text="暂停交通"/>
+		<text name="proShot_testing_resumeTraffic" text="恢复交通"/>
+		<text name="proShot_testing_pausePedestrians" text="暂停行人"/>
+		<text name="proShot_testing_resumePedestrians" text="恢复行人"/>
+		<text name="proShot_testing_localSnow" text="局部积雪"/>
+		<text name="proShot_testing_groundWetness" text="减少/增加地面湿度"/>
+		<text name="proShot_testing_removeTyreTracks" text="移除轮胎痕迹（无法撤销）"/>
+		<text name="proShot_testing_traffic" text="交通"/>
+		<text name="proShot_testing_trafficMotion" text="交通移动"/>
+		<text name="proShot_testing_pedestrians" text="行人"/>
+		<text name="proShot_testing_pedestrianMotion" text="行人移动"/>
+		<text name="proShot_testing_paused" text="已暂停"/>
+		<text name="proShot_testing_running" text="运行中"/>
+		<text name="proShot_testing_groundWetnessInfo" text="地面湿度"/>
+		<text name="proShot_testing_wildlife" text="野生动物"/>
+		<text name="proShot_testing_tyreTracks" text="移除轮胎痕迹"/>
+		<text name="proShot_testing_unavailable" text="此地图不可用"/>
+		<text name="proShot_testing_irreversible" text="无法撤销"/>
+		<text name="proShot_testing_trafficUnavailable" text="此地图没有可用的交通系统"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="此地图没有可用的行人系统"/>
+		<text name="proShot_testing_birdUnavailable" text="此地图未定义合适的野生鸟类"/>
+		<text name="proShot_testing_wildlifeRemoved" text="已移除 %d 个已放置的动物和鸟群"/>
+		<text name="proShot_testing_spawnFailed" text="生成野生动物失败"/>
+		<text name="proShot_testing_actionUnavailable" text="此操作在本地图不可用"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="此游戏版本无法暂停行人"/>
+		<text name="proShot_testing_snowRadius" text="减小/增大半径"/>
+		<text name="proShot_testing_snowHeight" text="降低/提高高亮区域的积雪"/>
+		<text name="proShot_testing_snowTarget" text="目标"/>
+		<text name="proShot_testing_snowRadiusInfo" text="半径"/>
+		<text name="proShot_testing_snowHeightInfo" text="中心积雪"/>
+		<text name="proShot_testing_noTarget" text="没有地形目标"/>
+		<text name="proShot_testing_snowNoTarget" text="屏幕中心未找到地形"/>
+		<text name="proShot_testing_snowLowered" text="已降低高亮区域的积雪"/>
+		<text name="proShot_testing_snowRaised" text="已提高高亮区域的积雪"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="移除轮胎痕迹"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="选择要清除多少轮胎痕迹地图。"/>
+		<text name="proShot_testing_tyreTracks100m" text="相机 100 米范围内"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="整张地图"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="移除相机 100 米范围内的轮胎痕迹？此操作无法撤销。"/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="移除地图上的所有轮胎痕迹？此操作无法撤销。"/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="已移除相机 100 米范围内的轮胎痕迹"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="已移除所有轮胎痕迹"/>
+		<text name="proShot_wildlife_menu" text="动物"/>
+		<text name="proShot_wildlife_selectAnimal" text="将野生动物切换为 %s"/>
+		<text name="proShot_wildlife_selectBird" text="将鸟类切换为 %s"/>
+		<text name="proShot_wildlife_spawn" text="生成 %s"/>
+		<text name="proShot_wildlife_spawnFlying" text="生成飞行中的 %s"/>
+		<text name="proShot_wildlife_pauseBirds" text="暂停鸟类"/>
+		<text name="proShot_wildlife_resumeBirds" text="恢复鸟类"/>
+		<text name="proShot_wildlife_pauseAnimals" text="暂停野生动物"/>
+		<text name="proShot_wildlife_resumeAnimals" text="恢复野生动物"/>
+		<text name="proShot_wildlife_removeLastBird" text="移除最后一只鸟"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="移除最后一只野生动物"/>
+		<text name="proShot_wildlife_selectedAnimal" text="已选野生动物"/>
+		<text name="proShot_wildlife_selectedBird" text="已选鸟类"/>
+		<text name="proShot_wildlife_animalMotion" text="野生动物移动"/>
+		<text name="proShot_wildlife_birdMotion" text="鸟类移动"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="已生成野生动物"/>
+		<text name="proShot_wildlife_spawnedBirds" text="已生成鸟类"/>
+		<text name="proShot_wildlife_unavailable" text="此地图未定义野生动物"/>
+		<text name="proShot_wildlife_spawned" text="已在相机前方生成 %s"/>
+		<text name="proShot_wildlife_tooFar" text="距离太远"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="鸟类已放置在目标上方的天空中"/>
+		<text name="proShot_wildlife_birdsPlaced" text="鸟类已放置"/>
+		<text name="proShot_wildlife_placedGround" text="野生动物已放置在地面上"/>
+		<text name="proShot_wildlife_placedObject" text="野生动物已放置在物体上"/>
+		<text name="proShot_wildlife_groundOnly" text="它们只能放在地面上"/>
+		<text name="proShot_animals_offsetX" text="动物 X 偏移"/>
+		<text name="proShot_animals_offsetY" text="动物 Y 偏移"/>
+		<text name="proShot_animals_offsetZ" text="动物 Z 偏移"/>
+		<text name="proShot_animals_resetOffsets" text="重置动物偏移"/>
+		<text name="proShot_animals_rotation" text="动物旋转"/>
+		<text name="proShot_farm_select" text="选择农场动物"/>
+		<text name="proShot_farm_place" text="放置 %s"/>
+		<text name="proShot_farm_removeLast" text="移除最后一个农场动物"/>
+		<text name="proShot_farm_removedLast" text="已移除最后一个农场动物"/>
+		<text name="proShot_farm_noneToRemove" text="没有可移除的已放置农场动物"/>
+		<text name="proShot_farm_selected" text="已选农场动物"/>
+		<text name="proShot_farm_spawned" text="已放置农场动物"/>
+		<text name="proShot_farm_unavailable" text="此地图没有可用的农场动物"/>
+		<text name="proShot_farm_selectTitle" text="选择农场动物"/>
+		<text name="proShot_farm_selectText" text="选择动物及年龄。"/>
+		<text name="proShot_farm_breedTitle" text="选择品种"/>
+		<text name="proShot_farm_breedText" text="选择品种或外观。"/>
+		<text name="proShot_farm_loadFailed" text="无法加载农场动物"/>
+		<text name="proShot_farm_placedGround" text="农场动物已放置在地面上"/>
+		<text name="proShot_farm_placedObject" text="农场动物已放置在物体上"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="幼年"/>
+		<text name="proShot_farm_stageYoung" text="年轻"/>
+		<text name="proShot_farm_stageAdult" text="成年"/>
+		<text name="proShot_farm_calf" text="小牛"/>
+		<text name="proShot_farm_youngCow" text="年轻母牛"/>
+		<text name="proShot_farm_cow" text="牛"/>
+		<text name="proShot_farm_buffaloCalf" text="水牛幼崽"/>
+		<text name="proShot_farm_youngBuffalo" text="年轻水牛"/>
+		<text name="proShot_farm_waterBuffalo" text="水牛"/>
+		<text name="proShot_farm_piglet" text="小猪"/>
+		<text name="proShot_farm_youngPig" text="年轻猪"/>
+		<text name="proShot_farm_pig" text="猪"/>
+		<text name="proShot_farm_lamb" text="羔羊"/>
+		<text name="proShot_farm_youngSheep" text="年轻绵羊"/>
+		<text name="proShot_farm_sheep" text="绵羊"/>
+		<text name="proShot_farm_kid" text="小山羊"/>
+		<text name="proShot_farm_youngGoat" text="年轻山羊"/>
+		<text name="proShot_farm_goat" text="山羊"/>
+		<text name="proShot_farm_horse" text="马"/>
+		<text name="proShot_farm_chick" text="小鸡"/>
+		<text name="proShot_farm_hen" text="母鸡"/>
+		<text name="proShot_farm_rooster" text="公鸡"/>
+		<text name="proShot_farm_menuCow" text="牛"/>
+		<text name="proShot_farm_menuBuffalo" text="水牛"/>
+		<text name="proShot_farm_menuPig" text="猪"/>
+		<text name="proShot_farm_menuSheep" text="绵羊"/>
+		<text name="proShot_farm_menuGoat" text="山羊"/>
+		<text name="proShot_farm_menuHorse" text="马"/>
+		<text name="proShot_farm_menuChicken" text="鸡"/>
+		<text name="proShot_wildlife_birdRemoved" text="已移除最后生成的鸟"/>
+		<text name="proShot_wildlife_animalRemoved" text="已移除最后生成的野生动物"/>
+		<text name="proShot_wildlife_noBird" text="没有可移除的已生成鸟类"/>
+		<text name="proShot_wildlife_noAnimal" text="没有可移除的已生成野生动物"/>
+		<text name="proShot_wildlife_removeAll" text="移除所有动物和鸟类"/>
+		<text name="proShot_scene_menu" text="场景控制"/>
+		<text name="proShot_scene_hideParked" text="隐藏停放车辆"/>
+		<text name="proShot_scene_showParked" text="显示停放车辆"/>
+		<text name="proShot_scene_parkedVehicles" text="停放车辆"/>
+		<text name="proShot_scene_parkedUnavailable" text="此地图无法控制停放车辆"/>
+		<text name="proShot_scene_reset" text="重置场景控制"/>
+		<text name="proShot_snow_strength" text="减小/增大工具强度"/>
+		<text name="proShot_snow_strengthInfo" text="工具强度"/>
+		<text name="proShot_snow_globalLevel" text="降低/提高全局积雪高度"/>
+		<text name="proShot_snow_globalLevelInfo" text="全局积雪高度"/>
+		<text name="proShot_focus_set" text="对焦屏幕中心物体"/>
+		<text name="proShot_focus_narrow" text="缩小对焦范围"/>
+		<text name="proShot_focus_widen" text="扩大对焦范围"/>
+		<text name="proShot_focus_holdClear" text="长按 [%s] 清除焦点"/>
+		<text name="proShot_focus_noTarget" text="屏幕中心未找到物体"/>
+		<text name="proShot_focus_status" text="中心对焦"/>
+		<text name="proShot_focus_distance" text="%.1f 米（%.1f 米范围）"/>
+		<text name="proShot_composition_grid" text="网格辅助：%s"/>
+		<text name="proShot_composition_aspect" text="宽高比辅助：%s"/>
+		<text name="proShot_composition_status" text="构图"/>
+		<text name="proShot_grid_thirds" text="三分法"/>
+		<text name="proShot_grid_goldenRatio" text="黄金比例（Phi）"/>
+		<text name="proShot_grid_centre" text="中心"/>
+		<text name="proShot_grid_diagonals" text="对角线"/>
+		<text name="proShot_grid_diagonalMethod" text="对角线法"/>
+		<text name="proShot_grid_goldenTriangles" text="黄金三角形"/>
+		<text name="proShot_effect_resetSlot" text="将槽位重置为默认值"/>
+		<text name="proShot_effect_saveSlotMenu" text="将当前效果保存到槽位"/>
+		<text name="proShot_effect_allSlotsDefault" text="所有效果槽位均已为默认值"/>
+		<text name="proShot_effect_emptySlot" text="效果槽位 %d 为空"/>
+		<text name="proShot_effect_defaultName" text="自定义效果 %d"/>
+		<text name="proShot_effect_namePrompt" text="输入效果槽位 %d 的名称"/>
+		<text name="proShot_effect_saveFailed" text="无法写入效果文件"/>
+		<text name="proShot_effect_saved" text="已保存效果槽位 %d：%s"/>
+		<text name="proShot_effect_resetDone" text="已将效果槽位 %d 重置为默认值"/>
+		<text name="proShot_effect_slotLabel" text="槽位 %d"/>
+		<text name="proShot_effect_editing" text="编辑中"/>
+		<text name="proShot_menu_revertThisScreen" text="撤销此屏幕上的更改"/>
+		<text name="proShot_infoBox_VD" text="视距"/>
+		<text name="proShot_infoBox_FVD" text="植被视距"/>
+		<text name="proShot_infoBox_exposure" text="相机曝光"/>
+		<text name="proShot_infoBox_FoV" text="相机视野"/>
+		<text name="proShot_infoBox_quality" text="画质预设"/>
+		<text name="proShot_infoBox_sunDirection" text="太阳方向"/>
+		<text name="proShot_infoBox_colourGrading" text="效果"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="调色"/>
+		<text name="proShot_infoBox_flashlightTemp" text="手电筒色温"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="手电筒强度"/>
+		<text name="proShot_infoBox_flashlightRange" text="灯光范围"/>
+		<text name="proShot_infoBox_flashlightCone" text="光锥角度"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="灯光模糊"/>
+		<text name="proShot_infoBox_title_environment" text="环境"/>
+		<text name="proShot_infoBox_season" text="季节"/>
+		<text name="proShot_infoBox_frost" text="霜冻"/>
+		<text name="proShot_infoBox_snowLevel" text="积雪高度"/>
+		<text name="proShot_infoBox_title_effects" text="效果"/>
+		<text name="proShot_infoBox_help1b" text="鼠标左键或 WSAD 键"/>
+		<text name="proShot_infoBox_help2a" text="调整高度"/>
+		<text name="proShot_infoBox_help2b" text="鼠标滚轮或 QE 键"/>
+		<text name="proShot_infoBox_help3a" text="提高速度"/>
+		<text name="proShot_infoBox_help3b" text="按住 Shift 键"/>
+		<text name="proShot_infoBox_help4a" text="降低速度"/>
+		<text name="proShot_infoBox_help4b" text="按住 Ctrl 键"/>
+		<text name="proShot_infoBox_help5b" text="鼠标右键"/>
+		<text name="proShot_infoBox_help6a" text="移动阳光"/>
+		<text name="proShot_infoBox_help6b" text="鼠标中键"/>
+		<text name="proShot_infoBox_help7b" text="数字键盘 1 和 2"/>
+		<text name="proShot_infoBox_help8a" text="重置倾斜"/>
+		<text name="proShot_infoBox_help8b" text="数字键盘 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="近景 CoC 半径"/>
+		<text name="proShot_DoF_nearBlurEnd" text="近景模糊结束距离"/>
+		<text name="proShot_DoF_farCoCRadius" text="远景 CoC 半径"/>
+		<text name="proShot_DoF_farBlurStart" text="远景模糊开始距离"/>
+		<text name="proShot_DoF_farBlurEnd" text="远景完全模糊距离"/>
+		<text name="proShot_DoF_applyToSky" text="模糊天空"/>
+		<text name="proShot_summer" text="夏季"/>
+		<text name="proShot_autumn" text="秋季"/>
+		<text name="proShot_winter" text="冬季"/>
+		<text name="proShot_spring" text="春季"/>
+		<text name="proShot_early" text="早期"/>
+		<text name="proShot_mid" text="中期"/>
+		<text name="proShot_late" text="晚期"/>
+		<text name="proShot_seasonTweak" text="季节微调"/>
+		<text name="proShot_variation" text="变化"/>
+		<text name="proShot_weather_SUN" text="晴朗"/>
+		<text name="proShot_weather_CLOUDY" text="多云"/>
+		<text name="proShot_weather_RAIN" text="下雨"/>
+		<text name="proShot_weather_SNOW" text="下雪"/>
+		<text name="proShot_weather_HAIL" text="冰雹"/>
+		<text name="proShot_menu_snowShader" text="切换霜冻"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="近景 CoC 半径（模糊强度）"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="远景 CoC 半径（模糊强度）"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="近景模糊结束距离"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="远景模糊开始距离"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="远景完全强度模糊距离"/>
+		<text name="proShot_menu_resetThis" text="重置这些设置"/>
+		<text name="input_PRO_SHOT_1" text="选择 1"/>
+		<text name="input_PRO_SHOT_2" text="选择 2"/>
+		<text name="input_PRO_SHOT_3" text="选择 3"/>
+		<text name="input_PRO_SHOT_4" text="选择 4"/>
+		<text name="input_PRO_SHOT_5" text="选择 5"/>
+		<text name="input_PRO_SHOT_6" text="选择 6"/>
+		<text name="input_PRO_SHOT_7" text="选择 7"/>
+		<text name="input_PRO_SHOT_8" text="选择 8"/>
+		<text name="input_PRO_SHOT_9" text="选择 9"/>
+		<text name="input_PRO_SHOT_0" text="选择 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="数字键盘 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="移除最后一个农场动物"/>
+		<text name="input_PRO_SHOT_MINUS" text="主键盘减号"/>
+		<text name="input_PRO_SHOT_EQUALS" text="主键盘等号/加号"/>
+		<text name="input_PRO_SHOT_47_1" text="调整 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="调整 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="调整 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="调整 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="调整 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="调整 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="调整 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="调整 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="调整 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="调整 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="调整 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="调整 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="调整 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="调整 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="调整 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="调整 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="恢复设置"/>
+		<text name="input_PRO_SHOT_ENTER" text="拍照"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="拍摄 HDR 截图"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="拍摄 HDR 和深度截图"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="返回上一级菜单"/>
+		<text name="input_PRO_SHOT_F" text="手电筒"/>
+		<text name="input_PRO_SHOT_F1" text="切换 HUD"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="放置手电筒"/>
+	</texts>
+</l10n>

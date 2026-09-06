@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="낮은 품질로 설정"/>
+		<text name="proShot_menu_qualHigh" text="높은 품질로 설정"/>
+		<text name="proShot_value_qualityLow" text="낮은 품질"/>
+		<text name="proShot_value_qualityHigh" text="높은 품질"/>
+		<text name="proShot_menu_advMenus" text="고급 메뉴"/>
+		<text name="proShot_menu_favourites" text="즐겨찾기"/>
+		<text name="proShot_menu_returnToAdvanced" text="고급 메뉴로 돌아가기"/>
+		<text name="proShot_menu_resetAll" text="모든 설정 초기화"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="손전등도 초기화"/>
+		<text name="proShot_value_original" text="원본"/>
+		<text name="proShot_favourite_restoreSlot" text="슬롯 %d 복원: %s"/>
+		<text name="proShot_favourite_saveSlot" text="슬롯 %d에 저장: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="슬롯 %d 제거: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="현재 설정을 즐겨찾기로 저장"/>
+		<text name="proShot_favourite_remove" text="즐겨찾기 제거"/>
+		<text name="proShot_favourite_revertPreview" text="즐겨찾기 이전 설정으로 되돌리기"/>
+		<text name="proShot_favourite_cancel" text="즐겨찾기로 돌아가기"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="현재 설정을 저장할 슬롯 선택"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="제거할 즐겨찾기 선택"/>
+		<text name="proShot_favourite_defaultName" text="프리셋 %d"/>
+		<text name="proShot_favourite_namePrompt" text="즐겨찾기 슬롯 %d의 이름 입력"/>
+		<text name="proShot_favourite_deleteTitle" text="즐겨찾기 제거"/>
+		<text name="proShot_favourite_deletePrompt" text="즐겨찾기 슬롯 %d “%s”을(를) 제거할까요?"/>
+		<text name="proShot_favourite_emptyStatus" text="슬롯 %d이(가) 비어 있습니다"/>
+		<text name="proShot_favourite_restoredStatus" text="슬롯 %d 복원됨"/>
+		<text name="proShot_favourite_revertedStatus" text="즐겨찾기 이전 설정으로 되돌렸습니다"/>
+		<text name="proShot_favourite_savedStatus" text="슬롯 %d 저장됨: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="슬롯 %d 제거됨: %s"/>
+		<text name="proShot_favourite_saveFailed" text="즐겨찾기 파일을 쓸 수 없습니다"/>
+		<text name="proShot_favourite_slotLabel" text="슬롯 %d"/>
+		<text name="proShot_favourite_groupsTitle" text="저장할 설정 선택"/>
+		<text name="proShot_favourite_chooseGroups" text="슬롯 %d의 그룹 선택"/>
+		<text name="proShot_favourite_selectOneGroup" text="설정 그룹을 하나 이상 선택하세요"/>
+		<text name="proShot_favourite_continueName" text="계속하여 이름 입력"/>
+		<text name="proShot_favourite_backToSlots" text="슬롯 선택으로 돌아가기"/>
+		<text name="proShot_favourite_group_camera" text="카메라(FoV 및 노출)"/>
+		<text name="proShot_favourite_group_sky" text="하늘"/>
+		<text name="proShot_favourite_group_groundLight" text="지면 조명"/>
+		<text name="proShot_favourite_group_effects" text="색상 그레이딩 및 효과"/>
+		<text name="proShot_favourite_group_season" text="계절(서리와 눈 포함)"/>
+		<text name="proShot_favourite_group_weather" text="날씨(안개와 연무 포함)"/>
+		<text name="proShot_menu_advQualityMenu" text="품질 메뉴"/>
+		<text name="proShot_menu_advSunMenu" text="하늘 메뉴"/>
+		<text name="proShot_menu_advLightMenu" text="손전등 메뉴"/>
+		<text name="proShot_menu_environment" text="환경 메뉴"/>
+		<text name="proShot_menu_effects" text="효과 메뉴"/>
+		<text name="proShot_menu_DoF" text="피사계 심도 메뉴"/>
+		<text name="proShot_menu_returnToMain" text="메인 메뉴로 돌아가기"/>
+		<text name="proShot_takePicture" text="사진 촬영"/>
+		<text name="proShot_hideHUD" text="HUD 전환"/>
+		<text name="proShot_menu_advQ_VD" text="가시 거리 감소/증가"/>
+		<text name="proShot_menu_advQ_LOD" text="LOD 거리 감소/증가"/>
+		<text name="proShot_menu_advQ_TLOD" text="지형 LOD 거리 감소/증가"/>
+		<text name="proShot_menu_advQ_FVD" text="식생 가시 거리 감소/증가"/>
+		<text name="proShot_menu_skyBrightness" text="하늘 밝기"/>
+		<text name="proShot_menu_groundLight" text="지면 조명"/>
+		<text name="proShot_menu_skyAndGround" text="하늘과 지면"/>
+		<text name="proShot_menu_syncSkyToGround" text="하늘을 지면과 동기화"/>
+		<text name="proShot_menu_lightingIntensity" text="조명 강도"/>
+		<text name="proShot_menu_lightingTemperature" text="조명 색온도"/>
+		<text name="proShot_menu_colourTemperature" text="색온도"/>
+		<text name="proShot_menu_intensity" text="강도"/>
+		<text name="proShot_menu_returnToSky" text="하늘 메뉴로 돌아가기"/>
+		<text name="proShot_infoBox_skyTemp" text="하늘 색온도"/>
+		<text name="proShot_infoBox_skyIntensity" text="하늘 강도"/>
+		<text name="proShot_infoBox_groundTemp" text="빛 색온도"/>
+		<text name="proShot_infoBox_groundIntensity" text="빛 강도"/>
+		<text name="proShot_menu_red" text="빨강 감소/증가"/>
+		<text name="proShot_menu_green" text="초록 감소/증가"/>
+		<text name="proShot_menu_blue" text="파랑 감소/증가"/>
+		<text name="proShot_menu_moonSize" text="달 크기"/>
+		<text name="proShot_menu_sunSize" text="태양 크기"/>
+		<text name="proShot_menu_atmosRefraction" text="대기 굴절"/>
+		<text name="proShot_menu_light_temp" text="빛을 차갑게/따뜻하게"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="원뿔 좁히기/넓히기"/>
+		<text name="proShot_menu_flashLight_dropOff" text="초점 선명하게/흐리게"/>
+		<text name="proShot_menu_flashLight_intensity" text="강도 낮추기/높이기"/>
+		<text name="proShot_menu_flashLight_distance" text="거리 감소/증가"/>
+		<text name="proShot_menu_flashLight_place" text="여기에 손전등 배치"/>
+		<text name="proShot_menu_flashLight_turnOn" text="손전등 켜기"/>
+		<text name="proShot_menu_flashLight_removeLast" text="마지막 손전등 제거"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="조명을 기본값으로 설정"/>
+		<text name="proShot_flashLight_placed" text="손전등 배치됨(%d)"/>
+		<text name="proShot_flashLight_placedCount" text="배치된 손전등"/>
+		<text name="proShot_flashFavourite_title" text="손전등 즐겨찾기"/>
+		<text name="proShot_flashFavourite_save" text="즐겨찾기로 저장"/>
+		<text name="proShot_flashFavourite_remove" text="즐겨찾기 제거"/>
+		<text name="proShot_flashFavourite_cancel" text="손전등 메뉴로 돌아가기"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="즐겨찾기 %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="슬롯 %d에 저장: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="슬롯 %d 제거: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="손전등 %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="손전등 즐겨찾기 %d의 이름 입력"/>
+		<text name="proShot_flashFavourite_restored" text="손전등 즐겨찾기 %d 복원됨: %s"/>
+		<text name="proShot_flashFavourite_saved" text="손전등 즐겨찾기 %d 저장됨: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="손전등 즐겨찾기 %d 제거됨: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="손전등 즐겨찾기 제거"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="손전등 즐겨찾기 %d “%s”을(를) 제거할까요?"/>
+		<text name="proShot_menu_exposure" text="노출 조정"/>
+		<text name="proShot_menu_FoV" text="시야각 조정"/>
+		<text name="proShot_menu_timeHorly" text="시간 조정(시간 단위)"/>
+		<text name="proShot_menu_timeMins" text="시간 조정(분 단위)"/>
+		<text name="proShot_menu_effects_preset_flat" text="플랫"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="비비드"/>
+		<text name="proShot_menu_effects_preset_deep" text="딥"/>
+		<text name="proShot_menu_effects_preset_cold" text="콜드"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="그레이스케일"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="세피아 톤"/>
+		<text name="proShot_menu_effects_preset_phantom" text="팬텀"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="블룸 임계값"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="블룸 강도"/>
+		<text name="proShot_menu_effects_bloomQuality" text="블룸 품질"/>
+		<text name="proShot_effect_slotEntry" text="효과 슬롯 %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="효과 슬롯 %d에 저장: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="효과 슬롯 %d 초기화: %s"/>
+		<text name="proShot_effect_customise" text="사용자 지정 색상 그레이딩"/>
+		<text name="proShot_effect_global" text="전체"/>
+		<text name="proShot_effect_shadows" text="그림자"/>
+		<text name="proShot_effect_midtones" text="중간톤"/>
+		<text name="proShot_effect_highlights" text="하이라이트"/>
+		<text name="proShot_effect_saturation" text="채도"/>
+		<text name="proShot_effect_contrast" text="대비"/>
+		<text name="proShot_effect_gamma" text="감마"/>
+		<text name="proShot_effect_gain" text="게인"/>
+		<text name="proShot_effect_scale" text="스케일"/>
+		<text name="proShot_effect_shadowsMax" text="그림자 최대 휘도"/>
+		<text name="proShot_effect_highlightsMin" text="하이라이트 최소 휘도"/>
+		<text name="proShot_effect_maxLuminance" text="최대 휘도: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="최소 휘도: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="휘도 임계값 초기화"/>
+		<text name="proShot_menu_toneMapping" text="톤 매핑"/>
+		<text name="proShot_tone_slope" text="기울기"/>
+		<text name="proShot_tone_toe" text="토우"/>
+		<text name="proShot_tone_shoulder" text="숄더"/>
+		<text name="proShot_tone_blackClip" text="블랙 클립"/>
+		<text name="proShot_tone_whiteClip" text="화이트 클립"/>
+		<text name="proShot_menu_fog" text="안개 감소/증가"/>
+		<text name="proShot_menu_haze" text="연무 감소/증가"/>
+		<text name="proShot_infoBox_fog" text="안개"/>
+		<text name="proShot_infoBox_haze" text="연무"/>
+		<text name="proShot_menu_fogAdvanced" text="안개 메뉴"/>
+		<text name="proShot_fog_coverage" text="안개 범위 감소/증가"/>
+		<text name="proShot_fog_softness" text="범위 부드러움 감소/증가"/>
+		<text name="proShot_fog_groundDensity" text="안개 밀도 감소/증가"/>
+		<text name="proShot_fog_extraHeight" text="안개 높이 감소/증가"/>
+		<text name="proShot_fog_minValleyDepth" text="최소 계곡 깊이 감소/증가"/>
+		<text name="proShot_fog_coverageInfo" text="범위"/>
+		<text name="proShot_fog_softnessInfo" text="부드러움"/>
+		<text name="proShot_fog_groundDensityInfo" text="밀도"/>
+		<text name="proShot_fog_extraHeightInfo" text="높이"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="최소 계곡 깊이"/>
+		<text name="proShot_testing_enableTraffic" text="교통 켜기"/>
+		<text name="proShot_testing_disableTraffic" text="교통 끄기"/>
+		<text name="proShot_testing_enablePedestrians" text="보행자 켜기"/>
+		<text name="proShot_testing_disablePedestrians" text="보행자 끄기"/>
+		<text name="proShot_testing_pauseTraffic" text="교통 일시정지"/>
+		<text name="proShot_testing_resumeTraffic" text="교통 재개"/>
+		<text name="proShot_testing_pausePedestrians" text="보행자 일시정지"/>
+		<text name="proShot_testing_resumePedestrians" text="보행자 재개"/>
+		<text name="proShot_testing_localSnow" text="국소 눈"/>
+		<text name="proShot_testing_groundWetness" text="지면 젖음 감소/증가"/>
+		<text name="proShot_testing_removeTyreTracks" text="타이어 자국 제거(되돌릴 수 없음)"/>
+		<text name="proShot_testing_traffic" text="교통"/>
+		<text name="proShot_testing_trafficMotion" text="교통 이동"/>
+		<text name="proShot_testing_pedestrians" text="보행자"/>
+		<text name="proShot_testing_pedestrianMotion" text="보행자 이동"/>
+		<text name="proShot_testing_paused" text="일시정지됨"/>
+		<text name="proShot_testing_running" text="실행 중"/>
+		<text name="proShot_testing_groundWetnessInfo" text="지면 젖음"/>
+		<text name="proShot_testing_wildlife" text="야생동물"/>
+		<text name="proShot_testing_tyreTracks" text="타이어 자국 제거"/>
+		<text name="proShot_testing_unavailable" text="이 맵에서는 사용할 수 없음"/>
+		<text name="proShot_testing_irreversible" text="되돌릴 수 없음"/>
+		<text name="proShot_testing_trafficUnavailable" text="이 맵에는 교통 시스템이 없습니다"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="이 맵에는 보행자 시스템이 없습니다"/>
+		<text name="proShot_testing_birdUnavailable" text="이 맵에 적합한 야생 조류가 정의되어 있지 않습니다"/>
+		<text name="proShot_testing_wildlifeRemoved" text="배치된 동물 및 새 그룹 %d개 제거됨"/>
+		<text name="proShot_testing_spawnFailed" text="야생동물 생성 실패"/>
+		<text name="proShot_testing_actionUnavailable" text="이 작업은 이 맵에서 사용할 수 없습니다"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="이 게임 빌드에서는 보행자 일시정지를 사용할 수 없습니다"/>
+		<text name="proShot_testing_snowRadius" text="반경 감소/증가"/>
+		<text name="proShot_testing_snowHeight" text="강조 영역의 눈 낮추기/높이기"/>
+		<text name="proShot_testing_snowTarget" text="대상"/>
+		<text name="proShot_testing_snowRadiusInfo" text="반경"/>
+		<text name="proShot_testing_snowHeightInfo" text="중앙의 눈"/>
+		<text name="proShot_testing_noTarget" text="지형 대상 없음"/>
+		<text name="proShot_testing_snowNoTarget" text="화면 중앙에서 지형을 찾을 수 없습니다"/>
+		<text name="proShot_testing_snowLowered" text="강조 영역의 눈을 낮췄습니다"/>
+		<text name="proShot_testing_snowRaised" text="강조 영역의 눈을 높였습니다"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="타이어 자국 제거"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="타이어 자국 맵에서 지울 범위를 선택하세요."/>
+		<text name="proShot_testing_tyreTracks100m" text="카메라에서 100 m 이내"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="전체 맵"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="카메라에서 100 m 이내의 타이어 자국을 제거할까요? 되돌릴 수 없습니다."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="맵의 모든 타이어 자국을 제거할까요? 되돌릴 수 없습니다."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="카메라에서 100 m 이내의 타이어 자국 제거됨"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="모든 타이어 자국 제거됨"/>
+		<text name="proShot_wildlife_menu" text="동물"/>
+		<text name="proShot_wildlife_selectAnimal" text="야생동물을 %s(으)로 변경"/>
+		<text name="proShot_wildlife_selectBird" text="새를 %s(으)로 변경"/>
+		<text name="proShot_wildlife_spawn" text="%s 생성"/>
+		<text name="proShot_wildlife_spawnFlying" text="날아가는 %s 생성"/>
+		<text name="proShot_wildlife_pauseBirds" text="새 일시정지"/>
+		<text name="proShot_wildlife_resumeBirds" text="새 재개"/>
+		<text name="proShot_wildlife_pauseAnimals" text="야생동물 일시정지"/>
+		<text name="proShot_wildlife_resumeAnimals" text="야생동물 재개"/>
+		<text name="proShot_wildlife_removeLastBird" text="마지막 새 제거"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="마지막 야생동물 제거"/>
+		<text name="proShot_wildlife_selectedAnimal" text="선택한 야생동물"/>
+		<text name="proShot_wildlife_selectedBird" text="선택한 새"/>
+		<text name="proShot_wildlife_animalMotion" text="야생동물 이동"/>
+		<text name="proShot_wildlife_birdMotion" text="새 이동"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="생성된 야생동물"/>
+		<text name="proShot_wildlife_spawnedBirds" text="생성된 새"/>
+		<text name="proShot_wildlife_unavailable" text="이 맵에는 야생동물이 정의되어 있지 않습니다"/>
+		<text name="proShot_wildlife_spawned" text="카메라 앞에 %s 생성됨"/>
+		<text name="proShot_wildlife_tooFar" text="너무 멀리 있습니다"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="대상 위 하늘에 새를 배치했습니다"/>
+		<text name="proShot_wildlife_birdsPlaced" text="새 배치됨"/>
+		<text name="proShot_wildlife_placedGround" text="야생동물을 지면에 배치했습니다"/>
+		<text name="proShot_wildlife_placedObject" text="야생동물을 물체 위에 배치했습니다"/>
+		<text name="proShot_wildlife_groundOnly" text="지면에 배치해야 합니다"/>
+		<text name="proShot_animals_offsetX" text="동물 X 오프셋"/>
+		<text name="proShot_animals_offsetY" text="동물 Y 오프셋"/>
+		<text name="proShot_animals_offsetZ" text="동물 Z 오프셋"/>
+		<text name="proShot_animals_resetOffsets" text="동물 오프셋 초기화"/>
+		<text name="proShot_animals_rotation" text="동물 회전"/>
+		<text name="proShot_farm_select" text="가축 선택"/>
+		<text name="proShot_farm_place" text="%s 배치"/>
+		<text name="proShot_farm_removeLast" text="마지막 가축 제거"/>
+		<text name="proShot_farm_removedLast" text="마지막 가축 제거됨"/>
+		<text name="proShot_farm_noneToRemove" text="제거할 배치된 가축이 없습니다"/>
+		<text name="proShot_farm_selected" text="선택한 가축"/>
+		<text name="proShot_farm_spawned" text="배치된 가축"/>
+		<text name="proShot_farm_unavailable" text="이 맵에서는 가축을 사용할 수 없습니다"/>
+		<text name="proShot_farm_selectTitle" text="가축 선택"/>
+		<text name="proShot_farm_selectText" text="동물과 나이를 선택하세요."/>
+		<text name="proShot_farm_breedTitle" text="품종 선택"/>
+		<text name="proShot_farm_breedText" text="품종 또는 외형을 선택하세요."/>
+		<text name="proShot_farm_loadFailed" text="가축을 불러올 수 없습니다"/>
+		<text name="proShot_farm_placedGround" text="가축을 지면에 배치했습니다"/>
+		<text name="proShot_farm_placedObject" text="가축을 물체 위에 배치했습니다"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="새끼"/>
+		<text name="proShot_farm_stageYoung" text="어린 개체"/>
+		<text name="proShot_farm_stageAdult" text="성체"/>
+		<text name="proShot_farm_calf" text="송아지"/>
+		<text name="proShot_farm_youngCow" text="어린 소"/>
+		<text name="proShot_farm_cow" text="소"/>
+		<text name="proShot_farm_buffaloCalf" text="물소 송아지"/>
+		<text name="proShot_farm_youngBuffalo" text="어린 물소"/>
+		<text name="proShot_farm_waterBuffalo" text="물소"/>
+		<text name="proShot_farm_piglet" text="새끼 돼지"/>
+		<text name="proShot_farm_youngPig" text="어린 돼지"/>
+		<text name="proShot_farm_pig" text="돼지"/>
+		<text name="proShot_farm_lamb" text="어린 양"/>
+		<text name="proShot_farm_youngSheep" text="어린 양(성장기)"/>
+		<text name="proShot_farm_sheep" text="양"/>
+		<text name="proShot_farm_kid" text="새끼 염소"/>
+		<text name="proShot_farm_youngGoat" text="어린 염소"/>
+		<text name="proShot_farm_goat" text="염소"/>
+		<text name="proShot_farm_horse" text="말"/>
+		<text name="proShot_farm_chick" text="병아리"/>
+		<text name="proShot_farm_hen" text="암탉"/>
+		<text name="proShot_farm_rooster" text="수탉"/>
+		<text name="proShot_farm_menuCow" text="소"/>
+		<text name="proShot_farm_menuBuffalo" text="물소"/>
+		<text name="proShot_farm_menuPig" text="돼지"/>
+		<text name="proShot_farm_menuSheep" text="양"/>
+		<text name="proShot_farm_menuGoat" text="염소"/>
+		<text name="proShot_farm_menuHorse" text="말"/>
+		<text name="proShot_farm_menuChicken" text="닭"/>
+		<text name="proShot_wildlife_birdRemoved" text="마지막으로 생성된 새를 제거했습니다"/>
+		<text name="proShot_wildlife_animalRemoved" text="마지막으로 생성된 야생동물을 제거했습니다"/>
+		<text name="proShot_wildlife_noBird" text="제거할 생성된 새가 없습니다"/>
+		<text name="proShot_wildlife_noAnimal" text="제거할 생성된 야생동물이 없습니다"/>
+		<text name="proShot_wildlife_removeAll" text="모든 동물과 새 제거"/>
+		<text name="proShot_scene_menu" text="장면 제어"/>
+		<text name="proShot_scene_hideParked" text="주차 차량 숨기기"/>
+		<text name="proShot_scene_showParked" text="주차 차량 표시"/>
+		<text name="proShot_scene_parkedVehicles" text="주차 차량"/>
+		<text name="proShot_scene_parkedUnavailable" text="이 맵에서는 주차 차량 제어를 사용할 수 없습니다"/>
+		<text name="proShot_scene_reset" text="장면 제어 초기화"/>
+		<text name="proShot_snow_strength" text="도구 강도 감소/증가"/>
+		<text name="proShot_snow_strengthInfo" text="도구 강도"/>
+		<text name="proShot_snow_globalLevel" text="전체 눈 높이 감소/증가"/>
+		<text name="proShot_snow_globalLevelInfo" text="전체 눈 높이"/>
+		<text name="proShot_focus_set" text="중앙 물체에 초점 맞추기"/>
+		<text name="proShot_focus_narrow" text="초점 범위 좁히기"/>
+		<text name="proShot_focus_widen" text="초점 범위 넓히기"/>
+		<text name="proShot_focus_holdClear" text="초점을 해제하려면 [%s] 길게 누르기"/>
+		<text name="proShot_focus_noTarget" text="화면 중앙에서 물체를 찾을 수 없습니다"/>
+		<text name="proShot_focus_status" text="중앙 초점"/>
+		<text name="proShot_focus_distance" text="%.1f m(범위 %.1f m)"/>
+		<text name="proShot_composition_grid" text="그리드 가이드: %s"/>
+		<text name="proShot_composition_aspect" text="화면비 가이드: %s"/>
+		<text name="proShot_composition_status" text="구도"/>
+		<text name="proShot_grid_thirds" text="삼분할"/>
+		<text name="proShot_grid_goldenRatio" text="황금비(Phi)"/>
+		<text name="proShot_grid_centre" text="중앙"/>
+		<text name="proShot_grid_diagonals" text="대각선"/>
+		<text name="proShot_grid_diagonalMethod" text="대각선 방식"/>
+		<text name="proShot_grid_goldenTriangles" text="황금 삼각형"/>
+		<text name="proShot_effect_resetSlot" text="슬롯을 기본값으로 초기화"/>
+		<text name="proShot_effect_saveSlotMenu" text="현재 효과를 슬롯에 저장"/>
+		<text name="proShot_effect_allSlotsDefault" text="모든 효과 슬롯이 이미 기본값입니다"/>
+		<text name="proShot_effect_emptySlot" text="효과 슬롯 %d이(가) 비어 있습니다"/>
+		<text name="proShot_effect_defaultName" text="사용자 지정 효과 %d"/>
+		<text name="proShot_effect_namePrompt" text="효과 슬롯 %d의 이름 입력"/>
+		<text name="proShot_effect_saveFailed" text="효과 파일을 쓸 수 없습니다"/>
+		<text name="proShot_effect_saved" text="효과 슬롯 %d 저장됨: %s"/>
+		<text name="proShot_effect_resetDone" text="효과 슬롯 %d을(를) 기본값으로 초기화했습니다"/>
+		<text name="proShot_effect_slotLabel" text="슬롯 %d"/>
+		<text name="proShot_effect_editing" text="편집 중"/>
+		<text name="proShot_menu_revertThisScreen" text="이 화면의 변경 사항 되돌리기"/>
+		<text name="proShot_infoBox_VD" text="가시 거리"/>
+		<text name="proShot_infoBox_FVD" text="식생 가시 거리"/>
+		<text name="proShot_infoBox_exposure" text="카메라 노출"/>
+		<text name="proShot_infoBox_FoV" text="카메라 시야각"/>
+		<text name="proShot_infoBox_quality" text="품질 프리셋"/>
+		<text name="proShot_infoBox_sunDirection" text="태양 방향"/>
+		<text name="proShot_infoBox_colourGrading" text="효과"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="색상 그레이딩"/>
+		<text name="proShot_infoBox_flashlightTemp" text="손전등 색온도"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="손전등 강도"/>
+		<text name="proShot_infoBox_flashlightRange" text="조명 범위"/>
+		<text name="proShot_infoBox_flashlightCone" text="원뿔 각도"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="조명 흐림"/>
+		<text name="proShot_infoBox_title_environment" text="환경"/>
+		<text name="proShot_infoBox_season" text="계절"/>
+		<text name="proShot_infoBox_frost" text="서리"/>
+		<text name="proShot_infoBox_snowLevel" text="눈 높이"/>
+		<text name="proShot_infoBox_title_effects" text="효과"/>
+		<text name="proShot_infoBox_help1b" text="마우스 왼쪽 버튼 또는 WSAD 키"/>
+		<text name="proShot_infoBox_help2a" text="높이 조정"/>
+		<text name="proShot_infoBox_help2b" text="마우스 휠 또는 QE 키"/>
+		<text name="proShot_infoBox_help3a" text="속도 증가"/>
+		<text name="proShot_infoBox_help3b" text="Shift 키 누르고 있기"/>
+		<text name="proShot_infoBox_help4a" text="속도 감소"/>
+		<text name="proShot_infoBox_help4b" text="Ctrl 키 누르고 있기"/>
+		<text name="proShot_infoBox_help5b" text="마우스 오른쪽 버튼"/>
+		<text name="proShot_infoBox_help6a" text="태양광 이동"/>
+		<text name="proShot_infoBox_help6b" text="마우스 가운데 버튼"/>
+		<text name="proShot_infoBox_help7b" text="숫자 키패드 1 및 2"/>
+		<text name="proShot_infoBox_help8a" text="기울기 초기화"/>
+		<text name="proShot_infoBox_help8b" text="숫자 키패드 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="근거리 CoC 반경"/>
+		<text name="proShot_DoF_nearBlurEnd" text="근거리 흐림 종료 거리"/>
+		<text name="proShot_DoF_farCoCRadius" text="원거리 CoC 반경"/>
+		<text name="proShot_DoF_farBlurStart" text="원거리 흐림 시작 거리"/>
+		<text name="proShot_DoF_farBlurEnd" text="원거리 완전 흐림 거리"/>
+		<text name="proShot_DoF_applyToSky" text="하늘 흐리게"/>
+		<text name="proShot_summer" text="여름"/>
+		<text name="proShot_autumn" text="가을"/>
+		<text name="proShot_winter" text="겨울"/>
+		<text name="proShot_spring" text="봄"/>
+		<text name="proShot_early" text="초기"/>
+		<text name="proShot_mid" text="중기"/>
+		<text name="proShot_late" text="후기"/>
+		<text name="proShot_seasonTweak" text="계절 미세 조정"/>
+		<text name="proShot_variation" text="변형"/>
+		<text name="proShot_weather_SUN" text="맑음"/>
+		<text name="proShot_weather_CLOUDY" text="흐림"/>
+		<text name="proShot_weather_RAIN" text="비"/>
+		<text name="proShot_weather_SNOW" text="눈"/>
+		<text name="proShot_weather_HAIL" text="우박"/>
+		<text name="proShot_menu_snowShader" text="서리 전환"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="근거리 CoC 반경(흐림 강도)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="원거리 CoC 반경(흐림 강도)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="근거리 흐림 종료 거리"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="원거리 흐림 시작 거리"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="원거리 최대 흐림 거리"/>
+		<text name="proShot_menu_resetThis" text="이 설정 초기화"/>
+		<text name="input_PRO_SHOT_1" text="선택 1"/>
+		<text name="input_PRO_SHOT_2" text="선택 2"/>
+		<text name="input_PRO_SHOT_3" text="선택 3"/>
+		<text name="input_PRO_SHOT_4" text="선택 4"/>
+		<text name="input_PRO_SHOT_5" text="선택 5"/>
+		<text name="input_PRO_SHOT_6" text="선택 6"/>
+		<text name="input_PRO_SHOT_7" text="선택 7"/>
+		<text name="input_PRO_SHOT_8" text="선택 8"/>
+		<text name="input_PRO_SHOT_9" text="선택 9"/>
+		<text name="input_PRO_SHOT_0" text="선택 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="숫자 키패드 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="마지막 가축 제거"/>
+		<text name="input_PRO_SHOT_MINUS" text="메인 키보드 빼기"/>
+		<text name="input_PRO_SHOT_EQUALS" text="메인 키보드 등호/더하기"/>
+		<text name="input_PRO_SHOT_47_1" text="조정 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="조정 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="조정 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="조정 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="조정 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="조정 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="조정 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="조정 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="조정 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="조정 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="조정 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="조정 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="조정 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="조정 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="조정 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="조정 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="설정 되돌리기"/>
+		<text name="input_PRO_SHOT_ENTER" text="사진 촬영"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="HDR 스크린샷 촬영"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="HDR 및 깊이 스크린샷 촬영"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="이전 메뉴로 돌아가기"/>
+		<text name="input_PRO_SHOT_F" text="손전등"/>
+		<text name="input_PRO_SHOT_F1" text="HUD 전환"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="손전등 배치"/>
+	</texts>
+</l10n>

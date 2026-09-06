@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+    FS25 ships a ground-crow species configuration using the obsolete graphics
+    layout. This session-only ProShot adaptation retains its behaviour and the
+    GIANTS crow asset while expressing the animations in the current schema.
+-->
+<species>
+    <name>crow</name>
+    <class>WildlifeSpeciesCrow</class>
+
+    <settings costPerAnimal="4" maxNumInstances="12" fleeDistance="5.5">
+        <spawnTimer minSeconds="1" maxSeconds="1"/>
+        <despawn radius="110"/>
+        <spawn radiusMin="40" radiusMax="70"/>
+    </settings>
+
+    <movement walkSpeed="0.4" flySpeed="7" flyHeight="10 15" climbSpeed="3"/>
+
+    <behavior>
+        <idle eatDuration="0.75 2.0" attentionDuration="0.2 2.5"/>
+        <wander frequency="5.0 10.0">
+            <walk range="0.2 2.0"/>
+            <fly range="10.0 20.0" chance="0.05"/>
+        </wander>
+        <flee distance="5.5" patienceLossPerMove="55" patiencePerSecond="0.25" moveSpeed="10"/>
+    </behavior>
+
+    <asset node="0" filename="dataS/character/animals/wild/crow/crow.i3d">
+        <animations shaderNode="0">
+            <animation name="flyGlide" opcode="0" speed="0.4" transitionTime="0.15"/>
+            <animation name="fly" opcode="1" speed="4.0" transitionTime="0.15"/>
+            <animation name="flyUp" opcode="1" speed="4.0" transitionTime="0.15"/>
+            <animation name="flyDown" opcode="0" speed="0.4" transitionTime="0.15"/>
+            <animation name="flyDownFlapping" opcode="1" speed="4.0" transitionTime="0.15"/>
+            <animation name="land" opcode="2" speed="3.0" transitionTime="0.15"/>
+            <animation name="takeOff" opcode="3" speed="4.0" transitionTime="0.15"/>
+            <animation name="idleWalk" opcode="4" speed="2.0" transitionTime="0.30"/>
+            <animation name="idleEat" opcode="5" speed="1.0" transitionTime="0.25"/>
+            <animation name="idleAttention" opcode="6" speed="0.25" transitionTime="0.15"/>
+        </animations>
+    </asset>
+</species>

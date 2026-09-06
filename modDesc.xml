@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="111">
+	<title>
+		<en>Pro Shot</en>
+		<de>Profi-Foto (Pro Shot)</de>
+		<br>Foto Profissional (Pro Shot)</br>
+		<cs>专业拍摄 (Pro Shot)</cs>
+		<ct>專業拍攝 (Pro Shot)</ct>
+		<cz>Profesionální Snímek (Pro Shot)</cz>
+		<da>Professionelt Foto (Pro Shot)</da>
+		<ea>Foto Pro (Pro Shot)</ea>
+		<es>Foto Pro (Pro Shot)</es>
+		<fc>Photo Pro (Pro Shot)</fc>
+		<fi>Pro-kuva (Pro Shot)</fi>
+		<fr>Photo Pro (Pro Shot)</fr>
+		<hu>Profi Fotó (Pro Shot)</hu>
+		<id>Foto Profesional (Pro Shot)</id>
+		<it>Scatto Pro (Pro Shot)</it>
+		<jp>プロ撮影 (Pro Shot)</jp>
+		<kr>프로 촬영 (Pro Shot)</kr>
+		<nl>Professionele Foto (Pro Shot)</nl>
+		<no>Proffbilde (Pro Shot)</no>
+		<pl>Profesjonalne Ujęcie (Pro Shot)</pl>
+		<pt>Foto Profissional (Pro Shot)</pt>
+		<ro>Fotografie Profesională (Pro Shot)</ro>
+		<ru>Профессиональный Кадр (Pro Shot)</ru>
+		<sv>Proffsfoto (Pro Shot)</sv>
+		<tr>Profesyonel Çekim (Pro Shot)</tr>
+		<uk>Професійний Кадр (Pro Shot)</uk>
+		<vi>Ảnh Chuyên Nghiệp (Pro Shot)</vi>
+	</title>
+	<author>Mantrid</author>
+	<version>1.0.0.0</version>
+	<description>
+		<en><![CDATA[To take a good photo, you need to take your time. This mod lets you pause time, while you set up and frame the perfect shot. With advanced quality and lighting options, and much more, you're sure to take a Pro Shot!
+
+- Take screenshots from the Pause screen
+- Free-roaming camera, including roll/tilt, via mouse and keyboard controls
+- Activate High Quality mode, and adjust other detail settings
+- Change the camera exposure, Field of View, and a whole lot more
+- Change the direction of the sunlight, and adjust the colour of the light (temperature or red-green-blue)
+- Use photo lights to brighten your shot (Place unlimited flashlights, each with their own colour, intensity, beam angle, and focus, to highlight your shot the way you want)
+- Change the weather, or season, including snow/frost/fog/haze/hail
+- Adjust the time, for natural sun/moon progression
+- Apply lighting effects for black and white, sepia tone, and other filters
+- Adjust the Depth of Field, to highlight areas in your picture
+- Make the Sun and Moon larger or smaller, and adjust atmospheric light scattering
+- Screenshots are saved into their own folder, inside the regular screenshots folder
+
+Features for modders:
+- Great for inspecting models with unlimited, precision control of the camera
+- Press alt+R to reload active vehicle. alt+shift+R to reload all vehicles within 10m. alt+shift+ctrl+R to reload all vehicles within 100m
+- Press alt+P to reload all placeables on the map
+
+New since FS22
+- Composition aids (thirds, Golden Ratio, centre, diagonal, Diagonal Method and Golden Triangles grids, plus aspect-ratio overlays)
+- Depth of Field focus assist, to easily target objects
+- Fog and haze adjustment
+- Ground wetness
+- Hail added to environment menu
+- Save and restore up to ten named favourite settings, with selectable components (Camera, Quality, Sky, Ground lighting, Effects, Season, Weather, and Time)
+- Save and restore up to eight named flashlight favourites
+- Custom colour-grading controls, with 10 favourite save slots (including replaceable presets)
+- Expanded live settings/info displays.
+- Menu-level reversion, so you can play around and reset to previous state if you make a mess
+- Tone mapping controls
+- Independent sky-brightness and ground-light colour/intensity controls
+- Show traffic, pedestrians, and parked vehicles... or not. It's up to you.
+- Place wildlife, flying birds, and posed farm animals in your shot. Adjust rotation and offset for precise placement, with automatic surface placement for crows and farm animals.
+- Add or remove snow wherever you want, with adjustable radius and strength controls
+- Remove tyre tracks
+- Optional HDR image output, with or without a depth map. Use CTRL+ENTER for HDR, or CTRL+SHIFT+ENTER to include a depth map image as well.
+
+Notes
+- Due to the nature of the pause screen activation and global settings changes, this mod does not support multiplayer.
+- All changes are reverted after leaving the pause screen, with the following two exceptions:
+  - Once tyre tracks are removed, they don't come back unless you drive them there again
+  - Snow is restored to the previous level, which may overwrite non-standard snow. If you have non-standard snow and experience issues, let me know.]]></en>
+		<de><![CDATA[Um ein gutes Foto zu machen, muss man sich Zeit nehmen. Mit diesem Mod kannst du die Zeit anhalten, während du die perfekte Aufnahme vorbereitest und komponierst. Mit erweiterten Qualitäts- und Beleuchtungsoptionen und vielem mehr gelingt dir garantiert ein Profi-Foto!
+
+- Screenshots direkt vom Pausenbildschirm aus aufnehmen
+- Frei bewegliche Kamera, einschließlich Rollen und Neigen, gesteuert mit Maus und Tastatur
+- Hochqualitätsmodus aktivieren und weitere Detaileinstellungen anpassen
+- Belichtung, Sichtfeld (FOV) und vieles mehr einstellen
+- Richtung des Sonnenlichts ändern und die Lichtfarbe über Farbtemperatur oder Rot-Grün-Blau-Werte anpassen
+- Fotolichter verwenden, um deine Aufnahme auszuleuchten (Platziere unbegrenzt viele Lichter, jeweils mit eigener Farbe, Intensität, Abstrahlwinkel und Fokussierung)
+- Wetter oder Jahreszeit ändern, einschließlich Schnee, Frost, Nebel, Dunst und Hagel
+- Uhrzeit ändern, mit natürlichem Verlauf von Sonne und Mond
+- Farb- und Beleuchtungseffekte wie Schwarz-Weiß, Sepia und weitere Filter anwenden
+- Schärfentiefe (Depth of Field) anpassen, um bestimmte Bereiche des Bildes hervorzuheben
+- Sonne und Mond größer oder kleiner darstellen und die atmosphärische Lichtstreuung anpassen
+- Screenshots werden in einem eigenen Ordner innerhalb des normalen Screenshot-Ordners gespeichert
+
+Funktionen für Modder:
+
+- Ideal zur Begutachtung von Modellen dank unbegrenzter, präziser Kamerasteuerung
+- Alt+R lädt das aktive Fahrzeug neu. Alt+Shift+R lädt alle Fahrzeuge innerhalb von 10 m neu. Alt+Shift+Ctrl+R lädt alle Fahrzeuge innerhalb von 100 m neu
+- Alt+P lädt alle platzierbaren Objekte auf der Karte neu
+
+Neu seit FS22:
+
+- Hilfen für die Bildkomposition (Drittelregel, Goldener Schnitt, Zentrierung, Diagonalen, Diagonalmethode und Goldene Dreiecke sowie Overlays für verschiedene Seitenverhältnisse)
+- Fokus-Assistent für die Schärfentiefe, um Objekte einfach anzuvisieren
+- Anpassung von Nebel und Dunst
+- Bodenfeuchtigkeit
+- Hagel im Umgebungsmenü
+- Bis zu zehn benannte Favoriteneinstellungen speichern und wiederherstellen, mit auswählbaren Komponenten (Kamera, Qualität, Himmel, Bodenbeleuchtung, Effekte, Jahreszeit, Wetter und Zeit)
+- Bis zu acht benannte Favoriten für Fotolichter speichern und wiederherstellen
+- Benutzerdefinierte Farbkorrektur mit zehn Favoriten-Speicherplätzen, einschließlich ersetzbarer Voreinstellungen
+- Erweiterte Live-Anzeigen für Einstellungen und Informationen
+- Änderungen können auf Menüebene zurückgesetzt werden, sodass du Einstellungen ausprobieren und zum vorherigen Zustand zurückkehren kannst, falls etwas schiefgeht
+- Tone-Mapping-Einstellungen
+- Unabhängige Steuerung von Himmelshelligkeit sowie Farbe und Intensität der Bodenbeleuchtung
+- Verkehr, Fußgänger und geparkte Fahrzeuge anzeigen ... oder auch nicht. Du entscheidest.
+- Wildtiere, fliegende Vögel und posierte Nutztiere in der Aufnahme platzieren. Rotation und Versatz lassen sich für eine präzise Positionierung einstellen; Krähen und Nutztiere werden automatisch auf der Oberfläche platziert.
+- Schnee an beliebigen Stellen hinzufügen oder entfernen, mit einstellbarem Radius und Stärke
+- Reifenspuren entfernen
+- Optionale HDR-Bildausgabe mit oder ohne Tiefenkarte. CTRL+ENTER erstellt ein HDR-Bild, CTRL+SHIFT+ENTER zusätzlich eine Tiefenkarte.
+
+Hinweise
+
+- Aufgrund der Aktivierung über den Pausenbildschirm und der globalen Einstellungsänderungen unterstützt dieser Mod keinen Multiplayer.
+- Alle Änderungen werden beim Verlassen des Pausenbildschirms rückgängig gemacht, mit zwei Ausnahmen:
+
+  - Entfernte Reifenspuren erscheinen erst wieder, wenn erneut darüber gefahren wird
+  - Schnee wird auf die vorherige Höhe zurückgesetzt. Dadurch kann nicht standardmäßiger Schnee überschrieben werden. Falls du nicht standardmäßigen Schnee verwendest und Probleme feststellst, melde sie bitte.
+]]></de>
+		<fr><![CDATA[Pour prendre une bonne photo, il faut prendre son temps. Ce mod vous permet de figer le temps pendant que vous préparez et cadrez la photo parfaite. Grâce à des options avancées de qualité et d'éclairage, et bien plus encore, vous avez tout ce qu'il faut pour réussir une Photo Pro !
+
+- Prendre des captures d'écran directement depuis l'écran de pause
+- Caméra libre avec déplacement, roulis et inclinaison, contrôlée à la souris et au clavier
+- Activer le mode Haute qualité et ajuster d'autres paramètres de détail
+- Modifier l'exposition de la caméra, le champ de vision (FOV) et bien plus encore
+- Modifier la direction de la lumière du soleil et ajuster sa couleur par température de couleur ou valeurs rouge-vert-bleu
+- Utiliser des éclairages photo pour illuminer votre scène (placez un nombre illimité de lumières, chacune avec sa propre couleur, intensité, angle de faisceau et focalisation)
+- Modifier la météo ou la saison, notamment la neige, le givre, le brouillard, la brume et la grêle
+- Modifier l'heure tout en conservant la progression naturelle du soleil et de la lune
+- Appliquer des effets de couleur et d'éclairage, notamment noir et blanc, sépia et d'autres filtres
+- Ajuster la profondeur de champ afin de mettre en valeur certaines zones de l'image
+- Agrandir ou réduire le soleil et la lune, et ajuster la diffusion atmosphérique de la lumière
+- Les captures d'écran sont enregistrées dans leur propre dossier, à l'intérieur du dossier habituel des captures d'écran
+
+Fonctions pour les moddeurs :
+
+- Idéal pour inspecter les modèles grâce à un contrôle illimité et précis de la caméra
+- Appuyez sur Alt+R pour recharger le véhicule actif. Alt+Shift+R recharge tous les véhicules dans un rayon de 10 m. Alt+Shift+Ctrl+R recharge tous les véhicules dans un rayon de 100 m
+- Appuyez sur Alt+P pour recharger tous les objets plaçables de la carte
+
+Nouveautés depuis FS22 :
+
+- Aides à la composition (règle des tiers, nombre d'or, centre, diagonales, méthode diagonale et triangles d'or, ainsi que des guides de format d'image)
+- Assistance à la mise au point de la profondeur de champ pour cibler facilement les objets
+- Réglage du brouillard et de la brume
+- Humidité du sol
+- Grêle ajoutée au menu Environnement
+- Enregistrez et restaurez jusqu'à dix réglages favoris nommés, avec des éléments sélectionnables (Caméra, Qualité, Ciel, Éclairage au sol, Effets, Saison, Météo et Heure)
+- Enregistrez et restaurez jusqu'à huit favoris nommés pour les éclairages photo
+- Réglages personnalisés d'étalonnage des couleurs avec dix emplacements de favoris, y compris des préréglages remplaçables
+- Affichages en direct étendus pour les réglages et les informations
+- Rétablissement au niveau de chaque menu, afin de pouvoir expérimenter puis revenir à l'état précédent si les choses tournent mal
+- Réglages de mappage tonal
+- Contrôle indépendant de la luminosité du ciel ainsi que de la couleur et de l'intensité de l'éclairage au sol
+- Afficher la circulation, les piétons et les véhicules stationnés... ou non. C'est vous qui décidez.
+- Placez des animaux sauvages, des oiseaux en vol et des animaux d'élevage posés dans votre scène. Ajustez leur rotation et leur décalage pour un placement précis, avec placement automatique sur la surface pour les corbeaux et les animaux d'élevage.
+- Ajouter ou retirer de la neige où vous le souhaitez, avec réglage du rayon et de l'intensité
+- Supprimer les traces de pneus
+- Sortie d'image HDR facultative, avec ou sans carte de profondeur. Utilisez CTRL+ENTER pour une image HDR, ou CTRL+SHIFT+ENTER pour inclure également une image de profondeur.
+
+Remarques
+
+- En raison de son activation depuis l'écran de pause et des modifications apportées aux paramètres globaux, ce mod ne prend pas en charge le multijoueur.
+- Toutes les modifications sont annulées lorsque vous quittez l'écran de pause, à deux exceptions près :
+
+  - Une fois les traces de pneus supprimées, elles ne réapparaissent que lorsque vous roulez de nouveau à cet endroit
+  - La neige est restaurée à son niveau précédent, ce qui peut écraser une configuration de neige non standard. Si vous utilisez une neige non standard et rencontrez des problèmes, merci de les signaler.
+]]></fr>
+		<pl><![CDATA[Aby zrobić dobre zdjęcie, trzeba poświęcić mu trochę czasu. Ten mod pozwala zatrzymać czas, podczas gdy przygotowujesz i kadrujesz idealne ujęcie. Dzięki zaawansowanym opcjom jakości i oświetlenia oraz wielu innym funkcjom z pewnością zrobisz profesjonalne zdjęcie!
+
+- Rób zrzuty ekranu bezpośrednio z ekranu pauzy
+- Swobodnie przemieszczaj kamerę, w tym obracaj ją i pochylaj, za pomocą myszy i klawiatury
+- Włącz tryb wysokiej jakości i dostosuj inne ustawienia szczegółowości
+- Zmieniaj ekspozycję kamery, pole widzenia i wiele więcej
+- Zmieniaj kierunek światła słonecznego oraz jego kolor (za pomocą temperatury barwowej lub wartości czerwonej, zielonej i niebieskiej)
+- Używaj dodatkowych lamp do oświetlania ujęcia (możesz umieścić dowolną liczbę lamp, każdą z własnym kolorem, intensywnością, kątem wiązki i skupieniem światła)
+- Zmieniaj pogodę lub porę roku, w tym śnieg, szron, mgłę, zamglenie i grad
+- Zmieniaj czas, zachowując naturalny ruch Słońca i Księżyca
+- Stosuj efekty oświetlenia, takie jak czerń i biel, sepia oraz inne filtry
+- Dostosuj głębię ostrości, aby wyróżnić wybrane obszary obrazu
+- Zwiększaj lub zmniejszaj rozmiar Słońca i Księżyca oraz reguluj załamanie światła na niebie
+- Zrzuty ekranu są zapisywane we własnym folderze wewnątrz standardowego folderu zrzutów ekranu
+
+Funkcje dla modderów:
+- Świetne narzędzie do sprawdzania modeli dzięki nieograniczonej i precyzyjnej kontroli kamery
+- Naciśnij Alt+R, aby ponownie wczytać aktywny pojazd. Alt+Shift+R ponownie wczytuje wszystkie pojazdy w promieniu 10 m. Alt+Shift+Ctrl+R ponownie wczytuje wszystkie pojazdy w promieniu 100 m
+- Naciśnij Alt+P, aby ponownie wczytać wszystkie obiekty do postawienia na mapie
+
+Nowości od FS22:
+- Pomocnicze linie kompozycji (reguła trójpodziału, złoty podział, środek, przekątne, metoda diagonalna i złote trójkąty oraz nakładki proporcji obrazu)
+- Asystent ustawiania ostrości głębi ostrości, ułatwiający wybór obiektów
+- Regulacja mgły i zamglenia
+- Wilgotność podłoża
+- Grad dodany do menu środowiska
+- Zapisywanie i przywracanie do dziesięciu nazwanych ulubionych ustawień z możliwością wyboru składników (Kamera, Jakość, Niebo, Oświetlenie podłoża, Efekty, Pora roku, Pogoda i Czas)
+- Zapisywanie i przywracanie do ośmiu nazwanych ulubionych ustawień lamp
+- Niestandardowe sterowanie korekcją kolorów z 10 miejscami na ulubione ustawienia, w tym zastępowalnymi presetami
+- Rozszerzone wyświetlanie bieżących ustawień i informacji
+- Przywracanie ustawień na poziomie poszczególnych menu, dzięki czemu możesz eksperymentować i wrócić do poprzedniego stanu, jeśli coś namieszasz
+- Sterowanie mapowaniem tonów
+- Niezależna regulacja jasności nieba oraz koloru i intensywności oświetlenia podłoża
+- Pokazuj ruch uliczny, pieszych i zaparkowane pojazdy... albo nie. To zależy od Ciebie.
+- Umieszczaj w ujęciu dzikie zwierzęta, latające ptaki i pozowane zwierzęta gospodarskie. Reguluj obrót i przesunięcie, aby dokładnie je ustawić; wrony i zwierzęta gospodarskie mogą być automatycznie umieszczane na powierzchni.
+- Dodawaj lub usuwaj śnieg w dowolnym miejscu, z regulowanym promieniem i siłą działania
+- Usuwaj ślady opon
+- Opcjonalny zapis obrazów HDR, z mapą głębi lub bez niej. Użyj CTRL+ENTER dla obrazu HDR albo CTRL+SHIFT+ENTER, aby dodatkowo utworzyć obraz mapy głębi.
+
+Uwagi:
+- Ze względu na sposób aktywacji z ekranu pauzy oraz zmiany ustawień globalnych ten mod nie obsługuje trybu wieloosobowego.
+- Wszystkie zmiany są cofane po opuszczeniu ekranu pauzy, z dwoma wyjątkami:
+  - Po usunięciu śladów opon nie pojawią się one ponownie, dopóki ponownie nie przejedziesz w tym miejscu
+  - Śnieg jest przywracany do poprzedniego poziomu, co może nadpisać niestandardowy śnieg. Jeśli używasz niestandardowego śniegu i wystąpią problemy, daj mi znać.]]></pl>
+		<ru><![CDATA[Чтобы сделать хороший снимок, нужно не спешить. Этот мод позволяет остановить время, пока вы готовите и выстраиваете идеальный кадр. Благодаря расширенным настройкам качества и освещения, а также множеству других возможностей, у вас есть всё необходимое для профессионального снимка!
+
+- Делайте снимки экрана прямо из меню паузы
+- Свободно перемещайте камеру, включая наклон и вращение, с помощью мыши и клавиатуры
+- Включайте режим высокого качества и регулируйте другие параметры детализации
+- Изменяйте экспозицию камеры, поле зрения и многое другое
+- Изменяйте направление солнечного света и настраивайте его цвет (по цветовой температуре или значениям красного, зелёного и синего)
+- Используйте дополнительные источники света для освещения кадра (размещайте неограниченное количество источников света, каждый со своим цветом, интенсивностью, углом луча и фокусировкой)
+- Изменяйте погоду или сезон, включая снег, иней, туман, дымку и град
+- Изменяйте время с естественным движением Солнца и Луны
+- Применяйте световые эффекты, включая чёрно-белый режим, сепию и другие фильтры
+- Настраивайте глубину резкости, чтобы выделять нужные области изображения
+- Увеличивайте или уменьшайте Солнце и Луну и регулируйте преломление света в небе
+- Снимки экрана сохраняются в отдельной папке внутри обычной папки снимков экрана
+
+Возможности для моддеров:
+- Отлично подходит для проверки моделей благодаря неограниченному и точному управлению камерой
+- Нажмите Alt+R, чтобы перезагрузить активную машину. Alt+Shift+R перезагружает все машины в радиусе 10 м. Alt+Shift+Ctrl+R перезагружает все машины в радиусе 100 м
+- Нажмите Alt+P, чтобы перезагрузить все размещаемые объекты на карте
+
+Новое со времён FS22:
+- Вспомогательные линии композиции (правило третей, золотое сечение, центр, диагонали, диагональный метод и золотые треугольники, а также рамки соотношения сторон)
+- Помощник фокусировки глубины резкости для удобного выбора объектов
+- Регулировка тумана и дымки
+- Влажность грунта
+- Град добавлен в меню окружения
+- Сохранение и восстановление до десяти именованных наборов избранных настроек с выбором компонентов (Камера, Качество, Небо, Освещение земли, Эффекты, Сезон, Погода и Время)
+- Сохранение и восстановление до восьми именованных избранных настроек источников света
+- Пользовательские настройки цветокоррекции с 10 ячейками избранного, включая заменяемые предустановки
+- Расширенное отображение текущих настроек и информации
+- Отмена изменений отдельно для каждого меню, чтобы можно было экспериментировать и вернуться к предыдущему состоянию, если что-то пошло не так
+- Настройки тонального отображения
+- Независимая регулировка яркости неба, а также цвета и интенсивности освещения земли
+- Показывайте транспорт, пешеходов и припаркованные машины... или не показывайте. Решать вам.
+- Размещайте в кадре диких животных, летящих птиц и позирующих сельскохозяйственных животных. Настраивайте поворот и смещение для точного размещения; вороны и сельскохозяйственные животные автоматически размещаются на поверхности.
+- Добавляйте или убирайте снег где угодно, регулируя радиус и силу действия
+- Удаляйте следы шин
+- Дополнительный вывод изображений HDR с картой глубины или без неё. Используйте CTRL+ENTER для HDR или CTRL+SHIFT+ENTER, чтобы также создать изображение карты глубины.
+
+Примечания:
+- Из-за особенностей активации через меню паузы и изменения глобальных настроек этот мод не поддерживает многопользовательскую игру.
+- Все изменения отменяются после выхода из меню паузы, за двумя исключениями:
+  - Удалённые следы шин не появятся снова, пока вы снова не проедете по этому месту
+  - Снег восстанавливается до предыдущего уровня, что может перезаписать нестандартный снег. Если вы используете нестандартный снег и столкнулись с проблемами, сообщите мне.]]></ru>
+		<br><![CDATA[Para tirar uma boa foto, é preciso ter tempo. Este mod permite pausar o tempo enquanto você prepara e enquadra a foto perfeita. Com opções avançadas de qualidade e iluminação, além de muitos outros recursos, você terá tudo o que precisa para fazer uma foto profissional!
+
+- Faça capturas de tela diretamente pela tela de pausa
+- Movimente a câmera livremente, incluindo rotação e inclinação, usando o mouse e o teclado
+- Ative o modo de Alta Qualidade e ajuste outras configurações de detalhes
+- Altere a exposição da câmera, o campo de visão e muito mais
+- Altere a direção da luz do sol e ajuste a cor da luz (pela temperatura de cor ou pelos valores de vermelho, verde e azul)
+- Use luzes adicionais para iluminar sua foto (coloque quantas luzes quiser, cada uma com sua própria cor, intensidade, ângulo do feixe e foco)
+- Altere o clima ou a estação, incluindo neve, geada, neblina, névoa e granizo
+- Ajuste o horário mantendo a progressão natural do Sol e da Lua
+- Aplique efeitos de iluminação em preto e branco, sépia e outros filtros
+- Ajuste a profundidade de campo para destacar áreas da imagem
+- Aumente ou diminua o tamanho do Sol e da Lua e ajuste a refração da luz no céu
+- As capturas de tela são salvas em uma pasta própria dentro da pasta normal de capturas de tela
+
+Recursos para modders:
+- Ótimo para inspecionar modelos com controle ilimitado e preciso da câmera
+- Pressione Alt+R para recarregar o veículo ativo. Alt+Shift+R recarrega todos os veículos em um raio de 10 m. Alt+Shift+Ctrl+R recarrega todos os veículos em um raio de 100 m
+- Pressione Alt+P para recarregar todos os objetos posicionáveis do mapa
+
+Novidades desde o FS22:
+- Guias de composição (regra dos terços, proporção áurea, centro, diagonais, método diagonal e triângulos áureos, além de sobreposições de proporção da imagem)
+- Assistente de foco da profundidade de campo para selecionar objetos com facilidade
+- Ajuste de neblina e névoa
+- Umidade do solo
+- Granizo adicionado ao menu de ambiente
+- Salve e restaure até dez configurações favoritas com nome, selecionando os componentes desejados (Câmera, Qualidade, Céu, Iluminação do solo, Efeitos, Estação, Clima e Horário)
+- Salve e restaure até oito configurações favoritas de iluminação com nome
+- Controles personalizados de gradação de cores, com 10 espaços para favoritos, incluindo predefinições substituíveis
+- Exibições ampliadas de configurações e informações em tempo real
+- Reversão por menu, permitindo experimentar e voltar ao estado anterior se você fizer alguma bagunça
+- Controles de mapeamento de tons
+- Controles independentes para o brilho do céu e para a cor e intensidade da iluminação do solo
+- Mostre o trânsito, pedestres e veículos estacionados... ou não. Você decide.
+- Coloque animais selvagens, aves em voo e animais de fazenda em poses na sua foto. Ajuste a rotação e o deslocamento para posicioná-los com precisão, com posicionamento automático sobre a superfície para corvos e animais de fazenda.
+- Adicione ou remova neve onde quiser, com controles ajustáveis de raio e intensidade
+- Remova marcas de pneus
+- Saída opcional de imagem HDR, com ou sem mapa de profundidade. Use CTRL+ENTER para HDR ou CTRL+SHIFT+ENTER para incluir também uma imagem de mapa de profundidade.
+
+Observações:
+- Devido à forma de ativação pela tela de pausa e às alterações nas configurações globais, este mod não oferece suporte a multijogador.
+- Todas as alterações são revertidas ao sair da tela de pausa, com duas exceções:
+  - Depois que as marcas de pneus são removidas, elas não voltam até que você passe novamente pelo local
+  - A neve é restaurada ao nível anterior, o que pode substituir neve fora do padrão. Se você usa neve fora do padrão e tiver algum problema, avise-me.]]></br>
+		<tr><![CDATA[İyi bir fotoğraf çekmek için acele etmemek gerekir. Bu mod, mükemmel kareyi hazırlayıp kadrajlarken zamanı duraklatmanıza olanak tanır. Gelişmiş kalite ve aydınlatma seçenekleri ve çok daha fazlasıyla profesyonel bir çekim yapmak için ihtiyacınız olan her şeye sahipsiniz!
+
+- Duraklatma ekranından ekran görüntüleri alın
+- Fare ve klavye kontrolleriyle kamerayı serbestçe hareket ettirin; döndürme ve eğme de dahil
+- Yüksek Kalite modunu etkinleştirin ve diğer ayrıntı ayarlarını düzenleyin
+- Kamera pozlamasını, görüş alanını ve çok daha fazlasını değiştirin
+- Güneş ışığının yönünü ve rengini ayarlayın (renk sıcaklığı veya kırmızı-yeşil-mavi değerleriyle)
+- Çekiminizi aydınlatmak için ek ışıklar kullanın (istediğiniz kadar ışık yerleştirin; her birinin rengi, yoğunluğu, ışın açısı ve odağı ayrı ayrı ayarlanabilir)
+- Kar, don, sis, pus ve dolu dahil olmak üzere hava durumunu veya mevsimi değiştirin
+- Güneş ve Ay'ın doğal hareketini koruyarak saati ayarlayın
+- Siyah-beyaz, sepya ve diğer filtreler için aydınlatma efektleri uygulayın
+- Görüntünüzde belirli alanları öne çıkarmak için alan derinliğini ayarlayın
+- Güneş ve Ay'ı büyütün veya küçültün ve gökyüzündeki ışık kırılmasını ayarlayın
+- Ekran görüntüleri, normal ekran görüntüsü klasörünün içindeki ayrı bir klasöre kaydedilir
+
+Mod geliştiricileri için özellikler:
+- Sınırsız ve hassas kamera kontrolü sayesinde modelleri incelemek için idealdir
+- Etkin aracı yeniden yüklemek için Alt+R tuşlarına basın. Alt+Shift+R, 10 m içindeki tüm araçları yeniden yükler. Alt+Shift+Ctrl+R, 100 m içindeki tüm araçları yeniden yükler
+- Haritadaki tüm yerleştirilebilir nesneleri yeniden yüklemek için Alt+P tuşlarına basın
+
+FS22'den bu yana eklenenler:
+- Kompozisyon yardımcıları (üçler kuralı, Altın Oran, merkez, çaprazlar, Çapraz Yöntem ve Altın Üçgen ızgaraları ile en-boy oranı kaplamaları)
+- Nesneleri kolayca hedeflemek için alan derinliği odak yardımcısı
+- Sis ve pus ayarı
+- Zemin ıslaklığı
+- Ortam menüsüne dolu eklendi
+- Seçilebilir bileşenlerle (Kamera, Kalite, Gökyüzü, Zemin aydınlatması, Efektler, Mevsim, Hava Durumu ve Saat) en fazla on adlandırılmış favori ayarı kaydedin ve geri yükleyin
+- En fazla sekiz adlandırılmış ışık favorisini kaydedin ve geri yükleyin
+- Değiştirilebilir ön ayarlar dahil olmak üzere 10 favori kayıt yuvasına sahip özel renk derecelendirme kontrolleri
+- Genişletilmiş canlı ayar ve bilgi göstergeleri
+- Her menü için ayrı geri alma özelliği sayesinde ayarlarla oynayabilir ve bir şeyleri bozarsanız önceki duruma dönebilirsiniz
+- Ton eşleme kontrolleri
+- Gökyüzü parlaklığı ile zemin ışığının rengi ve yoğunluğu için bağımsız kontroller
+- Trafiği, yayaları ve park edilmiş araçları gösterin... veya göstermeyin. Size kalmış.
+- Çekiminize yabani hayvanlar, uçan kuşlar ve poz verilmiş çiftlik hayvanları yerleştirin. Hassas yerleştirme için dönüşü ve konum kaydırmasını ayarlayın; kargalar ve çiftlik hayvanları yüzeye otomatik olarak yerleştirilebilir.
+- Ayarlanabilir yarıçap ve güç kontrolleriyle istediğiniz yere kar ekleyin veya kaldırın
+- Lastik izlerini kaldırın
+- Derinlik haritasıyla veya haritasız isteğe bağlı HDR görüntü çıktısı. HDR için CTRL+ENTER, derinlik haritası görüntüsünü de eklemek için CTRL+SHIFT+ENTER kullanın.
+
+Notlar:
+- Duraklatma ekranından etkinleştirilmesi ve genel ayarları değiştirmesi nedeniyle bu mod çok oyunculu modu desteklemez.
+- Duraklatma ekranından çıktıktan sonra tüm değişiklikler geri alınır, ancak iki istisna vardır:
+  - Lastik izleri kaldırıldıktan sonra, aynı yerden yeniden geçmediğiniz sürece geri gelmez
+  - Kar önceki seviyesine geri yüklenir ve bu, standart dışı karı geçersiz kılabilir. Standart dışı kar kullanıyorsanız ve sorun yaşarsanız bana bildirin.]]></tr>
+		<cz><![CDATA[Pořízení dobré fotografie chce čas. Tento mod vám umožní zastavit čas, zatímco připravujete a komponujete dokonalý snímek. Díky pokročilým možnostem kvality a osvětlení a mnoha dalším funkcím máte vše, co potřebujete pro profesionální snímek!
+
+- Pořizujte snímky obrazovky přímo z obrazovky pozastavení
+- Volně pohybujte kamerou včetně naklánění a otáčení pomocí myši a klávesnice
+- Aktivujte režim Vysoké kvality a upravte další nastavení detailů
+- Měňte expozici kamery, zorné pole a mnoho dalšího
+- Měňte směr slunečního světla a upravujte jeho barvu (pomocí teploty barev nebo hodnot červené, zelené a modré)
+- Používejte další světla k nasvícení snímku (umístěte libovolný počet světel, každé s vlastní barvou, intenzitou, úhlem paprsku a zaostřením)
+- Měňte počasí nebo roční období včetně sněhu, námrazy, mlhy, oparu a krupobití
+- Upravujte čas se zachováním přirozeného pohybu Slunce a Měsíce
+- Používejte světelné efekty pro černobílý obraz, sépiový tón a další filtry
+- Upravujte hloubku ostrosti a zvýrazněte vybrané oblasti snímku
+- Zvětšujte nebo zmenšujte Slunce a Měsíc a upravujte lom světla na obloze
+- Snímky obrazovky se ukládají do vlastní složky uvnitř běžné složky se snímky obrazovky
+
+Funkce pro moddery:
+- Skvělé pro kontrolu modelů díky neomezenému a přesnému ovládání kamery
+- Stisknutím Alt+R znovu načtete aktivní vozidlo. Alt+Shift+R znovu načte všechna vozidla do vzdálenosti 10 m. Alt+Shift+Ctrl+R znovu načte všechna vozidla do vzdálenosti 100 m
+- Stisknutím Alt+P znovu načtete všechny umístitelné objekty na mapě
+
+Novinky od FS22:
+- Pomůcky pro kompozici (pravidlo třetin, zlatý řez, střed, diagonály, diagonální metoda a zlaté trojúhelníky, plus překryvy poměru stran)
+- Pomocník ostření hloubky ostrosti pro snadné zaměření objektů
+- Nastavení mlhy a oparu
+- Vlhkost povrchu
+- Krupobití přidáno do nabídky prostředí
+- Ukládání a obnovení až deseti pojmenovaných oblíbených nastavení s volitelnými součástmi (Kamera, Kvalita, Obloha, Osvětlení země, Efekty, Roční období, Počasí a Čas)
+- Ukládání a obnovení až osmi pojmenovaných oblíbených nastavení světel
+- Vlastní ovládání barevného tónování s 10 pozicemi pro oblíbená nastavení, včetně nahraditelných předvoleb
+- Rozšízené zobrazení aktuálních nastavení a informací
+- Možnost vrátit změny na úrovni jednotlivých nabídek, takže můžete experimentovat a vrátit se k předchozímu stavu, pokud něco pokazíte
+- Ovládání mapování tónů
+- Nezávislé ovládání jasu oblohy a barvy/intenzity osvětlení země
+- Zobrazte provoz, chodce a zaparkovaná vozidla... nebo ne. Je to na vás.
+- Umisťujte do snímku divoká zvířata, létající ptáky a pózující hospodářská zvířata. Upravujte natočení a posun pro přesné umístění; vrány a hospodářská zvířata lze automaticky umístit na povrch.
+- Přidávejte nebo odstraňujte sníh kdekoliv chcete pomocí nastavitelného poloměru a síly
+- Odstraňujte stopy pneumatik
+- Volitelný výstup obrazu HDR s mapou hloubky nebo bez ní. Použijte CTRL+ENTER pro HDR nebo CTRL+SHIFT+ENTER, chcete-li zároveň vytvořit obraz mapy hloubky.
+
+Poznámky:
+- Kvůli způsobu aktivace z obrazovky pozastavení a změnám globálních nastavení tento mod nepodporuje hru více hráčů.
+- Všechny změny se po opuštění obrazovky pozastavení vrátí zpět, se dvěma výjimkami:
+  - Jakmile odstraníte stopy pneumatik, neobjeví se znovu, dokud přes dané místo znovu neprojedete
+  - Sníh se obnoví na předchozí úroveň, což může přepsat nestandardní sníh. Pokud používáte nestandardní sníh a narazíte na problémy, dejte mi vědět.]]></cz>
+		<nl><![CDATA[Voor een goede foto moet je de tijd nemen. Met deze mod kun je de tijd stilzetten terwijl je de perfecte opname voorbereidt en kadreert. Met geavanceerde opties voor kwaliteit en belichting, en nog veel meer, heb je alles in handen voor een professionele foto!
+
+- Maak screenshots rechtstreeks vanuit het pauzescherm
+- Beweeg de camera vrij rond, inclusief rollen en kantelen, met muis- en toetsenbordbediening
+- Activeer de modus Hoge kwaliteit en pas andere detailinstellingen aan
+- Wijzig de camerabelichting, het gezichtsveld en nog veel meer
+- Verander de richting van het zonlicht en pas de kleur van het licht aan (via kleurtemperatuur of rood-groen-blauwwaarden)
+- Gebruik extra lampen om je opname uit te lichten (plaats onbeperkt lampen, elk met een eigen kleur, intensiteit, stralingshoek en focus)
+- Verander het weer of seizoen, inclusief sneeuw, vorst, mist, nevel en hagel
+- Pas de tijd aan met een natuurlijke voortgang van zon en maan
+- Pas lichteffecten toe voor zwart-wit, sepia en andere filters
+- Pas de scherptediepte aan om delen van je afbeelding te benadrukken
+- Maak de zon en maan groter of kleiner en pas de lichtbreking in de lucht aan
+- Screenshots worden opgeslagen in een eigen map binnen de normale screenshotmap
+
+Functies voor modders:
+- Ideaal voor het inspecteren van modellen dankzij onbeperkte, nauwkeurige camerabediening
+- Druk op Alt+R om het actieve voertuig opnieuw te laden. Alt+Shift+R laadt alle voertuigen binnen 10 m opnieuw. Alt+Shift+Ctrl+R laadt alle voertuigen binnen 100 m opnieuw
+- Druk op Alt+P om alle plaatsbare objecten op de kaart opnieuw te laden
+
+Nieuw sinds FS22:
+- Compositiehulpmiddelen (regel van derden, gulden snede, midden, diagonalen, diagonale methode en gouden driehoeken, plus overlays voor beeldverhoudingen)
+- Focusassistent voor scherptediepte om eenvoudig objecten te selecteren
+- Aanpassing van mist en nevel
+- Bodemvochtigheid
+- Hagel toegevoegd aan het omgevingsmenu
+- Sla tot tien benoemde favoriete instellingen op en herstel ze, met selecteerbare onderdelen (Camera, Kwaliteit, Lucht, Grondverlichting, Effecten, Seizoen, Weer en Tijd)
+- Sla tot acht benoemde favoriete lichtinstellingen op en herstel ze
+- Aangepaste kleurgradatie-instellingen met 10 favorietenplaatsen, inclusief vervangbare voorinstellingen
+- Uitgebreidere liveweergave van instellingen en informatie
+- Wijzigingen per menu terugdraaien, zodat je kunt experimenteren en naar de vorige toestand kunt terugkeren als je er een puinhoop van maakt
+- Bediening voor tonemapping
+- Onafhankelijke regeling van de helderheid van de lucht en de kleur/intensiteit van de grondverlichting
+- Toon verkeer, voetgangers en geparkeerde voertuigen... of niet. Aan jou de keuze.
+- Plaats wilde dieren, vliegende vogels en poserend vee in je opname. Pas rotatie en verschuiving aan voor nauwkeurige plaatsing, met automatische plaatsing op het oppervlak voor kraaien en boerderijdieren.
+- Voeg sneeuw toe of verwijder sneeuw waar je maar wilt, met instelbare straal en sterkte
+- Verwijder bandensporen
+- Optionele HDR-beeldopslag, met of zonder dieptekaart. Gebruik CTRL+ENTER voor HDR of CTRL+SHIFT+ENTER om ook een dieptekaart op te slaan.
+
+Opmerkingen:
+- Vanwege de activering via het pauzescherm en de wijzigingen aan globale instellingen ondersteunt deze mod geen multiplayer.
+- Alle wijzigingen worden teruggedraaid wanneer je het pauzescherm verlaat, met de volgende twee uitzonderingen:
+  - Nadat bandensporen zijn verwijderd, komen ze pas terug wanneer je er opnieuw overheen rijdt
+  - Sneeuw wordt hersteld naar het vorige niveau, waardoor niet-standaard sneeuw kan worden overschreven. Laat het me weten als je niet-standaard sneeuw gebruikt en problemen ondervindt.]]></nl>
+		<sv><![CDATA[För att ta ett bra foto måste du ta dig tid. Med den här modden kan du pausa tiden medan du förbereder och komponerar den perfekta bilden. Med avancerade alternativ för kvalitet och belysning, och mycket mer, har du allt du behöver för att ta en riktig proffsbild!
+
+- Ta skärmbilder direkt från pausmenyn
+- Flytta kameran fritt, inklusive rullning och lutning, med mus och tangentbord
+- Aktivera läget Hög kvalitet och justera andra detaljinställningar
+- Ändra kamerans exponering, synfält och mycket mer
+- Ändra solljusets riktning och justera ljusets färg (med färgtemperatur eller röd-grön-blå-värden)
+- Använd extra lampor för att lysa upp din bild (placera obegränsat antal lampor, var och en med egen färg, intensitet, strålvinkel och fokus)
+- Ändra väder eller årstid, inklusive snö, frost, dimma, dis och hagel
+- Justera tiden med naturlig förflyttning av solen och månen
+- Använd ljuseffekter för svartvitt, sepia och andra filter
+- Justera skärpedjupet för att framhäva delar av bilden
+- Gör solen och månen större eller mindre och justera ljusbrytningen på himlen
+- Skärmbilder sparas i en egen mapp inuti den vanliga skärmbildsmappen
+
+Funktioner för moddare:
+- Perfekt för att inspektera modeller med obegränsad och exakt kamerakontroll
+- Tryck på Alt+R för att ladda om det aktiva fordonet. Alt+Shift+R laddar om alla fordon inom 10 m. Alt+Shift+Ctrl+R laddar om alla fordon inom 100 m
+- Tryck på Alt+P för att ladda om alla placerbara objekt på kartan
+
+Nytt sedan FS22:
+- Kompositionshjälpmedel (tredjedelsregeln, gyllene snittet, centrum, diagonaler, diagonalmetoden och gyllene trianglar samt överlägg för bildförhållanden)
+- Fokushjälp för skärpedjup för att enkelt rikta in sig på objekt
+- Justering av dimma och dis
+- Markfuktighet
+- Hagel tillagt i miljömenyn
+- Spara och återställ upp till tio namngivna favoritinställningar med valbara komponenter (Kamera, Kvalitet, Himmel, Markbelysning, Effekter, Årstid, Väder och Tid)
+- Spara och återställ upp till åtta namngivna favoritinställningar för lampor
+- Anpassade färggraderingskontroller med 10 favoritplatser, inklusive utbytbara förinställningar
+- Utökad livevisning av inställningar och information
+- Återställning på menynivå, så att du kan experimentera och återgå till föregående läge om du råkar ställa till det
+- Kontroller för tonmappning
+- Oberoende kontroll av himlens ljusstyrka samt markbelysningens färg och intensitet
+- Visa trafik, fotgängare och parkerade fordon... eller låt bli. Det är upp till dig.
+- Placera vilda djur, flygande fåglar och poserande lantbruksdjur i bilden. Justera rotation och förskjutning för exakt placering, med automatisk placering på markytan för kråkor och lantbruksdjur.
+- Lägg till eller ta bort snö var du vill, med justerbar radie och styrka
+- Ta bort däckspår
+- Valfri HDR-bildutmatning, med eller utan djupkarta. Använd CTRL+ENTER för HDR eller CTRL+SHIFT+ENTER för att även skapa en bild med djupkarta.
+
+Anmärkningar:
+- På grund av aktiveringen via pausmenyn och ändringar av globala inställningar stöder den här modden inte multiplayer.
+- Alla ändringar återställs när du lämnar pausmenyn, med följande två undantag:
+  - När däckspår har tagits bort kommer de inte tillbaka förrän du kör där igen
+  - Snön återställs till den tidigare nivån, vilket kan skriva över icke-standardiserad snö. Om du använder icke-standardiserad snö och får problem, hör gärna av dig.]]></sv>
+		<es><![CDATA[Para hacer una buena foto, hay que tomarse su tiempo. Este mod te permite detener el tiempo mientras preparas y encuadras la toma perfecta. Con opciones avanzadas de calidad e iluminación y muchas otras funciones, ¡tienes todo lo necesario para conseguir una foto profesional!
+
+- Haz capturas de pantalla directamente desde la pantalla de pausa
+- Mueve la cámara libremente, incluidos el giro y la inclinación, con el ratón y el teclado
+- Activa el modo de Alta calidad y ajusta otros parámetros de detalle
+- Cambia la exposición de la cámara, el campo de visión y mucho más
+- Cambia la dirección de la luz solar y ajusta su color (mediante temperatura de color o valores de rojo, verde y azul)
+- Utiliza luces adicionales para iluminar la toma (coloca tantas luces como quieras, cada una con su propio color, intensidad, ángulo del haz y enfoque)
+- Cambia el tiempo meteorológico o la estación, incluidos nieve, escarcha, niebla, bruma y granizo
+- Ajusta la hora manteniendo el movimiento natural del Sol y la Luna
+- Aplica efectos de iluminación en blanco y negro, sepia y otros filtros
+- Ajusta la profundidad de campo para destacar determinadas zonas de la imagen
+- Haz que el Sol y la Luna sean más grandes o más pequeños y ajusta la refracción de la luz en el cielo
+- Las capturas de pantalla se guardan en su propia carpeta dentro de la carpeta habitual de capturas de pantalla
+
+Funciones para modders:
+- Ideal para inspeccionar modelos gracias al control ilimitado y preciso de la cámara
+- Pulsa Alt+R para volver a cargar el vehículo activo. Alt+Shift+R vuelve a cargar todos los vehículos en un radio de 10 m. Alt+Shift+Ctrl+R vuelve a cargar todos los vehículos en un radio de 100 m
+- Pulsa Alt+P para volver a cargar todos los objetos colocables del mapa
+
+Novedades desde FS22:
+- Ayudas de composición (regla de los tercios, proporción áurea, centro, diagonales, método diagonal y triángulos áureos, además de superposiciones de relación de aspecto)
+- Asistente de enfoque de profundidad de campo para seleccionar objetos fácilmente
+- Ajuste de niebla y bruma
+- Humedad del suelo
+- Granizo añadido al menú de entorno
+- Guarda y restaura hasta diez configuraciones favoritas con nombre, con componentes seleccionables (Cámara, Calidad, Cielo, Iluminación del suelo, Efectos, Estación, Tiempo meteorológico y Hora)
+- Guarda y restaura hasta ocho configuraciones favoritas de iluminación con nombre
+- Controles personalizados de gradación de color con 10 espacios para favoritos, incluidas configuraciones predefinidas sustituibles
+- Visualización ampliada en tiempo real de ajustes e información
+- Reversión por menú, para que puedas experimentar y volver al estado anterior si haces un desastre
+- Controles de mapeado de tonos
+- Controles independientes del brillo del cielo y del color/intensidad de la iluminación del suelo
+- Muestra el tráfico, los peatones y los vehículos aparcados... o no. Tú decides.
+- Coloca animales salvajes, aves en vuelo y animales de granja posando en la toma. Ajusta la rotación y el desplazamiento para colocarlos con precisión, con colocación automática sobre la superficie para cuervos y animales de granja.
+- Añade o elimina nieve donde quieras, con controles ajustables de radio e intensidad
+- Elimina las marcas de neumáticos
+- Salida de imagen HDR opcional, con o sin mapa de profundidad. Usa CTRL+ENTER para HDR o CTRL+SHIFT+ENTER para incluir también una imagen de mapa de profundidad.
+
+Notas:
+- Debido al funcionamiento de la activación desde la pantalla de pausa y a los cambios en ajustes globales, este mod no es compatible con el modo multijugador.
+- Todos los cambios se revierten al salir de la pantalla de pausa, con las dos excepciones siguientes:
+  - Una vez eliminadas las marcas de neumáticos, no volverán a aparecer hasta que vuelvas a pasar por allí
+  - La nieve se restaura al nivel anterior, lo que puede sobrescribir nieve no estándar. Si utilizas nieve no estándar y tienes algún problema, házmelo saber.]]></es>
+	</description>
+
+	<iconFilename>icon_ProShot.dds</iconFilename>
+
+	<multiplayer supported="false"/>
+
+	<extraSourceFiles>
+		<sourceFile filename="proShot.lua" />
+	</extraSourceFiles>
+
+	<l10n filenamePrefix="l10n/l10n"/>
+
+	<actions>
+		<action name="PRO_SHOT_1" axisType="HALF"/>
+		<action name="PRO_SHOT_2" axisType="HALF"/>
+		<action name="PRO_SHOT_3" axisType="HALF"/>
+		<action name="PRO_SHOT_4" axisType="HALF"/>
+		<action name="PRO_SHOT_5" axisType="HALF"/>
+		<action name="PRO_SHOT_6" axisType="HALF"/>
+		<action name="PRO_SHOT_7" axisType="HALF"/>
+		<action name="PRO_SHOT_8" axisType="HALF"/>
+		<action name="PRO_SHOT_9" axisType="HALF"/>
+		<action name="PRO_SHOT_0" axisType="HALF"/>
+
+		<action name="PRO_SHOT_KP_0" axisType="HALF"/>
+		<action name="PRO_SHOT_KP_PERIOD" axisType="HALF"/>
+		<action name="PRO_SHOT_MINUS" axisType="HALF"/>
+		<action name="PRO_SHOT_EQUALS" axisType="HALF"/>
+
+		<action name="PRO_SHOT_47" axisType="FULL"/>
+		<action name="PRO_SHOT_58" axisType="FULL"/>
+		<action name="PRO_SHOT_69" axisType="FULL"/>
+		<action name="PRO_SHOT_DOT3" axisType="FULL"/>
+		<action name="PRO_SHOT_DIVMUL" axisType="FULL"/>
+		<action name="PRO_SHOT_KP_MINUSPLUS" axisType="FULL"/>
+		<action name="PRO_SHOT_MINUSEQUALS" axisType="FULL"/>
+		<action name="PRO_SHOT_SQUAREBRACKETS" axisType="FULL"/>
+
+		<action name="PRO_SHOT_BACKSLASH" axisType="HALF"/>
+		<action name="PRO_SHOT_ENTER" axisType="HALF"/>
+		<action name="PRO_SHOT_HDR_CAPTURE" axisType="HALF"/>
+		<action name="PRO_SHOT_HDR_DEPTH_CAPTURE" axisType="HALF"/>
+		<action name="PRO_SHOT_BACKSPACE" axisType="HALF"/>
+		<action name="PRO_SHOT_F" axisType="HALF"/>
+		<action name="PRO_SHOT_F1" axisType="HALF"/>
+		<action name="PRO_SHOT_KP_ENTER" axisType="HALF"/>
+
+	</actions>
+
+	<inputBinding>
+		<actionBinding action="PRO_SHOT_47">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_4" axisComponent="-" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_7" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_58">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_5" axisComponent="-" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_8" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_69">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_6" axisComponent="-" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_9" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_DIVMUL">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_divide" axisComponent="-" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_multiply" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_KP_MINUSPLUS">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_minus" axisComponent="-" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_plus" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_DOT3">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_period" axisComponent="-" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_3" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_KP_PERIOD">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_period" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_MINUSEQUALS">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_minus" axisComponent="-" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_equals" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_SQUAREBRACKETS">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_leftbracket" axisComponent="-" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_rightbracket" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+
+		<actionBinding action="PRO_SHOT_BACKSLASH">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_backslash" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+
+		<actionBinding action="PRO_SHOT_KP_ENTER">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_enter" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_KP_0">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_KP_0" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_MINUS">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_minus" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_EQUALS">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_equals" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_1">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_1" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_2">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_2" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_3">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_3" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_4">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_4" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_5">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_5" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_6">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_6" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_7">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_7" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_8">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_8" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_9">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_9" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_0">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_0" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_ENTER">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_return" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_HDR_CAPTURE">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_return" axisComponent="+" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_return" axisComponent="+" neutralInput="0" index="2"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_HDR_DEPTH_CAPTURE">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_lctrl KEY_return" axisComponent="+" neutralInput="0" index="1"/>
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_rctrl KEY_return" axisComponent="+" neutralInput="0" index="2"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_BACKSPACE">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_backspace" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_F">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_f" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+		<actionBinding action="PRO_SHOT_F1">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_f1" axisComponent="+" neutralInput="0" index="1"/>
+		</actionBinding>
+	</inputBinding>
+
+</modDesc>

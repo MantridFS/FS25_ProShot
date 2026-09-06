@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Установить низкое качество"/>
+		<text name="proShot_menu_qualHigh" text="Установить высокое качество"/>
+		<text name="proShot_value_qualityLow" text="Низкое качество"/>
+		<text name="proShot_value_qualityHigh" text="Высокое качество"/>
+		<text name="proShot_menu_advMenus" text="Расширенные меню"/>
+		<text name="proShot_menu_favourites" text="Избранное"/>
+		<text name="proShot_menu_returnToAdvanced" text="Вернуться к расширенному меню"/>
+		<text name="proShot_menu_resetAll" text="Сбросить все настройки"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Сбросьте фонарики тоже"/>
+		<text name="proShot_value_original" text="Оригинал"/>
+		<text name="proShot_favourite_restoreSlot" text="Восстановить слот %d: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Сохранить в слот %d: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Удалить слот %d: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Сохранить текущие настройки в избранное"/>
+		<text name="proShot_favourite_remove" text="Удалить избранное"/>
+		<text name="proShot_favourite_revertPreview" text="Вернуться к настройкам, которые были до избранного"/>
+		<text name="proShot_favourite_cancel" text="Вернуться в избранное"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Выбрать слот для текущих настроек"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Выберите избранное, чтобы удалить"/>
+		<text name="proShot_favourite_defaultName" text="Предустановка %d"/>
+		<text name="proShot_favourite_namePrompt" text="Введите имя для слота избранного %d"/>
+		<text name="proShot_favourite_deleteTitle" text="Удалить избранное"/>
+		<text name="proShot_favourite_deletePrompt" text="Удалить слот избранного %d «%s»?"/>
+		<text name="proShot_favourite_emptyStatus" text="Слот %d пуст"/>
+		<text name="proShot_favourite_restoredStatus" text="Слот %d восстановлен"/>
+		<text name="proShot_favourite_revertedStatus" text="Возврат к настройкам, существовавшим до избранного."/>
+		<text name="proShot_favourite_savedStatus" text="Слот %d сохранён: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Слот %d удалён: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Не удалось записать файл избранного"/>
+		<text name="proShot_favourite_slotLabel" text="Слот %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Выберите настройки для сохранения"/>
+		<text name="proShot_favourite_chooseGroups" text="Выбрать группы для слота %d"/>
+		<text name="proShot_favourite_selectOneGroup" text="Выберите хотя бы одну группу настроек"/>
+		<text name="proShot_favourite_continueName" text="Продолжить и ввести имя"/>
+		<text name="proShot_favourite_backToSlots" text="Вернуться к выбору слота"/>
+		<text name="proShot_favourite_group_camera" text="Камера (FoV и экспозиция)"/>
+		<text name="proShot_favourite_group_sky" text="Небо"/>
+		<text name="proShot_favourite_group_groundLight" text="Освещение земли"/>
+		<text name="proShot_favourite_group_effects" text="Цветокоррекция и эффекты"/>
+		<text name="proShot_favourite_group_season" text="Сезон (включая мороз и снег)"/>
+		<text name="proShot_favourite_group_weather" text="Погода (включая туман и дымку)"/>
+		<text name="proShot_menu_advQualityMenu" text="Качественное меню"/>
+		<text name="proShot_menu_advSunMenu" text="Меню неба"/>
+		<text name="proShot_menu_advLightMenu" text="Меню фонарика"/>
+		<text name="proShot_menu_environment" text="Меню среды"/>
+		<text name="proShot_menu_effects" text="Меню эффектов"/>
+		<text name="proShot_menu_DoF" text="Меню глубины резкости"/>
+		<text name="proShot_menu_returnToMain" text="Вернуться в главное меню"/>
+		<text name="proShot_takePicture" text="Сфотографироваться"/>
+		<text name="proShot_hideHUD" text="Показать/скрыть HUD"/>
+		<text name="proShot_menu_advQ_VD" text="Уменьшить/увеличить дальность прорисовки"/>
+		<text name="proShot_menu_advQ_LOD" text="Уменьшить/увеличить дистанцию LOD"/>
+		<text name="proShot_menu_advQ_TLOD" text="Уменьшить/увеличить дистанцию LOD ландшафта"/>
+		<text name="proShot_menu_advQ_FVD" text="Уменьшить/увеличить дальность прорисовки растительности"/>
+		<text name="proShot_menu_skyBrightness" text="Яркость неба"/>
+		<text name="proShot_menu_groundLight" text="Освещение земли"/>
+		<text name="proShot_menu_skyAndGround" text="Небо и Земля"/>
+		<text name="proShot_menu_syncSkyToGround" text="Синхронизировать небо с землёй"/>
+		<text name="proShot_menu_lightingIntensity" text="Интенсивность освещения"/>
+		<text name="proShot_menu_lightingTemperature" text="Температура освещения"/>
+		<text name="proShot_menu_colourTemperature" text="Цветовая температура"/>
+		<text name="proShot_menu_intensity" text="Интенсивность"/>
+		<text name="proShot_menu_returnToSky" text="Вернуться в меню неба"/>
+		<text name="proShot_infoBox_skyTemp" text="Цветовая температура неба"/>
+		<text name="proShot_infoBox_skyIntensity" text="Интенсивность неба"/>
+		<text name="proShot_infoBox_groundTemp" text="Цветовая температура света"/>
+		<text name="proShot_infoBox_groundIntensity" text="Интенсивность света"/>
+		<text name="proShot_menu_red" text="Уменьшить/увеличить красный"/>
+		<text name="proShot_menu_green" text="Уменьшить/Увеличить зеленый цвет"/>
+		<text name="proShot_menu_blue" text="Уменьшить/Увеличить синий цвет"/>
+		<text name="proShot_menu_moonSize" text="Размер Луны"/>
+		<text name="proShot_menu_sunSize" text="Размер Солнца"/>
+		<text name="proShot_menu_atmosRefraction" text="Преломление атмосферы"/>
+		<text name="proShot_menu_light_temp" text="Сделать свет холоднее/теплее"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Узкий/расширенный конус"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Повышение резкости/размытие фокуса"/>
+		<text name="proShot_menu_flashLight_intensity" text="Уменьшить/увеличить интенсивность"/>
+		<text name="proShot_menu_flashLight_distance" text="Уменьшить/Увеличить расстояние"/>
+		<text name="proShot_menu_flashLight_place" text="Поместите сюда фонарик"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Включи фонарик"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Удалить последний фонарик"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Установить свет по умолчанию"/>
+		<text name="proShot_flashLight_placed" text="Фонарик установлен (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Фонарики размещены"/>
+		<text name="proShot_flashFavourite_title" text="Избранное фонарика"/>
+		<text name="proShot_flashFavourite_save" text="Сохранить как избранное"/>
+		<text name="proShot_flashFavourite_remove" text="Удалить избранное"/>
+		<text name="proShot_flashFavourite_cancel" text="Вернуться в меню фонарика"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Любимый %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Сохранить в слот %d: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Удалить слот %d: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Фонарик %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Введите имя для избранного фонарика %d."/>
+		<text name="proShot_flashFavourite_restored" text="Избранный фонарь %d восстановлен: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Избранный фонарь %d сохранён: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Избранный фонарь %d удалён: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Удалить фонарик из избранного"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Удалить любимый фонарик %d, «%s»?"/>
+		<text name="proShot_menu_exposure" text="Регулировка экспозиции"/>
+		<text name="proShot_menu_FoV" text="Регулировка поля зрения"/>
+		<text name="proShot_menu_timeHorly" text="Настройка времени (почасово)"/>
+		<text name="proShot_menu_timeMins" text="Настройка времени (минуты)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Нейтральный"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Насыщенный"/>
+		<text name="proShot_menu_effects_preset_deep" text="Глубокий"/>
+		<text name="proShot_menu_effects_preset_cold" text="Холодный"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Оттенки серого"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Тон сепии"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Фантом"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Порог Bloom"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Интенсивность Bloom"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Качество Bloom"/>
+		<text name="proShot_effect_slotEntry" text="Слот эффекта %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Сохранить в слот эффекта %d: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Сбросить слот эффекта %d: %s"/>
+		<text name="proShot_effect_customise" text="Пользовательская цветокоррекция"/>
+		<text name="proShot_effect_global" text="Глобально"/>
+		<text name="proShot_effect_shadows" text="Тени"/>
+		<text name="proShot_effect_midtones" text="Средние тона"/>
+		<text name="proShot_effect_highlights" text="Светлые тона"/>
+		<text name="proShot_effect_saturation" text="Насыщенность"/>
+		<text name="proShot_effect_contrast" text="Контраст"/>
+		<text name="proShot_effect_gamma" text="Гамма"/>
+		<text name="proShot_effect_gain" text="Усиление"/>
+		<text name="proShot_effect_scale" text="Масштаб"/>
+		<text name="proShot_effect_shadowsMax" text="Максимальная яркость теней"/>
+		<text name="proShot_effect_highlightsMin" text="Минимальная яркость светлых тонов"/>
+		<text name="proShot_effect_maxLuminance" text="Максимальная яркость: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Минимальная яркость: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Сбросить пороги яркости"/>
+		<text name="proShot_menu_toneMapping" text="Тональная компрессия"/>
+		<text name="proShot_tone_slope" text="Наклон"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Отсечение чёрного"/>
+		<text name="proShot_tone_whiteClip" text="Отсечение белого"/>
+		<text name="proShot_menu_fog" text="Уменьшить/Увеличить туман"/>
+		<text name="proShot_menu_haze" text="Уменьшить/увеличить дымку"/>
+		<text name="proShot_infoBox_fog" text="Туман"/>
+		<text name="proShot_infoBox_haze" text="Дымка"/>
+		<text name="proShot_menu_fogAdvanced" text="Меню тумана"/>
+		<text name="proShot_fog_coverage" text="Уменьшите/увеличьте запотевание"/>
+		<text name="proShot_fog_softness" text="Уменьшить/увеличить мягкость покрытия"/>
+		<text name="proShot_fog_groundDensity" text="Уменьшить/увеличить плотность тумана"/>
+		<text name="proShot_fog_extraHeight" text="Уменьшить/Увеличить высоту тумана"/>
+		<text name="proShot_fog_minValleyDepth" text="Уменьшить/увеличить минимальную глубину впадины"/>
+		<text name="proShot_fog_coverageInfo" text="Покрытие"/>
+		<text name="proShot_fog_softnessInfo" text="Мягкость"/>
+		<text name="proShot_fog_groundDensityInfo" text="Плотность"/>
+		<text name="proShot_fog_extraHeightInfo" text="Высота"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Минимальная глубина долины"/>
+		<text name="proShot_testing_enableTraffic" text="Включите трафик"/>
+		<text name="proShot_testing_disableTraffic" text="Выключить трафик"/>
+		<text name="proShot_testing_enablePedestrians" text="Включите пешеходов"/>
+		<text name="proShot_testing_disablePedestrians" text="Выключите пешеходов"/>
+		<text name="proShot_testing_pauseTraffic" text="Приостановить движение"/>
+		<text name="proShot_testing_resumeTraffic" text="Возобновить движение"/>
+		<text name="proShot_testing_pausePedestrians" text="Остановить пешеходов"/>
+		<text name="proShot_testing_resumePedestrians" text="Возобновить пешеходов"/>
+		<text name="proShot_testing_localSnow" text="Местный снег"/>
+		<text name="proShot_testing_groundWetness" text="Уменьшить/увеличить влажность почвы"/>
+		<text name="proShot_testing_removeTyreTracks" text="Удалить следы шин (невозможно отменить)"/>
+		<text name="proShot_testing_traffic" text="Трафик"/>
+		<text name="proShot_testing_trafficMotion" text="Транспортное движение"/>
+		<text name="proShot_testing_pedestrians" text="Пешеходы"/>
+		<text name="proShot_testing_pedestrianMotion" text="Пешеходное движение"/>
+		<text name="proShot_testing_paused" text="Приостановлено"/>
+		<text name="proShot_testing_running" text="В движении"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Влажность грунта"/>
+		<text name="proShot_testing_wildlife" text="Дикие животные"/>
+		<text name="proShot_testing_tyreTracks" text="Удаление следов шин"/>
+		<text name="proShot_testing_unavailable" text="Недоступно на этой карте"/>
+		<text name="proShot_testing_irreversible" text="Невозможно отменить"/>
+		<text name="proShot_testing_trafficUnavailable" text="На этой карте нет дорожной системы."/>
+		<text name="proShot_testing_pedestriansUnavailable" text="На этой карте нет пешеходной системы."/>
+		<text name="proShot_testing_birdUnavailable" text="Для этой карты не определены подходящие виды птиц."/>
+		<text name="proShot_testing_wildlifeRemoved" text="Удалено животных и групп птиц: %d"/>
+		<text name="proShot_testing_spawnFailed" text="Не удалось разместить животное"/>
+		<text name="proShot_testing_actionUnavailable" text="Это действие недоступно на этой карте."/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="В этой сборке игры недоступна пешеходная пауза."/>
+		<text name="proShot_testing_snowRadius" text="Уменьшить/Увеличить радиус"/>
+		<text name="proShot_testing_snowHeight" text="Опустить/поднять снег в выделенной области"/>
+		<text name="proShot_testing_snowTarget" text="Цель"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Радиус"/>
+		<text name="proShot_testing_snowHeightInfo" text="Снег в центре"/>
+		<text name="proShot_testing_noTarget" text="Нет цели на местности"/>
+		<text name="proShot_testing_snowNoTarget" text="В центре экрана не обнаружено местности"/>
+		<text name="proShot_testing_snowLowered" text="Уменьшен снег в выделенной области"/>
+		<text name="proShot_testing_snowRaised" text="Поднятый снег в выделенной области"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Удалить следы шин"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Выберите, какую часть карты следов шин нужно стереть."/>
+		<text name="proShot_testing_tyreTracks100m" text="В радиусе 100 м от камеры"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Вся карта"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Удалить следы шин в радиусе 100 м от камеры? Это невозможно отменить."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Удалить с карты все следы шин? Это невозможно отменить."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Удалены следы шин в радиусе 100 м от камеры."/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Убраны все следы шин."/>
+		<text name="proShot_wildlife_menu" text="Животные"/>
+		<text name="proShot_wildlife_selectAnimal" text="Выбрать: %s"/>
+		<text name="proShot_wildlife_selectBird" text="Выбрать: %s"/>
+		<text name="proShot_wildlife_spawn" text="Разместить: %s"/>
+		<text name="proShot_wildlife_spawnFlying" text="Разместить в полёте: %s"/>
+		<text name="proShot_wildlife_pauseBirds" text="Приостановить птиц"/>
+		<text name="proShot_wildlife_resumeBirds" text="Возобновить птиц"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Приостановить диких животных"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Возобновить диких животных"/>
+		<text name="proShot_wildlife_removeLastBird" text="Удалить последнюю птицу"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Удалить последнее дикое животное"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Выбранное животное"/>
+		<text name="proShot_wildlife_selectedBird" text="Выбранная птица"/>
+		<text name="proShot_wildlife_animalMotion" text="Движение животных"/>
+		<text name="proShot_wildlife_birdMotion" text="Движение птиц"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Размещённые животные"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Размещённые птицы"/>
+		<text name="proShot_wildlife_unavailable" text="Для этой карты не определены дикие животные"/>
+		<text name="proShot_wildlife_spawned" text="Размещено перед камерой: %s"/>
+		<text name="proShot_wildlife_tooFar" text="Слишком далеко"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Птицы размещены в небе над целью"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Птицы размещены"/>
+		<text name="proShot_wildlife_placedGround" text="Животное размещено на земле"/>
+		<text name="proShot_wildlife_placedObject" text="Животное размещено на объекте"/>
+		<text name="proShot_wildlife_groundOnly" text="Им место на земле"/>
+		<text name="proShot_animals_offsetX" text="Смещение животного по X"/>
+		<text name="proShot_animals_offsetY" text="Смещение животного по Y"/>
+		<text name="proShot_animals_offsetZ" text="Смещение животного по Z"/>
+		<text name="proShot_animals_resetOffsets" text="Сбросить смещения животного"/>
+		<text name="proShot_animals_rotation" text="Поворот животного"/>
+		<text name="proShot_farm_select" text="Выбрать сельскохозяйственное животное"/>
+		<text name="proShot_farm_place" text="Разместить: %s"/>
+		<text name="proShot_farm_removeLast" text="Удалить последнее сельскохозяйственное животное"/>
+		<text name="proShot_farm_removedLast" text="Последнее сельскохозяйственное животное удалено"/>
+		<text name="proShot_farm_noneToRemove" text="Нет размещённых сельскохозяйственных животных для удаления"/>
+		<text name="proShot_farm_selected" text="Выбранное сельскохозяйственное животное"/>
+		<text name="proShot_farm_spawned" text="Размещённые сельскохозяйственные животные"/>
+		<text name="proShot_farm_unavailable" text="На этой карте нет доступных сельскохозяйственных животных"/>
+		<text name="proShot_farm_selectTitle" text="Выбор сельскохозяйственного животного"/>
+		<text name="proShot_farm_selectText" text="Выберите животное и возраст."/>
+		<text name="proShot_farm_breedTitle" text="Выбор породы"/>
+		<text name="proShot_farm_breedText" text="Выберите породу или внешний вид."/>
+		<text name="proShot_farm_loadFailed" text="Не удалось загрузить сельскохозяйственное животное"/>
+		<text name="proShot_farm_placedGround" text="Сельскохозяйственное животное размещено на земле"/>
+		<text name="proShot_farm_placedObject" text="Сельскохозяйственное животное размещено на объекте"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Детёныш"/>
+		<text name="proShot_farm_stageYoung" text="Молодое"/>
+		<text name="proShot_farm_stageAdult" text="Взрослое"/>
+		<text name="proShot_farm_calf" text="Телёнок"/>
+		<text name="proShot_farm_youngCow" text="Молодая корова"/>
+		<text name="proShot_farm_cow" text="Корова"/>
+		<text name="proShot_farm_buffaloCalf" text="Телёнок буйвола"/>
+		<text name="proShot_farm_youngBuffalo" text="Молодой водяной буйвол"/>
+		<text name="proShot_farm_waterBuffalo" text="Водяной буйвол"/>
+		<text name="proShot_farm_piglet" text="Поросёнок"/>
+		<text name="proShot_farm_youngPig" text="Молодая свинья"/>
+		<text name="proShot_farm_pig" text="Свинья"/>
+		<text name="proShot_farm_lamb" text="Ягнёнок"/>
+		<text name="proShot_farm_youngSheep" text="Молодая овца"/>
+		<text name="proShot_farm_sheep" text="Овца"/>
+		<text name="proShot_farm_kid" text="Козлёнок"/>
+		<text name="proShot_farm_youngGoat" text="Молодая коза"/>
+		<text name="proShot_farm_goat" text="Коза"/>
+		<text name="proShot_farm_horse" text="Лошадь"/>
+		<text name="proShot_farm_chick" text="Цыплёнок"/>
+		<text name="proShot_farm_hen" text="Курица"/>
+		<text name="proShot_farm_rooster" text="Петух"/>
+		<text name="proShot_farm_menuCow" text="Корова"/>
+		<text name="proShot_farm_menuBuffalo" text="Водяной буйвол"/>
+		<text name="proShot_farm_menuPig" text="Свинья"/>
+		<text name="proShot_farm_menuSheep" text="Овца"/>
+		<text name="proShot_farm_menuGoat" text="Коза"/>
+		<text name="proShot_farm_menuHorse" text="Лошадь"/>
+		<text name="proShot_farm_menuChicken" text="Курица"/>
+		<text name="proShot_wildlife_birdRemoved" text="Последняя размещённая птица удалена"/>
+		<text name="proShot_wildlife_animalRemoved" text="Последнее размещённое животное удалено"/>
+		<text name="proShot_wildlife_noBird" text="Нет размещённых птиц для удаления"/>
+		<text name="proShot_wildlife_noAnimal" text="Нет размещённых животных для удаления"/>
+		<text name="proShot_wildlife_removeAll" text="Удалить всех животных и птиц"/>
+		<text name="proShot_scene_menu" text="Элементы управления сценой"/>
+		<text name="proShot_scene_hideParked" text="Скрыть припаркованные автомобили"/>
+		<text name="proShot_scene_showParked" text="Показать припаркованные автомобили"/>
+		<text name="proShot_scene_parkedVehicles" text="Припаркованные автомобили"/>
+		<text name="proShot_scene_parkedUnavailable" text="На этой карте недоступен контроль припаркованных автомобилей."/>
+		<text name="proShot_scene_reset" text="Сбросить элементы управления сценой"/>
+		<text name="proShot_snow_strength" text="Уменьшить/увеличить силу инструмента"/>
+		<text name="proShot_snow_strengthInfo" text="Сила инструмента"/>
+		<text name="proShot_snow_globalLevel" text="Уменьшить/увеличить общий уровень снега"/>
+		<text name="proShot_snow_globalLevelInfo" text="Общий уровень снега"/>
+		<text name="proShot_focus_set" text="Сфокусироваться на объекте в центре"/>
+		<text name="proShot_focus_narrow" text="Сузить диапазон фокусировки"/>
+		<text name="proShot_focus_widen" text="Расширить диапазон фокусировки"/>
+		<text name="proShot_focus_holdClear" text="Удерживайте [%s], чтобы сбросить фокус"/>
+		<text name="proShot_focus_noTarget" text="В центре экрана не найден объект"/>
+		<text name="proShot_focus_status" text="Фокус по центру"/>
+		<text name="proShot_focus_distance" text="%.1f м (диапазон %.1f м)"/>
+		<text name="proShot_composition_grid" text="Сетка: %s"/>
+		<text name="proShot_composition_aspect" text="Направляющая формата: %s"/>
+		<text name="proShot_composition_status" text="Композиция"/>
+		<text name="proShot_grid_thirds" text="Трети"/>
+		<text name="proShot_grid_goldenRatio" text="Золотое сечение (Фи)"/>
+		<text name="proShot_grid_centre" text="Центр"/>
+		<text name="proShot_grid_diagonals" text="Диагонали"/>
+		<text name="proShot_grid_diagonalMethod" text="Диагональный метод"/>
+		<text name="proShot_grid_goldenTriangles" text="Золотые треугольники"/>
+		<text name="proShot_effect_resetSlot" text="Сбросить слот"/>
+		<text name="proShot_effect_saveSlotMenu" text="Сохранить текущий эффект в слот"/>
+		<text name="proShot_effect_allSlotsDefault" text="Все слоты эффектов уже имеют значения по умолчанию"/>
+		<text name="proShot_effect_emptySlot" text="Слот эффекта %d пуст"/>
+		<text name="proShot_effect_defaultName" text="Пользовательский эффект %d"/>
+		<text name="proShot_effect_namePrompt" text="Введите имя для слота эффекта %d."/>
+		<text name="proShot_effect_saveFailed" text="Не удалось записать файл эффектов"/>
+		<text name="proShot_effect_saved" text="Слот эффекта %d сохранён: %s"/>
+		<text name="proShot_effect_resetDone" text="Слот эффекта %d сброшен"/>
+		<text name="proShot_effect_slotLabel" text="Слот %d"/>
+		<text name="proShot_effect_editing" text="Редактирование"/>
+		<text name="proShot_menu_revertThisScreen" text="Отменить изменения на этом экране"/>
+		<text name="proShot_infoBox_VD" text="Дальность прорисовки"/>
+		<text name="proShot_infoBox_FVD" text="Дальность прорисовки растительности"/>
+		<text name="proShot_infoBox_exposure" text="Экспозиция камеры"/>
+		<text name="proShot_infoBox_FoV" text="Поле зрения камеры"/>
+		<text name="proShot_infoBox_quality" text="Предустановка качества"/>
+		<text name="proShot_infoBox_sunDirection" text="Направление Солнца"/>
+		<text name="proShot_infoBox_colourGrading" text="Эффект"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Цветокоррекция"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Температура фонаря"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Яркость фонарика"/>
+		<text name="proShot_infoBox_flashlightRange" text="Дальность света"/>
+		<text name="proShot_infoBox_flashlightCone" text="Угол конуса"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Размытие света"/>
+		<text name="proShot_infoBox_title_environment" text="Среда"/>
+		<text name="proShot_infoBox_season" text="Сезон"/>
+		<text name="proShot_infoBox_frost" text="Иней"/>
+		<text name="proShot_infoBox_snowLevel" text="Уровень снега"/>
+		<text name="proShot_infoBox_title_effects" text="Эффекты"/>
+		<text name="proShot_infoBox_help1b" text="Левая кнопка мыши или клавиши WSAD"/>
+		<text name="proShot_infoBox_help2a" text="Отрегулировать высоту"/>
+		<text name="proShot_infoBox_help2b" text="Колесо прокрутки или клавиши QE"/>
+		<text name="proShot_infoBox_help3a" text="Увеличение скорости"/>
+		<text name="proShot_infoBox_help3b" text="Удерживайте клавишу Shift"/>
+		<text name="proShot_infoBox_help4a" text="Уменьшить скорость"/>
+		<text name="proShot_infoBox_help4b" text="Удерживайте клавишу Ctrl"/>
+		<text name="proShot_infoBox_help5b" text="Правая кнопка мыши"/>
+		<text name="proShot_infoBox_help6a" text="Переместить солнечный свет"/>
+		<text name="proShot_infoBox_help6b" text="Средняя кнопка мыши"/>
+		<text name="proShot_infoBox_help7b" text="Цифровая клавиатура 1 и 2"/>
+		<text name="proShot_infoBox_help8a" text="Сбросить наклон"/>
+		<text name="proShot_infoBox_help8b" text="Цифровая клавиатура 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Радиус ближнего CoC"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Конечная дистанция ближнего размытия"/>
+		<text name="proShot_DoF_farCoCRadius" text="Радиус дальнего CoC"/>
+		<text name="proShot_DoF_farBlurStart" text="Начальная дистанция дальнего размытия"/>
+		<text name="proShot_DoF_farBlurEnd" text="Дистанция полного дальнего размытия"/>
+		<text name="proShot_DoF_applyToSky" text="Размытие неба"/>
+		<text name="proShot_summer" text="Лето"/>
+		<text name="proShot_autumn" text="Осень"/>
+		<text name="proShot_winter" text="Зима"/>
+		<text name="proShot_spring" text="Весна"/>
+		<text name="proShot_early" text="начало"/>
+		<text name="proShot_mid" text="середина"/>
+		<text name="proShot_late" text="конец"/>
+		<text name="proShot_seasonTweak" text="Сезонная настройка"/>
+		<text name="proShot_variation" text="вариация"/>
+		<text name="proShot_weather_SUN" text="Солнечно"/>
+		<text name="proShot_weather_CLOUDY" text="Облачно"/>
+		<text name="proShot_weather_RAIN" text="Дождливый"/>
+		<text name="proShot_weather_SNOW" text="Снежный"/>
+		<text name="proShot_weather_HAIL" text="Град"/>
+		<text name="proShot_menu_snowShader" text="Показать/скрыть иней"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Радиус ближнего CoC (сила размытия)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Радиус дальнего CoC (сила размытия)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Конечная дистанция ближнего размытия"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Начальная дистанция дальнего размытия"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Дистанция полного дальнего размытия"/>
+		<text name="proShot_menu_resetThis" text="Сбросить эти настройки"/>
+		<text name="input_PRO_SHOT_1" text="Выбор 1"/>
+		<text name="input_PRO_SHOT_2" text="Выбор 2"/>
+		<text name="input_PRO_SHOT_3" text="Выбор 3"/>
+		<text name="input_PRO_SHOT_4" text="Выбор 4"/>
+		<text name="input_PRO_SHOT_5" text="Выбор 5"/>
+		<text name="input_PRO_SHOT_6" text="Выбор 6"/>
+		<text name="input_PRO_SHOT_7" text="Выбор 7"/>
+		<text name="input_PRO_SHOT_8" text="Выбор 8"/>
+		<text name="input_PRO_SHOT_9" text="Выбор 9"/>
+		<text name="input_PRO_SHOT_0" text="Выбор 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Цифровая клавиатура 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Удалить последнее сельскохозяйственное животное"/>
+		<text name="input_PRO_SHOT_MINUS" text="Минус основной клавиатуры"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Равно/плюс основной клавиатуры"/>
+		<text name="input_PRO_SHOT_47_1" text="Регулировка 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="Регулировка 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Регулировка 2+"/>
+		<text name="input_PRO_SHOT_58_2" text="Регулировка 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Регулировка 3+"/>
+		<text name="input_PRO_SHOT_69_2" text="Регулировка 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Регулировка 4+"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Регулировка 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Регулировка 5+"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Регулировка 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Регулировка 6+"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Регулировка 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Регулировка 7+"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Регулировка 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Регулировка 8+"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Регулировка 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Восстановить настройки"/>
+		<text name="input_PRO_SHOT_ENTER" text="Сфотографироваться"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="Создать HDR-снимок"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="Создать HDR-снимок и снимок глубины"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Вернуться в предыдущее меню"/>
+		<text name="input_PRO_SHOT_F" text="Фонарик"/>
+		<text name="input_PRO_SHOT_F1" text="Показать/скрыть HUD"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Enter цифровой клавиатуры"/>
+	</texts>
+</l10n>

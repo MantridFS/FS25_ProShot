@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Angi lav kvalitet"/>
+		<text name="proShot_menu_qualHigh" text="Angi høy kvalitet"/>
+		<text name="proShot_value_qualityLow" text="Lav kvalitet"/>
+		<text name="proShot_value_qualityHigh" text="Høy kvalitet"/>
+		<text name="proShot_menu_advMenus" text="Avanserte menyer"/>
+		<text name="proShot_menu_favourites" text="Favoritter"/>
+		<text name="proShot_menu_returnToAdvanced" text="Tilbake til avanserte menyer"/>
+		<text name="proShot_menu_resetAll" text="Tilbakestill alle innstillinger"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Tilbakestill også lommelykter"/>
+		<text name="proShot_value_original" text="Original"/>
+		<text name="proShot_favourite_restoreSlot" text="Gjenopprett plass %d: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Lagre på plass %d: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Fjern plass %d: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Lagre gjeldende innstillinger som favoritt"/>
+		<text name="proShot_favourite_remove" text="Fjern en favoritt"/>
+		<text name="proShot_favourite_revertPreview" text="Gå tilbake til innstillingene fra før Favoritter"/>
+		<text name="proShot_favourite_cancel" text="Tilbake til favoritter"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Velg en plass for de gjeldende innstillingene"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Velg en favoritt som skal fjernes"/>
+		<text name="proShot_favourite_defaultName" text="Forhåndsinnstilling %d"/>
+		<text name="proShot_favourite_namePrompt" text="Skriv inn et navn for favorittplass %d"/>
+		<text name="proShot_favourite_deleteTitle" text="Fjern favoritt"/>
+		<text name="proShot_favourite_deletePrompt" text="Fjerne favorittplass %d, «%s»?"/>
+		<text name="proShot_favourite_emptyStatus" text="Plass %d er tom"/>
+		<text name="proShot_favourite_restoredStatus" text="Plass %d gjenopprettet"/>
+		<text name="proShot_favourite_revertedStatus" text="Gikk tilbake til innstillingene fra før Favoritter"/>
+		<text name="proShot_favourite_savedStatus" text="Plass %d lagret: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Plass %d fjernet: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Kunne ikke skrive favorittfilen"/>
+		<text name="proShot_favourite_slotLabel" text="Plass %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Velg innstillinger som skal lagres"/>
+		<text name="proShot_favourite_chooseGroups" text="Velg grupper for plass %d"/>
+		<text name="proShot_favourite_selectOneGroup" text="Velg minst én innstillingsgruppe"/>
+		<text name="proShot_favourite_continueName" text="Fortsett og skriv inn et navn"/>
+		<text name="proShot_favourite_backToSlots" text="Tilbake til valg av plass"/>
+		<text name="proShot_favourite_group_camera" text="Kamera (FoV og eksponering)"/>
+		<text name="proShot_favourite_group_sky" text="Himmel"/>
+		<text name="proShot_favourite_group_groundLight" text="Bakkelys"/>
+		<text name="proShot_favourite_group_effects" text="Fargegradering og effekter"/>
+		<text name="proShot_favourite_group_season" text="Årstid (inkludert frost og snø)"/>
+		<text name="proShot_favourite_group_weather" text="Vær (inkludert tåke og dis)"/>
+		<text name="proShot_menu_advQualityMenu" text="Kvalitetsmeny"/>
+		<text name="proShot_menu_advSunMenu" text="Himmelmeny"/>
+		<text name="proShot_menu_advLightMenu" text="Lommelyktmeny"/>
+		<text name="proShot_menu_environment" text="Miljømeny"/>
+		<text name="proShot_menu_effects" text="Effektmeny"/>
+		<text name="proShot_menu_DoF" text="Dybdeskarphetsmeny"/>
+		<text name="proShot_menu_returnToMain" text="Tilbake til hovedmenyen"/>
+		<text name="proShot_takePicture" text="Ta bilde"/>
+		<text name="proShot_hideHUD" text="Slå HUD av/på"/>
+		<text name="proShot_menu_advQ_VD" text="Reduser/øk synsavstand"/>
+		<text name="proShot_menu_advQ_LOD" text="Reduser/øk LOD-avstand"/>
+		<text name="proShot_menu_advQ_TLOD" text="Reduser/øk terrengets LOD-avstand"/>
+		<text name="proShot_menu_advQ_FVD" text="Reduser/øk vegetasjonens synsavstand"/>
+		<text name="proShot_menu_skyBrightness" text="Himmelens lysstyrke"/>
+		<text name="proShot_menu_groundLight" text="Bakkelys"/>
+		<text name="proShot_menu_skyAndGround" text="Himmel og bakke"/>
+		<text name="proShot_menu_syncSkyToGround" text="Synkroniser himmel med bakke"/>
+		<text name="proShot_menu_lightingIntensity" text="Lysintensitet"/>
+		<text name="proShot_menu_lightingTemperature" text="Lystemperatur"/>
+		<text name="proShot_menu_colourTemperature" text="Fargetemperatur"/>
+		<text name="proShot_menu_intensity" text="Intensitet"/>
+		<text name="proShot_menu_returnToSky" text="Tilbake til Himmelmenyen"/>
+		<text name="proShot_infoBox_skyTemp" text="Himmelens fargetemperatur"/>
+		<text name="proShot_infoBox_skyIntensity" text="Himmelens intensitet"/>
+		<text name="proShot_infoBox_groundTemp" text="Lysets fargetemperatur"/>
+		<text name="proShot_infoBox_groundIntensity" text="Lysintensitet"/>
+		<text name="proShot_menu_red" text="Reduser/øk rødt"/>
+		<text name="proShot_menu_green" text="Reduser/øk grønt"/>
+		<text name="proShot_menu_blue" text="Reduser/øk blått"/>
+		<text name="proShot_menu_moonSize" text="Månens størrelse"/>
+		<text name="proShot_menu_sunSize" text="Solens størrelse"/>
+		<text name="proShot_menu_atmosRefraction" text="Atmosfærisk brytning"/>
+		<text name="proShot_menu_light_temp" text="Kaldere/varmere lys"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Gjør kjeglen smalere/bredere"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Gjør fokus skarpere/mykere"/>
+		<text name="proShot_menu_flashLight_intensity" text="Senk/øk intensiteten"/>
+		<text name="proShot_menu_flashLight_distance" text="Reduser/øk avstand"/>
+		<text name="proShot_menu_flashLight_place" text="Plasser lommelykt her"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Slå på lommelykt"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Fjern siste lommelykt"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Tilbakestill lyset til standard"/>
+		<text name="proShot_flashLight_placed" text="Lommelykt plassert (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Plasserte lommelykter"/>
+		<text name="proShot_flashFavourite_title" text="Lommelyktfavoritter"/>
+		<text name="proShot_flashFavourite_save" text="Lagre som favoritt"/>
+		<text name="proShot_flashFavourite_remove" text="Fjern favoritt"/>
+		<text name="proShot_flashFavourite_cancel" text="Tilbake til Lommelyktmenyen"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Favoritt %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Lagre på plass %d: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Fjern plass %d: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Lommelykt %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Skriv inn et navn for lommelyktfavoritt %d"/>
+		<text name="proShot_flashFavourite_restored" text="Lommelyktfavoritt %d gjenopprettet: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Lommelyktfavoritt %d lagret: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Lommelyktfavoritt %d fjernet: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Fjern lommelyktfavoritt"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Fjerne lommelyktfavoritt %d, «%s»?"/>
+		<text name="proShot_menu_exposure" text="Juster eksponering"/>
+		<text name="proShot_menu_FoV" text="Juster synsfelt"/>
+		<text name="proShot_menu_timeHorly" text="Juster tid (timer)"/>
+		<text name="proShot_menu_timeMins" text="Juster tid (minutter)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Flat"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Livlig"/>
+		<text name="proShot_menu_effects_preset_deep" text="Dyp"/>
+		<text name="proShot_menu_effects_preset_cold" text="Kald"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Gråtoner"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Sepiatone"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Fantom"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Bloom-terskel"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Bloom-styrke"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Bloom-kvalitet"/>
+		<text name="proShot_effect_slotEntry" text="Effektplass %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Lagre på effektplass %d: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Tilbakestill effektplass %d: %s"/>
+		<text name="proShot_effect_customise" text="Tilpasset fargegradering"/>
+		<text name="proShot_effect_global" text="Global"/>
+		<text name="proShot_effect_shadows" text="Skygger"/>
+		<text name="proShot_effect_midtones" text="Mellomtoner"/>
+		<text name="proShot_effect_highlights" text="Høylys"/>
+		<text name="proShot_effect_saturation" text="Metning"/>
+		<text name="proShot_effect_contrast" text="Kontrast"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Forsterkning"/>
+		<text name="proShot_effect_scale" text="Skala"/>
+		<text name="proShot_effect_shadowsMax" text="Maksimal luminans for skygger"/>
+		<text name="proShot_effect_highlightsMin" text="Minimal luminans for høylys"/>
+		<text name="proShot_effect_maxLuminance" text="Maks. luminans: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Min. luminans: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Tilbakestill luminansterskler"/>
+		<text name="proShot_menu_toneMapping" text="Tone Mapping"/>
+		<text name="proShot_tone_slope" text="Helning"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Svart klipp"/>
+		<text name="proShot_tone_whiteClip" text="Hvitt klipp"/>
+		<text name="proShot_menu_fog" text="Reduser/øk tåke"/>
+		<text name="proShot_menu_haze" text="Reduser/øk dis"/>
+		<text name="proShot_infoBox_fog" text="Tåke"/>
+		<text name="proShot_infoBox_haze" text="Dis"/>
+		<text name="proShot_menu_fogAdvanced" text="Tåkemeny"/>
+		<text name="proShot_fog_coverage" text="Reduser/øk tåkedekning"/>
+		<text name="proShot_fog_softness" text="Reduser/øk mykhet i dekningen"/>
+		<text name="proShot_fog_groundDensity" text="Reduser/øk tåketetthet"/>
+		<text name="proShot_fog_extraHeight" text="Reduser/øk tåkehøyde"/>
+		<text name="proShot_fog_minValleyDepth" text="Reduser/øk minste daldybde"/>
+		<text name="proShot_fog_coverageInfo" text="Dekning"/>
+		<text name="proShot_fog_softnessInfo" text="Mykhet"/>
+		<text name="proShot_fog_groundDensityInfo" text="Tetthet"/>
+		<text name="proShot_fog_extraHeightInfo" text="Høyde"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Minste daldybde"/>
+		<text name="proShot_testing_enableTraffic" text="Slå på trafikk"/>
+		<text name="proShot_testing_disableTraffic" text="Slå av trafikk"/>
+		<text name="proShot_testing_enablePedestrians" text="Slå på fotgjengere"/>
+		<text name="proShot_testing_disablePedestrians" text="Slå av fotgjengere"/>
+		<text name="proShot_testing_pauseTraffic" text="Sett trafikk på pause"/>
+		<text name="proShot_testing_resumeTraffic" text="Fortsett trafikk"/>
+		<text name="proShot_testing_pausePedestrians" text="Sett fotgjengere på pause"/>
+		<text name="proShot_testing_resumePedestrians" text="Fortsett fotgjengere"/>
+		<text name="proShot_testing_localSnow" text="Lokal snø"/>
+		<text name="proShot_testing_groundWetness" text="Reduser/øk bakkefuktighet"/>
+		<text name="proShot_testing_removeTyreTracks" text="Fjern dekkspor (kan ikke angres)"/>
+		<text name="proShot_testing_traffic" text="Trafikk"/>
+		<text name="proShot_testing_trafficMotion" text="Trafikkbevegelse"/>
+		<text name="proShot_testing_pedestrians" text="Fotgjengere"/>
+		<text name="proShot_testing_pedestrianMotion" text="Fotgjengerbevegelse"/>
+		<text name="proShot_testing_paused" text="Pauset"/>
+		<text name="proShot_testing_running" text="Kjører"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Bakkefuktighet"/>
+		<text name="proShot_testing_wildlife" text="Dyreliv"/>
+		<text name="proShot_testing_tyreTracks" text="Fjerning av dekkspor"/>
+		<text name="proShot_testing_unavailable" text="Ikke tilgjengelig på dette kartet"/>
+		<text name="proShot_testing_irreversible" text="Kan ikke angres"/>
+		<text name="proShot_testing_trafficUnavailable" text="Ingen trafikksystem er tilgjengelig på dette kartet"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Ingen fotgjengersystem er tilgjengelig på dette kartet"/>
+		<text name="proShot_testing_birdUnavailable" text="Ingen egnet villfugl er definert for dette kartet"/>
+		<text name="proShot_testing_wildlifeRemoved" text="Fjernet %d plasserte dyr og fuglegrupper"/>
+		<text name="proShot_testing_spawnFailed" text="Kunne ikke opprette dyrelivet"/>
+		<text name="proShot_testing_actionUnavailable" text="Denne handlingen er ikke tilgjengelig på dette kartet"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Pause av fotgjengere er ikke tilgjengelig i denne spillversjonen"/>
+		<text name="proShot_testing_snowRadius" text="Reduser/øk radius"/>
+		<text name="proShot_testing_snowHeight" text="Senk/hev snø i markert område"/>
+		<text name="proShot_testing_snowTarget" text="Mål"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Radius"/>
+		<text name="proShot_testing_snowHeightInfo" text="Snø i midten"/>
+		<text name="proShot_testing_noTarget" text="Ingen terrengmål"/>
+		<text name="proShot_testing_snowNoTarget" text="Fant ikke terreng i midten av skjermen"/>
+		<text name="proShot_testing_snowLowered" text="Senket snøen i det markerte området"/>
+		<text name="proShot_testing_snowRaised" text="Hevet snøen i det markerte området"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Fjern dekkspor"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Velg hvor mye av dekksporkartet som skal slettes."/>
+		<text name="proShot_testing_tyreTracks100m" text="Innenfor 100 m fra kameraet"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Hele kartet"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Fjerne dekkspor innenfor 100 m fra kameraet? Dette kan ikke angres."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Fjerne alle dekkspor fra kartet? Dette kan ikke angres."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Fjernet dekkspor innenfor 100 m fra kameraet"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Fjernet alle dekkspor"/>
+		<text name="proShot_wildlife_menu" text="Dyr"/>
+		<text name="proShot_wildlife_selectAnimal" text="Bytt dyreliv til %s"/>
+		<text name="proShot_wildlife_selectBird" text="Bytt fugler til %s"/>
+		<text name="proShot_wildlife_spawn" text="Opprett %s"/>
+		<text name="proShot_wildlife_spawnFlying" text="Opprett flygende %s"/>
+		<text name="proShot_wildlife_pauseBirds" text="Sett fugler på pause"/>
+		<text name="proShot_wildlife_resumeBirds" text="Fortsett fugler"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Sett dyreliv på pause"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Fortsett dyreliv"/>
+		<text name="proShot_wildlife_removeLastBird" text="Fjern siste fugl"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Fjern siste ville dyr"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Valgt dyreliv"/>
+		<text name="proShot_wildlife_selectedBird" text="Valgt fugl"/>
+		<text name="proShot_wildlife_animalMotion" text="Dyrelivbevegelse"/>
+		<text name="proShot_wildlife_birdMotion" text="Fuglebevegelse"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Opprettet dyreliv"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Opprettede fugler"/>
+		<text name="proShot_wildlife_unavailable" text="Ingen dyreliv er definert for dette kartet"/>
+		<text name="proShot_wildlife_spawned" text="Opprettet %s foran kameraet"/>
+		<text name="proShot_wildlife_tooFar" text="For langt unna"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Fugler plassert på himmelen over målet"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Fugler plassert"/>
+		<text name="proShot_wildlife_placedGround" text="Dyreliv plassert på bakken"/>
+		<text name="proShot_wildlife_placedObject" text="Dyreliv plassert på objekt"/>
+		<text name="proShot_wildlife_groundOnly" text="De skal stå på bakken"/>
+		<text name="proShot_animals_offsetX" text="Dyrets X-forskyvning"/>
+		<text name="proShot_animals_offsetY" text="Dyrets Y-forskyvning"/>
+		<text name="proShot_animals_offsetZ" text="Dyrets Z-forskyvning"/>
+		<text name="proShot_animals_resetOffsets" text="Tilbakestill dyreforskyvninger"/>
+		<text name="proShot_animals_rotation" text="Dyrets rotasjon"/>
+		<text name="proShot_farm_select" text="Velg husdyr"/>
+		<text name="proShot_farm_place" text="Plasser %s"/>
+		<text name="proShot_farm_removeLast" text="Fjern siste husdyr"/>
+		<text name="proShot_farm_removedLast" text="Siste husdyr fjernet"/>
+		<text name="proShot_farm_noneToRemove" text="Ingen plasserte husdyr å fjerne"/>
+		<text name="proShot_farm_selected" text="Valgt husdyr"/>
+		<text name="proShot_farm_spawned" text="Plasserte husdyr"/>
+		<text name="proShot_farm_unavailable" text="Ingen husdyr er tilgjengelige på dette kartet"/>
+		<text name="proShot_farm_selectTitle" text="Velg husdyr"/>
+		<text name="proShot_farm_selectText" text="Velg et dyr og en alder."/>
+		<text name="proShot_farm_breedTitle" text="Velg rase"/>
+		<text name="proShot_farm_breedText" text="Velg en rase eller et utseende."/>
+		<text name="proShot_farm_loadFailed" text="Husdyret kunne ikke lastes"/>
+		<text name="proShot_farm_placedGround" text="Husdyr plassert på bakken"/>
+		<text name="proShot_farm_placedObject" text="Husdyr plassert på objekt"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Unge"/>
+		<text name="proShot_farm_stageYoung" text="Ung"/>
+		<text name="proShot_farm_stageAdult" text="Voksen"/>
+		<text name="proShot_farm_calf" text="Kalv"/>
+		<text name="proShot_farm_youngCow" text="Ung ku"/>
+		<text name="proShot_farm_cow" text="Ku"/>
+		<text name="proShot_farm_buffaloCalf" text="Bøffelkalv"/>
+		<text name="proShot_farm_youngBuffalo" text="Ung vannbøffel"/>
+		<text name="proShot_farm_waterBuffalo" text="Vannbøffel"/>
+		<text name="proShot_farm_piglet" text="Grisunge"/>
+		<text name="proShot_farm_youngPig" text="Ung gris"/>
+		<text name="proShot_farm_pig" text="Gris"/>
+		<text name="proShot_farm_lamb" text="Lam"/>
+		<text name="proShot_farm_youngSheep" text="Ung sau"/>
+		<text name="proShot_farm_sheep" text="Sau"/>
+		<text name="proShot_farm_kid" text="Geitekilling"/>
+		<text name="proShot_farm_youngGoat" text="Ung geit"/>
+		<text name="proShot_farm_goat" text="Geit"/>
+		<text name="proShot_farm_horse" text="Hest"/>
+		<text name="proShot_farm_chick" text="Kylling"/>
+		<text name="proShot_farm_hen" text="Høne"/>
+		<text name="proShot_farm_rooster" text="Hane"/>
+		<text name="proShot_farm_menuCow" text="Ku"/>
+		<text name="proShot_farm_menuBuffalo" text="Vannbøffel"/>
+		<text name="proShot_farm_menuPig" text="Gris"/>
+		<text name="proShot_farm_menuSheep" text="Sau"/>
+		<text name="proShot_farm_menuGoat" text="Geit"/>
+		<text name="proShot_farm_menuHorse" text="Hest"/>
+		<text name="proShot_farm_menuChicken" text="Høne"/>
+		<text name="proShot_wildlife_birdRemoved" text="Fjernet den sist opprettede fuglen"/>
+		<text name="proShot_wildlife_animalRemoved" text="Fjernet det sist opprettede ville dyret"/>
+		<text name="proShot_wildlife_noBird" text="Det finnes ingen opprettede fugler å fjerne"/>
+		<text name="proShot_wildlife_noAnimal" text="Det finnes ingen opprettede ville dyr å fjerne"/>
+		<text name="proShot_wildlife_removeAll" text="Fjern alle dyr og fugler"/>
+		<text name="proShot_scene_menu" text="Scenekontroller"/>
+		<text name="proShot_scene_hideParked" text="Skjul parkerte kjøretøy"/>
+		<text name="proShot_scene_showParked" text="Vis parkerte kjøretøy"/>
+		<text name="proShot_scene_parkedVehicles" text="Parkerte kjøretøy"/>
+		<text name="proShot_scene_parkedUnavailable" text="Kontroll av parkerte kjøretøy er ikke tilgjengelig på dette kartet"/>
+		<text name="proShot_scene_reset" text="Tilbakestill scenekontroller"/>
+		<text name="proShot_snow_strength" text="Reduser/øk verktøystyrke"/>
+		<text name="proShot_snow_strengthInfo" text="Verktøystyrke"/>
+		<text name="proShot_snow_globalLevel" text="Reduser/øk globalt snønivå"/>
+		<text name="proShot_snow_globalLevelInfo" text="Globalt snønivå"/>
+		<text name="proShot_focus_set" text="Fokuser på objektet i midten"/>
+		<text name="proShot_focus_narrow" text="Gjør fokusområdet smalere"/>
+		<text name="proShot_focus_widen" text="Gjør fokusområdet bredere"/>
+		<text name="proShot_focus_holdClear" text="Hold [%s] inne for å fjerne fokus"/>
+		<text name="proShot_focus_noTarget" text="Fant ingen objekt i midten av skjermen"/>
+		<text name="proShot_focus_status" text="Senterfokus"/>
+		<text name="proShot_focus_distance" text="%.1f m (%.1f m område)"/>
+		<text name="proShot_composition_grid" text="Rutenetthjelp: %s"/>
+		<text name="proShot_composition_aspect" text="Formatforholdshjelp: %s"/>
+		<text name="proShot_composition_status" text="Komposisjon"/>
+		<text name="proShot_grid_thirds" text="Tredjedeler"/>
+		<text name="proShot_grid_goldenRatio" text="Det gylne snitt (Phi)"/>
+		<text name="proShot_grid_centre" text="Senter"/>
+		<text name="proShot_grid_diagonals" text="Diagonaler"/>
+		<text name="proShot_grid_diagonalMethod" text="Diagonalmetoden"/>
+		<text name="proShot_grid_goldenTriangles" text="Gylne trekanter"/>
+		<text name="proShot_effect_resetSlot" text="Tilbakestill en plass til standard"/>
+		<text name="proShot_effect_saveSlotMenu" text="Lagre gjeldende effekt på en plass"/>
+		<text name="proShot_effect_allSlotsDefault" text="Alle effektplasser er allerede standard"/>
+		<text name="proShot_effect_emptySlot" text="Effektplass %d er tom"/>
+		<text name="proShot_effect_defaultName" text="Tilpasset effekt %d"/>
+		<text name="proShot_effect_namePrompt" text="Skriv inn et navn for effektplass %d"/>
+		<text name="proShot_effect_saveFailed" text="Kunne ikke skrive effektfilen"/>
+		<text name="proShot_effect_saved" text="Effektplass %d lagret: %s"/>
+		<text name="proShot_effect_resetDone" text="Effektplass %d tilbakestilt til standard"/>
+		<text name="proShot_effect_slotLabel" text="Plass %d"/>
+		<text name="proShot_effect_editing" text="Redigering"/>
+		<text name="proShot_menu_revertThisScreen" text="Angre endringer på denne skjermen"/>
+		<text name="proShot_infoBox_VD" text="Synsavstand"/>
+		<text name="proShot_infoBox_FVD" text="Vegetasjonens synsavstand"/>
+		<text name="proShot_infoBox_exposure" text="Kameraeksponering"/>
+		<text name="proShot_infoBox_FoV" text="Kameraets synsfelt"/>
+		<text name="proShot_infoBox_quality" text="Kvalitetsforhåndsinnstilling"/>
+		<text name="proShot_infoBox_sunDirection" text="Solens retning"/>
+		<text name="proShot_infoBox_colourGrading" text="Effekt"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Fargegradering"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Lommelyktens temperatur"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Lommelyktens intensitet"/>
+		<text name="proShot_infoBox_flashlightRange" text="Lysets rekkevidde"/>
+		<text name="proShot_infoBox_flashlightCone" text="Kjeglevinkel"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Lyssløring"/>
+		<text name="proShot_infoBox_title_environment" text="Miljø"/>
+		<text name="proShot_infoBox_season" text="Årstid"/>
+		<text name="proShot_infoBox_frost" text="Frost"/>
+		<text name="proShot_infoBox_snowLevel" text="Snønivå"/>
+		<text name="proShot_infoBox_title_effects" text="Effekter"/>
+		<text name="proShot_infoBox_help1b" text="Venstre museknapp eller WSAD-taster"/>
+		<text name="proShot_infoBox_help2a" text="Juster høyde"/>
+		<text name="proShot_infoBox_help2b" text="Musehjul eller QE-taster"/>
+		<text name="proShot_infoBox_help3a" text="Øk hastighet"/>
+		<text name="proShot_infoBox_help3b" text="Hold Shift-tasten inne"/>
+		<text name="proShot_infoBox_help4a" text="Reduser hastighet"/>
+		<text name="proShot_infoBox_help4b" text="Hold Ctrl-tasten inne"/>
+		<text name="proShot_infoBox_help5b" text="Høyre museknapp"/>
+		<text name="proShot_infoBox_help6a" text="Flytt sollys"/>
+		<text name="proShot_infoBox_help6b" text="Midtre museknapp"/>
+		<text name="proShot_infoBox_help7b" text="Numerisk tastatur 1 og 2"/>
+		<text name="proShot_infoBox_help8a" text="Tilbakestill helning"/>
+		<text name="proShot_infoBox_help8b" text="Numerisk tastatur 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Nær CoC-radius"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Sluttavstand for nær uskarphet"/>
+		<text name="proShot_DoF_farCoCRadius" text="Fjern CoC-radius"/>
+		<text name="proShot_DoF_farBlurStart" text="Startavstand for fjern uskarphet"/>
+		<text name="proShot_DoF_farBlurEnd" text="Avstand for full fjern uskarphet"/>
+		<text name="proShot_DoF_applyToSky" text="Gjør himmelen uskarp"/>
+		<text name="proShot_summer" text="Sommer"/>
+		<text name="proShot_autumn" text="Høst"/>
+		<text name="proShot_winter" text="Vinter"/>
+		<text name="proShot_spring" text="Vår"/>
+		<text name="proShot_early" text="tidlig"/>
+		<text name="proShot_mid" text="midt"/>
+		<text name="proShot_late" text="sen"/>
+		<text name="proShot_seasonTweak" text="Finjustering av årstid"/>
+		<text name="proShot_variation" text="variasjon"/>
+		<text name="proShot_weather_SUN" text="Solrikt"/>
+		<text name="proShot_weather_CLOUDY" text="Skyet"/>
+		<text name="proShot_weather_RAIN" text="Regnfullt"/>
+		<text name="proShot_weather_SNOW" text="Snøvær"/>
+		<text name="proShot_weather_HAIL" text="Hagl"/>
+		<text name="proShot_menu_snowShader" text="Slå frost av/på"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Nær CoC-radius (uskarphetsstyrke)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Fjern CoC-radius (uskarphetsstyrke)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Sluttavstand for nær uskarphet"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Startavstand for fjern uskarphet"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Avstand for full fjern uskarphet"/>
+		<text name="proShot_menu_resetThis" text="Tilbakestill disse innstillingene"/>
+		<text name="input_PRO_SHOT_1" text="Valg 1"/>
+		<text name="input_PRO_SHOT_2" text="Valg 2"/>
+		<text name="input_PRO_SHOT_3" text="Valg 3"/>
+		<text name="input_PRO_SHOT_4" text="Valg 4"/>
+		<text name="input_PRO_SHOT_5" text="Valg 5"/>
+		<text name="input_PRO_SHOT_6" text="Valg 6"/>
+		<text name="input_PRO_SHOT_7" text="Valg 7"/>
+		<text name="input_PRO_SHOT_8" text="Valg 8"/>
+		<text name="input_PRO_SHOT_9" text="Valg 9"/>
+		<text name="input_PRO_SHOT_0" text="Valg 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Numerisk tastatur 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Fjern siste husdyr"/>
+		<text name="input_PRO_SHOT_MINUS" text="Minus på hovedtastaturet"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Likhetstegn/pluss på hovedtastaturet"/>
+		<text name="input_PRO_SHOT_47_1" text="Justering 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="Justering 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Justering 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="Justering 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Justering 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="Justering 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Justering 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Justering 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Justering 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Justering 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Justering 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Justering 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Justering 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Justering 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Justering 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Justering 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Gjenopprett innstillinger"/>
+		<text name="input_PRO_SHOT_ENTER" text="Ta bilde"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="Ta HDR-skjermbilde"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="Ta HDR- og dybdeskjermbilder"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Tilbake til forrige meny"/>
+		<text name="input_PRO_SHOT_F" text="Lommelykt"/>
+		<text name="input_PRO_SHOT_F1" text="Slå HUD av/på"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Plasser lommelykt"/>
+	</texts>
+</l10n>

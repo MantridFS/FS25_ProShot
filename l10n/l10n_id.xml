@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Atur Kualitas Rendah"/>
+		<text name="proShot_menu_qualHigh" text="Atur Kualitas Tinggi"/>
+		<text name="proShot_value_qualityLow" text="Kualitas Rendah"/>
+		<text name="proShot_value_qualityHigh" text="Kualitas Tinggi"/>
+		<text name="proShot_menu_advMenus" text="Menu Lanjutan"/>
+		<text name="proShot_menu_favourites" text="Favorit"/>
+		<text name="proShot_menu_returnToAdvanced" text="Kembali ke Menu Lanjutan"/>
+		<text name="proShot_menu_resetAll" text="Reset semua pengaturan"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Reset senter juga"/>
+		<text name="proShot_value_original" text="Asli"/>
+		<text name="proShot_favourite_restoreSlot" text="Pulihkan slot %d: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Simpan ke slot %d: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Hapus slot %d: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Simpan pengaturan saat ini sebagai favorit"/>
+		<text name="proShot_favourite_remove" text="Hapus favorit"/>
+		<text name="proShot_favourite_revertPreview" text="Kembalikan ke pengaturan sebelum Favorit"/>
+		<text name="proShot_favourite_cancel" text="Kembali ke favorit"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Pilih slot untuk pengaturan saat ini"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Pilih favorit yang akan dihapus"/>
+		<text name="proShot_favourite_defaultName" text="Preset %d"/>
+		<text name="proShot_favourite_namePrompt" text="Masukkan nama untuk slot favorit %d"/>
+		<text name="proShot_favourite_deleteTitle" text="Hapus Favorit"/>
+		<text name="proShot_favourite_deletePrompt" text="Hapus slot favorit %d, “%s”?"/>
+		<text name="proShot_favourite_emptyStatus" text="Slot %d kosong"/>
+		<text name="proShot_favourite_restoredStatus" text="Slot %d dipulihkan"/>
+		<text name="proShot_favourite_revertedStatus" text="Dikembalikan ke pengaturan sebelum Favorit"/>
+		<text name="proShot_favourite_savedStatus" text="Slot %d disimpan: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Slot %d dihapus: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Tidak dapat menulis file favorit"/>
+		<text name="proShot_favourite_slotLabel" text="Slot %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Pilih pengaturan yang akan disimpan"/>
+		<text name="proShot_favourite_chooseGroups" text="Pilih grup untuk slot %d"/>
+		<text name="proShot_favourite_selectOneGroup" text="Pilih setidaknya satu grup pengaturan"/>
+		<text name="proShot_favourite_continueName" text="Lanjutkan dan masukkan nama"/>
+		<text name="proShot_favourite_backToSlots" text="Kembali ke pemilihan slot"/>
+		<text name="proShot_favourite_group_camera" text="Kamera (FoV dan eksposur)"/>
+		<text name="proShot_favourite_group_sky" text="Langit"/>
+		<text name="proShot_favourite_group_groundLight" text="Cahaya tanah"/>
+		<text name="proShot_favourite_group_effects" text="Gradasi warna dan efek"/>
+		<text name="proShot_favourite_group_season" text="Musim (termasuk embun beku dan salju)"/>
+		<text name="proShot_favourite_group_weather" text="Cuaca (termasuk kabut dan kekaburan)"/>
+		<text name="proShot_menu_advQualityMenu" text="Menu Kualitas"/>
+		<text name="proShot_menu_advSunMenu" text="Menu Langit"/>
+		<text name="proShot_menu_advLightMenu" text="Menu Senter"/>
+		<text name="proShot_menu_environment" text="Menu Lingkungan"/>
+		<text name="proShot_menu_effects" text="Menu Efek"/>
+		<text name="proShot_menu_DoF" text="Menu Depth of Field"/>
+		<text name="proShot_menu_returnToMain" text="Kembali ke Menu Utama"/>
+		<text name="proShot_takePicture" text="Ambil Foto"/>
+		<text name="proShot_hideHUD" text="Aktif/nonaktifkan HUD"/>
+		<text name="proShot_menu_advQ_VD" text="Kurangi/Tambah Jarak Pandang"/>
+		<text name="proShot_menu_advQ_LOD" text="Kurangi/Tambah Jarak LOD"/>
+		<text name="proShot_menu_advQ_TLOD" text="Kurangi/Tambah Jarak LOD Medan"/>
+		<text name="proShot_menu_advQ_FVD" text="Kurangi/Tambah Jarak Pandang Vegetasi"/>
+		<text name="proShot_menu_skyBrightness" text="Kecerahan langit"/>
+		<text name="proShot_menu_groundLight" text="Cahaya tanah"/>
+		<text name="proShot_menu_skyAndGround" text="Langit dan Tanah"/>
+		<text name="proShot_menu_syncSkyToGround" text="Sinkronkan Langit ke Tanah"/>
+		<text name="proShot_menu_lightingIntensity" text="Intensitas Pencahayaan"/>
+		<text name="proShot_menu_lightingTemperature" text="Suhu Pencahayaan"/>
+		<text name="proShot_menu_colourTemperature" text="Suhu warna"/>
+		<text name="proShot_menu_intensity" text="Intensitas"/>
+		<text name="proShot_menu_returnToSky" text="Kembali ke Menu Langit"/>
+		<text name="proShot_infoBox_skyTemp" text="Suhu warna langit"/>
+		<text name="proShot_infoBox_skyIntensity" text="Intensitas langit"/>
+		<text name="proShot_infoBox_groundTemp" text="Suhu warna cahaya"/>
+		<text name="proShot_infoBox_groundIntensity" text="Intensitas cahaya"/>
+		<text name="proShot_menu_red" text="Kurangi/Tambah Merah"/>
+		<text name="proShot_menu_green" text="Kurangi/Tambah Hijau"/>
+		<text name="proShot_menu_blue" text="Kurangi/Tambah Biru"/>
+		<text name="proShot_menu_moonSize" text="Ukuran Bulan"/>
+		<text name="proShot_menu_sunSize" text="Ukuran Matahari"/>
+		<text name="proShot_menu_atmosRefraction" text="Refraksi atmosfer"/>
+		<text name="proShot_menu_light_temp" text="Cahaya Lebih Dingin/Hangat"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Persempit/Perlebar Kerucut"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Pertajam/Kaburkan Fokus"/>
+		<text name="proShot_menu_flashLight_intensity" text="Turunkan/Naikkan Intensitas"/>
+		<text name="proShot_menu_flashLight_distance" text="Kurangi/Tambah Jarak"/>
+		<text name="proShot_menu_flashLight_place" text="Tempatkan Senter di Sini"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Nyalakan senter"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Hapus Senter Terakhir"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Atur cahaya ke default"/>
+		<text name="proShot_flashLight_placed" text="Senter ditempatkan (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Senter ditempatkan"/>
+		<text name="proShot_flashFavourite_title" text="Favorit Senter"/>
+		<text name="proShot_flashFavourite_save" text="Simpan sebagai Favorit"/>
+		<text name="proShot_flashFavourite_remove" text="Hapus Favorit"/>
+		<text name="proShot_flashFavourite_cancel" text="Kembali ke Menu Senter"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Favorit %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Simpan ke slot %d: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Hapus slot %d: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Senter %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Masukkan nama untuk favorit senter %d"/>
+		<text name="proShot_flashFavourite_restored" text="Favorit senter %d dipulihkan: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Favorit senter %d disimpan: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Favorit senter %d dihapus: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Hapus Favorit Senter"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Hapus favorit senter %d, “%s”?"/>
+		<text name="proShot_menu_exposure" text="Atur Eksposur"/>
+		<text name="proShot_menu_FoV" text="Atur Field of View"/>
+		<text name="proShot_menu_timeHorly" text="Atur waktu (jam)"/>
+		<text name="proShot_menu_timeMins" text="Atur waktu (menit)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Datar"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Cerah"/>
+		<text name="proShot_menu_effects_preset_deep" text="Dalam"/>
+		<text name="proShot_menu_effects_preset_cold" text="Dingin"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Skala Abu-abu"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Nada Sepia"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Phantom"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Ambang bloom"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Besaran bloom"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Kualitas bloom"/>
+		<text name="proShot_effect_slotEntry" text="Slot efek %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Simpan ke slot efek %d: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Reset slot efek %d: %s"/>
+		<text name="proShot_effect_customise" text="Gradasi Warna Kustom"/>
+		<text name="proShot_effect_global" text="Global"/>
+		<text name="proShot_effect_shadows" text="Bayangan"/>
+		<text name="proShot_effect_midtones" text="Nada Tengah"/>
+		<text name="proShot_effect_highlights" text="Sorotan"/>
+		<text name="proShot_effect_saturation" text="Saturasi"/>
+		<text name="proShot_effect_contrast" text="Kontras"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Gain"/>
+		<text name="proShot_effect_scale" text="Skala"/>
+		<text name="proShot_effect_shadowsMax" text="Luminans maksimum bayangan"/>
+		<text name="proShot_effect_highlightsMin" text="Luminans minimum sorotan"/>
+		<text name="proShot_effect_maxLuminance" text="Luminans maks.: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Luminans min.: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Reset ambang luminans"/>
+		<text name="proShot_menu_toneMapping" text="Tone Mapping"/>
+		<text name="proShot_tone_slope" text="Kemiringan"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Klip hitam"/>
+		<text name="proShot_tone_whiteClip" text="Klip putih"/>
+		<text name="proShot_menu_fog" text="Kurangi/Tambah kabut"/>
+		<text name="proShot_menu_haze" text="Kurangi/Tambah kekaburan"/>
+		<text name="proShot_infoBox_fog" text="Kabut"/>
+		<text name="proShot_infoBox_haze" text="Kekaburan"/>
+		<text name="proShot_menu_fogAdvanced" text="Menu Kabut"/>
+		<text name="proShot_fog_coverage" text="Kurangi/Tambah cakupan kabut"/>
+		<text name="proShot_fog_softness" text="Kurangi/Tambah kelembutan cakupan"/>
+		<text name="proShot_fog_groundDensity" text="Kurangi/Tambah kepadatan kabut"/>
+		<text name="proShot_fog_extraHeight" text="Kurangi/Tambah ketinggian kabut"/>
+		<text name="proShot_fog_minValleyDepth" text="Kurangi/Tambah kedalaman lembah minimum"/>
+		<text name="proShot_fog_coverageInfo" text="Cakupan"/>
+		<text name="proShot_fog_softnessInfo" text="Kelembutan"/>
+		<text name="proShot_fog_groundDensityInfo" text="Kepadatan"/>
+		<text name="proShot_fog_extraHeightInfo" text="Ketinggian"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Kedalaman lembah minimum"/>
+		<text name="proShot_testing_enableTraffic" text="Nyalakan lalu lintas"/>
+		<text name="proShot_testing_disableTraffic" text="Matikan lalu lintas"/>
+		<text name="proShot_testing_enablePedestrians" text="Nyalakan pejalan kaki"/>
+		<text name="proShot_testing_disablePedestrians" text="Matikan pejalan kaki"/>
+		<text name="proShot_testing_pauseTraffic" text="Jeda lalu lintas"/>
+		<text name="proShot_testing_resumeTraffic" text="Lanjutkan lalu lintas"/>
+		<text name="proShot_testing_pausePedestrians" text="Jeda pejalan kaki"/>
+		<text name="proShot_testing_resumePedestrians" text="Lanjutkan pejalan kaki"/>
+		<text name="proShot_testing_localSnow" text="Salju Lokal"/>
+		<text name="proShot_testing_groundWetness" text="Kurangi/Tambah kebasahan tanah"/>
+		<text name="proShot_testing_removeTyreTracks" text="Hapus jejak ban (tidak dapat dibatalkan)"/>
+		<text name="proShot_testing_traffic" text="Lalu lintas"/>
+		<text name="proShot_testing_trafficMotion" text="Pergerakan lalu lintas"/>
+		<text name="proShot_testing_pedestrians" text="Pejalan kaki"/>
+		<text name="proShot_testing_pedestrianMotion" text="Pergerakan pejalan kaki"/>
+		<text name="proShot_testing_paused" text="Dijeda"/>
+		<text name="proShot_testing_running" text="Berjalan"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Kebasahan tanah"/>
+		<text name="proShot_testing_wildlife" text="Satwa liar"/>
+		<text name="proShot_testing_tyreTracks" text="Penghapusan jejak ban"/>
+		<text name="proShot_testing_unavailable" text="Tidak tersedia di peta ini"/>
+		<text name="proShot_testing_irreversible" text="Tidak dapat dibatalkan"/>
+		<text name="proShot_testing_trafficUnavailable" text="Tidak ada sistem lalu lintas di peta ini"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Tidak ada sistem pejalan kaki di peta ini"/>
+		<text name="proShot_testing_birdUnavailable" text="Tidak ada satwa burung yang sesuai yang ditentukan untuk peta ini"/>
+		<text name="proShot_testing_wildlifeRemoved" text="Menghapus %d hewan dan grup burung yang ditempatkan"/>
+		<text name="proShot_testing_spawnFailed" text="Gagal memunculkan satwa liar"/>
+		<text name="proShot_testing_actionUnavailable" text="Tindakan ini tidak tersedia di peta ini"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Menjeda pejalan kaki tidak tersedia pada versi game ini"/>
+		<text name="proShot_testing_snowRadius" text="Kurangi/Tambah radius"/>
+		<text name="proShot_testing_snowHeight" text="Turunkan/Naikkan salju di area yang disorot"/>
+		<text name="proShot_testing_snowTarget" text="Target"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Radius"/>
+		<text name="proShot_testing_snowHeightInfo" text="Salju di tengah"/>
+		<text name="proShot_testing_noTarget" text="Tidak ada target medan"/>
+		<text name="proShot_testing_snowNoTarget" text="Tidak ada medan ditemukan di tengah layar"/>
+		<text name="proShot_testing_snowLowered" text="Salju di area yang disorot diturunkan"/>
+		<text name="proShot_testing_snowRaised" text="Salju di area yang disorot dinaikkan"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Hapus Jejak Ban"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Pilih seberapa banyak peta jejak ban yang akan dihapus."/>
+		<text name="proShot_testing_tyreTracks100m" text="Dalam 100 m dari kamera"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Seluruh peta"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Hapus jejak ban dalam 100 m dari kamera? Ini tidak dapat dibatalkan."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Hapus semua jejak ban dari peta? Ini tidak dapat dibatalkan."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Menghapus jejak ban dalam 100 m dari kamera"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Menghapus semua jejak ban"/>
+		<text name="proShot_wildlife_menu" text="Hewan"/>
+		<text name="proShot_wildlife_selectAnimal" text="Ganti satwa liar ke %s"/>
+		<text name="proShot_wildlife_selectBird" text="Ganti burung ke %s"/>
+		<text name="proShot_wildlife_spawn" text="Munculkan %s"/>
+		<text name="proShot_wildlife_spawnFlying" text="Munculkan %s terbang"/>
+		<text name="proShot_wildlife_pauseBirds" text="Jeda burung"/>
+		<text name="proShot_wildlife_resumeBirds" text="Lanjutkan burung"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Jeda satwa liar"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Lanjutkan satwa liar"/>
+		<text name="proShot_wildlife_removeLastBird" text="Hapus burung terakhir"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Hapus satwa liar terakhir"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Satwa liar terpilih"/>
+		<text name="proShot_wildlife_selectedBird" text="Burung terpilih"/>
+		<text name="proShot_wildlife_animalMotion" text="Pergerakan satwa liar"/>
+		<text name="proShot_wildlife_birdMotion" text="Pergerakan burung"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Satwa liar yang dimunculkan"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Burung yang dimunculkan"/>
+		<text name="proShot_wildlife_unavailable" text="Tidak ada satwa liar yang ditentukan untuk peta ini"/>
+		<text name="proShot_wildlife_spawned" text="Memunculkan %s di depan kamera"/>
+		<text name="proShot_wildlife_tooFar" text="Terlalu jauh"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Burung ditempatkan di langit, di atas target"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Burung ditempatkan"/>
+		<text name="proShot_wildlife_placedGround" text="Satwa liar ditempatkan di tanah"/>
+		<text name="proShot_wildlife_placedObject" text="Satwa liar ditempatkan di objek"/>
+		<text name="proShot_wildlife_groundOnly" text="Mereka ditempatkan di tanah"/>
+		<text name="proShot_animals_offsetX" text="Offset X hewan"/>
+		<text name="proShot_animals_offsetY" text="Offset Y hewan"/>
+		<text name="proShot_animals_offsetZ" text="Offset Z hewan"/>
+		<text name="proShot_animals_resetOffsets" text="Reset offset hewan"/>
+		<text name="proShot_animals_rotation" text="Rotasi hewan"/>
+		<text name="proShot_farm_select" text="Pilih hewan ternak"/>
+		<text name="proShot_farm_place" text="Tempatkan %s"/>
+		<text name="proShot_farm_removeLast" text="Hapus hewan ternak terakhir"/>
+		<text name="proShot_farm_removedLast" text="Hewan ternak terakhir dihapus"/>
+		<text name="proShot_farm_noneToRemove" text="Tidak ada hewan ternak yang ditempatkan untuk dihapus"/>
+		<text name="proShot_farm_selected" text="Hewan ternak terpilih"/>
+		<text name="proShot_farm_spawned" text="Hewan ternak yang ditempatkan"/>
+		<text name="proShot_farm_unavailable" text="Tidak ada hewan ternak yang tersedia di peta ini"/>
+		<text name="proShot_farm_selectTitle" text="Pilih Hewan Ternak"/>
+		<text name="proShot_farm_selectText" text="Pilih hewan dan usia."/>
+		<text name="proShot_farm_breedTitle" text="Pilih Ras"/>
+		<text name="proShot_farm_breedText" text="Pilih ras atau penampilan."/>
+		<text name="proShot_farm_loadFailed" text="Hewan ternak tidak dapat dimuat"/>
+		<text name="proShot_farm_placedGround" text="Hewan ternak ditempatkan di tanah"/>
+		<text name="proShot_farm_placedObject" text="Hewan ternak ditempatkan di objek"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Bayi"/>
+		<text name="proShot_farm_stageYoung" text="Muda"/>
+		<text name="proShot_farm_stageAdult" text="Dewasa"/>
+		<text name="proShot_farm_calf" text="Anak sapi"/>
+		<text name="proShot_farm_youngCow" text="Sapi muda"/>
+		<text name="proShot_farm_cow" text="Sapi"/>
+		<text name="proShot_farm_buffaloCalf" text="Anak kerbau"/>
+		<text name="proShot_farm_youngBuffalo" text="Kerbau air muda"/>
+		<text name="proShot_farm_waterBuffalo" text="Kerbau air"/>
+		<text name="proShot_farm_piglet" text="Anak babi"/>
+		<text name="proShot_farm_youngPig" text="Babi muda"/>
+		<text name="proShot_farm_pig" text="Babi"/>
+		<text name="proShot_farm_lamb" text="Anak domba"/>
+		<text name="proShot_farm_youngSheep" text="Domba muda"/>
+		<text name="proShot_farm_sheep" text="Domba"/>
+		<text name="proShot_farm_kid" text="Anak kambing"/>
+		<text name="proShot_farm_youngGoat" text="Kambing muda"/>
+		<text name="proShot_farm_goat" text="Kambing"/>
+		<text name="proShot_farm_horse" text="Kuda"/>
+		<text name="proShot_farm_chick" text="Anak ayam"/>
+		<text name="proShot_farm_hen" text="Ayam betina"/>
+		<text name="proShot_farm_rooster" text="Ayam jantan"/>
+		<text name="proShot_farm_menuCow" text="Sapi"/>
+		<text name="proShot_farm_menuBuffalo" text="Kerbau air"/>
+		<text name="proShot_farm_menuPig" text="Babi"/>
+		<text name="proShot_farm_menuSheep" text="Domba"/>
+		<text name="proShot_farm_menuGoat" text="Kambing"/>
+		<text name="proShot_farm_menuHorse" text="Kuda"/>
+		<text name="proShot_farm_menuChicken" text="Ayam"/>
+		<text name="proShot_wildlife_birdRemoved" text="Menghapus burung terakhir yang dimunculkan"/>
+		<text name="proShot_wildlife_animalRemoved" text="Menghapus satwa liar terakhir yang dimunculkan"/>
+		<text name="proShot_wildlife_noBird" text="Tidak ada burung yang dimunculkan untuk dihapus"/>
+		<text name="proShot_wildlife_noAnimal" text="Tidak ada satwa liar yang dimunculkan untuk dihapus"/>
+		<text name="proShot_wildlife_removeAll" text="Hapus semua hewan dan burung"/>
+		<text name="proShot_scene_menu" text="Kontrol Adegan"/>
+		<text name="proShot_scene_hideParked" text="Sembunyikan kendaraan yang diparkir"/>
+		<text name="proShot_scene_showParked" text="Tampilkan kendaraan yang diparkir"/>
+		<text name="proShot_scene_parkedVehicles" text="Kendaraan yang diparkir"/>
+		<text name="proShot_scene_parkedUnavailable" text="Kontrol kendaraan yang diparkir tidak tersedia di peta ini"/>
+		<text name="proShot_scene_reset" text="Reset kontrol adegan"/>
+		<text name="proShot_snow_strength" text="Kurangi/Tambah kekuatan alat"/>
+		<text name="proShot_snow_strengthInfo" text="Kekuatan alat"/>
+		<text name="proShot_snow_globalLevel" text="Kurangi/Tambah tingkat salju global"/>
+		<text name="proShot_snow_globalLevelInfo" text="Tingkat salju global"/>
+		<text name="proShot_focus_set" text="Fokus pada objek tengah"/>
+		<text name="proShot_focus_narrow" text="Persempit rentang fokus"/>
+		<text name="proShot_focus_widen" text="Perlebar rentang fokus"/>
+		<text name="proShot_focus_holdClear" text="Tekan lama [%s] untuk menghapus fokus"/>
+		<text name="proShot_focus_noTarget" text="Tidak ada objek ditemukan di tengah layar"/>
+		<text name="proShot_focus_status" text="Fokus tengah"/>
+		<text name="proShot_focus_distance" text="%.1f m (rentang %.1f m)"/>
+		<text name="proShot_composition_grid" text="Bantuan grid: %s"/>
+		<text name="proShot_composition_aspect" text="Bantuan rasio aspek: %s"/>
+		<text name="proShot_composition_status" text="Komposisi"/>
+		<text name="proShot_grid_thirds" text="Sepertiga"/>
+		<text name="proShot_grid_goldenRatio" text="Rasio Emas (Phi)"/>
+		<text name="proShot_grid_centre" text="Tengah"/>
+		<text name="proShot_grid_diagonals" text="Diagonal"/>
+		<text name="proShot_grid_diagonalMethod" text="Metode Diagonal"/>
+		<text name="proShot_grid_goldenTriangles" text="Segitiga Emas"/>
+		<text name="proShot_effect_resetSlot" text="Reset slot ke default"/>
+		<text name="proShot_effect_saveSlotMenu" text="Simpan efek saat ini ke slot"/>
+		<text name="proShot_effect_allSlotsDefault" text="Semua slot efek sudah default"/>
+		<text name="proShot_effect_emptySlot" text="Slot efek %d kosong"/>
+		<text name="proShot_effect_defaultName" text="Efek Kustom %d"/>
+		<text name="proShot_effect_namePrompt" text="Masukkan nama untuk slot efek %d"/>
+		<text name="proShot_effect_saveFailed" text="Tidak dapat menulis file efek"/>
+		<text name="proShot_effect_saved" text="Slot efek %d disimpan: %s"/>
+		<text name="proShot_effect_resetDone" text="Slot efek %d direset ke default"/>
+		<text name="proShot_effect_slotLabel" text="Slot %d"/>
+		<text name="proShot_effect_editing" text="Mengedit"/>
+		<text name="proShot_menu_revertThisScreen" text="Kembalikan perubahan di layar ini"/>
+		<text name="proShot_infoBox_VD" text="Jarak Pandang"/>
+		<text name="proShot_infoBox_FVD" text="Jarak Pandang Vegetasi"/>
+		<text name="proShot_infoBox_exposure" text="Eksposur Kamera"/>
+		<text name="proShot_infoBox_FoV" text="Field of View Kamera"/>
+		<text name="proShot_infoBox_quality" text="Preset Kualitas"/>
+		<text name="proShot_infoBox_sunDirection" text="Arah Matahari"/>
+		<text name="proShot_infoBox_colourGrading" text="Efek"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Gradasi Warna"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Suhu Senter"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Intensitas Senter"/>
+		<text name="proShot_infoBox_flashlightRange" text="Jangkauan Cahaya"/>
+		<text name="proShot_infoBox_flashlightCone" text="Sudut Kerucut"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Kabur Cahaya"/>
+		<text name="proShot_infoBox_title_environment" text="Lingkungan"/>
+		<text name="proShot_infoBox_season" text="Musim"/>
+		<text name="proShot_infoBox_frost" text="Embun beku"/>
+		<text name="proShot_infoBox_snowLevel" text="Tingkat salju"/>
+		<text name="proShot_infoBox_title_effects" text="Efek"/>
+		<text name="proShot_infoBox_help1b" text="Tombol kiri mouse atau tombol WSAD"/>
+		<text name="proShot_infoBox_help2a" text="Atur Ketinggian"/>
+		<text name="proShot_infoBox_help2b" text="Roda mouse atau tombol QE"/>
+		<text name="proShot_infoBox_help3a" text="Tambah Kecepatan"/>
+		<text name="proShot_infoBox_help3b" text="Tahan tombol Shift"/>
+		<text name="proShot_infoBox_help4a" text="Kurangi Kecepatan"/>
+		<text name="proShot_infoBox_help4b" text="Tahan tombol Ctrl"/>
+		<text name="proShot_infoBox_help5b" text="Tombol kanan mouse"/>
+		<text name="proShot_infoBox_help6a" text="Gerakkan Sinar Matahari"/>
+		<text name="proShot_infoBox_help6b" text="Tombol tengah mouse"/>
+		<text name="proShot_infoBox_help7b" text="Keypad 1 dan 2"/>
+		<text name="proShot_infoBox_help8a" text="Reset Kemiringan"/>
+		<text name="proShot_infoBox_help8b" text="Keypad 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Radius CoC dekat"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Jarak akhir blur dekat"/>
+		<text name="proShot_DoF_farCoCRadius" text="Radius CoC jauh"/>
+		<text name="proShot_DoF_farBlurStart" text="Jarak mulai blur jauh"/>
+		<text name="proShot_DoF_farBlurEnd" text="Jarak blur penuh jauh"/>
+		<text name="proShot_DoF_applyToSky" text="Buramkan langit"/>
+		<text name="proShot_summer" text="Musim panas"/>
+		<text name="proShot_autumn" text="Musim gugur"/>
+		<text name="proShot_winter" text="Musim dingin"/>
+		<text name="proShot_spring" text="Musim semi"/>
+		<text name="proShot_early" text="awal"/>
+		<text name="proShot_mid" text="tengah"/>
+		<text name="proShot_late" text="akhir"/>
+		<text name="proShot_seasonTweak" text="Penyesuaian musim"/>
+		<text name="proShot_variation" text="variasi"/>
+		<text name="proShot_weather_SUN" text="Cerah"/>
+		<text name="proShot_weather_CLOUDY" text="Berawan"/>
+		<text name="proShot_weather_RAIN" text="Hujan"/>
+		<text name="proShot_weather_SNOW" text="Bersalju"/>
+		<text name="proShot_weather_HAIL" text="Hujan es"/>
+		<text name="proShot_menu_snowShader" text="Aktif/nonaktifkan embun beku"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Radius CoC dekat (kekuatan blur)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Radius CoC jauh (kekuatan blur)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Jarak akhir blur dekat"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Jarak mulai blur jauh"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Jarak blur kekuatan penuh jauh"/>
+		<text name="proShot_menu_resetThis" text="Reset pengaturan ini"/>
+		<text name="input_PRO_SHOT_1" text="Pilihan 1"/>
+		<text name="input_PRO_SHOT_2" text="Pilihan 2"/>
+		<text name="input_PRO_SHOT_3" text="Pilihan 3"/>
+		<text name="input_PRO_SHOT_4" text="Pilihan 4"/>
+		<text name="input_PRO_SHOT_5" text="Pilihan 5"/>
+		<text name="input_PRO_SHOT_6" text="Pilihan 6"/>
+		<text name="input_PRO_SHOT_7" text="Pilihan 7"/>
+		<text name="input_PRO_SHOT_8" text="Pilihan 8"/>
+		<text name="input_PRO_SHOT_9" text="Pilihan 9"/>
+		<text name="input_PRO_SHOT_0" text="Pilihan 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Keypad 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Hapus hewan ternak terakhir"/>
+		<text name="input_PRO_SHOT_MINUS" text="Minus keyboard utama"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Sama dengan/plus keyboard utama"/>
+		<text name="input_PRO_SHOT_47_1" text="Penyesuaian 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="Penyesuaian 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Penyesuaian 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="Penyesuaian 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Penyesuaian 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="Penyesuaian 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Penyesuaian 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Penyesuaian 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Penyesuaian 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Penyesuaian 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Penyesuaian 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Penyesuaian 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Penyesuaian 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Penyesuaian 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Penyesuaian 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Penyesuaian 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Kembalikan pengaturan"/>
+		<text name="input_PRO_SHOT_ENTER" text="Ambil Foto"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="Ambil tangkapan layar HDR"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="Ambil tangkapan layar HDR dan kedalaman"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Kembali ke Menu Sebelumnya"/>
+		<text name="input_PRO_SHOT_F" text="Senter"/>
+		<text name="input_PRO_SHOT_F1" text="Aktif/nonaktifkan HUD"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Tempatkan Senter"/>
+	</texts>
+</l10n>

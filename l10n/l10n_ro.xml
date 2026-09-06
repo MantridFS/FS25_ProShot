@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+	<texts>
+		<text name="proShot_menu_qualLow" text="Setează calitate redusă"/>
+		<text name="proShot_menu_qualHigh" text="Setează calitate ridicată"/>
+		<text name="proShot_value_qualityLow" text="Calitate redusă"/>
+		<text name="proShot_value_qualityHigh" text="Calitate ridicată"/>
+		<text name="proShot_menu_advMenus" text="Meniuri avansate"/>
+		<text name="proShot_menu_favourites" text="Favorite"/>
+		<text name="proShot_menu_returnToAdvanced" text="Înapoi la meniurile avansate"/>
+		<text name="proShot_menu_resetAll" text="Resetează toate setările"/>
+		<text name="proShot_menu_resetFlashlightsToo" text="Resetează și lanternele"/>
+		<text name="proShot_value_original" text="Original"/>
+		<text name="proShot_favourite_restoreSlot" text="Restaurează slotul %d: %s"/>
+		<text name="proShot_favourite_saveSlot" text="Salvează în slotul %d: %s"/>
+		<text name="proShot_favourite_deleteSlot" text="Elimină slotul %d: %s"/>
+		<text name="proShot_favourite_saveCurrent" text="Salvează setările curente ca favorite"/>
+		<text name="proShot_favourite_remove" text="Elimină un favorit"/>
+		<text name="proShot_favourite_revertPreview" text="Revino la setările de dinainte de Favorite"/>
+		<text name="proShot_favourite_cancel" text="Înapoi la favorite"/>
+		<text name="proShot_favourite_chooseSaveSlot" text="Alege un slot pentru setările curente"/>
+		<text name="proShot_favourite_chooseDeleteSlot" text="Alege un favorit de eliminat"/>
+		<text name="proShot_favourite_defaultName" text="Presetare %d"/>
+		<text name="proShot_favourite_namePrompt" text="Introdu un nume pentru slotul favorit %d"/>
+		<text name="proShot_favourite_deleteTitle" text="Elimină favorit"/>
+		<text name="proShot_favourite_deletePrompt" text="Elimini slotul favorit %d, „%s”?"/>
+		<text name="proShot_favourite_emptyStatus" text="Slotul %d este gol"/>
+		<text name="proShot_favourite_restoredStatus" text="Slotul %d a fost restaurat"/>
+		<text name="proShot_favourite_revertedStatus" text="S-a revenit la setările de dinainte de Favorite"/>
+		<text name="proShot_favourite_savedStatus" text="Slotul %d a fost salvat: %s"/>
+		<text name="proShot_favourite_deletedStatus" text="Slotul %d a fost eliminat: %s"/>
+		<text name="proShot_favourite_saveFailed" text="Fișierul de favorite nu a putut fi scris"/>
+		<text name="proShot_favourite_slotLabel" text="Slot %d"/>
+		<text name="proShot_favourite_groupsTitle" text="Alege setările de salvat"/>
+		<text name="proShot_favourite_chooseGroups" text="Alege grupurile pentru slotul %d"/>
+		<text name="proShot_favourite_selectOneGroup" text="Selectează cel puțin un grup de setări"/>
+		<text name="proShot_favourite_continueName" text="Continuă și introdu un nume"/>
+		<text name="proShot_favourite_backToSlots" text="Înapoi la selectarea slotului"/>
+		<text name="proShot_favourite_group_camera" text="Cameră (FoV și expunere)"/>
+		<text name="proShot_favourite_group_sky" text="Cer"/>
+		<text name="proShot_favourite_group_groundLight" text="Iluminarea solului"/>
+		<text name="proShot_favourite_group_effects" text="Gradare de culoare și efecte"/>
+		<text name="proShot_favourite_group_season" text="Anotimp (inclusiv îngheț și zăpadă)"/>
+		<text name="proShot_favourite_group_weather" text="Vreme (inclusiv ceață și pâclă)"/>
+		<text name="proShot_menu_advQualityMenu" text="Meniu Calitate"/>
+		<text name="proShot_menu_advSunMenu" text="Meniu Cer"/>
+		<text name="proShot_menu_advLightMenu" text="Meniu Lanternă"/>
+		<text name="proShot_menu_environment" text="Meniu Mediu"/>
+		<text name="proShot_menu_effects" text="Meniu Efecte"/>
+		<text name="proShot_menu_DoF" text="Meniu Profunzime de câmp"/>
+		<text name="proShot_menu_returnToMain" text="Înapoi la meniul principal"/>
+		<text name="proShot_takePicture" text="Fă fotografia"/>
+		<text name="proShot_hideHUD" text="Comută HUD"/>
+		<text name="proShot_menu_advQ_VD" text="Redu/Mărește distanța de vizualizare"/>
+		<text name="proShot_menu_advQ_LOD" text="Redu/Mărește distanța LOD"/>
+		<text name="proShot_menu_advQ_TLOD" text="Redu/Mărește distanța LOD a terenului"/>
+		<text name="proShot_menu_advQ_FVD" text="Redu/Mărește distanța de vizualizare a vegetației"/>
+		<text name="proShot_menu_skyBrightness" text="Luminozitatea cerului"/>
+		<text name="proShot_menu_groundLight" text="Iluminarea solului"/>
+		<text name="proShot_menu_skyAndGround" text="Cer și sol"/>
+		<text name="proShot_menu_syncSkyToGround" text="Sincronizează cerul cu solul"/>
+		<text name="proShot_menu_lightingIntensity" text="Intensitatea iluminării"/>
+		<text name="proShot_menu_lightingTemperature" text="Temperatura iluminării"/>
+		<text name="proShot_menu_colourTemperature" text="Temperatura culorii"/>
+		<text name="proShot_menu_intensity" text="Intensitate"/>
+		<text name="proShot_menu_returnToSky" text="Înapoi la meniul Cer"/>
+		<text name="proShot_infoBox_skyTemp" text="Temperatura culorii cerului"/>
+		<text name="proShot_infoBox_skyIntensity" text="Intensitatea cerului"/>
+		<text name="proShot_infoBox_groundTemp" text="Temperatura culorii luminii"/>
+		<text name="proShot_infoBox_groundIntensity" text="Intensitatea luminii"/>
+		<text name="proShot_menu_red" text="Redu/Mărește roșu"/>
+		<text name="proShot_menu_green" text="Redu/Mărește verde"/>
+		<text name="proShot_menu_blue" text="Redu/Mărește albastru"/>
+		<text name="proShot_menu_moonSize" text="Dimensiunea Lunii"/>
+		<text name="proShot_menu_sunSize" text="Dimensiunea Soarelui"/>
+		<text name="proShot_menu_atmosRefraction" text="Refracția atmosferei"/>
+		<text name="proShot_menu_light_temp" text="Lumină mai rece/mai caldă"/>
+		<text name="proShot_menu_flashLight_coneAngle" text="Îngustează/Lărgește conul"/>
+		<text name="proShot_menu_flashLight_dropOff" text="Accentuează/Estompează focalizarea"/>
+		<text name="proShot_menu_flashLight_intensity" text="Scade/Crește intensitatea"/>
+		<text name="proShot_menu_flashLight_distance" text="Redu/Mărește distanța"/>
+		<text name="proShot_menu_flashLight_place" text="Plasează lanterna aici"/>
+		<text name="proShot_menu_flashLight_turnOn" text="Aprinde lanterna"/>
+		<text name="proShot_menu_flashLight_removeLast" text="Elimină ultima lanternă"/>
+		<text name="proShot_menu_flashLight_resetDefaults" text="Setează lumina la valorile implicite"/>
+		<text name="proShot_flashLight_placed" text="Lanternă plasată (%d)"/>
+		<text name="proShot_flashLight_placedCount" text="Lanterne plasate"/>
+		<text name="proShot_flashFavourite_title" text="Favorite lanternă"/>
+		<text name="proShot_flashFavourite_save" text="Salvează ca favorit"/>
+		<text name="proShot_flashFavourite_remove" text="Elimină favorit"/>
+		<text name="proShot_flashFavourite_cancel" text="Înapoi la meniul Lanternă"/>
+		<text name="proShot_flashFavourite_restoreSlot" text="Favorit %d: %s"/>
+		<text name="proShot_flashFavourite_saveSlot" text="Salvează în slotul %d: %s"/>
+		<text name="proShot_flashFavourite_deleteSlot" text="Elimină slotul %d: %s"/>
+		<text name="proShot_flashFavourite_defaultName" text="Lanternă %d"/>
+		<text name="proShot_flashFavourite_namePrompt" text="Introdu un nume pentru favoritul de lanternă %d"/>
+		<text name="proShot_flashFavourite_restored" text="Favoritul de lanternă %d a fost restaurat: %s"/>
+		<text name="proShot_flashFavourite_saved" text="Favoritul de lanternă %d a fost salvat: %s"/>
+		<text name="proShot_flashFavourite_deleted" text="Favoritul de lanternă %d a fost eliminat: %s"/>
+		<text name="proShot_flashFavourite_deleteTitle" text="Elimină favorit lanternă"/>
+		<text name="proShot_flashFavourite_deletePrompt" text="Elimini favoritul de lanternă %d, „%s”?"/>
+		<text name="proShot_menu_exposure" text="Ajustează expunerea"/>
+		<text name="proShot_menu_FoV" text="Ajustează câmpul vizual"/>
+		<text name="proShot_menu_timeHorly" text="Ajustează ora (ore)"/>
+		<text name="proShot_menu_timeMins" text="Ajustează ora (minute)"/>
+		<text name="proShot_menu_effects_preset_flat" text="Plat"/>
+		<text name="proShot_menu_effects_preset_vibrant" text="Vibrant"/>
+		<text name="proShot_menu_effects_preset_deep" text="Profund"/>
+		<text name="proShot_menu_effects_preset_cold" text="Rece"/>
+		<text name="proShot_menu_effects_preset_greyscale" text="Tonuri de gri"/>
+		<text name="proShot_menu_effects_preset_sepiaTone" text="Ton sepia"/>
+		<text name="proShot_menu_effects_preset_phantom" text="Fantomă"/>
+		<text name="proShot_menu_effects_bloomThreshold" text="Prag bloom"/>
+		<text name="proShot_menu_effects_bloomMagnitude" text="Magnitudine bloom"/>
+		<text name="proShot_menu_effects_bloomQuality" text="Calitate bloom"/>
+		<text name="proShot_effect_slotEntry" text="Slot efect %d: %s"/>
+		<text name="proShot_effect_saveSlot" text="Salvează în slotul de efect %d: %s"/>
+		<text name="proShot_effect_resetSlotEntry" text="Resetează slotul de efect %d: %s"/>
+		<text name="proShot_effect_customise" text="Gradare de culoare personalizată"/>
+		<text name="proShot_effect_global" text="Global"/>
+		<text name="proShot_effect_shadows" text="Umbre"/>
+		<text name="proShot_effect_midtones" text="Tonuri medii"/>
+		<text name="proShot_effect_highlights" text="Zone luminoase"/>
+		<text name="proShot_effect_saturation" text="Saturație"/>
+		<text name="proShot_effect_contrast" text="Contrast"/>
+		<text name="proShot_effect_gamma" text="Gamma"/>
+		<text name="proShot_effect_gain" text="Câștig"/>
+		<text name="proShot_effect_scale" text="Scală"/>
+		<text name="proShot_effect_shadowsMax" text="Luminanța maximă a umbrelor"/>
+		<text name="proShot_effect_highlightsMin" text="Luminanța minimă a zonelor luminoase"/>
+		<text name="proShot_effect_maxLuminance" text="Luminanță max.: %.2f"/>
+		<text name="proShot_effect_minLuminance" text="Luminanță min.: %.2f"/>
+		<text name="proShot_effect_resetLuminance" text="Resetează pragurile de luminanță"/>
+		<text name="proShot_menu_toneMapping" text="Mapare tonală"/>
+		<text name="proShot_tone_slope" text="Pantă"/>
+		<text name="proShot_tone_toe" text="Toe"/>
+		<text name="proShot_tone_shoulder" text="Shoulder"/>
+		<text name="proShot_tone_blackClip" text="Decupare negru"/>
+		<text name="proShot_tone_whiteClip" text="Decupare alb"/>
+		<text name="proShot_menu_fog" text="Redu/Mărește ceața"/>
+		<text name="proShot_menu_haze" text="Redu/Mărește pâcla"/>
+		<text name="proShot_infoBox_fog" text="Ceață"/>
+		<text name="proShot_infoBox_haze" text="Pâclă"/>
+		<text name="proShot_menu_fogAdvanced" text="Meniu Ceață"/>
+		<text name="proShot_fog_coverage" text="Redu/Mărește acoperirea ceții"/>
+		<text name="proShot_fog_softness" text="Redu/Mărește finețea acoperirii"/>
+		<text name="proShot_fog_groundDensity" text="Redu/Mărește densitatea ceții"/>
+		<text name="proShot_fog_extraHeight" text="Redu/Mărește înălțimea ceții"/>
+		<text name="proShot_fog_minValleyDepth" text="Redu/Mărește adâncimea minimă a văii"/>
+		<text name="proShot_fog_coverageInfo" text="Acoperire"/>
+		<text name="proShot_fog_softnessInfo" text="Finețe"/>
+		<text name="proShot_fog_groundDensityInfo" text="Densitate"/>
+		<text name="proShot_fog_extraHeightInfo" text="Înălțime"/>
+		<text name="proShot_fog_minValleyDepthInfo" text="Adâncime minimă a văii"/>
+		<text name="proShot_testing_enableTraffic" text="Pornește traficul"/>
+		<text name="proShot_testing_disableTraffic" text="Oprește traficul"/>
+		<text name="proShot_testing_enablePedestrians" text="Pornește pietonii"/>
+		<text name="proShot_testing_disablePedestrians" text="Oprește pietonii"/>
+		<text name="proShot_testing_pauseTraffic" text="Pauză trafic"/>
+		<text name="proShot_testing_resumeTraffic" text="Reia traficul"/>
+		<text name="proShot_testing_pausePedestrians" text="Pauză pietoni"/>
+		<text name="proShot_testing_resumePedestrians" text="Reia pietonii"/>
+		<text name="proShot_testing_localSnow" text="Zăpadă locală"/>
+		<text name="proShot_testing_groundWetness" text="Redu/Mărește umezeala solului"/>
+		<text name="proShot_testing_removeTyreTracks" text="Elimină urmele de anvelope (nu se poate anula)"/>
+		<text name="proShot_testing_traffic" text="Trafic"/>
+		<text name="proShot_testing_trafficMotion" text="Mișcarea traficului"/>
+		<text name="proShot_testing_pedestrians" text="Pietoni"/>
+		<text name="proShot_testing_pedestrianMotion" text="Mișcarea pietonilor"/>
+		<text name="proShot_testing_paused" text="În pauză"/>
+		<text name="proShot_testing_running" text="În mișcare"/>
+		<text name="proShot_testing_groundWetnessInfo" text="Umezeala solului"/>
+		<text name="proShot_testing_wildlife" text="Faună sălbatică"/>
+		<text name="proShot_testing_tyreTracks" text="Eliminarea urmelor de anvelope"/>
+		<text name="proShot_testing_unavailable" text="Indisponibil pe această hartă"/>
+		<text name="proShot_testing_irreversible" text="Nu se poate anula"/>
+		<text name="proShot_testing_trafficUnavailable" text="Pe această hartă nu este disponibil niciun sistem de trafic"/>
+		<text name="proShot_testing_pedestriansUnavailable" text="Pe această hartă nu este disponibil niciun sistem de pietoni"/>
+		<text name="proShot_testing_birdUnavailable" text="Pentru această hartă nu este definită nicio pasăre sălbatică potrivită"/>
+		<text name="proShot_testing_wildlifeRemoved" text="Au fost eliminate %d animale plasate și grupuri de păsări"/>
+		<text name="proShot_testing_spawnFailed" text="Generarea faunei sălbatice a eșuat"/>
+		<text name="proShot_testing_actionUnavailable" text="Această acțiune nu este disponibilă pe această hartă"/>
+		<text name="proShot_testing_pedestrianPauseUnavailable" text="Pauza pietonilor nu este disponibilă în această versiune a jocului"/>
+		<text name="proShot_testing_snowRadius" text="Redu/Mărește raza"/>
+		<text name="proShot_testing_snowHeight" text="Scade/Crește zăpada în zona evidențiată"/>
+		<text name="proShot_testing_snowTarget" text="Țintă"/>
+		<text name="proShot_testing_snowRadiusInfo" text="Rază"/>
+		<text name="proShot_testing_snowHeightInfo" text="Zăpadă în centru"/>
+		<text name="proShot_testing_noTarget" text="Nicio țintă pe teren"/>
+		<text name="proShot_testing_snowNoTarget" text="Nu s-a găsit teren în centrul ecranului"/>
+		<text name="proShot_testing_snowLowered" text="Zăpada din zona evidențiată a fost redusă"/>
+		<text name="proShot_testing_snowRaised" text="Zăpada din zona evidențiată a fost mărită"/>
+		<text name="proShot_testing_removeTyreTracksTitle" text="Elimină urmele de anvelope"/>
+		<text name="proShot_testing_removeTyreTracksChoose" text="Alege cât din harta urmelor de anvelope să fie șters."/>
+		<text name="proShot_testing_tyreTracks100m" text="În raza de 100 m față de cameră"/>
+		<text name="proShot_testing_tyreTracksWholeMap" text="Întreaga hartă"/>
+		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Elimini urmele de anvelope din raza de 100 m față de cameră? Această acțiune nu poate fi anulată."/>
+		<text name="proShot_testing_removeTyreTracksPromptAll" text="Elimini toate urmele de anvelope de pe hartă? Această acțiune nu poate fi anulată."/>
+		<text name="proShot_testing_tyreTracksRemoved100m" text="Au fost eliminate urmele de anvelope din raza de 100 m față de cameră"/>
+		<text name="proShot_testing_tyreTracksRemovedAll" text="Au fost eliminate toate urmele de anvelope"/>
+		<text name="proShot_wildlife_menu" text="Animale"/>
+		<text name="proShot_wildlife_selectAnimal" text="Schimbă fauna sălbatică la %s"/>
+		<text name="proShot_wildlife_selectBird" text="Schimbă păsările la %s"/>
+		<text name="proShot_wildlife_spawn" text="Generează %s"/>
+		<text name="proShot_wildlife_spawnFlying" text="Generează %s în zbor"/>
+		<text name="proShot_wildlife_pauseBirds" text="Pauză păsări"/>
+		<text name="proShot_wildlife_resumeBirds" text="Reia păsările"/>
+		<text name="proShot_wildlife_pauseAnimals" text="Pauză faună sălbatică"/>
+		<text name="proShot_wildlife_resumeAnimals" text="Reia fauna sălbatică"/>
+		<text name="proShot_wildlife_removeLastBird" text="Elimină ultima pasăre"/>
+		<text name="proShot_wildlife_removeLastAnimal" text="Elimină ultimul animal sălbatic"/>
+		<text name="proShot_wildlife_selectedAnimal" text="Faună sălbatică selectată"/>
+		<text name="proShot_wildlife_selectedBird" text="Pasăre selectată"/>
+		<text name="proShot_wildlife_animalMotion" text="Mișcarea faunei sălbatice"/>
+		<text name="proShot_wildlife_birdMotion" text="Mișcarea păsărilor"/>
+		<text name="proShot_wildlife_spawnedAnimals" text="Faună sălbatică generată"/>
+		<text name="proShot_wildlife_spawnedBirds" text="Păsări generate"/>
+		<text name="proShot_wildlife_unavailable" text="Pentru această hartă nu este definită faună sălbatică"/>
+		<text name="proShot_wildlife_spawned" text="%s a fost generat în fața camerei"/>
+		<text name="proShot_wildlife_tooFar" text="Prea departe"/>
+		<text name="proShot_wildlife_birdsPlacedAboveTarget" text="Păsări plasate pe cer, deasupra țintei"/>
+		<text name="proShot_wildlife_birdsPlaced" text="Păsări plasate"/>
+		<text name="proShot_wildlife_placedGround" text="Animal sălbatic plasat pe sol"/>
+		<text name="proShot_wildlife_placedObject" text="Animal sălbatic plasat pe obiect"/>
+		<text name="proShot_wildlife_groundOnly" text="Trebuie plasate pe sol"/>
+		<text name="proShot_animals_offsetX" text="Decalaj X animal"/>
+		<text name="proShot_animals_offsetY" text="Decalaj Y animal"/>
+		<text name="proShot_animals_offsetZ" text="Decalaj Z animal"/>
+		<text name="proShot_animals_resetOffsets" text="Resetează decalajele animalului"/>
+		<text name="proShot_animals_rotation" text="Rotirea animalului"/>
+		<text name="proShot_farm_select" text="Selectează animal de fermă"/>
+		<text name="proShot_farm_place" text="Plasează %s"/>
+		<text name="proShot_farm_removeLast" text="Elimină ultimul animal de fermă"/>
+		<text name="proShot_farm_removedLast" text="Ultimul animal de fermă a fost eliminat"/>
+		<text name="proShot_farm_noneToRemove" text="Nu există animale de fermă plasate de eliminat"/>
+		<text name="proShot_farm_selected" text="Animal de fermă selectat"/>
+		<text name="proShot_farm_spawned" text="Animale de fermă plasate"/>
+		<text name="proShot_farm_unavailable" text="Nu sunt disponibile animale de fermă pe această hartă"/>
+		<text name="proShot_farm_selectTitle" text="Selectează animal de fermă"/>
+		<text name="proShot_farm_selectText" text="Alege un animal și o vârstă."/>
+		<text name="proShot_farm_breedTitle" text="Selectează rasa"/>
+		<text name="proShot_farm_breedText" text="Alege o rasă sau un aspect."/>
+		<text name="proShot_farm_loadFailed" text="Animalul de fermă nu a putut fi încărcat"/>
+		<text name="proShot_farm_placedGround" text="Animal de fermă plasat pe sol"/>
+		<text name="proShot_farm_placedObject" text="Animal de fermă plasat pe obiect"/>
+		<text name="proShot_farm_genericStage" text="%s - %s"/>
+		<text name="proShot_farm_stageBaby" text="Pui"/>
+		<text name="proShot_farm_stageYoung" text="Tânăr"/>
+		<text name="proShot_farm_stageAdult" text="Adult"/>
+		<text name="proShot_farm_calf" text="Vițel"/>
+		<text name="proShot_farm_youngCow" text="Vacă tânără"/>
+		<text name="proShot_farm_cow" text="Vacă"/>
+		<text name="proShot_farm_buffaloCalf" text="Vițel de bivol"/>
+		<text name="proShot_farm_youngBuffalo" text="Bivol de apă tânăr"/>
+		<text name="proShot_farm_waterBuffalo" text="Bivol de apă"/>
+		<text name="proShot_farm_piglet" text="Purcel"/>
+		<text name="proShot_farm_youngPig" text="Porc tânăr"/>
+		<text name="proShot_farm_pig" text="Porc"/>
+		<text name="proShot_farm_lamb" text="Miel"/>
+		<text name="proShot_farm_youngSheep" text="Oaie tânără"/>
+		<text name="proShot_farm_sheep" text="Oaie"/>
+		<text name="proShot_farm_kid" text="Ied"/>
+		<text name="proShot_farm_youngGoat" text="Capră tânără"/>
+		<text name="proShot_farm_goat" text="Capră"/>
+		<text name="proShot_farm_horse" text="Cal"/>
+		<text name="proShot_farm_chick" text="Pui de găină"/>
+		<text name="proShot_farm_hen" text="Găină"/>
+		<text name="proShot_farm_rooster" text="Cocoș"/>
+		<text name="proShot_farm_menuCow" text="Vacă"/>
+		<text name="proShot_farm_menuBuffalo" text="Bivol de apă"/>
+		<text name="proShot_farm_menuPig" text="Porc"/>
+		<text name="proShot_farm_menuSheep" text="Oaie"/>
+		<text name="proShot_farm_menuGoat" text="Capră"/>
+		<text name="proShot_farm_menuHorse" text="Cal"/>
+		<text name="proShot_farm_menuChicken" text="Găină"/>
+		<text name="proShot_wildlife_birdRemoved" text="Ultima pasăre generată a fost eliminată"/>
+		<text name="proShot_wildlife_animalRemoved" text="Ultimul animal sălbatic generat a fost eliminat"/>
+		<text name="proShot_wildlife_noBird" text="Nu există păsări generate de eliminat"/>
+		<text name="proShot_wildlife_noAnimal" text="Nu există animale sălbatice generate de eliminat"/>
+		<text name="proShot_wildlife_removeAll" text="Elimină toate animalele și păsările"/>
+		<text name="proShot_scene_menu" text="Comenzi scenă"/>
+		<text name="proShot_scene_hideParked" text="Ascunde vehiculele parcate"/>
+		<text name="proShot_scene_showParked" text="Arată vehiculele parcate"/>
+		<text name="proShot_scene_parkedVehicles" text="Vehicule parcate"/>
+		<text name="proShot_scene_parkedUnavailable" text="Controlul vehiculelor parcate nu este disponibil pe această hartă"/>
+		<text name="proShot_scene_reset" text="Resetează comenzile scenei"/>
+		<text name="proShot_snow_strength" text="Redu/Mărește puterea instrumentului"/>
+		<text name="proShot_snow_strengthInfo" text="Puterea instrumentului"/>
+		<text name="proShot_snow_globalLevel" text="Redu/Mărește nivelul global al zăpezii"/>
+		<text name="proShot_snow_globalLevelInfo" text="Nivel global al zăpezii"/>
+		<text name="proShot_focus_set" text="Focalizează obiectul din centru"/>
+		<text name="proShot_focus_narrow" text="Îngustează intervalul de focalizare"/>
+		<text name="proShot_focus_widen" text="Lărgește intervalul de focalizare"/>
+		<text name="proShot_focus_holdClear" text="Ține apăsat [%s] pentru a șterge focalizarea"/>
+		<text name="proShot_focus_noTarget" text="Nu s-a găsit niciun obiect în centrul ecranului"/>
+		<text name="proShot_focus_status" text="Focalizare centrală"/>
+		<text name="proShot_focus_distance" text="%.1f m (interval %.1f m)"/>
+		<text name="proShot_composition_grid" text="Ghid grilă: %s"/>
+		<text name="proShot_composition_aspect" text="Ghid raport de aspect: %s"/>
+		<text name="proShot_composition_status" text="Compoziție"/>
+		<text name="proShot_grid_thirds" text="Treimi"/>
+		<text name="proShot_grid_goldenRatio" text="Raportul de aur (Phi)"/>
+		<text name="proShot_grid_centre" text="Centru"/>
+		<text name="proShot_grid_diagonals" text="Diagonale"/>
+		<text name="proShot_grid_diagonalMethod" text="Metoda diagonală"/>
+		<text name="proShot_grid_goldenTriangles" text="Triunghiuri de aur"/>
+		<text name="proShot_effect_resetSlot" text="Resetează un slot la valoarea implicită"/>
+		<text name="proShot_effect_saveSlotMenu" text="Salvează efectul curent într-un slot"/>
+		<text name="proShot_effect_allSlotsDefault" text="Toate sloturile de efect sunt deja implicite"/>
+		<text name="proShot_effect_emptySlot" text="Slotul de efect %d este gol"/>
+		<text name="proShot_effect_defaultName" text="Efect personalizat %d"/>
+		<text name="proShot_effect_namePrompt" text="Introdu un nume pentru slotul de efect %d"/>
+		<text name="proShot_effect_saveFailed" text="Fișierul de efecte nu a putut fi scris"/>
+		<text name="proShot_effect_saved" text="Slotul de efect %d a fost salvat: %s"/>
+		<text name="proShot_effect_resetDone" text="Slotul de efect %d a fost resetat la valoarea implicită"/>
+		<text name="proShot_effect_slotLabel" text="Slot %d"/>
+		<text name="proShot_effect_editing" text="Editare"/>
+		<text name="proShot_menu_revertThisScreen" text="Revino asupra modificărilor de pe acest ecran"/>
+		<text name="proShot_infoBox_VD" text="Distanță de vizualizare"/>
+		<text name="proShot_infoBox_FVD" text="Distanță de vizualizare vegetație"/>
+		<text name="proShot_infoBox_exposure" text="Expunerea camerei"/>
+		<text name="proShot_infoBox_FoV" text="Câmpul vizual al camerei"/>
+		<text name="proShot_infoBox_quality" text="Presetare calitate"/>
+		<text name="proShot_infoBox_sunDirection" text="Direcția Soarelui"/>
+		<text name="proShot_infoBox_colourGrading" text="Efect"/>
+		<text name="proShot_infoBox_colourGradingHeading" text="Gradare de culoare"/>
+		<text name="proShot_infoBox_flashlightTemp" text="Temperatura lanternei"/>
+		<text name="proShot_infoBox_flashlightIntensity" text="Intensitatea lanternei"/>
+		<text name="proShot_infoBox_flashlightRange" text="Raza luminii"/>
+		<text name="proShot_infoBox_flashlightCone" text="Unghiul conului"/>
+		<text name="proShot_infoBox_flashlightDropOff" text="Estomparea luminii"/>
+		<text name="proShot_infoBox_title_environment" text="Mediu"/>
+		<text name="proShot_infoBox_season" text="Anotimp"/>
+		<text name="proShot_infoBox_frost" text="Îngheț"/>
+		<text name="proShot_infoBox_snowLevel" text="Nivelul zăpezii"/>
+		<text name="proShot_infoBox_title_effects" text="Efecte"/>
+		<text name="proShot_infoBox_help1b" text="Butonul stâng al mouse-ului sau tastele WSAD"/>
+		<text name="proShot_infoBox_help2a" text="Ajustează înălțimea"/>
+		<text name="proShot_infoBox_help2b" text="Rotița mouse-ului sau tastele QE"/>
+		<text name="proShot_infoBox_help3a" text="Mărește viteza"/>
+		<text name="proShot_infoBox_help3b" text="Ține apăsată tasta Shift"/>
+		<text name="proShot_infoBox_help4a" text="Micșorează viteza"/>
+		<text name="proShot_infoBox_help4b" text="Ține apăsată tasta Ctrl"/>
+		<text name="proShot_infoBox_help5b" text="Butonul drept al mouse-ului"/>
+		<text name="proShot_infoBox_help6a" text="Mută lumina soarelui"/>
+		<text name="proShot_infoBox_help6b" text="Butonul din mijloc al mouse-ului"/>
+		<text name="proShot_infoBox_help7b" text="Tastatura numerică 1 și 2"/>
+		<text name="proShot_infoBox_help8a" text="Resetează înclinarea"/>
+		<text name="proShot_infoBox_help8b" text="Tastatura numerică 0"/>
+		<text name="proShot_DoF_nearCoCRadius" text="Raza CoC apropiată"/>
+		<text name="proShot_DoF_nearBlurEnd" text="Distanța finală a estompării apropiate"/>
+		<text name="proShot_DoF_farCoCRadius" text="Raza CoC îndepărtată"/>
+		<text name="proShot_DoF_farBlurStart" text="Distanța de început a estompării îndepărtate"/>
+		<text name="proShot_DoF_farBlurEnd" text="Distanța de estompare completă îndepărtată"/>
+		<text name="proShot_DoF_applyToSky" text="Estompează cerul"/>
+		<text name="proShot_summer" text="Vară"/>
+		<text name="proShot_autumn" text="Toamnă"/>
+		<text name="proShot_winter" text="Iarnă"/>
+		<text name="proShot_spring" text="Primăvară"/>
+		<text name="proShot_early" text="devreme"/>
+		<text name="proShot_mid" text="mijloc"/>
+		<text name="proShot_late" text="târziu"/>
+		<text name="proShot_seasonTweak" text="Ajustare fină a anotimpului"/>
+		<text name="proShot_variation" text="variație"/>
+		<text name="proShot_weather_SUN" text="Însorit"/>
+		<text name="proShot_weather_CLOUDY" text="Înnorat"/>
+		<text name="proShot_weather_RAIN" text="Ploios"/>
+		<text name="proShot_weather_SNOW" text="Ninsoare"/>
+		<text name="proShot_weather_HAIL" text="Grindină"/>
+		<text name="proShot_menu_snowShader" text="Comută înghețul"/>
+		<text name="proShot_menu_DoF_nearBlurAmount" text="Raza CoC apropiată (puterea estompării)"/>
+		<text name="proShot_menu_DoF_farBlurAmount" text="Raza CoC îndepărtată (puterea estompării)"/>
+		<text name="proShot_menu_DoF_nearBlurEnd" text="Distanța finală a estompării apropiate"/>
+		<text name="proShot_menu_DoF_farBlurStart" text="Distanța de început a estompării îndepărtate"/>
+		<text name="proShot_menu_DoF_farBlurEnd" text="Distanța de estompare completă îndepărtată"/>
+		<text name="proShot_menu_resetThis" text="Resetează aceste setări"/>
+		<text name="input_PRO_SHOT_1" text="Selecția 1"/>
+		<text name="input_PRO_SHOT_2" text="Selecția 2"/>
+		<text name="input_PRO_SHOT_3" text="Selecția 3"/>
+		<text name="input_PRO_SHOT_4" text="Selecția 4"/>
+		<text name="input_PRO_SHOT_5" text="Selecția 5"/>
+		<text name="input_PRO_SHOT_6" text="Selecția 6"/>
+		<text name="input_PRO_SHOT_7" text="Selecția 7"/>
+		<text name="input_PRO_SHOT_8" text="Selecția 8"/>
+		<text name="input_PRO_SHOT_9" text="Selecția 9"/>
+		<text name="input_PRO_SHOT_0" text="Selecția 10"/>
+		<text name="input_PRO_SHOT_KP_0" text="Tastatura numerică 0"/>
+		<text name="input_PRO_SHOT_KP_PERIOD" text="Elimină ultimul animal de fermă"/>
+		<text name="input_PRO_SHOT_MINUS" text="Minus pe tastatura principală"/>
+		<text name="input_PRO_SHOT_EQUALS" text="Egal/plus pe tastatura principală"/>
+		<text name="input_PRO_SHOT_47_1" text="Ajustare 1 +"/>
+		<text name="input_PRO_SHOT_47_2" text="Ajustare 1 -"/>
+		<text name="input_PRO_SHOT_58_1" text="Ajustare 2 +"/>
+		<text name="input_PRO_SHOT_58_2" text="Ajustare 2 -"/>
+		<text name="input_PRO_SHOT_69_1" text="Ajustare 3 +"/>
+		<text name="input_PRO_SHOT_69_2" text="Ajustare 3 -"/>
+		<text name="input_PRO_SHOT_DOT3_1" text="Ajustare 4 +"/>
+		<text name="input_PRO_SHOT_DOT3_2" text="Ajustare 4 -"/>
+		<text name="input_PRO_SHOT_DIVMUL_1" text="Ajustare 5 +"/>
+		<text name="input_PRO_SHOT_DIVMUL_2" text="Ajustare 5 -"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_1" text="Ajustare 6 +"/>
+		<text name="input_PRO_SHOT_KP_MINUSPLUS_2" text="Ajustare 6 -"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_1" text="Ajustare 7 +"/>
+		<text name="input_PRO_SHOT_MINUSEQUALS_2" text="Ajustare 7 -"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_1" text="Ajustare 8 +"/>
+		<text name="input_PRO_SHOT_SQUAREBRACKETS_2" text="Ajustare 8 -"/>
+		<text name="input_PRO_SHOT_BACKSLASH" text="Revino la setări"/>
+		<text name="input_PRO_SHOT_ENTER" text="Fă fotografia"/>
+		<text name="input_PRO_SHOT_HDR_CAPTURE" text="Capturează o captură de ecran HDR"/>
+		<text name="input_PRO_SHOT_HDR_DEPTH_CAPTURE" text="Capturează capturi HDR și de adâncime"/>
+		<text name="input_PRO_SHOT_BACKSPACE" text="Înapoi la meniul anterior"/>
+		<text name="input_PRO_SHOT_F" text="Lanternă"/>
+		<text name="input_PRO_SHOT_F1" text="Comută HUD"/>
+		<text name="input_PRO_SHOT_KP_ENTER" text="Plasează lanterna"/>
+	</texts>
+</l10n>
