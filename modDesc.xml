@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="111">
+<modDesc descVersion="114">
 	<title>
 		<en>Pro Shot</en>
 		<de>Profi-Foto (Pro Shot)</de>
@@ -34,7 +34,7 @@
 	<description>
 		<en><![CDATA[To take a good photo, you need to take your time. This mod lets you pause time, while you set up and frame the perfect shot. With advanced quality and lighting options, and much more, you're sure to take a Pro Shot!
 
-- Take screenshots from the Pause screen
+- Pause the game using your assigned Pause control (PAUSE by default) to activate Pro Shot and take screenshots
 - Free-roaming camera, including roll/tilt, via mouse and keyboard controls
 - Activate High Quality mode, and adjust other detail settings
 - Change the camera exposure, Field of View, and a whole lot more
@@ -78,7 +78,7 @@ Notes
   - Snow is restored to the previous level, which may overwrite non-standard snow. If you have non-standard snow and experience issues, let me know.]]></en>
 		<de><![CDATA[Um ein gutes Foto zu machen, muss man sich Zeit nehmen. Mit diesem Mod kannst du die Zeit anhalten, während du die perfekte Aufnahme vorbereitest und komponierst. Mit erweiterten Qualitäts- und Beleuchtungsoptionen und vielem mehr gelingt dir garantiert ein Profi-Foto!
 
-- Screenshots direkt vom Pausenbildschirm aus aufnehmen
+- Pausiere das Spiel mit deiner zugewiesenen Pausensteuerung (standardmäßig PAUSE), um Pro Shot zu aktivieren und Screenshots aufzunehmen
 - Frei bewegliche Kamera, einschließlich Rollen und Neigen, gesteuert mit Maus und Tastatur
 - Hochqualitätsmodus aktivieren und weitere Detaileinstellungen anpassen
 - Belichtung, Sichtfeld (FOV) und vieles mehr einstellen
@@ -127,7 +127,7 @@ Hinweise
 ]]></de>
 		<fr><![CDATA[Pour prendre une bonne photo, il faut prendre son temps. Ce mod vous permet de figer le temps pendant que vous préparez et cadrez la photo parfaite. Grâce à des options avancées de qualité et d'éclairage, et bien plus encore, vous avez tout ce qu'il faut pour réussir une Photo Pro !
 
-- Prendre des captures d'écran directement depuis l'écran de pause
+- Mettez le jeu en pause avec la commande de pause que vous avez attribuée (PAUSE par défaut) pour activer Pro Shot et prendre des captures d’écran
 - Caméra libre avec déplacement, roulis et inclinaison, contrôlée à la souris et au clavier
 - Activer le mode Haute qualité et ajuster d'autres paramètres de détail
 - Modifier l'exposition de la caméra, le champ de vision (FOV) et bien plus encore
@@ -176,7 +176,7 @@ Remarques
 ]]></fr>
 		<pl><![CDATA[Aby zrobić dobre zdjęcie, trzeba poświęcić mu trochę czasu. Ten mod pozwala zatrzymać czas, podczas gdy przygotowujesz i kadrujesz idealne ujęcie. Dzięki zaawansowanym opcjom jakości i oświetlenia oraz wielu innym funkcjom z pewnością zrobisz profesjonalne zdjęcie!
 
-- Rób zrzuty ekranu bezpośrednio z ekranu pauzy
+- Wstrzymaj grę za pomocą przypisanego sterowania pauzą (domyślnie PAUSE), aby aktywować Pro Shot i robić zrzuty ekranu
 - Swobodnie przemieszczaj kamerę, w tym obracaj ją i pochylaj, za pomocą myszy i klawiatury
 - Włącz tryb wysokiej jakości i dostosuj inne ustawienia szczegółowości
 - Zmieniaj ekspozycję kamery, pole widzenia i wiele więcej
@@ -220,7 +220,7 @@ Uwagi:
   - Śnieg jest przywracany do poprzedniego poziomu, co może nadpisać niestandardowy śnieg. Jeśli używasz niestandardowego śniegu i wystąpią problemy, daj mi znać.]]></pl>
 		<ru><![CDATA[Чтобы сделать хороший снимок, нужно не спешить. Этот мод позволяет остановить время, пока вы готовите и выстраиваете идеальный кадр. Благодаря расширенным настройкам качества и освещения, а также множеству других возможностей, у вас есть всё необходимое для профессионального снимка!
 
-- Делайте снимки экрана прямо из меню паузы
+- Приостановите игру с помощью назначенной команды паузы (по умолчанию PAUSE), чтобы активировать Pro Shot и делать снимки экрана
 - Свободно перемещайте камеру, включая наклон и вращение, с помощью мыши и клавиатуры
 - Включайте режим высокого качества и регулируйте другие параметры детализации
 - Изменяйте экспозицию камеры, поле зрения и многое другое
@@ -264,7 +264,7 @@ Uwagi:
   - Снег восстанавливается до предыдущего уровня, что может перезаписать нестандартный снег. Если вы используете нестандартный снег и столкнулись с проблемами, сообщите мне.]]></ru>
 		<br><![CDATA[Para tirar uma boa foto, é preciso ter tempo. Este mod permite pausar o tempo enquanto você prepara e enquadra a foto perfeita. Com opções avançadas de qualidade e iluminação, além de muitos outros recursos, você terá tudo o que precisa para fazer uma foto profissional!
 
-- Faça capturas de tela diretamente pela tela de pausa
+- Pause o jogo usando o controle de pausa atribuído (PAUSE por padrão) para ativar o Pro Shot e fazer capturas de tela
 - Movimente a câmera livremente, incluindo rotação e inclinação, usando o mouse e o teclado
 - Ative o modo de Alta Qualidade e ajuste outras configurações de detalhes
 - Altere a exposição da câmera, o campo de visão e muito mais
@@ -308,7 +308,7 @@ Observações:
   - A neve é restaurada ao nível anterior, o que pode substituir neve fora do padrão. Se você usa neve fora do padrão e tiver algum problema, avise-me.]]></br>
 		<tr><![CDATA[İyi bir fotoğraf çekmek için acele etmemek gerekir. Bu mod, mükemmel kareyi hazırlayıp kadrajlarken zamanı duraklatmanıza olanak tanır. Gelişmiş kalite ve aydınlatma seçenekleri ve çok daha fazlasıyla profesyonel bir çekim yapmak için ihtiyacınız olan her şeye sahipsiniz!
 
-- Duraklatma ekranından ekran görüntüleri alın
+- Pro Shot’u etkinleştirmek ve ekran görüntüleri almak için atadığınız duraklatma kontrolünü (varsayılan olarak PAUSE) kullanarak oyunu duraklatın
 - Fare ve klavye kontrolleriyle kamerayı serbestçe hareket ettirin; döndürme ve eğme de dahil
 - Yüksek Kalite modunu etkinleştirin ve diğer ayrıntı ayarlarını düzenleyin
 - Kamera pozlamasını, görüş alanını ve çok daha fazlasını değiştirin
@@ -352,7 +352,7 @@ Notlar:
   - Kar önceki seviyesine geri yüklenir ve bu, standart dışı karı geçersiz kılabilir. Standart dışı kar kullanıyorsanız ve sorun yaşarsanız bana bildirin.]]></tr>
 		<cz><![CDATA[Pořízení dobré fotografie chce čas. Tento mod vám umožní zastavit čas, zatímco připravujete a komponujete dokonalý snímek. Díky pokročilým možnostem kvality a osvětlení a mnoha dalším funkcím máte vše, co potřebujete pro profesionální snímek!
 
-- Pořizujte snímky obrazovky přímo z obrazovky pozastavení
+- Pozastav hru pomocí přiřazeného ovládání pauzy (ve výchozím nastavení PAUSE), abys aktivoval Pro Shot a mohl pořizovat snímky obrazovky
 - Volně pohybujte kamerou včetně naklánění a otáčení pomocí myši a klávesnice
 - Aktivujte režim Vysoké kvality a upravte další nastavení detailů
 - Měňte expozici kamery, zorné pole a mnoho dalšího
@@ -396,7 +396,7 @@ Poznámky:
   - Sníh se obnoví na předchozí úroveň, což může přepsat nestandardní sníh. Pokud používáte nestandardní sníh a narazíte na problémy, dejte mi vědět.]]></cz>
 		<nl><![CDATA[Voor een goede foto moet je de tijd nemen. Met deze mod kun je de tijd stilzetten terwijl je de perfecte opname voorbereidt en kadreert. Met geavanceerde opties voor kwaliteit en belichting, en nog veel meer, heb je alles in handen voor een professionele foto!
 
-- Maak screenshots rechtstreeks vanuit het pauzescherm
+- Pauzeer het spel met de toegewezen pauzebediening (standaard PAUSE) om Pro Shot te activeren en screenshots te maken
 - Beweeg de camera vrij rond, inclusief rollen en kantelen, met muis- en toetsenbordbediening
 - Activeer de modus Hoge kwaliteit en pas andere detailinstellingen aan
 - Wijzig de camerabelichting, het gezichtsveld en nog veel meer
@@ -440,7 +440,7 @@ Opmerkingen:
   - Sneeuw wordt hersteld naar het vorige niveau, waardoor niet-standaard sneeuw kan worden overschreven. Laat het me weten als je niet-standaard sneeuw gebruikt en problemen ondervindt.]]></nl>
 		<sv><![CDATA[För att ta ett bra foto måste du ta dig tid. Med den här modden kan du pausa tiden medan du förbereder och komponerar den perfekta bilden. Med avancerade alternativ för kvalitet och belysning, och mycket mer, har du allt du behöver för att ta en riktig proffsbild!
 
-- Ta skärmbilder direkt från pausmenyn
+- Pausa spelet med din tilldelade pauskontroll (PAUSE som standard) för att aktivera Pro Shot och ta skärmbilder
 - Flytta kameran fritt, inklusive rullning och lutning, med mus och tangentbord
 - Aktivera läget Hög kvalitet och justera andra detaljinställningar
 - Ändra kamerans exponering, synfält och mycket mer
@@ -484,7 +484,7 @@ Anmärkningar:
   - Snön återställs till den tidigare nivån, vilket kan skriva över icke-standardiserad snö. Om du använder icke-standardiserad snö och får problem, hör gärna av dig.]]></sv>
 		<es><![CDATA[Para hacer una buena foto, hay que tomarse su tiempo. Este mod te permite detener el tiempo mientras preparas y encuadras la toma perfecta. Con opciones avanzadas de calidad e iluminación y muchas otras funciones, ¡tienes todo lo necesario para conseguir una foto profesional!
 
-- Haz capturas de pantalla directamente desde la pantalla de pausa
+- Pausa el juego con el control de pausa que tengas asignado (PAUSE por defecto) para activar Pro Shot y hacer capturas de pantalla
 - Mueve la cámara libremente, incluidos el giro y la inclinación, con el ratón y el teclado
 - Activa el modo de Alta calidad y ajusta otros parámetros de detalle
 - Cambia la exposición de la cámara, el campo de visión y mucho más

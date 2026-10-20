@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Densitate"/>
 		<text name="proShot_fog_extraHeightInfo" text="Înălțime"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Adâncime minimă a văii"/>
-		<text name="proShot_testing_enableTraffic" text="Pornește traficul"/>
-		<text name="proShot_testing_disableTraffic" text="Oprește traficul"/>
-		<text name="proShot_testing_enablePedestrians" text="Pornește pietonii"/>
-		<text name="proShot_testing_disablePedestrians" text="Oprește pietonii"/>
-		<text name="proShot_testing_pauseTraffic" text="Pauză trafic"/>
-		<text name="proShot_testing_resumeTraffic" text="Reia traficul"/>
-		<text name="proShot_testing_pausePedestrians" text="Pauză pietoni"/>
-		<text name="proShot_testing_resumePedestrians" text="Reia pietonii"/>
-		<text name="proShot_testing_localSnow" text="Zăpadă locală"/>
-		<text name="proShot_testing_groundWetness" text="Redu/Mărește umezeala solului"/>
-		<text name="proShot_testing_removeTyreTracks" text="Elimină urmele de anvelope (nu se poate anula)"/>
-		<text name="proShot_testing_traffic" text="Trafic"/>
-		<text name="proShot_testing_trafficMotion" text="Mișcarea traficului"/>
-		<text name="proShot_testing_pedestrians" text="Pietoni"/>
-		<text name="proShot_testing_pedestrianMotion" text="Mișcarea pietonilor"/>
-		<text name="proShot_testing_paused" text="În pauză"/>
-		<text name="proShot_testing_running" text="În mișcare"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Umezeala solului"/>
-		<text name="proShot_testing_wildlife" text="Faună sălbatică"/>
-		<text name="proShot_testing_tyreTracks" text="Eliminarea urmelor de anvelope"/>
-		<text name="proShot_testing_unavailable" text="Indisponibil pe această hartă"/>
-		<text name="proShot_testing_irreversible" text="Nu se poate anula"/>
-		<text name="proShot_testing_trafficUnavailable" text="Pe această hartă nu este disponibil niciun sistem de trafic"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Pe această hartă nu este disponibil niciun sistem de pietoni"/>
-		<text name="proShot_testing_birdUnavailable" text="Pentru această hartă nu este definită nicio pasăre sălbatică potrivită"/>
-		<text name="proShot_testing_wildlifeRemoved" text="Au fost eliminate %d animale plasate și grupuri de păsări"/>
-		<text name="proShot_testing_spawnFailed" text="Generarea faunei sălbatice a eșuat"/>
-		<text name="proShot_testing_actionUnavailable" text="Această acțiune nu este disponibilă pe această hartă"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Pauza pietonilor nu este disponibilă în această versiune a jocului"/>
-		<text name="proShot_testing_snowRadius" text="Redu/Mărește raza"/>
-		<text name="proShot_testing_snowHeight" text="Scade/Crește zăpada în zona evidențiată"/>
-		<text name="proShot_testing_snowTarget" text="Țintă"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Rază"/>
-		<text name="proShot_testing_snowHeightInfo" text="Zăpadă în centru"/>
-		<text name="proShot_testing_noTarget" text="Nicio țintă pe teren"/>
-		<text name="proShot_testing_snowNoTarget" text="Nu s-a găsit teren în centrul ecranului"/>
-		<text name="proShot_testing_snowLowered" text="Zăpada din zona evidențiată a fost redusă"/>
-		<text name="proShot_testing_snowRaised" text="Zăpada din zona evidențiată a fost mărită"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Elimină urmele de anvelope"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Alege cât din harta urmelor de anvelope să fie șters."/>
-		<text name="proShot_testing_tyreTracks100m" text="În raza de 100 m față de cameră"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Întreaga hartă"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Elimini urmele de anvelope din raza de 100 m față de cameră? Această acțiune nu poate fi anulată."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Elimini toate urmele de anvelope de pe hartă? Această acțiune nu poate fi anulată."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Au fost eliminate urmele de anvelope din raza de 100 m față de cameră"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Au fost eliminate toate urmele de anvelope"/>
+		<text name="proShot_scene_enableTraffic" text="Pornește traficul"/>
+		<text name="proShot_scene_disableTraffic" text="Oprește traficul"/>
+		<text name="proShot_scene_enablePedestrians" text="Pornește pietonii"/>
+		<text name="proShot_scene_disablePedestrians" text="Oprește pietonii"/>
+		<text name="proShot_scene_pauseTraffic" text="Pauză trafic"/>
+		<text name="proShot_scene_resumeTraffic" text="Reia traficul"/>
+		<text name="proShot_scene_pausePedestrians" text="Pauză pietoni"/>
+		<text name="proShot_scene_resumePedestrians" text="Reia pietonii"/>
+		<text name="proShot_snow_menu" text="Zăpadă locală"/>
+		<text name="proShot_environment_groundWetness" text="Redu/Mărește umezeala solului"/>
+		<text name="proShot_scene_removeTyreTracks" text="Elimină urmele de anvelope (nu se poate anula)"/>
+		<text name="proShot_scene_traffic" text="Trafic"/>
+		<text name="proShot_scene_trafficMotion" text="Mișcarea traficului"/>
+		<text name="proShot_scene_pedestrians" text="Pietoni"/>
+		<text name="proShot_scene_pedestrianMotion" text="Mișcarea pietonilor"/>
+		<text name="proShot_value_paused" text="În pauză"/>
+		<text name="proShot_value_running" text="În mișcare"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Umezeala solului"/>
+		<text name="proShot_wildlife_title" text="Faună sălbatică"/>
+		<text name="proShot_scene_tyreTracks" text="Eliminarea urmelor de anvelope"/>
+		<text name="proShot_value_unavailable" text="Indisponibil pe această hartă"/>
+		<text name="proShot_value_irreversible" text="Nu se poate anula"/>
+		<text name="proShot_scene_trafficUnavailable" text="Pe această hartă nu este disponibil niciun sistem de trafic"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Pe această hartă nu este disponibil niciun sistem de pietoni"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Pentru această hartă nu este definită nicio pasăre sălbatică potrivită"/>
+		<text name="proShot_wildlife_removedAll" text="Au fost eliminate %d animale plasate și grupuri de păsări"/>
+		<text name="proShot_wildlife_spawnFailed" text="Generarea faunei sălbatice a eșuat"/>
+		<text name="proShot_scene_actionUnavailable" text="Această acțiune nu este disponibilă pe această hartă"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Pauza pietonilor nu este disponibilă în această versiune a jocului"/>
+		<text name="proShot_snow_radius" text="Redu/Mărește raza"/>
+		<text name="proShot_snow_height" text="Scade/Crește zăpada în zona evidențiată"/>
+		<text name="proShot_snow_target" text="Țintă"/>
+		<text name="proShot_snow_radiusInfo" text="Rază"/>
+		<text name="proShot_snow_heightInfo" text="Zăpadă în centru"/>
+		<text name="proShot_snow_noTarget" text="Nicio țintă pe teren"/>
+		<text name="proShot_snow_noTerrain" text="Nu s-a găsit teren în centrul ecranului"/>
+		<text name="proShot_snow_lowered" text="Zăpada din zona evidențiată a fost redusă"/>
+		<text name="proShot_snow_raised" text="Zăpada din zona evidențiată a fost mărită"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Elimină urmele de anvelope"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Alege cât din harta urmelor de anvelope să fie șters."/>
+		<text name="proShot_scene_tyreTracks100m" text="În raza de 100 m față de cameră"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Întreaga hartă"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Elimini urmele de anvelope din raza de 100 m față de cameră? Această acțiune nu poate fi anulată."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Elimini toate urmele de anvelope de pe hartă? Această acțiune nu poate fi anulată."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Au fost eliminate urmele de anvelope din raza de 100 m față de cameră"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Au fost eliminate toate urmele de anvelope"/>
 		<text name="proShot_wildlife_menu" text="Animale"/>
 		<text name="proShot_wildlife_selectAnimal" text="Schimbă fauna sălbatică la %s"/>
 		<text name="proShot_wildlife_selectBird" text="Schimbă păsările la %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Lanternă"/>
 		<text name="input_PRO_SHOT_F1" text="Comută HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Plasează lanterna"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot a reîncărcat %d vehicule"/>
+		<text name="proShot_reload_cooldown" text="Așteaptă puțin înainte de a reîncărca vehiculele din nou"/>
+		<text name="proShot_reload_vehiclesNearby" text="Se reîncarcă toate vehiculele pe o rază de %d m"/>
+		<text name="proShot_reload_currentVehicle" text="Se reîncarcă vehiculul curent"/>
+		<text name="proShot_reload_notInVehicle" text="Nu ești într-un vehicul. Încearcă Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Se reîncarcă toate obiectele care pot fi amplasate"/>
 	</texts>
 </l10n>

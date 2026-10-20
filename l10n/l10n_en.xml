@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Density"/>
 		<text name="proShot_fog_extraHeightInfo" text="Height"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Minimum valley depth"/>
-		<text name="proShot_testing_enableTraffic" text="Turn on traffic"/>
-		<text name="proShot_testing_disableTraffic" text="Turn off traffic"/>
-		<text name="proShot_testing_enablePedestrians" text="Turn on pedestrians"/>
-		<text name="proShot_testing_disablePedestrians" text="Turn off pedestrians"/>
-		<text name="proShot_testing_pauseTraffic" text="Pause traffic"/>
-		<text name="proShot_testing_resumeTraffic" text="Resume traffic"/>
-		<text name="proShot_testing_pausePedestrians" text="Pause pedestrians"/>
-		<text name="proShot_testing_resumePedestrians" text="Resume pedestrians"/>
-		<text name="proShot_testing_localSnow" text="Local Snow"/>
-		<text name="proShot_testing_groundWetness" text="Reduce/Increase ground wetness"/>
-		<text name="proShot_testing_removeTyreTracks" text="Remove tyre tracks (cannot undo)"/>
-		<text name="proShot_testing_traffic" text="Traffic"/>
-		<text name="proShot_testing_trafficMotion" text="Traffic movement"/>
-		<text name="proShot_testing_pedestrians" text="Pedestrians"/>
-		<text name="proShot_testing_pedestrianMotion" text="Pedestrian movement"/>
-		<text name="proShot_testing_paused" text="Paused"/>
-		<text name="proShot_testing_running" text="Running"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Ground wetness"/>
-		<text name="proShot_testing_wildlife" text="Wildlife"/>
-		<text name="proShot_testing_tyreTracks" text="Tyre-track removal"/>
-		<text name="proShot_testing_unavailable" text="Unavailable on this map"/>
-		<text name="proShot_testing_irreversible" text="Cannot be undone"/>
-		<text name="proShot_testing_trafficUnavailable" text="No traffic system is available on this map"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="No pedestrian system is available on this map"/>
-		<text name="proShot_testing_birdUnavailable" text="No suitable bird wildlife is defined for this map"/>
-		<text name="proShot_testing_wildlifeRemoved" text="Removed %d placed animal(s) and bird group(s)"/>
-		<text name="proShot_testing_spawnFailed" text="The wildlife spawn failed"/>
-		<text name="proShot_testing_actionUnavailable" text="This action is unavailable on this map"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Pedestrian pausing is unavailable in this game build"/>
-		<text name="proShot_testing_snowRadius" text="Reduce/Increase radius"/>
-		<text name="proShot_testing_snowHeight" text="Lower/Raise snow in highlighted area"/>
-		<text name="proShot_testing_snowTarget" text="Target"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Radius"/>
-		<text name="proShot_testing_snowHeightInfo" text="Snow at centre"/>
-		<text name="proShot_testing_noTarget" text="No terrain target"/>
-		<text name="proShot_testing_snowNoTarget" text="No terrain found at the centre of the screen"/>
-		<text name="proShot_testing_snowLowered" text="Lowered snow in the highlighted area"/>
-		<text name="proShot_testing_snowRaised" text="Raised snow in the highlighted area"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Remove Tyre Tracks"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Choose how much of the tyre-track map to erase."/>
-		<text name="proShot_testing_tyreTracks100m" text="Within 100 m of camera"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Whole map"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Remove tyre tracks within 100 m of the camera? This cannot be undone."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Remove every tyre track from the map? This cannot be undone."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Removed tyre tracks within 100 m of the camera"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Removed all tyre tracks"/>
+		<text name="proShot_scene_enableTraffic" text="Turn on traffic"/>
+		<text name="proShot_scene_disableTraffic" text="Turn off traffic"/>
+		<text name="proShot_scene_enablePedestrians" text="Turn on pedestrians"/>
+		<text name="proShot_scene_disablePedestrians" text="Turn off pedestrians"/>
+		<text name="proShot_scene_pauseTraffic" text="Pause traffic"/>
+		<text name="proShot_scene_resumeTraffic" text="Resume traffic"/>
+		<text name="proShot_scene_pausePedestrians" text="Pause pedestrians"/>
+		<text name="proShot_scene_resumePedestrians" text="Resume pedestrians"/>
+		<text name="proShot_snow_menu" text="Local Snow"/>
+		<text name="proShot_environment_groundWetness" text="Reduce/Increase ground wetness"/>
+		<text name="proShot_scene_removeTyreTracks" text="Remove tyre tracks (cannot undo)"/>
+		<text name="proShot_scene_traffic" text="Traffic"/>
+		<text name="proShot_scene_trafficMotion" text="Traffic movement"/>
+		<text name="proShot_scene_pedestrians" text="Pedestrians"/>
+		<text name="proShot_scene_pedestrianMotion" text="Pedestrian movement"/>
+		<text name="proShot_value_paused" text="Paused"/>
+		<text name="proShot_value_running" text="Running"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Ground wetness"/>
+		<text name="proShot_wildlife_title" text="Wildlife"/>
+		<text name="proShot_scene_tyreTracks" text="Tyre-track removal"/>
+		<text name="proShot_value_unavailable" text="Unavailable on this map"/>
+		<text name="proShot_value_irreversible" text="Cannot be undone"/>
+		<text name="proShot_scene_trafficUnavailable" text="No traffic system is available on this map"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="No pedestrian system is available on this map"/>
+		<text name="proShot_wildlife_birdUnavailable" text="No suitable bird wildlife is defined for this map"/>
+		<text name="proShot_wildlife_removedAll" text="Removed %d placed animal(s) and bird group(s)"/>
+		<text name="proShot_wildlife_spawnFailed" text="The wildlife spawn failed"/>
+		<text name="proShot_scene_actionUnavailable" text="This action is unavailable on this map"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Pedestrian pausing is unavailable in this game build"/>
+		<text name="proShot_snow_radius" text="Reduce/Increase radius"/>
+		<text name="proShot_snow_height" text="Lower/Raise snow in highlighted area"/>
+		<text name="proShot_snow_target" text="Target"/>
+		<text name="proShot_snow_radiusInfo" text="Radius"/>
+		<text name="proShot_snow_heightInfo" text="Snow at centre"/>
+		<text name="proShot_snow_noTarget" text="No terrain target"/>
+		<text name="proShot_snow_noTerrain" text="No terrain found at the centre of the screen"/>
+		<text name="proShot_snow_lowered" text="Lowered snow in the highlighted area"/>
+		<text name="proShot_snow_raised" text="Raised snow in the highlighted area"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Remove Tyre Tracks"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Choose how much of the tyre-track map to erase."/>
+		<text name="proShot_scene_tyreTracks100m" text="Within 100 m of camera"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Whole map"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Remove tyre tracks within 100 m of the camera? This cannot be undone."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Remove every tyre track from the map? This cannot be undone."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Removed tyre tracks within 100 m of the camera"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Removed all tyre tracks"/>
 		<text name="proShot_wildlife_menu" text="Animals"/>
 		<text name="proShot_wildlife_selectAnimal" text="Switch wildlife to %s"/>
 		<text name="proShot_wildlife_selectBird" text="Switch birds to %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Flashlight"/>
 		<text name="input_PRO_SHOT_F1" text="Toggle HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Place Flashlight"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot reloaded %d vehicle(s)"/>
+		<text name="proShot_reload_cooldown" text="Vehicle reload is cooling down"/>
+		<text name="proShot_reload_vehiclesNearby" text="Reloading all vehicles within %d m"/>
+		<text name="proShot_reload_currentVehicle" text="Reloading current vehicle"/>
+		<text name="proShot_reload_notInVehicle" text="You’re not in a vehicle. Try Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Reloading all placeables"/>
 	</texts>
 </l10n>

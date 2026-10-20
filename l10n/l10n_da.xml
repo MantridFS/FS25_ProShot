@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Tæthed"/>
 		<text name="proShot_fog_extraHeightInfo" text="Højde"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Mindste daldybde"/>
-		<text name="proShot_testing_enableTraffic" text="Slå trafik til"/>
-		<text name="proShot_testing_disableTraffic" text="Slå trafik fra"/>
-		<text name="proShot_testing_enablePedestrians" text="Slå fodgængere til"/>
-		<text name="proShot_testing_disablePedestrians" text="Slå fodgængere fra"/>
-		<text name="proShot_testing_pauseTraffic" text="Sæt trafik på pause"/>
-		<text name="proShot_testing_resumeTraffic" text="Genoptag trafik"/>
-		<text name="proShot_testing_pausePedestrians" text="Sæt fodgængere på pause"/>
-		<text name="proShot_testing_resumePedestrians" text="Genoptag fodgængere"/>
-		<text name="proShot_testing_localSnow" text="Lokal sne"/>
-		<text name="proShot_testing_groundWetness" text="Reducér/øg jordfugtighed"/>
-		<text name="proShot_testing_removeTyreTracks" text="Fjern dækspor (kan ikke fortrydes)"/>
-		<text name="proShot_testing_traffic" text="Trafik"/>
-		<text name="proShot_testing_trafficMotion" text="Trafikbevægelse"/>
-		<text name="proShot_testing_pedestrians" text="Fodgængere"/>
-		<text name="proShot_testing_pedestrianMotion" text="Fodgængerbevægelse"/>
-		<text name="proShot_testing_paused" text="Sat på pause"/>
-		<text name="proShot_testing_running" text="Kører"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Jordfugtighed"/>
-		<text name="proShot_testing_wildlife" text="Vilde dyr"/>
-		<text name="proShot_testing_tyreTracks" text="Fjernelse af dækspor"/>
-		<text name="proShot_testing_unavailable" text="Ikke tilgængelig på dette kort"/>
-		<text name="proShot_testing_irreversible" text="Kan ikke fortrydes"/>
-		<text name="proShot_testing_trafficUnavailable" text="Der er intet trafiksystem på dette kort"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Der er intet fodgængersystem på dette kort"/>
-		<text name="proShot_testing_birdUnavailable" text="Der er ikke defineret passende vilde fugle til dette kort"/>
-		<text name="proShot_testing_wildlifeRemoved" text="Fjernede %d placerede dyr og fuglegrupper"/>
-		<text name="proShot_testing_spawnFailed" text="Kunne ikke oprette det vilde dyr"/>
-		<text name="proShot_testing_actionUnavailable" text="Denne handling er ikke tilgængelig på dette kort"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Pause af fodgængere er ikke tilgængelig i denne spilversion"/>
-		<text name="proShot_testing_snowRadius" text="Reducér/øg radius"/>
-		<text name="proShot_testing_snowHeight" text="Sænk/hæv sne i det markerede område"/>
-		<text name="proShot_testing_snowTarget" text="Mål"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Radius"/>
-		<text name="proShot_testing_snowHeightInfo" text="Sne i midten"/>
-		<text name="proShot_testing_noTarget" text="Intet terrænmål"/>
-		<text name="proShot_testing_snowNoTarget" text="Intet terræn fundet i midten af skærmen"/>
-		<text name="proShot_testing_snowLowered" text="Sneen i det markerede område blev sænket"/>
-		<text name="proShot_testing_snowRaised" text="Sneen i det markerede område blev hævet"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Fjern dækspor"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Vælg hvor meget af dæksporskortet der skal slettes."/>
-		<text name="proShot_testing_tyreTracks100m" text="Inden for 100 m fra kameraet"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Hele kortet"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Fjern dækspor inden for 100 m fra kameraet? Dette kan ikke fortrydes."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Fjern alle dækspor fra kortet? Dette kan ikke fortrydes."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Fjernede dækspor inden for 100 m fra kameraet"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Fjernede alle dækspor"/>
+		<text name="proShot_scene_enableTraffic" text="Slå trafik til"/>
+		<text name="proShot_scene_disableTraffic" text="Slå trafik fra"/>
+		<text name="proShot_scene_enablePedestrians" text="Slå fodgængere til"/>
+		<text name="proShot_scene_disablePedestrians" text="Slå fodgængere fra"/>
+		<text name="proShot_scene_pauseTraffic" text="Sæt trafik på pause"/>
+		<text name="proShot_scene_resumeTraffic" text="Genoptag trafik"/>
+		<text name="proShot_scene_pausePedestrians" text="Sæt fodgængere på pause"/>
+		<text name="proShot_scene_resumePedestrians" text="Genoptag fodgængere"/>
+		<text name="proShot_snow_menu" text="Lokal sne"/>
+		<text name="proShot_environment_groundWetness" text="Reducér/øg jordfugtighed"/>
+		<text name="proShot_scene_removeTyreTracks" text="Fjern dækspor (kan ikke fortrydes)"/>
+		<text name="proShot_scene_traffic" text="Trafik"/>
+		<text name="proShot_scene_trafficMotion" text="Trafikbevægelse"/>
+		<text name="proShot_scene_pedestrians" text="Fodgængere"/>
+		<text name="proShot_scene_pedestrianMotion" text="Fodgængerbevægelse"/>
+		<text name="proShot_value_paused" text="Sat på pause"/>
+		<text name="proShot_value_running" text="Kører"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Jordfugtighed"/>
+		<text name="proShot_wildlife_title" text="Vilde dyr"/>
+		<text name="proShot_scene_tyreTracks" text="Fjernelse af dækspor"/>
+		<text name="proShot_value_unavailable" text="Ikke tilgængelig på dette kort"/>
+		<text name="proShot_value_irreversible" text="Kan ikke fortrydes"/>
+		<text name="proShot_scene_trafficUnavailable" text="Der er intet trafiksystem på dette kort"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Der er intet fodgængersystem på dette kort"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Der er ikke defineret passende vilde fugle til dette kort"/>
+		<text name="proShot_wildlife_removedAll" text="Fjernede %d placerede dyr og fuglegrupper"/>
+		<text name="proShot_wildlife_spawnFailed" text="Kunne ikke oprette det vilde dyr"/>
+		<text name="proShot_scene_actionUnavailable" text="Denne handling er ikke tilgængelig på dette kort"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Pause af fodgængere er ikke tilgængelig i denne spilversion"/>
+		<text name="proShot_snow_radius" text="Reducér/øg radius"/>
+		<text name="proShot_snow_height" text="Sænk/hæv sne i det markerede område"/>
+		<text name="proShot_snow_target" text="Mål"/>
+		<text name="proShot_snow_radiusInfo" text="Radius"/>
+		<text name="proShot_snow_heightInfo" text="Sne i midten"/>
+		<text name="proShot_snow_noTarget" text="Intet terrænmål"/>
+		<text name="proShot_snow_noTerrain" text="Intet terræn fundet i midten af skærmen"/>
+		<text name="proShot_snow_lowered" text="Sneen i det markerede område blev sænket"/>
+		<text name="proShot_snow_raised" text="Sneen i det markerede område blev hævet"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Fjern dækspor"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Vælg hvor meget af dæksporskortet der skal slettes."/>
+		<text name="proShot_scene_tyreTracks100m" text="Inden for 100 m fra kameraet"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Hele kortet"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Fjern dækspor inden for 100 m fra kameraet? Dette kan ikke fortrydes."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Fjern alle dækspor fra kortet? Dette kan ikke fortrydes."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Fjernede dækspor inden for 100 m fra kameraet"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Fjernede alle dækspor"/>
 		<text name="proShot_wildlife_menu" text="Dyr"/>
 		<text name="proShot_wildlife_selectAnimal" text="Skift vilde dyr til %s"/>
 		<text name="proShot_wildlife_selectBird" text="Skift fugle til %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Lommelygte"/>
 		<text name="input_PRO_SHOT_F1" text="Slå HUD til/fra"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Placér lommelygte"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot genindlæste %d køretøj(er)"/>
+		<text name="proShot_reload_cooldown" text="Vent lidt, før du genindlæser køretøjer igen"/>
+		<text name="proShot_reload_vehiclesNearby" text="Genindlæser alle køretøjer inden for %d m"/>
+		<text name="proShot_reload_currentVehicle" text="Genindlæser det aktuelle køretøj"/>
+		<text name="proShot_reload_notInVehicle" text="Du er ikke i et køretøj. Prøv Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Genindlæser alle placerbare objekter"/>
 	</texts>
 </l10n>

@@ -1,8 +1,6 @@
 --[[
 Author: Mantrid
 https://fs.mantrid.net/
-Developed with assistance from ChatGPT, under strict sentient-monkey supervision. All planning, decisions, and testing were the responsibility of the monkey. ChatGPT takes no responsibility for any of that.
-Copyright: All rights reserved
 ]]
 
 proShot = {}
@@ -304,10 +302,7 @@ function proShot:getCurrentExposureRange()
 	end
 	-- FS25's getter returns the EV limits in max/min order even though
 	-- setExposureRange and the Lighting classes use min/max order.
-	local ok, keyValue, maxExposure, minExposure = pcall(getExposureRange)
-	if not ok then
-		return nil, nil, nil
-	end
+	local keyValue, maxExposure, minExposure = getExposureRange()
 	return keyValue, minExposure, maxExposure
 end
 
@@ -511,22 +506,16 @@ function proShot:applyPedestrianTimeScale(pedestrians, timeScale)
 		or setPedestrianSystemTimeScale == nil then
 		return false
 	end
-	local ok, err = pcall(setPedestrianSystemTimeScale, pedestrians.pedestrianSystemId, timeScale)
-	if not ok then
-		Logging.warning("ProShot: Pedestrian time-scale change failed: %s", tostring(err))
-	end
-	return ok
+	setPedestrianSystemTimeScale(pedestrians.pedestrianSystemId, timeScale)
+	return true
 end
 
 function proShot:applyTrafficPaused(traffic, paused)
 	if traffic == nil or traffic.trafficSystemId == nil or setTrafficSystemPaused == nil then
 		return false
 	end
-	local ok, err = pcall(setTrafficSystemPaused, traffic.trafficSystemId, paused)
-	if not ok then
-		Logging.warning("ProShot: Traffic pause change failed: %s", tostring(err))
-	end
-	return ok
+	setTrafficSystemPaused(traffic.trafficSystemId, paused)
+	return true
 end
 
 function proShot:setTestingTrafficEnabled(enabled)
@@ -559,11 +548,7 @@ function proShot:setParkedCarsEnabled(enabled)
 	if traffic == nil or traffic.trafficSystemId == nil or setTrafficSystemParkedCarsEnabled == nil then
 		return false
 	end
-	local ok, err = pcall(setTrafficSystemParkedCarsEnabled, traffic.trafficSystemId, enabled)
-	if not ok then
-		Logging.warning("ProShot: Parked traffic visibility change failed: %s", tostring(err))
-		return false
-	end
+	setTrafficSystemParkedCarsEnabled(traffic.trafficSystemId, enabled)
 	proShot.parkedCarsEnabled = enabled
 	return true
 end
@@ -610,7 +595,7 @@ end
 
 function proShot:getWildlifeDisplayName(species)
 	if species == nil then
-		return g_i18n:getText("proShot_testing_unavailable")
+		return g_i18n:getText("proShot_value_unavailable")
 	end
 	local name = tostring(species.name or "Wildlife")
 	name = string.gsub(name, "FlyBy", "")
@@ -810,7 +795,7 @@ end
 function proShot:getSelectedFarmAnimalDetailedName()
 	local choice, variant = proShot:getSelectedFarmAnimal()
 	if choice == nil then
-		return g_i18n:getText("proShot_testing_unavailable")
+		return g_i18n:getText("proShot_value_unavailable")
 	end
 	if #choice.variants > 1 and variant ~= nil then
 		return string.format("%s - %s", choice.displayName, variant.breedName)
@@ -998,7 +983,7 @@ end
 
 function proShot:showFarmAnimalSelectionDialog()
 	if OptionDialog == nil or OptionDialog.INSTANCE == nil then
-		proShot:showToast(g_i18n:getText("proShot_testing_actionUnavailable"))
+		proShot:showToast(g_i18n:getText("proShot_scene_actionUnavailable"))
 		return
 	end
 	proShot.farmAnimalChoices = proShot:buildFarmAnimalChoices()
@@ -1015,7 +1000,7 @@ end
 -- If a map already registered that species, use the map-owned instance.
 function proShot:ensureGroundCrowSpecies()
 	local manager = g_wildlifeManager
-	if manager == nil or manager.loadSpecies == nil or manager.nameToSpecies == nil then
+	if manager == nil or manager.nameToSpecies == nil or manager.species == nil then
 		return nil
 	end
 	if manager.nameToSpecies.CROW ~= nil then
@@ -1027,15 +1012,29 @@ function proShot:ensureGroundCrowSpecies()
 	-- equivalent mod-owned FS25 schema adaptation while continuing to reference
 	-- the game's crow model and animation opcodes.
 	local filename = proShot.modDir .. "xml/wildlife/crow.xml"
-	local originalGraphicsLoader = WildlifeInstanceGraphics.loadAttributesTable
-	WildlifeInstanceGraphics.loadAttributesTable = function(xmlFile, key)
-		return originalGraphicsLoader(xmlFile, key or "species")
+	local xmlFile = XMLFile.load("ProShot ground-crow species", filename, WildlifeSpecies.xmlSchema)
+	if xmlFile == nil then
+		Logging.warning("ProShot: Could not load the adapted FS25 ground-crow species config")
+		return nil
 	end
-	local ok, species = pcall(manager.loadSpecies, manager, filename, proShot.modDir)
-	WildlifeInstanceGraphics.loadAttributesTable = originalGraphicsLoader
-	if not ok or species == nil then
-		Logging.warning("ProShot: Could not load the adapted FS25 ground-crow species: %s",
-			not ok and tostring(species) or "the wildlife loader rejected the config")
+	-- WildlifeSpeciesSimple omits the graphics loader's required XML key. Load
+	-- this crow's attributes explicitly instead of replacing the global loader.
+	local species = WildlifeSpeciesCrow.new()
+	local loaded = WildlifeSpecies.loadFromXML(species, xmlFile, proShot.modDir)
+	if loaded then
+		species.behaviourAttributes.flee = WildlifeFleeState.loadAttributesTable(xmlFile)
+		species.behaviourAttributes.wander = WildlifeWanderState.loadAttributesTable(xmlFile)
+		species.behaviourAttributes.idle = WildlifeIdleState.loadAttributesTable(xmlFile)
+		species.behaviourAttributes.follow = WildlifeFollowState.loadAttributesTable(xmlFile)
+		species.graphicalAttributes = WildlifeInstanceGraphics.loadAttributesTable(xmlFile, "species")
+		species.soundAttributes = WildlifeInstanceSounds.loadAttributesTable(xmlFile)
+		species.movementAttributes = WildlifeInstanceMover.loadAttributesTable(xmlFile)
+		loaded = species.graphicalAttributes ~= nil and species.soundAttributes ~= nil
+	end
+	xmlFile:delete()
+	if not loaded then
+		species:delete()
+		Logging.warning("ProShot: Could not load the adapted FS25 ground-crow species: the wildlife loader rejected the config")
 		return nil
 	end
 	for animationName, animation in pairs(species.graphicalAttributes.animations or {}) do
@@ -1047,6 +1046,8 @@ function proShot:ensureGroundCrowSpecies()
 	if species.initialise ~= nil then
 		species:initialise()
 	end
+	manager.nameToSpecies[string.upper(species.name)] = species
+	table.insert(manager.species, species)
 	manager.speciesToGroups[species] = manager.speciesToGroups[species] or {}
 	proShot.sessionGroundCrowSpecies = species
 	return species
@@ -1098,8 +1099,8 @@ end
 
 function proShot:getAnimationShaderTime()
 	if getShaderTimeSec ~= nil then
-		local ok, shaderTime = pcall(getShaderTimeSec)
-		if ok and type(shaderTime) == "number" then
+		local shaderTime = getShaderTimeSec()
+		if type(shaderTime) == "number" then
 			return shaderTime
 		end
 	end
@@ -1141,7 +1142,7 @@ end
 function proShot:cycleSelectedWildlife(isBird)
 	local speciesList = proShot:getSelectableWildlife(isBird)
 	if #speciesList == 0 then
-		proShot:showToast(g_i18n:getText(isBird and "proShot_testing_birdUnavailable" or "proShot_wildlife_unavailable"))
+		proShot:showToast(g_i18n:getText(isBird and "proShot_wildlife_birdUnavailable" or "proShot_wildlife_unavailable"))
 		return false
 	end
 	local indexField = isBird and "selectedBirdIndex" or "selectedWildlifeIndex"
@@ -1161,19 +1162,14 @@ function proShot:applyCompanionPaused(paused)
 	if setCompanionPaused == nil or g_wildlifeManager == nil then
 		return false
 	end
-	local success = true
 	for _, species in ipairs(g_wildlifeManager.species or {}) do
 		for _, instance in ipairs(species.instances or {}) do
 			if instance.companionId ~= nil then
-				local ok, err = pcall(setCompanionPaused, instance.companionId, paused)
-				if not ok then
-					success = false
-					Logging.warning("ProShot: Companion animal pause change failed: %s", tostring(err))
-				end
+				setCompanionPaused(instance.companionId, paused)
 			end
 		end
 	end
-	return success
+	return true
 end
 
 function proShot:applyBirdAnimationPaused(paused)
@@ -1472,8 +1468,8 @@ function proShot:applyTrackedWildlifeRotation(tracked)
 		if isCompanionReady ~= nil and not isCompanionReady(instance.companionId) then
 			return false
 		end
-		local ok, nodes = pcall(getCompanionNodes, instance.companionId)
-		if not ok or nodes == nil or #nodes == 0 then
+		local nodes = getCompanionNodes(instance.companionId)
+		if nodes == nil or #nodes == 0 then
 			return false
 		end
 		for _, node in ipairs(nodes) do
@@ -2056,7 +2052,7 @@ end
 function proShot:spawnWildlife(species, isBird)
 	local camera = proShot.ourCamera
 	if species == nil or species.debugSpawn == nil or camera == nil or camera == 0 or not entityExists(camera) then
-		proShot:showToast(g_i18n:getText(isBird and "proShot_testing_birdUnavailable" or "proShot_wildlife_unavailable"))
+		proShot:showToast(g_i18n:getText(isBird and "proShot_wildlife_birdUnavailable" or "proShot_wildlife_unavailable"))
 		return false
 	end
 
@@ -2081,25 +2077,14 @@ function proShot:spawnWildlife(species, isBird)
 	local birdCount = math.clamp(5, species.minNumAnimalsPerInstance or 1, species.maxNumAnimalsPerInstance or 5)
 	-- WildlifeSpeciesCrow applies a random 0.5-10 m horizontal group offset
 	-- after receiving the already-resolved Y coordinate. On sloping terrain that
-	-- embeds or floats a lone photo crow. Disable only that spread for ProShot's
-	-- explicit ground spawn, then restore the species immediately.
-	local originalGroupMinRadius, originalGroupMaxRadius
-	if not isBird and species.groupMinRadius ~= nil and species.groupMaxRadius ~= nil then
-		originalGroupMinRadius = species.groupMinRadius
-		originalGroupMaxRadius = species.groupMaxRadius
-		species.groupMinRadius = 0
-		species.groupMaxRadius = 0
-	end
-	local ok, err = pcall(species.debugSpawn, species, spawnX, spawnY, spawnZ,
-		isBird and birdCount or 1, spawnRotationY)
-	if originalGroupMinRadius ~= nil then
-		species.groupMinRadius = originalGroupMinRadius
-		species.groupMaxRadius = originalGroupMaxRadius
-	end
-	if not ok then
-		Logging.warning("ProShot: Wildlife test spawn failed: %s", tostring(err))
-		proShot:showToast(g_i18n:getText("proShot_testing_spawnFailed"))
-		return false
+	-- embeds or floats a lone photo crow. Spawn its single instance at the
+	-- resolved position without changing the species' group radii or pending flag.
+	if not isBird and proShot:isGroundCrowSpecies(species) then
+		local instance = species:createInstance()
+		instance:spawnAt(spawnX, spawnY, spawnZ)
+		species:finishSpawning(true)
+	else
+		species:debugSpawn(spawnX, spawnY, spawnZ, isBird and birdCount or 1, spawnRotationY)
 	end
 	for _, instance in ipairs(species.instances or {}) do
 		if not previousInstances[instance] then
@@ -2170,7 +2155,7 @@ function proShot:spawnWildlife(species, isBird)
 			end
 		end
 	end
-	Logging.info("ProShot: Spawned %s at %.1f %.1f %.1f (%s); tracked instances: %d",
+	proShot:debugLog("Spawned %s at %.1f %.1f %.1f (%s); tracked instances: %d",
 		proShot:getWildlifeDisplayName(species), spawnX, spawnY, spawnZ, placement,
 		proShot:getTrackedWildlifeCount(isBird))
 	if isBird and proShot.birdsPaused then
@@ -2187,7 +2172,7 @@ function proShot:spawnWildlife(species, isBird)
 		wildlifeGround = "proShot_wildlife_placedGround",
 		wildlifeObject = "proShot_wildlife_placedObject"
 	}
-	proShot:showToast(g_i18n:getText(toastKey[placement] or "proShot_testing_spawnFailed"))
+	proShot:showToast(g_i18n:getText(toastKey[placement] or "proShot_wildlife_spawnFailed"))
 	return true
 end
 
@@ -2211,18 +2196,14 @@ function proShot:despawnLastTrackedWildlife(isBird)
 		local tracked = proShot.spawnedWildlife[index]
 		if tracked.isBird == isBird then
 			local stillExists = table.hasElement(tracked.species.instances or {}, tracked.instance)
-			table.remove(proShot.spawnedWildlife, index)
 			if stillExists then
-				local ok, err = pcall(tracked.species.despawn, tracked.species, tracked.instance)
-				if not ok then
-					Logging.warning("ProShot: Wildlife cleanup failed: %s", tostring(err))
-					proShot:showToast(g_i18n:getText("proShot_testing_actionUnavailable"))
-					return false
-				end
+				tracked.species:despawn(tracked.instance)
+				table.remove(proShot.spawnedWildlife, index)
 				proShot:refreshWildlifeMenu()
 				proShot:showToast(g_i18n:getText(isBird and "proShot_wildlife_birdRemoved" or "proShot_wildlife_animalRemoved"))
 				return true
 			end
+			table.remove(proShot.spawnedWildlife, index)
 		end
 	end
 	proShot:refreshWildlifeMenu()
@@ -2242,18 +2223,14 @@ function proShot:despawnTrackedWildlife(showToast)
 			end
 		end
 		if stillExists then
-			local ok, err = pcall(tracked.species.despawn, tracked.species, tracked.instance)
-			if ok then
-				removed = removed + 1
-			else
-				Logging.warning("ProShot: Wildlife cleanup failed: %s", tostring(err))
-			end
+			tracked.species:despawn(tracked.instance)
+			removed = removed + 1
 		end
 		table.remove(proShot.spawnedWildlife, index)
 	end
 	removed = removed + proShot:despawnTrackedFarmAnimals()
 	if showToast then
-		proShot:showToast(string.format(g_i18n:getText("proShot_testing_wildlifeRemoved"), removed))
+		proShot:showToast(string.format(g_i18n:getText("proShot_wildlife_removedAll"), removed))
 	end
 	proShot:refreshWildlifeMenu()
 	return removed
@@ -2321,7 +2298,7 @@ function proShot:applyLocalSnow(direction)
 	local target = proShot.localSnowTarget
 	local snowSystem = g_currentMission ~= nil and g_currentMission.snowSystem or nil
 	if target == nil or snowSystem == nil then
-		proShot:showToast(g_i18n:getText("proShot_testing_snowNoTarget"))
+		proShot:showToast(g_i18n:getText("proShot_snow_noTerrain"))
 		return false
 	end
 
@@ -2358,7 +2335,7 @@ function proShot:applyLocalSnow(direction)
 		proShot.localSnowEdited = true
 		proShot:debugLog("local snow edited at %.2f %.2f with radius %.2f", target.x, target.z, radius)
 	end
-	proShot:showToast(g_i18n:getText(direction < 0 and "proShot_testing_snowLowered" or "proShot_testing_snowRaised"))
+	proShot:showToast(g_i18n:getText(direction < 0 and "proShot_snow_lowered" or "proShot_snow_raised"))
 	return didEdit
 end
 
@@ -2653,9 +2630,8 @@ function proShot:getFocusActionKeyText()
 	if g_inputDisplayManager ~= nil and g_inputDisplayManager.getKeyboardInputActionKey ~= nil then
 		local positiveAxis = Binding ~= nil and Binding.AXIS_COMPONENT ~= nil
 			and Binding.AXIS_COMPONENT.POSITIVE or 1
-		local ok, keyText = pcall(g_inputDisplayManager.getKeyboardInputActionKey,
-			g_inputDisplayManager, "PRO_SHOT_0", positiveAxis)
-		if ok and keyText ~= nil and keyText ~= "" then
+		local keyText = g_inputDisplayManager:getKeyboardInputActionKey("PRO_SHOT_0", positiveAxis)
+		if keyText ~= nil and keyText ~= "" then
 			return keyText
 		end
 	end
@@ -2765,7 +2741,7 @@ function proShot:buildWildlifeMenu()
 		{ "PRO_SHOT_8", "callbackMenu_wildlife", g_i18n:getText("proShot_wildlife_removeLastBird"), 2 },
 		{ "PRO_SHOT_9", "callbackMenu_wildlife", g_i18n:getText("proShot_farm_select"), 2 },
 		{ "PRO_SHOT_0", "callbackMenu_wildlife", string.format(g_i18n:getText("proShot_farm_place"),
-			farmAnimal ~= nil and farmAnimal.menuName or g_i18n:getText("proShot_testing_unavailable")), 3 },
+			farmAnimal ~= nil and farmAnimal.menuName or g_i18n:getText("proShot_value_unavailable")), 3 },
 		{ "PRO_SHOT_KP_PERIOD", "callbackMenu_wildlife", g_i18n:getText("proShot_farm_removeLast"), 5 },
 		{ "PRO_SHOT_KP_0", "callbackMenu_wildlife", g_i18n:getText("proShot_animals_resetOffsets"), 5 },
 		{ "PRO_SHOT_BACKSLASH", "callbackMenu_wildlife", g_i18n:getText("proShot_wildlife_removeAll"), 6 },
@@ -2783,15 +2759,15 @@ end
 function proShot:buildSceneControlsMenu()
 	local traffic = proShot:getTrafficSystem()
 	local pedestrians = proShot:getPedestrianSystem()
-	local trafficKey = traffic ~= nil and proShot.testingTrafficEnabled and "proShot_testing_disableTraffic" or "proShot_testing_enableTraffic"
-	local pedestrianKey = pedestrians ~= nil and proShot.testingPedestriansEnabled and "proShot_testing_disablePedestrians" or "proShot_testing_enablePedestrians"
+	local trafficKey = traffic ~= nil and proShot.testingTrafficEnabled and "proShot_scene_disableTraffic" or "proShot_scene_enableTraffic"
+	local pedestrianKey = pedestrians ~= nil and proShot.testingPedestriansEnabled and "proShot_scene_disablePedestrians" or "proShot_scene_enablePedestrians"
 	local menu = {
 		{ "PRO_SHOT_1", "callbackMenu_sceneControls", g_i18n:getText(trafficKey), 2 },
 		{ "PRO_SHOT_2", "callbackMenu_sceneControls", g_i18n:getText(pedestrianKey), 2 },
-		{ "PRO_SHOT_3", "callbackMenu_sceneControls", g_i18n:getText(proShot.trafficPaused and "proShot_testing_resumeTraffic" or "proShot_testing_pauseTraffic"), 2 },
-		{ "PRO_SHOT_4", "callbackMenu_sceneControls", g_i18n:getText(proShot.pedestriansPaused and "proShot_testing_resumePedestrians" or "proShot_testing_pausePedestrians"), 2 },
+		{ "PRO_SHOT_3", "callbackMenu_sceneControls", g_i18n:getText(proShot.trafficPaused and "proShot_scene_resumeTraffic" or "proShot_scene_pauseTraffic"), 2 },
+		{ "PRO_SHOT_4", "callbackMenu_sceneControls", g_i18n:getText(proShot.pedestriansPaused and "proShot_scene_resumePedestrians" or "proShot_scene_pausePedestrians"), 2 },
 		{ "PRO_SHOT_5", "callbackMenu_sceneControls", g_i18n:getText(proShot.parkedCarsEnabled and "proShot_scene_hideParked" or "proShot_scene_showParked"), 2 },
-		{ "PRO_SHOT_0", "callbackMenu_sceneControls", g_i18n:getText("proShot_testing_removeTyreTracks"), 3 },
+		{ "PRO_SHOT_0", "callbackMenu_sceneControls", g_i18n:getText("proShot_scene_removeTyreTracks"), 3 },
 		{ "PRO_SHOT_BACKSLASH", "callbackMenu_sceneControls", g_i18n:getText("proShot_scene_reset"), 4 },
 		{ "PRO_SHOT_BACKSPACE", "callbackMenu_sceneControls", g_i18n:getText("proShot_menu_returnToAdvanced"), 5 },
 		{ "PRO_SHOT_F1", "callbackMenu_void", g_i18n:getText("proShot_hideHUD"), 6 },
@@ -3130,7 +3106,7 @@ end
 
 function proShot:showToast(text, durationMs)
 	proShot.toastText = text
-	proShot.toastEndTime = g_time + (durationMs or 1000)
+	proShot.toastEndTime = g_time + (durationMs or 1500)
 end
 
 function proShot:addInfoLine(box, key, value, color)
@@ -4936,7 +4912,7 @@ function initMod()
 			{ "PRO_SHOT_4", "callbackMenu_advMenu", g_i18n:getText("proShot_menu_toneMapping"), 4 },
 			{ "PRO_SHOT_5", "callbackMenu_advMenu", g_i18n:getText("proShot_menu_advQualityMenu"), 4 },
 			{ "PRO_SHOT_6", "callbackMenu_advMenu", g_i18n:getText("proShot_menu_fogAdvanced"), 4 },
-			{ "PRO_SHOT_7", "callbackMenu_advMenu", g_i18n:getText("proShot_testing_localSnow"), 4 },
+			{ "PRO_SHOT_7", "callbackMenu_advMenu", g_i18n:getText("proShot_snow_menu"), 4 },
 			{ "PRO_SHOT_8", "callbackMenu_advMenu", g_i18n:getText("proShot_wildlife_menu"), 4 },
 			{ "PRO_SHOT_9", "callbackMenu_advMenu", g_i18n:getText("proShot_scene_menu"), 4 },
 			{ "PRO_SHOT_F", "callbackMenu_main", g_i18n:getText("input_TOGGLE_LIGHTS_FPS"), 4 },
@@ -4961,7 +4937,7 @@ function initMod()
 			{ "PRO_SHOT_SQUAREBRACKETS", "callbackMenu_enviro", g_i18n:getText("proShot_infoBox_snowLevel"), 4 },
 			{ "PRO_SHOT_47", "callbackMenu_enviro", g_i18n:getText("proShot_menu_fog"), 4 },
 			{ "PRO_SHOT_58", "callbackMenu_enviro", g_i18n:getText("proShot_menu_haze"), 4 },
-			{ "PRO_SHOT_MINUSEQUALS", "callbackMenu_enviro", g_i18n:getText("proShot_testing_groundWetness"), 4 },
+			{ "PRO_SHOT_MINUSEQUALS", "callbackMenu_enviro", g_i18n:getText("proShot_environment_groundWetness"), 4 },
 
 			{ "PRO_SHOT_BACKSLASH", "callbackMenu_enviro", g_i18n:getText("proShot_menu_resetThis"), 1 },
 			{ "PRO_SHOT_BACKSPACE", "callbackMenu_main", g_i18n:getText("proShot_menu_returnToMain"), 5 },
@@ -5033,8 +5009,8 @@ function initMod()
 			{ "PRO_SHOT_ENTER", "callbackMenu_capture", g_i18n:getText("proShot_takePicture"), 8 }
 		},
 		["localSnow"] = {
-			{ "PRO_SHOT_SQUAREBRACKETS", "callbackMenu_localSnow", g_i18n:getText("proShot_testing_snowRadius"), 2 },
-			{ "PRO_SHOT_MINUSEQUALS", "callbackMenu_localSnow", g_i18n:getText("proShot_testing_snowHeight"), 2 },
+			{ "PRO_SHOT_SQUAREBRACKETS", "callbackMenu_localSnow", g_i18n:getText("proShot_snow_radius"), 2 },
+			{ "PRO_SHOT_MINUSEQUALS", "callbackMenu_localSnow", g_i18n:getText("proShot_snow_height"), 2 },
 			{ "PRO_SHOT_DIVMUL", "callbackMenu_localSnow", g_i18n:getText("proShot_snow_strength"), 2 },
 			{ "PRO_SHOT_KP_MINUSPLUS", "callbackMenu_localSnow", g_i18n:getText("proShot_snow_globalLevel"), 2 },
 			{ "PRO_SHOT_BACKSPACE", "callbackMenu_localSnow", g_i18n:getText("proShot_menu_returnToAdvanced"), 3 },
@@ -5198,7 +5174,7 @@ function proShot:callbackMenu_flashLight(what, axisComponent)
 				table.remove(proShot.placedLights, indexToRemove)
 			end
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5310,7 +5286,7 @@ function proShot:callbackMenu_main(what, axisComponent)
 			proShot.pendingFavouriteGroups = nil
 			proShot.menuDesired = "main"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5347,7 +5323,7 @@ function proShot:callbackMenu_advMenu(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "main"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5409,13 +5385,13 @@ function proShot:callbackMenu_fog(what, axisComponent)
 	elseif what == "PRO_SHOT_BACKSPACE" then
 		proShot.menuDesired = "advMenu"
 	else
-		Logging.info("Unknown menuCallback: " .. tostring(what))
+		proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 	end
 end
 
 function proShot:showTyreTrackRemovalDialog()
 	if OptionDialog == nil or OptionDialog.INSTANCE == nil then
-		proShot:showToast(g_i18n:getText("proShot_testing_actionUnavailable"))
+		proShot:showToast(g_i18n:getText("proShot_scene_actionUnavailable"))
 		return
 	end
 	proShot.favouriteDialogOpen = true
@@ -5423,11 +5399,11 @@ function proShot:showTyreTrackRemovalDialog()
 	OptionDialog.show(function(selected)
 		proShot:onTyreTrackScopeSelected(selected)
 	end,
-		g_i18n:getText("proShot_testing_removeTyreTracksChoose"),
-		g_i18n:getText("proShot_testing_removeTyreTracksTitle"),
+		g_i18n:getText("proShot_scene_removeTyreTracksChoose"),
+		g_i18n:getText("proShot_scene_removeTyreTracksTitle"),
 		{
-			g_i18n:getText("proShot_testing_tyreTracks100m"),
-			g_i18n:getText("proShot_testing_tyreTracksWholeMap"),
+			g_i18n:getText("proShot_scene_tyreTracks100m"),
+			g_i18n:getText("proShot_scene_tyreTracksWholeMap"),
 			g_i18n:getText("button_cancel")
 		}, 1)
 end
@@ -5443,17 +5419,17 @@ function proShot:onTyreTrackScopeSelected(selected)
 	end
 	if YesNoDialog == nil or YesNoDialog.INSTANCE == nil then
 		proShot.favouriteDialogOpen = false
-		proShot:showToast(g_i18n:getText("proShot_testing_actionUnavailable"))
+		proShot:showToast(g_i18n:getText("proShot_scene_actionUnavailable"))
 		return
 	end
 	local scope = selected == 1 and "local" or "all"
-	local promptKey = scope == "local" and "proShot_testing_removeTyreTracksPrompt100m"
-		or "proShot_testing_removeTyreTracksPromptAll"
+	local promptKey = scope == "local" and "proShot_scene_removeTyreTracksPrompt100m"
+		or "proShot_scene_removeTyreTracksPromptAll"
 	YesNoDialog.show(
 		proShot.onTyreTrackRemovalConfirmed,
 		proShot,
 		g_i18n:getText(promptKey),
-		g_i18n:getText("proShot_testing_removeTyreTracksTitle"),
+		g_i18n:getText("proShot_scene_removeTyreTracksTitle"),
 		g_i18n:getText("button_delete"),
 		g_i18n:getText("button_cancel"), nil, nil, nil, { scope = scope })
 end
@@ -5469,33 +5445,26 @@ function proShot:onTyreTrackRemovalConfirmed(confirmed, args)
 	end
 	local tireTrackSystem = g_currentMission ~= nil and g_currentMission.tireTrackSystem or nil
 	if tireTrackSystem == nil then
-		proShot:showToast(g_i18n:getText("proShot_testing_actionUnavailable"))
+		proShot:showToast(g_i18n:getText("proShot_scene_actionUnavailable"))
 		return
 	end
 	local scope = args ~= nil and args.scope or "all"
-	local ok, err = pcall(function()
-		if scope == "local" then
-			local camera = proShot.ourCamera
-			local x, _, z = getWorldTranslation(camera)
-			local vertices = {}
-			for index = 0, 47 do
-				local angle = index / 48 * math.pi * 2
-				table.insert(vertices, x + math.cos(angle) * 100)
-				table.insert(vertices, z + math.sin(angle) * 100)
-			end
-			tireTrackSystem:erasePolygon(vertices)
-			executeConsoleCommand("vtRedrawAll")
-		else
-			tireTrackSystem:consoleCommandRemoveAllTireTracks()
+	if scope == "local" then
+		local camera = proShot.ourCamera
+		local x, _, z = getWorldTranslation(camera)
+		local vertices = {}
+		for index = 0, 47 do
+			local angle = index / 48 * math.pi * 2
+			table.insert(vertices, x + math.cos(angle) * 100)
+			table.insert(vertices, z + math.sin(angle) * 100)
 		end
-	end)
-	if not ok then
-		Logging.warning("ProShot: Removing tyre tracks failed: %s", tostring(err))
-		proShot:showToast(g_i18n:getText("proShot_testing_actionUnavailable"))
+		tireTrackSystem:erasePolygon(vertices)
+		executeConsoleCommand("vtRedrawAll")
 	else
-		proShot:showToast(g_i18n:getText(scope == "local" and "proShot_testing_tyreTracksRemoved100m"
-			or "proShot_testing_tyreTracksRemovedAll"))
+		tireTrackSystem:consoleCommandRemoveAllTireTracks()
 	end
+	proShot:showToast(g_i18n:getText(scope == "local" and "proShot_scene_tyreTracksRemoved100m"
+		or "proShot_scene_tyreTracksRemovedAll"))
 end
 
 function proShot:callbackMenu_wildlife(what, axisComponent)
@@ -5552,7 +5521,7 @@ function proShot:callbackMenu_wildlife(what, axisComponent)
 	elseif what == "PRO_SHOT_BACKSPACE" then
 		proShot.menuDesired = "advMenu"
 	else
-		Logging.info("Unknown menuCallback: " .. tostring(what))
+		proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 	end
 end
 
@@ -5569,7 +5538,7 @@ function proShot:callbackMenu_sceneControls(what, axisComponent)
 	if what == "PRO_SHOT_1" then
 		local traffic = proShot:getTrafficSystem()
 		if traffic == nil then
-			proShot:showToast(g_i18n:getText("proShot_testing_trafficUnavailable"))
+			proShot:showToast(g_i18n:getText("proShot_scene_trafficUnavailable"))
 		else
 			proShot:setTestingTrafficEnabled(not proShot.testingTrafficEnabled)
 			proShot:refreshSceneControlsMenu()
@@ -5577,19 +5546,19 @@ function proShot:callbackMenu_sceneControls(what, axisComponent)
 	elseif what == "PRO_SHOT_2" then
 		local pedestrians = proShot:getPedestrianSystem()
 		if pedestrians == nil then
-			proShot:showToast(g_i18n:getText("proShot_testing_pedestriansUnavailable"))
+			proShot:showToast(g_i18n:getText("proShot_scene_pedestriansUnavailable"))
 		else
 			proShot:setTestingPedestriansEnabled(not proShot.testingPedestriansEnabled)
 			proShot:refreshSceneControlsMenu()
 		end
 	elseif what == "PRO_SHOT_3" then
 		if not proShot:setTrafficPaused(not proShot.trafficPaused) then
-			proShot:showToast(g_i18n:getText("proShot_testing_trafficUnavailable"))
+			proShot:showToast(g_i18n:getText("proShot_scene_trafficUnavailable"))
 		end
 		proShot:refreshSceneControlsMenu()
 	elseif what == "PRO_SHOT_4" then
 		if not proShot:setPedestriansPaused(not proShot.pedestriansPaused) then
-			proShot:showToast(g_i18n:getText("proShot_testing_pedestrianPauseUnavailable"))
+			proShot:showToast(g_i18n:getText("proShot_scene_pedestrianPauseUnavailable"))
 		end
 		proShot:refreshSceneControlsMenu()
 	elseif what == "PRO_SHOT_5" then
@@ -5604,7 +5573,7 @@ function proShot:callbackMenu_sceneControls(what, axisComponent)
 	elseif what == "PRO_SHOT_BACKSPACE" then
 		proShot.menuDesired = "advMenu"
 	else
-		Logging.info("Unknown menuCallback: " .. tostring(what))
+		proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 	end
 end
 
@@ -5628,7 +5597,7 @@ function proShot:callbackMenu_localSnow(what, axisComponent)
 	elseif what == "PRO_SHOT_BACKSPACE" then
 		proShot.menuDesired = "advMenu"
 	else
-		Logging.info("Unknown menuCallback: " .. tostring(what))
+		proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 	end
 end
 
@@ -5662,7 +5631,7 @@ function proShot:callbackMenu_favourites(what, axisComponent)
 			proShot.pendingFavouriteGroups = nil
 			proShot.menuDesired = "main"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5684,7 +5653,7 @@ function proShot:callbackMenu_favouriteSaveSlot(what, axisComponent)
 			proShot.pendingFavouriteGroups = nil
 			proShot.menuDesired = "favourites"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5722,7 +5691,7 @@ function proShot:callbackMenu_favouriteSaveGroups(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "favouriteSaveSlot"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5738,7 +5707,7 @@ function proShot:callbackMenu_favouriteDeleteSlot(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "favourites"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5804,7 +5773,7 @@ function proShot:callbackMenu_enviro(what, axisComponent)
 			proShot.fogOverrideActive = false
 			proShot:applyFogState(proShot.fromWhenceYouCame.pausedFogState)
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5876,7 +5845,7 @@ function proShot:callbackMenu_DoF(what, axisComponent)
 		elseif what == "PRO_SHOT_KP_0" and axisComponent == 1 then
 			applyToSky =  not applyToSky
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 
 		proShot:setDoFState({ nearCoCRadius, nearBlurEnd, farCoCRadius, farBlurStart, farBlurEnd, applyToSky })
@@ -5922,7 +5891,7 @@ function proShot:callbackMenu_effects(what, axisComponent)
 			setBloomQuality(fwyc.bloom[3])
 			setSSAOQuality(fwyc.SSAOQuality)
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -5977,7 +5946,7 @@ function proShot:callbackMenu_effectsCustomise(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "effects"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6000,7 +5969,7 @@ function proShot:callbackMenu_effectGroup(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "effectsCustomise"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6032,7 +6001,7 @@ function proShot:callbackMenu_effectValue(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "effectGroup"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6048,7 +6017,7 @@ function proShot:callbackMenu_effectSaveSlot(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "effectsCustomise"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6061,7 +6030,7 @@ function proShot:callbackMenu_effectResetSlot(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "effectsCustomise"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6086,7 +6055,7 @@ function proShot:callbackMenu_toneMapping(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSLASH" and axisComponent == 1 then
 			proShot:applyToneMapping(proShot.fromWhenceYouCame.toneMapping)
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6110,7 +6079,7 @@ function proShot:callbackMenu_advQuality(what, axisComponent)
 		elseif what == "PRO_SHOT_KP_MINUSPLUS" and axisComponent == 1 then
 			setFoliageViewDistanceCoeff(math.min(getFoliageViewDistanceCoeff() + 0.5, 5))
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 		proShot:updateMainDynamicText()
 	end
@@ -6160,7 +6129,7 @@ function proShot:callbackMenu_sun(what, axisComponent)
 			setAtmosphereCornetteShankAsymmetryFactor(math.clamp(fwyc.atmosRefraction, 0, 0.8))
 			setMoonSizeScale(proShot:clampMoonSizeScale(fwyc.moonSizeScale))
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6181,7 +6150,7 @@ function proShot:callbackMenu_skyBrightness(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "sun"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6203,7 +6172,7 @@ function proShot:callbackMenu_groundLight(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "sun"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 	end
 end
@@ -6232,7 +6201,7 @@ function proShot:callbackMenu_skyAndGround(what, axisComponent)
 		elseif what == "PRO_SHOT_BACKSPACE" then
 			proShot.menuDesired = "sun"
 		else
-			Logging.info("Unknown menuCallback: " .. tostring(what))
+			proShot:debugLog("Unknown menuCallback: " .. tostring(what))
 		end
 		if wasSynced ~= proShot:areSkyAndGroundInSync() then
 			proShot:refreshSkyAndGroundMenu()
@@ -6512,14 +6481,16 @@ function proShot:ensureHeldLightLoaded()
 	local coneAngle = math.clamp(light.coneAngle or 60, 30, 120)
 	local dropOff = math.clamp(light.dropOff or 3, 0, 5)
 	local variation = math.floor(((coneAngle - 30) / 10) + dropOff * 10 + 0.5)
-	local lightNode = lightLibrary ~= nil and lightLibrary ~= 0
-		and getChildAt(lightLibrary, variation) or 0
+	local lightComponent = lightLibrary ~= nil and lightLibrary ~= 0
+		and getChildAt(lightLibrary, 0) or 0
+	local lightNode = lightComponent ~= nil and lightComponent ~= 0
+		and getChildAt(lightComponent, variation) or 0
 	if lightLibrary == nil or lightLibrary == 0 or lightNode == nil or lightNode == 0 then
 		if lightLibrary ~= nil and lightLibrary ~= 0 and entityExists(lightLibrary) then
 			delete(lightLibrary)
 		end
 		Logging.error("ProShot: Failed to load the bundled flashlight scene")
-		proShot:showToast(g_i18n:getText("proShot_testing_actionUnavailable"))
+		proShot:showToast(g_i18n:getText("proShot_scene_actionUnavailable"))
 		return false
 	end
 
@@ -6687,7 +6658,7 @@ function proShot:lightPlace(light)
 		delete(proShot.lightLibrary)
 		proShot.lightLibrary = g_i3DManager:loadI3DFile(proShot.lightI3D, false, false)
 		-- Grab a new light, same as the old one
-		light.lightNode = getChildAt(proShot.lightLibrary, light.variation)
+		light.lightNode = getChildAt(getChildAt(proShot.lightLibrary, 0), light.variation)
 		link(proShot.tripod, light.lightNode)
 		-- Set new light to same settings as before
 		setWorldRotation(light.lightNode, xR, yR, zR)
@@ -6710,9 +6681,10 @@ function proShot:lightFauxSet(coneAngle, dropOff) -- coneAngle must be in multip
 	local r, g, b = getLightColor(light.lightNode)
 	coneAngle = math.clamp(coneAngle, 30, 120)
 	dropOff = math.clamp(dropOff, 0, 5)
-	link(proShot.lightLibrary, light.lightNode, light.variation) -- Return the light to the librarian
+	local lightComponent = getChildAt(proShot.lightLibrary, 0)
+	link(lightComponent, light.lightNode, light.variation) -- Return the light to the librarian
 	light.variation = ((coneAngle - 30) / 10) + (dropOff * 10) --  Calculate the light we'd like to check out
-	light.lightNode = getChildAt(proShot.lightLibrary, light.variation)
+	light.lightNode = getChildAt(lightComponent, light.variation)
 	link(proShot.tripod, light.lightNode) -- Borrow the light
 	-- Store changed values
 	light.coneAngle = coneAngle
@@ -7464,7 +7436,7 @@ function proShot:updateInfoBox()
 		proShot:addInfoLine(box, g_i18n:getText("proShot_infoBox_snowLevel"), string.format("%.2f", proShot:snowBusiness("getHeight")), proShot.INFO_COLOR.BLUE)
 		proShot:addInfoLine(box, g_i18n:getText("proShot_infoBox_fog"), string.format("%.2f", proShot.fogDensityValue or proShot.fogState.groundFogGroundLevelDensity), proShot.INFO_COLOR.BLUE)
 		proShot:addInfoLine(box, g_i18n:getText("proShot_infoBox_haze"), string.format("%.2f", proShot.fogState.heightFogGroundLevelDensity), proShot.INFO_COLOR.BLUE)
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_groundWetnessInfo"), string.format("%.2f", getWetness()), proShot.INFO_COLOR.BLUE)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_environment_groundWetnessInfo"), string.format("%.2f", getWetness()), proShot.INFO_COLOR.BLUE)
 	elseif menu == "fog" then
 		local fog = proShot.fogState
 		local edge0 = math.min(fog.groundFogCoverageEdge0, fog.groundFogCoverageEdge1)
@@ -7482,20 +7454,20 @@ function proShot:updateInfoBox()
 		local pedestrians = proShot:getPedestrianSystem()
 		box:clear()
 		box:setTitle(g_i18n:getText("proShot_scene_menu"))
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_traffic"), traffic == nil and g_i18n:getText("proShot_testing_unavailable") or g_i18n:getText(proShot.testingTrafficEnabled and "ui_on" or "ui_off"), traffic ~= nil and proShot.testingTrafficEnabled and proShot.INFO_COLOR.ACTIVE or proShot.INFO_COLOR.MUTED)
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_trafficMotion"), traffic == nil and g_i18n:getText("proShot_testing_unavailable") or g_i18n:getText(proShot.trafficPaused and "proShot_testing_paused" or "proShot_testing_running"), traffic == nil and proShot.INFO_COLOR.MUTED or (proShot.trafficPaused and proShot.INFO_COLOR.WARM or proShot.INFO_COLOR.ACTIVE))
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_pedestrians"), pedestrians == nil and g_i18n:getText("proShot_testing_unavailable") or g_i18n:getText(proShot.testingPedestriansEnabled and "ui_on" or "ui_off"), pedestrians ~= nil and proShot.testingPedestriansEnabled and proShot.INFO_COLOR.ACTIVE or proShot.INFO_COLOR.MUTED)
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_pedestrianMotion"), pedestrians == nil and g_i18n:getText("proShot_testing_unavailable") or g_i18n:getText(proShot.pedestriansPaused and "proShot_testing_paused" or "proShot_testing_running"), pedestrians == nil and proShot.INFO_COLOR.MUTED or (proShot.pedestriansPaused and proShot.INFO_COLOR.WARM or proShot.INFO_COLOR.ACTIVE))
-		proShot:addInfoLine(box, g_i18n:getText("proShot_scene_parkedVehicles"), traffic == nil and g_i18n:getText("proShot_testing_unavailable") or g_i18n:getText(proShot.parkedCarsEnabled and "ui_on" or "ui_off"), traffic ~= nil and proShot.parkedCarsEnabled and proShot.INFO_COLOR.ACTIVE or proShot.INFO_COLOR.MUTED)
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_tyreTracks"), g_i18n:getText("proShot_testing_irreversible"), proShot.INFO_COLOR.RED)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_scene_traffic"), traffic == nil and g_i18n:getText("proShot_value_unavailable") or g_i18n:getText(proShot.testingTrafficEnabled and "ui_on" or "ui_off"), traffic ~= nil and proShot.testingTrafficEnabled and proShot.INFO_COLOR.ACTIVE or proShot.INFO_COLOR.MUTED)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_scene_trafficMotion"), traffic == nil and g_i18n:getText("proShot_value_unavailable") or g_i18n:getText(proShot.trafficPaused and "proShot_value_paused" or "proShot_value_running"), traffic == nil and proShot.INFO_COLOR.MUTED or (proShot.trafficPaused and proShot.INFO_COLOR.WARM or proShot.INFO_COLOR.ACTIVE))
+		proShot:addInfoLine(box, g_i18n:getText("proShot_scene_pedestrians"), pedestrians == nil and g_i18n:getText("proShot_value_unavailable") or g_i18n:getText(proShot.testingPedestriansEnabled and "ui_on" or "ui_off"), pedestrians ~= nil and proShot.testingPedestriansEnabled and proShot.INFO_COLOR.ACTIVE or proShot.INFO_COLOR.MUTED)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_scene_pedestrianMotion"), pedestrians == nil and g_i18n:getText("proShot_value_unavailable") or g_i18n:getText(proShot.pedestriansPaused and "proShot_value_paused" or "proShot_value_running"), pedestrians == nil and proShot.INFO_COLOR.MUTED or (proShot.pedestriansPaused and proShot.INFO_COLOR.WARM or proShot.INFO_COLOR.ACTIVE))
+		proShot:addInfoLine(box, g_i18n:getText("proShot_scene_parkedVehicles"), traffic == nil and g_i18n:getText("proShot_value_unavailable") or g_i18n:getText(proShot.parkedCarsEnabled and "ui_on" or "ui_off"), traffic ~= nil and proShot.parkedCarsEnabled and proShot.INFO_COLOR.ACTIVE or proShot.INFO_COLOR.MUTED)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_scene_tyreTracks"), g_i18n:getText("proShot_value_irreversible"), proShot.INFO_COLOR.RED)
 	elseif menu == "wildlife" then
 		box:clear()
 		box:setTitle(g_i18n:getText("proShot_wildlife_menu"))
 		proShot:addInfoLine(box, g_i18n:getText("proShot_wildlife_selectedAnimal"), proShot:getWildlifeDisplayName(proShot:getSelectedWildlife(false)), proShot.INFO_COLOR.BLUE)
-		proShot:addInfoLine(box, g_i18n:getText("proShot_wildlife_animalMotion"), g_i18n:getText(proShot.wildlifePaused and "proShot_testing_paused" or "proShot_testing_running"), proShot.wildlifePaused and proShot.INFO_COLOR.WARM or proShot.INFO_COLOR.ACTIVE)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_wildlife_animalMotion"), g_i18n:getText(proShot.wildlifePaused and "proShot_value_paused" or "proShot_value_running"), proShot.wildlifePaused and proShot.INFO_COLOR.WARM or proShot.INFO_COLOR.ACTIVE)
 		proShot:addInfoLine(box, g_i18n:getText("proShot_wildlife_spawnedAnimals"), tostring(proShot:getTrackedWildlifeCount(false)))
 		proShot:addInfoLine(box, g_i18n:getText("proShot_wildlife_selectedBird"), proShot:getWildlifeDisplayName(proShot:getSelectedWildlife(true)), proShot.INFO_COLOR.BLUE)
-		proShot:addInfoLine(box, g_i18n:getText("proShot_wildlife_birdMotion"), g_i18n:getText(proShot.birdsPaused and "proShot_testing_paused" or "proShot_testing_running"), proShot.birdsPaused and proShot.INFO_COLOR.WARM or proShot.INFO_COLOR.ACTIVE)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_wildlife_birdMotion"), g_i18n:getText(proShot.birdsPaused and "proShot_value_paused" or "proShot_value_running"), proShot.birdsPaused and proShot.INFO_COLOR.WARM or proShot.INFO_COLOR.ACTIVE)
 		proShot:addInfoLine(box, g_i18n:getText("proShot_wildlife_spawnedBirds"), tostring(proShot:getTrackedWildlifeCount(true)))
 		proShot:addInfoLine(box, g_i18n:getText("proShot_farm_selected"), proShot:getSelectedFarmAnimalDetailedName(), proShot.INFO_COLOR.BLUE)
 		proShot:addInfoLine(box, g_i18n:getText("proShot_farm_spawned"), tostring(proShot:getTrackedFarmAnimalCount()))
@@ -7519,13 +7491,13 @@ function proShot:updateInfoBox()
 		local target = proShot.localSnowTarget
 		local snowHeight = proShot:getLocalSnowHeight()
 		box:clear()
-		box:setTitle(g_i18n:getText("proShot_testing_localSnow"))
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_snowTarget"), target == nil and g_i18n:getText("proShot_testing_noTarget") or string.format("%.0f, %.0f", target.x, target.z), target ~= nil and proShot.INFO_COLOR.ACTIVE or proShot.INFO_COLOR.MUTED)
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_snowRadiusInfo"), string.format("%.0f m", proShot.localSnowRadius), proShot.INFO_COLOR.BLUE)
+		box:setTitle(g_i18n:getText("proShot_snow_menu"))
+		proShot:addInfoLine(box, g_i18n:getText("proShot_snow_target"), target == nil and g_i18n:getText("proShot_snow_noTarget") or string.format("%.0f, %.0f", target.x, target.z), target ~= nil and proShot.INFO_COLOR.ACTIVE or proShot.INFO_COLOR.MUTED)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_snow_radiusInfo"), string.format("%.0f m", proShot.localSnowRadius), proShot.INFO_COLOR.BLUE)
 		proShot:addInfoLine(box, g_i18n:getText("proShot_snow_strengthInfo"),
 			string.format("%d / %d", proShot.localSnowStrengthLevel, #proShot.LOCAL_SNOW_STRENGTH_LEVELS),
 			proShot.INFO_COLOR.BLUE)
-		proShot:addInfoLine(box, g_i18n:getText("proShot_testing_snowHeightInfo"), snowHeight == nil and "-" or string.format("%.2f m", snowHeight), proShot.INFO_COLOR.BLUE)
+		proShot:addInfoLine(box, g_i18n:getText("proShot_snow_heightInfo"), snowHeight == nil and "-" or string.format("%.2f m", snowHeight), proShot.INFO_COLOR.BLUE)
 		proShot:addInfoLine(box, g_i18n:getText("proShot_snow_globalLevelInfo"), string.format("%.2f m", proShot:snowBusiness("getHeight")), proShot.INFO_COLOR.BLUE)
 	elseif menu == "DoF" then
 		local nearCoCRadius, nearBlurEnd, farCoCRadius, farBlurStart, farBlurEnd, applyToSky = unpack(proShot.DoFState)
@@ -7633,7 +7605,15 @@ function proShot:updateInfoBox()
 	proShot:drawInfoBox(box, 1 - g_safeFrameOffsetX, g_safeFrameOffsetY)
 end
 
+function proShot:restoreCaptureRenderingMode()
+	if proShot.captureRenderingResetPending then
+		setDebugRenderingMode(DebugRendering.NONE)
+		proShot.captureRenderingResetPending = false
+	end
+end
+
 function proShot:captureScreen()
+	proShot:restoreCaptureRenderingMode()
 	local proShotScreenshotDir = g_screenshotsDirectory.."ProShot"
 	createFolder(proShotScreenshotDir)
 	local captureMode = proShot.captureMode or "png"
@@ -7655,31 +7635,24 @@ function proShot:captureScreen()
 
 		-- Match FS25's proven console-render paths exactly. raw_hdr selects the
 		-- HDR render/output path on its own, so no global HDR flag is touched.
-		-- Ctrl+Enter stops after the explicitly restored colour pass,
-		-- while Ctrl+Shift+Enter adds the native DEPTH pass before restoration.
-		local rendered, renderError = pcall(function()
-			local screenMode = getScreenMode()
-			local width, height = getScreenModeInfo(screenMode)
+		local screenMode = getScreenMode()
+		local width, height = getScreenModeInfo(screenMode)
 
-			setDebugRenderingMode(DebugRendering.NONE)
-			print("Saving color screenshot: " .. colorScreenshotName)
-			renderScreenshot(colorScreenshotName, width, height, width / height,
+		setDebugRenderingMode(DebugRendering.NONE)
+		print("Saving color screenshot: " .. colorScreenshotName)
+		renderScreenshot(colorScreenshotName, width, height, width / height,
+			"raw_hdr", 1, 0, 0, 0, 0, 0, 15, false)
+
+		if captureMode == "hdrDepth" then
+			print("Saving depth screenshot: " .. depthScreenshotName)
+			-- The engine exposes depth only through its global debug mode. Arm a
+			-- reset before changing it so the next frame/teardown can restore NONE
+			-- if the native renderer raises an error and unwinds this call.
+			proShot.captureRenderingResetPending = true
+			setDebugRenderingMode(DebugRendering.DEPTH)
+			renderScreenshot(depthScreenshotName, width, height, width / height,
 				"raw_hdr", 1, 0, 0, 0, 0, 0, 15, false)
-
-			if captureMode == "hdrDepth" then
-				setDebugRenderingMode(DebugRendering.DEPTH)
-				print("Saving depth screenshot: " .. depthScreenshotName)
-				renderScreenshot(depthScreenshotName, width, height, width / height,
-					"raw_hdr", 1, 0, 0, 0, 0, 0, 15, false)
-			end
-			setDebugRenderingMode(DebugRendering.NONE)
-		end)
-
-		-- Also restore NONE when either native render raises a Lua-visible error.
-		pcall(setDebugRenderingMode, DebugRendering.NONE)
-		if not rendered then
-			Logging.error("ProShot: Failed to save HDR screenshot%s: %s",
-				captureMode == "hdrDepth" and " pair" or "", tostring(renderError))
+			proShot:restoreCaptureRenderingMode()
 		end
 	else
 		local screenshotName = screenshotBase .. ".png"
@@ -7807,14 +7780,115 @@ function proShot:getVehicleReloadUniqueId(vehicle)
 	if vehicle == nil or vehicle.getUniqueId == nil then
 		return nil
 	end
-	local ok, uniqueId = pcall(vehicle.getUniqueId, vehicle)
-	return ok and uniqueId or nil
+	local uniqueId = vehicle:getUniqueId()
+	return uniqueId or nil
 end
 
-function proShot:finishVehicleReloadCommand(vehicleSystem, returnUniqueId, ok, result)
-	if not ok then
-		Logging.error("ProShot: Vehicle reload failed: %s", tostring(result))
-	elseif result ~= nil then
+function proShot:reloadVehiclesNearCamera(vehicleSystem, radius)
+	-- Follow VehicleSystem's native reload transaction with an explicit camera
+	-- origin. The native console command reads g_localPlayer directly and has no
+	-- origin argument; changing the player's getter across it is not safe.
+	if g_gui.currentGuiName == "ShopMenu" or g_gui.currentGuiName == "ShopConfigScreen" then
+		return "Error: Reload not supported while in shop!"
+	end
+	if vehicleSystem.isReloadRunning then
+		return "Error: Reloading of vehicles already in progress!"
+	end
+	if not vehicleSystem.mission:getIsServer() or vehicleSystem.mission.missionDynamicInfo.isMultiplayer then
+		return "Error: Reloading only available in SP"
+	end
+
+	local posX, posY, posZ = getWorldTranslation(proShot.tripod)
+	local currentVehicle = g_localPlayer:getCurrentVehicle()
+	g_soundManager:reloadSoundTemplates()
+	g_vehicleMaterialManager:loadMaterialTemplates(VehicleMaterialManager.DEFAULT_TEMPLATES_FILENAME)
+	g_vehicleMaterialManager:loadMaterialTemplates(VehicleMaterialManager.DEFAULT_BRAND_TEMPLATES_FILENAME)
+
+	local affectedVehicles, usedVehicles, usedModNames = {}, {}, {}
+	local function addVehicleToReload(vehicle)
+		if vehicle.isVehicleSaved then
+			vehicle.isReconfigurating = true
+			table.insert(affectedVehicles, vehicle)
+			usedVehicles[vehicle] = true
+			if vehicle.getAttachedImplements ~= nil then
+				for _, implement in pairs(vehicle:getAttachedImplements()) do
+					addVehicleToReload(implement.object)
+				end
+			end
+		else
+			vehicle:delete()
+		end
+	end
+	if currentVehicle ~= nil then
+		addVehicleToReload(currentVehicle)
+	end
+	for _, vehicle in pairs(vehicleSystem.vehicles) do
+		if vehicle ~= currentVehicle then
+			local x, y, z = getWorldTranslation(vehicle.rootNode)
+			if MathUtil.vector3Length(x - posX, y - posY, z - posZ) < radius
+				and usedVehicles[vehicle.rootVehicle] == nil then
+				addVehicleToReload(vehicle.rootVehicle)
+			end
+		end
+	end
+	if #affectedVehicles == 0 then
+		return "Warning: No vehicle reloaded. Enter a vehicle first or use the command with the radius parameter given, e.g. 'gsVehicleReload false 25'\nUsage: gsVehicleReload [resetVehicle] [radius]"
+	end
+	local xmlFile = XMLFile.create("reloadVehiclesXMLFile", "", "vehicles", Vehicle.xmlSchemaSavegame)
+	if xmlFile == nil then
+		return "Error: Unable to create XML for saving vehicles"
+	end
+
+	simulatePhysics(false)
+	vehicleSystem.isReloadRunning = true
+	for _, vehicle in ipairs(affectedVehicles) do
+		vehicleSystem.vehicleByUniqueId[vehicle:getUniqueId()] = nil
+	end
+	vehicleSystem:saveToXML(affectedVehicles, xmlFile, usedModNames)
+	for _, vehicle in ipairs(affectedVehicles) do
+		vehicle:removeFromPhysics()
+	end
+	local steerableId = proShot:getVehicleReloadUniqueId(g_localPlayer:getCurrentVehicle())
+	g_i3DManager:clearEntireSharedI3DFileCache(false)
+
+	local function asyncCallbackFunction(_, vehicles, vehicleLoadState, arguments)
+		local success = vehicleLoadState == VehicleLoadingState.OK and #vehicles == #affectedVehicles
+		if success then
+			for _, vehicle in pairs(affectedVehicles) do
+				vehicle:delete()
+			end
+			if steerableId ~= nil then
+				for _, vehicle in pairs(vehicles) do
+					if vehicle:getUniqueId() == steerableId then
+						g_localPlayer:requestToEnterVehicle(vehicle)
+					end
+				end
+			end
+		else
+			Logging.error(vehicleLoadState == VehicleLoadingState.OK
+				and "Not all vehicles could be reloaded" or "Failed to load vehicles")
+			for _, vehicle in pairs(vehicles) do
+				vehicle:delete()
+			end
+			for _, vehicle in ipairs(affectedVehicles) do
+				vehicle:addToPhysics()
+				vehicleSystem.vehicleByUniqueId[vehicle:getUniqueId()] = vehicle
+			end
+		end
+		xmlFile:delete()
+		vehicleSystem.isReloadRunning = false
+		simulatePhysics(true)
+		if success then
+			proShot:showToast(string.format(g_i18n:getText("proShot_reload_vehiclesDone"), #affectedVehicles))
+		end
+	end
+	g_asyncTaskManager:addTask(function()
+		vehicleSystem:loadFromXMLFile(xmlFile, asyncCallbackFunction, nil, nil, false, true)
+	end)
+end
+
+function proShot:finishVehicleReloadCommand(vehicleSystem, returnUniqueId, result)
+	if result ~= nil then
 		Logging.info("ProShot: %s", result)
 	end
 
@@ -7856,14 +7930,7 @@ function proShot:finishPausedVehicleDeletion(vehicleSystem)
 	-- end-of-frame deletion. That normal end-of-frame step does not run while the
 	-- game is paused, so complete the same native cleanup here before another
 	-- reload can see both the old and replacement generations.
-	local ok, err = pcall(vehicleSystem.deleteMarkedVehicles, vehicleSystem)
-	if not ok then
-		if not proShot.vehicleReloadCleanupFailureLogged then
-			Logging.warning("ProShot: Could not finish paused vehicle cleanup: %s", tostring(err))
-			proShot.vehicleReloadCleanupFailureLogged = true
-		end
-		return false
-	end
+	vehicleSystem:deleteMarkedVehicles()
 	proShot.vehicleReloadCleanupFailureLogged = false
 	proShot:debugLog("finished paused vehicle deletion queue")
 	return next(vehicleSystem.vehiclesToDelete) == nil
@@ -7956,20 +8023,14 @@ function proShot:updateVehicleReloadTransaction()
 		end
 
 		local rootVehicle = currentVehicle.rootVehicle or currentVehicle
-		local refreshOk, refreshError = pcall(function()
-			if rootVehicle.requestActionEventUpdate ~= nil then
-				rootVehicle:requestActionEventUpdate()
-			end
-			if rootVehicle.updateActionEvents ~= nil then
-				rootVehicle:updateActionEvents()
-			end
-		end)
-		if not refreshOk then
-			Logging.warning("ProShot: Could not refresh controls after vehicle reload: %s", tostring(refreshError))
-		else
-			proShot:debugLog("post-reload controls refreshed for %s; context=%s",
-				tostring(uniqueId), tostring(g_inputBinding ~= nil and g_inputBinding:getContextName() or nil))
+		if rootVehicle.requestActionEventUpdate ~= nil then
+			rootVehicle:requestActionEventUpdate()
 		end
+		if rootVehicle.updateActionEvents ~= nil then
+			rootVehicle:updateActionEvents()
+		end
+		proShot:debugLog("post-reload controls refreshed for %s; context=%s",
+			tostring(uniqueId), tostring(g_inputBinding ~= nil and g_inputBinding:getContextName() or nil))
 		proShot.vehicleReloadControlRefreshPending = false
 		proShot.vehicleReloadReturnUniqueId = nil
 		proShot.vehicleReloadControlRefreshStartedAt = nil
@@ -8012,40 +8073,29 @@ function proShot:inputKeyboardUpdate()
 		local localPlayer = g_localPlayer
 		local vehicleSystem = g_currentMission ~= nil and g_currentMission.vehicleSystem or nil
 		if localPlayer == nil or vehicleSystem == nil then
-			Logging.warning("ProShot: Vehicle reload is unavailable in the current mission state")
-		elseif proShot.vehicleReloadPending or vehicleSystem.isReloadRunning == true then
-			Logging.info("ProShot: Vehicle reload ignored because a reload is already in progress")
-		elseif (g_time or 0) < (proShot.vehicleReloadCooldownUntil or 0) then
-			Logging.info("ProShot: Vehicle reload is cooling down")
+			Logging.warning("Vehicle reload is unavailable in the current mission state")
+		elseif proShot.vehicleReloadPending or vehicleSystem.isReloadRunning == true or (g_time or 0) < (proShot.vehicleReloadCooldownUntil or 0) then
+			proShot:showToast(g_i18n:getText("proShot_reload_cooldown"))
 		elseif shiftDown then
 			local returnUniqueId = proShot:getVehicleReloadUniqueId(localPlayer:getCurrentVehicle())
 			local radius
 			if Input.isKeyPressed(Input.KEY_lctrl) or Input.isKeyPressed(Input.KEY_rctrl) then
-				Logging.info("ProShot: Reloading all vehicles within 100m of camera")
-				radius = "100"
+				proShot:showToast(string.format(g_i18n:getText("proShot_reload_vehiclesNearby"), 100))
+				radius = 100
 			else
-				Logging.info("ProShot: Reloading all vehicles within 10m of camera")
-				radius = "10"
+				proShot:showToast(string.format(g_i18n:getText("proShot_reload_vehiclesNearby"), 10))
+				radius = 10
 			end
 
-			-- VehicleSystem takes its radius origin from g_localPlayer in FS25. Use a
-			-- temporary position override so the command still measures from the
-			-- detached ProShot camera without mutating player or vehicle scene nodes.
-			local originalGetPosition = rawget(localPlayer, "getPosition")
-			localPlayer.getPosition = function()
-				return getWorldTranslation(proShot.tripod)
-			end
-			local ok, result = pcall(vehicleSystem.consoleCommandReloadVehicle, vehicleSystem, "false", radius)
-			localPlayer.getPosition = originalGetPosition
-			proShot:finishVehicleReloadCommand(vehicleSystem, returnUniqueId, ok, result)
+			local result = proShot:reloadVehiclesNearCamera(vehicleSystem, radius)
+			proShot:finishVehicleReloadCommand(vehicleSystem, returnUniqueId, result)
 		elseif localPlayer:getCurrentVehicle() ~= nil then
-			Logging.info("Reloading active vehicle")
+			proShot:showToast(g_i18n:getText("proShot_reload_currentVehicle"))
 			local returnUniqueId = proShot:getVehicleReloadUniqueId(localPlayer:getCurrentVehicle())
-			local ok, result = pcall(vehicleSystem.consoleCommandReloadVehicle, vehicleSystem)
-			proShot:finishVehicleReloadCommand(vehicleSystem, returnUniqueId, ok, result)
+			local result = vehicleSystem:consoleCommandReloadVehicle()
+			proShot:finishVehicleReloadCommand(vehicleSystem, returnUniqueId, result)
 		else
-			Logging.info("You're not in a vehicle. Try shift+alt+R")
-			proShot.vehicleReloadCooldownUntil = (g_time or 0) + proShot.VEHICLE_RELOAD_COOLDOWN_MS
+			proShot:showToast(g_i18n:getText("proShot_reload_notInVehicle"))
 		end
 	end
 	proShot.vehicleReloadKeyWasDown = reloadKeyDown
@@ -8055,9 +8105,10 @@ function proShot:inputKeyboardUpdate()
 		proShot.placeableReloadThrottle = proShot.placeableReloadThrottle - 1
 	else
 		if (Input.isKeyPressed(Input.KEY_lalt) or Input.isKeyPressed(Input.KEY_ralt)) and Input.isKeyPressed(Input.KEY_p) then
-			Logging.info("ProShot: Reloading all placeables")
+			proShot:showToast(g_i18n:getText("proShot_reload_placeables"))
 			local placeableSystem = g_currentMission ~= nil and g_currentMission.placeableSystem or nil
 			if placeableSystem ~= nil and placeableSystem.consoleCommandReloadAllPlaceables ~= nil then
+				Logging.info("ProShot: Running console command: placeablesReloadAll. Warnings are normal for this command")
 				placeableSystem:consoleCommandReloadAllPlaceables()
 			else
 				Logging.warning("ProShot: Placeable reload is unavailable in the current mission state")
@@ -8308,8 +8359,6 @@ function proShot:setOnPause()
 	fwyc.skyState = table.clone(proShot.skyState)
 	fwyc.maxInputHelpElements = InputHelpDisplay.MAX_NUM_ELEMENTS
 
-	-- The temporary environment snapshot remains in memory so zipped mods stay
-	-- read-only.
 	proShot:applyFogState(proShot.fogState)
 
 
@@ -8482,6 +8531,7 @@ end
 
 -- Called repeatedly while paused
 function proShot:insteadof_GamePausedDisplay_draw(superFunc, drawBackground)
+	proShot:restoreCaptureRenderingMode()
 	if self:getVisible() then
 		proShot.isActive = true
 		if not proShot.isSet then
@@ -8497,10 +8547,10 @@ function proShot:insteadof_GamePausedDisplay_draw(superFunc, drawBackground)
 		local activeCamera = g_cameraManager:getActiveCamera()
 		if proShot.ourCamera ~= activeCamera then
 			if activeCamera ~= nil and activeCamera ~= proShot.ourCamera then
-				Logging.info("Resetting return camera after vehicle reload")
+				proShot:debugLog("Resetting return camera after vehicle reload")
 				proShot.previousCamera = activeCamera
 			end
-			Logging.info("Switching back to ProShot camera, after vehicle reload")
+			proShot:debugLog("Switching back to ProShot camera, after vehicle reload")
 			g_cameraManager:setActiveCamera(proShot.ourCamera)
 			setDofQuality(2)
 			g_depthOfFieldManager:setManipulatedParams(unpack(proShot.DoFState))
@@ -8600,6 +8650,7 @@ end
 
 -- Called repeatedly by EventListener when unpaused
 function proShot:update(dt)
+	proShot:restoreCaptureRenderingMode()
 	proShot:updateVehicleReloadTransaction()
 
 	-- An FS25 snow density-map job may still be completing when the pause menu
@@ -8812,6 +8863,7 @@ function proShot:loadMap()
 end
 
 function proShot:deleteMap()
+	proShot:restoreCaptureRenderingMode()
 	proShot.vehicleReloadKeyWasDown = false
 	proShot.vehicleReloadCooldownUntil = 0
 	proShot.vehicleReloadPending = false

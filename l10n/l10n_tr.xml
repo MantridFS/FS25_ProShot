@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Yoğunluk"/>
 		<text name="proShot_fog_extraHeightInfo" text="Yükseklik"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Minimum vadi derinliği"/>
-		<text name="proShot_testing_enableTraffic" text="Trafiği aç"/>
-		<text name="proShot_testing_disableTraffic" text="Trafiği kapat"/>
-		<text name="proShot_testing_enablePedestrians" text="Yayaları aç"/>
-		<text name="proShot_testing_disablePedestrians" text="Yayaları kapat"/>
-		<text name="proShot_testing_pauseTraffic" text="Trafiği duraklat"/>
-		<text name="proShot_testing_resumeTraffic" text="Trafiği sürdür"/>
-		<text name="proShot_testing_pausePedestrians" text="Yayaları duraklat"/>
-		<text name="proShot_testing_resumePedestrians" text="Yayaları sürdür"/>
-		<text name="proShot_testing_localSnow" text="Yerel Kar"/>
-		<text name="proShot_testing_groundWetness" text="Zemin ıslaklığını Azalt/Artır"/>
-		<text name="proShot_testing_removeTyreTracks" text="Lastik izlerini kaldır (geri alınamaz)"/>
-		<text name="proShot_testing_traffic" text="Trafik"/>
-		<text name="proShot_testing_trafficMotion" text="Trafik hareketi"/>
-		<text name="proShot_testing_pedestrians" text="Yayalar"/>
-		<text name="proShot_testing_pedestrianMotion" text="Yaya hareketi"/>
-		<text name="proShot_testing_paused" text="Duraklatıldı"/>
-		<text name="proShot_testing_running" text="Çalışıyor"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Zemin ıslaklığı"/>
-		<text name="proShot_testing_wildlife" text="Yaban hayatı"/>
-		<text name="proShot_testing_tyreTracks" text="Lastik izi kaldırma"/>
-		<text name="proShot_testing_unavailable" text="Bu haritada kullanılamıyor"/>
-		<text name="proShot_testing_irreversible" text="Geri alınamaz"/>
-		<text name="proShot_testing_trafficUnavailable" text="Bu haritada trafik sistemi yok"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Bu haritada yaya sistemi yok"/>
-		<text name="proShot_testing_birdUnavailable" text="Bu harita için uygun bir yabani kuş tanımlanmamış"/>
-		<text name="proShot_testing_wildlifeRemoved" text="%d yerleştirilmiş hayvan ve kuş grubu kaldırıldı"/>
-		<text name="proShot_testing_spawnFailed" text="Yaban hayatı oluşturulamadı"/>
-		<text name="proShot_testing_actionUnavailable" text="Bu eylem bu haritada kullanılamıyor"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Bu oyun sürümünde yayaları duraklatma kullanılamıyor"/>
-		<text name="proShot_testing_snowRadius" text="Yarıçapı Azalt/Artır"/>
-		<text name="proShot_testing_snowHeight" text="Vurgulanan alandaki karı Azalt/Artır"/>
-		<text name="proShot_testing_snowTarget" text="Hedef"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Yarıçap"/>
-		<text name="proShot_testing_snowHeightInfo" text="Merkezdeki kar"/>
-		<text name="proShot_testing_noTarget" text="Arazi hedefi yok"/>
-		<text name="proShot_testing_snowNoTarget" text="Ekranın merkezinde arazi bulunamadı"/>
-		<text name="proShot_testing_snowLowered" text="Vurgulanan alandaki kar azaltıldı"/>
-		<text name="proShot_testing_snowRaised" text="Vurgulanan alandaki kar artırıldı"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Lastik İzlerini Kaldır"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Lastik izi haritasının ne kadarının silineceğini seçin."/>
-		<text name="proShot_testing_tyreTracks100m" text="Kameranın 100 m çevresi"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Tüm harita"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Kameranın 100 m çevresindeki lastik izleri kaldırılsın mı? Bu işlem geri alınamaz."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Haritadaki tüm lastik izleri kaldırılsın mı? Bu işlem geri alınamaz."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Kameranın 100 m çevresindeki lastik izleri kaldırıldı"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Tüm lastik izleri kaldırıldı"/>
+		<text name="proShot_scene_enableTraffic" text="Trafiği aç"/>
+		<text name="proShot_scene_disableTraffic" text="Trafiği kapat"/>
+		<text name="proShot_scene_enablePedestrians" text="Yayaları aç"/>
+		<text name="proShot_scene_disablePedestrians" text="Yayaları kapat"/>
+		<text name="proShot_scene_pauseTraffic" text="Trafiği duraklat"/>
+		<text name="proShot_scene_resumeTraffic" text="Trafiği sürdür"/>
+		<text name="proShot_scene_pausePedestrians" text="Yayaları duraklat"/>
+		<text name="proShot_scene_resumePedestrians" text="Yayaları sürdür"/>
+		<text name="proShot_snow_menu" text="Yerel Kar"/>
+		<text name="proShot_environment_groundWetness" text="Zemin ıslaklığını Azalt/Artır"/>
+		<text name="proShot_scene_removeTyreTracks" text="Lastik izlerini kaldır (geri alınamaz)"/>
+		<text name="proShot_scene_traffic" text="Trafik"/>
+		<text name="proShot_scene_trafficMotion" text="Trafik hareketi"/>
+		<text name="proShot_scene_pedestrians" text="Yayalar"/>
+		<text name="proShot_scene_pedestrianMotion" text="Yaya hareketi"/>
+		<text name="proShot_value_paused" text="Duraklatıldı"/>
+		<text name="proShot_value_running" text="Çalışıyor"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Zemin ıslaklığı"/>
+		<text name="proShot_wildlife_title" text="Yaban hayatı"/>
+		<text name="proShot_scene_tyreTracks" text="Lastik izi kaldırma"/>
+		<text name="proShot_value_unavailable" text="Bu haritada kullanılamıyor"/>
+		<text name="proShot_value_irreversible" text="Geri alınamaz"/>
+		<text name="proShot_scene_trafficUnavailable" text="Bu haritada trafik sistemi yok"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Bu haritada yaya sistemi yok"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Bu harita için uygun bir yabani kuş tanımlanmamış"/>
+		<text name="proShot_wildlife_removedAll" text="%d yerleştirilmiş hayvan ve kuş grubu kaldırıldı"/>
+		<text name="proShot_wildlife_spawnFailed" text="Yaban hayatı oluşturulamadı"/>
+		<text name="proShot_scene_actionUnavailable" text="Bu eylem bu haritada kullanılamıyor"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Bu oyun sürümünde yayaları duraklatma kullanılamıyor"/>
+		<text name="proShot_snow_radius" text="Yarıçapı Azalt/Artır"/>
+		<text name="proShot_snow_height" text="Vurgulanan alandaki karı Azalt/Artır"/>
+		<text name="proShot_snow_target" text="Hedef"/>
+		<text name="proShot_snow_radiusInfo" text="Yarıçap"/>
+		<text name="proShot_snow_heightInfo" text="Merkezdeki kar"/>
+		<text name="proShot_snow_noTarget" text="Arazi hedefi yok"/>
+		<text name="proShot_snow_noTerrain" text="Ekranın merkezinde arazi bulunamadı"/>
+		<text name="proShot_snow_lowered" text="Vurgulanan alandaki kar azaltıldı"/>
+		<text name="proShot_snow_raised" text="Vurgulanan alandaki kar artırıldı"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Lastik İzlerini Kaldır"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Lastik izi haritasının ne kadarının silineceğini seçin."/>
+		<text name="proShot_scene_tyreTracks100m" text="Kameranın 100 m çevresi"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Tüm harita"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Kameranın 100 m çevresindeki lastik izleri kaldırılsın mı? Bu işlem geri alınamaz."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Haritadaki tüm lastik izleri kaldırılsın mı? Bu işlem geri alınamaz."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Kameranın 100 m çevresindeki lastik izleri kaldırıldı"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Tüm lastik izleri kaldırıldı"/>
 		<text name="proShot_wildlife_menu" text="Hayvanlar"/>
 		<text name="proShot_wildlife_selectAnimal" text="Yaban hayatını %s olarak değiştir"/>
 		<text name="proShot_wildlife_selectBird" text="Kuşları %s olarak değiştir"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Fener"/>
 		<text name="input_PRO_SHOT_F1" text="HUD&#x27;u Aç/Kapat"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Fener Yerleştir"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot %d aracı yeniden yükledi"/>
+		<text name="proShot_reload_cooldown" text="Araçları tekrar yüklemeden önce biraz bekleyin"/>
+		<text name="proShot_reload_vehiclesNearby" text="%d m içindeki tüm araçlar yeniden yükleniyor"/>
+		<text name="proShot_reload_currentVehicle" text="Mevcut araç yeniden yükleniyor"/>
+		<text name="proShot_reload_notInVehicle" text="Bir araçta değilsiniz. Shift+Alt+R tuşlarını deneyin"/>
+		<text name="proShot_reload_placeables" text="Tüm yerleştirilebilir nesneler yeniden yükleniyor"/>
 	</texts>
 </l10n>

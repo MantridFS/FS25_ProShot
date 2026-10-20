@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Kepadatan"/>
 		<text name="proShot_fog_extraHeightInfo" text="Ketinggian"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Kedalaman lembah minimum"/>
-		<text name="proShot_testing_enableTraffic" text="Nyalakan lalu lintas"/>
-		<text name="proShot_testing_disableTraffic" text="Matikan lalu lintas"/>
-		<text name="proShot_testing_enablePedestrians" text="Nyalakan pejalan kaki"/>
-		<text name="proShot_testing_disablePedestrians" text="Matikan pejalan kaki"/>
-		<text name="proShot_testing_pauseTraffic" text="Jeda lalu lintas"/>
-		<text name="proShot_testing_resumeTraffic" text="Lanjutkan lalu lintas"/>
-		<text name="proShot_testing_pausePedestrians" text="Jeda pejalan kaki"/>
-		<text name="proShot_testing_resumePedestrians" text="Lanjutkan pejalan kaki"/>
-		<text name="proShot_testing_localSnow" text="Salju Lokal"/>
-		<text name="proShot_testing_groundWetness" text="Kurangi/Tambah kebasahan tanah"/>
-		<text name="proShot_testing_removeTyreTracks" text="Hapus jejak ban (tidak dapat dibatalkan)"/>
-		<text name="proShot_testing_traffic" text="Lalu lintas"/>
-		<text name="proShot_testing_trafficMotion" text="Pergerakan lalu lintas"/>
-		<text name="proShot_testing_pedestrians" text="Pejalan kaki"/>
-		<text name="proShot_testing_pedestrianMotion" text="Pergerakan pejalan kaki"/>
-		<text name="proShot_testing_paused" text="Dijeda"/>
-		<text name="proShot_testing_running" text="Berjalan"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Kebasahan tanah"/>
-		<text name="proShot_testing_wildlife" text="Satwa liar"/>
-		<text name="proShot_testing_tyreTracks" text="Penghapusan jejak ban"/>
-		<text name="proShot_testing_unavailable" text="Tidak tersedia di peta ini"/>
-		<text name="proShot_testing_irreversible" text="Tidak dapat dibatalkan"/>
-		<text name="proShot_testing_trafficUnavailable" text="Tidak ada sistem lalu lintas di peta ini"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Tidak ada sistem pejalan kaki di peta ini"/>
-		<text name="proShot_testing_birdUnavailable" text="Tidak ada satwa burung yang sesuai yang ditentukan untuk peta ini"/>
-		<text name="proShot_testing_wildlifeRemoved" text="Menghapus %d hewan dan grup burung yang ditempatkan"/>
-		<text name="proShot_testing_spawnFailed" text="Gagal memunculkan satwa liar"/>
-		<text name="proShot_testing_actionUnavailable" text="Tindakan ini tidak tersedia di peta ini"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Menjeda pejalan kaki tidak tersedia pada versi game ini"/>
-		<text name="proShot_testing_snowRadius" text="Kurangi/Tambah radius"/>
-		<text name="proShot_testing_snowHeight" text="Turunkan/Naikkan salju di area yang disorot"/>
-		<text name="proShot_testing_snowTarget" text="Target"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Radius"/>
-		<text name="proShot_testing_snowHeightInfo" text="Salju di tengah"/>
-		<text name="proShot_testing_noTarget" text="Tidak ada target medan"/>
-		<text name="proShot_testing_snowNoTarget" text="Tidak ada medan ditemukan di tengah layar"/>
-		<text name="proShot_testing_snowLowered" text="Salju di area yang disorot diturunkan"/>
-		<text name="proShot_testing_snowRaised" text="Salju di area yang disorot dinaikkan"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Hapus Jejak Ban"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Pilih seberapa banyak peta jejak ban yang akan dihapus."/>
-		<text name="proShot_testing_tyreTracks100m" text="Dalam 100 m dari kamera"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Seluruh peta"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Hapus jejak ban dalam 100 m dari kamera? Ini tidak dapat dibatalkan."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Hapus semua jejak ban dari peta? Ini tidak dapat dibatalkan."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Menghapus jejak ban dalam 100 m dari kamera"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Menghapus semua jejak ban"/>
+		<text name="proShot_scene_enableTraffic" text="Nyalakan lalu lintas"/>
+		<text name="proShot_scene_disableTraffic" text="Matikan lalu lintas"/>
+		<text name="proShot_scene_enablePedestrians" text="Nyalakan pejalan kaki"/>
+		<text name="proShot_scene_disablePedestrians" text="Matikan pejalan kaki"/>
+		<text name="proShot_scene_pauseTraffic" text="Jeda lalu lintas"/>
+		<text name="proShot_scene_resumeTraffic" text="Lanjutkan lalu lintas"/>
+		<text name="proShot_scene_pausePedestrians" text="Jeda pejalan kaki"/>
+		<text name="proShot_scene_resumePedestrians" text="Lanjutkan pejalan kaki"/>
+		<text name="proShot_snow_menu" text="Salju Lokal"/>
+		<text name="proShot_environment_groundWetness" text="Kurangi/Tambah kebasahan tanah"/>
+		<text name="proShot_scene_removeTyreTracks" text="Hapus jejak ban (tidak dapat dibatalkan)"/>
+		<text name="proShot_scene_traffic" text="Lalu lintas"/>
+		<text name="proShot_scene_trafficMotion" text="Pergerakan lalu lintas"/>
+		<text name="proShot_scene_pedestrians" text="Pejalan kaki"/>
+		<text name="proShot_scene_pedestrianMotion" text="Pergerakan pejalan kaki"/>
+		<text name="proShot_value_paused" text="Dijeda"/>
+		<text name="proShot_value_running" text="Berjalan"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Kebasahan tanah"/>
+		<text name="proShot_wildlife_title" text="Satwa liar"/>
+		<text name="proShot_scene_tyreTracks" text="Penghapusan jejak ban"/>
+		<text name="proShot_value_unavailable" text="Tidak tersedia di peta ini"/>
+		<text name="proShot_value_irreversible" text="Tidak dapat dibatalkan"/>
+		<text name="proShot_scene_trafficUnavailable" text="Tidak ada sistem lalu lintas di peta ini"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Tidak ada sistem pejalan kaki di peta ini"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Tidak ada satwa burung yang sesuai yang ditentukan untuk peta ini"/>
+		<text name="proShot_wildlife_removedAll" text="Menghapus %d hewan dan grup burung yang ditempatkan"/>
+		<text name="proShot_wildlife_spawnFailed" text="Gagal memunculkan satwa liar"/>
+		<text name="proShot_scene_actionUnavailable" text="Tindakan ini tidak tersedia di peta ini"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Menjeda pejalan kaki tidak tersedia pada versi game ini"/>
+		<text name="proShot_snow_radius" text="Kurangi/Tambah radius"/>
+		<text name="proShot_snow_height" text="Turunkan/Naikkan salju di area yang disorot"/>
+		<text name="proShot_snow_target" text="Target"/>
+		<text name="proShot_snow_radiusInfo" text="Radius"/>
+		<text name="proShot_snow_heightInfo" text="Salju di tengah"/>
+		<text name="proShot_snow_noTarget" text="Tidak ada target medan"/>
+		<text name="proShot_snow_noTerrain" text="Tidak ada medan ditemukan di tengah layar"/>
+		<text name="proShot_snow_lowered" text="Salju di area yang disorot diturunkan"/>
+		<text name="proShot_snow_raised" text="Salju di area yang disorot dinaikkan"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Hapus Jejak Ban"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Pilih seberapa banyak peta jejak ban yang akan dihapus."/>
+		<text name="proShot_scene_tyreTracks100m" text="Dalam 100 m dari kamera"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Seluruh peta"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Hapus jejak ban dalam 100 m dari kamera? Ini tidak dapat dibatalkan."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Hapus semua jejak ban dari peta? Ini tidak dapat dibatalkan."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Menghapus jejak ban dalam 100 m dari kamera"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Menghapus semua jejak ban"/>
 		<text name="proShot_wildlife_menu" text="Hewan"/>
 		<text name="proShot_wildlife_selectAnimal" text="Ganti satwa liar ke %s"/>
 		<text name="proShot_wildlife_selectBird" text="Ganti burung ke %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Senter"/>
 		<text name="input_PRO_SHOT_F1" text="Aktif/nonaktifkan HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Tempatkan Senter"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot memuat ulang %d kendaraan"/>
+		<text name="proShot_reload_cooldown" text="Tunggu sebentar sebelum memuat ulang kendaraan lagi"/>
+		<text name="proShot_reload_vehiclesNearby" text="Memuat ulang semua kendaraan dalam radius %d m"/>
+		<text name="proShot_reload_currentVehicle" text="Memuat ulang kendaraan saat ini"/>
+		<text name="proShot_reload_notInVehicle" text="Anda tidak berada di kendaraan. Coba Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Memuat ulang semua objek yang dapat ditempatkan"/>
 	</texts>
 </l10n>

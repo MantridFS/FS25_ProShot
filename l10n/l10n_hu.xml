@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Sűrűség"/>
 		<text name="proShot_fog_extraHeightInfo" text="Magasság"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Minimális völgymélység"/>
-		<text name="proShot_testing_enableTraffic" text="Forgalom bekapcsolása"/>
-		<text name="proShot_testing_disableTraffic" text="Forgalom kikapcsolása"/>
-		<text name="proShot_testing_enablePedestrians" text="Gyalogosok bekapcsolása"/>
-		<text name="proShot_testing_disablePedestrians" text="Gyalogosok kikapcsolása"/>
-		<text name="proShot_testing_pauseTraffic" text="Forgalom szüneteltetése"/>
-		<text name="proShot_testing_resumeTraffic" text="Forgalom folytatása"/>
-		<text name="proShot_testing_pausePedestrians" text="Gyalogosok szüneteltetése"/>
-		<text name="proShot_testing_resumePedestrians" text="Gyalogosok folytatása"/>
-		<text name="proShot_testing_localSnow" text="Helyi hó"/>
-		<text name="proShot_testing_groundWetness" text="Talajnedvesség csökkentése/növelése"/>
-		<text name="proShot_testing_removeTyreTracks" text="Keréknyomok eltávolítása (nem vonható vissza)"/>
-		<text name="proShot_testing_traffic" text="Forgalom"/>
-		<text name="proShot_testing_trafficMotion" text="Forgalom mozgása"/>
-		<text name="proShot_testing_pedestrians" text="Gyalogosok"/>
-		<text name="proShot_testing_pedestrianMotion" text="Gyalogosok mozgása"/>
-		<text name="proShot_testing_paused" text="Szüneteltetve"/>
-		<text name="proShot_testing_running" text="Fut"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Talajnedvesség"/>
-		<text name="proShot_testing_wildlife" text="Vadvilág"/>
-		<text name="proShot_testing_tyreTracks" text="Keréknyom-eltávolítás"/>
-		<text name="proShot_testing_unavailable" text="Ezen a térképen nem érhető el"/>
-		<text name="proShot_testing_irreversible" text="Nem vonható vissza"/>
-		<text name="proShot_testing_trafficUnavailable" text="Ezen a térképen nincs forgalmi rendszer"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Ezen a térképen nincs gyalogosrendszer"/>
-		<text name="proShot_testing_birdUnavailable" text="Ezen a térképen nincs megfelelő vadmadár definiálva"/>
-		<text name="proShot_testing_wildlifeRemoved" text="%d elhelyezett állat és madárcsoport eltávolítva"/>
-		<text name="proShot_testing_spawnFailed" text="A vadvilág létrehozása sikertelen"/>
-		<text name="proShot_testing_actionUnavailable" text="Ez a művelet ezen a térképen nem érhető el"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="A gyalogosok szüneteltetése ebben a játékverzióban nem érhető el"/>
-		<text name="proShot_testing_snowRadius" text="Sugár csökkentése/növelése"/>
-		<text name="proShot_testing_snowHeight" text="Hó csökkentése/növelése a kijelölt területen"/>
-		<text name="proShot_testing_snowTarget" text="Cél"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Sugár"/>
-		<text name="proShot_testing_snowHeightInfo" text="Hó középen"/>
-		<text name="proShot_testing_noTarget" text="Nincs terepcél"/>
-		<text name="proShot_testing_snowNoTarget" text="Nem található terep a képernyő közepén"/>
-		<text name="proShot_testing_snowLowered" text="A hó csökkentve a kijelölt területen"/>
-		<text name="proShot_testing_snowRaised" text="A hó növelve a kijelölt területen"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Keréknyomok eltávolítása"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Válaszd ki, hogy a keréknyomtérkép mekkora részét törlöd."/>
-		<text name="proShot_testing_tyreTracks100m" text="A kamera 100 m-es körzetében"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Teljes térkép"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Eltávolítod a keréknyomokat a kamera 100 m-es körzetében? Ez nem vonható vissza."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Eltávolítod az összes keréknyomot a térképről? Ez nem vonható vissza."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Keréknyomok eltávolítva a kamera 100 m-es körzetében"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Minden keréknyom eltávolítva"/>
+		<text name="proShot_scene_enableTraffic" text="Forgalom bekapcsolása"/>
+		<text name="proShot_scene_disableTraffic" text="Forgalom kikapcsolása"/>
+		<text name="proShot_scene_enablePedestrians" text="Gyalogosok bekapcsolása"/>
+		<text name="proShot_scene_disablePedestrians" text="Gyalogosok kikapcsolása"/>
+		<text name="proShot_scene_pauseTraffic" text="Forgalom szüneteltetése"/>
+		<text name="proShot_scene_resumeTraffic" text="Forgalom folytatása"/>
+		<text name="proShot_scene_pausePedestrians" text="Gyalogosok szüneteltetése"/>
+		<text name="proShot_scene_resumePedestrians" text="Gyalogosok folytatása"/>
+		<text name="proShot_snow_menu" text="Helyi hó"/>
+		<text name="proShot_environment_groundWetness" text="Talajnedvesség csökkentése/növelése"/>
+		<text name="proShot_scene_removeTyreTracks" text="Keréknyomok eltávolítása (nem vonható vissza)"/>
+		<text name="proShot_scene_traffic" text="Forgalom"/>
+		<text name="proShot_scene_trafficMotion" text="Forgalom mozgása"/>
+		<text name="proShot_scene_pedestrians" text="Gyalogosok"/>
+		<text name="proShot_scene_pedestrianMotion" text="Gyalogosok mozgása"/>
+		<text name="proShot_value_paused" text="Szüneteltetve"/>
+		<text name="proShot_value_running" text="Fut"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Talajnedvesség"/>
+		<text name="proShot_wildlife_title" text="Vadvilág"/>
+		<text name="proShot_scene_tyreTracks" text="Keréknyom-eltávolítás"/>
+		<text name="proShot_value_unavailable" text="Ezen a térképen nem érhető el"/>
+		<text name="proShot_value_irreversible" text="Nem vonható vissza"/>
+		<text name="proShot_scene_trafficUnavailable" text="Ezen a térképen nincs forgalmi rendszer"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Ezen a térképen nincs gyalogosrendszer"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Ezen a térképen nincs megfelelő vadmadár definiálva"/>
+		<text name="proShot_wildlife_removedAll" text="%d elhelyezett állat és madárcsoport eltávolítva"/>
+		<text name="proShot_wildlife_spawnFailed" text="A vadvilág létrehozása sikertelen"/>
+		<text name="proShot_scene_actionUnavailable" text="Ez a művelet ezen a térképen nem érhető el"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="A gyalogosok szüneteltetése ebben a játékverzióban nem érhető el"/>
+		<text name="proShot_snow_radius" text="Sugár csökkentése/növelése"/>
+		<text name="proShot_snow_height" text="Hó csökkentése/növelése a kijelölt területen"/>
+		<text name="proShot_snow_target" text="Cél"/>
+		<text name="proShot_snow_radiusInfo" text="Sugár"/>
+		<text name="proShot_snow_heightInfo" text="Hó középen"/>
+		<text name="proShot_snow_noTarget" text="Nincs terepcél"/>
+		<text name="proShot_snow_noTerrain" text="Nem található terep a képernyő közepén"/>
+		<text name="proShot_snow_lowered" text="A hó csökkentve a kijelölt területen"/>
+		<text name="proShot_snow_raised" text="A hó növelve a kijelölt területen"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Keréknyomok eltávolítása"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Válaszd ki, hogy a keréknyomtérkép mekkora részét törlöd."/>
+		<text name="proShot_scene_tyreTracks100m" text="A kamera 100 m-es körzetében"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Teljes térkép"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Eltávolítod a keréknyomokat a kamera 100 m-es körzetében? Ez nem vonható vissza."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Eltávolítod az összes keréknyomot a térképről? Ez nem vonható vissza."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Keréknyomok eltávolítva a kamera 100 m-es körzetében"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Minden keréknyom eltávolítva"/>
 		<text name="proShot_wildlife_menu" text="Állatok"/>
 		<text name="proShot_wildlife_selectAnimal" text="Vadvilág váltása erre: %s"/>
 		<text name="proShot_wildlife_selectBird" text="Madarak váltása erre: %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Zseblámpa"/>
 		<text name="input_PRO_SHOT_F1" text="HUD be/ki"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Zseblámpa elhelyezése"/>
+		<text name="proShot_reload_vehiclesDone" text="A ProShot újratöltött %d járművet"/>
+		<text name="proShot_reload_cooldown" text="Várj egy kicsit a járművek következő újratöltése előtt"/>
+		<text name="proShot_reload_vehiclesNearby" text="Az összes jármű újratöltése %d m-es körzetben"/>
+		<text name="proShot_reload_currentVehicle" text="Jelenlegi jármű újratöltése"/>
+		<text name="proShot_reload_notInVehicle" text="Nem ülsz járműben. Próbáld meg a Shift+Alt+R billentyűket"/>
+		<text name="proShot_reload_placeables" text="Az összes lehelyezhető objektum újratöltése"/>
 	</texts>
 </l10n>

@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Плотность"/>
 		<text name="proShot_fog_extraHeightInfo" text="Высота"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Минимальная глубина долины"/>
-		<text name="proShot_testing_enableTraffic" text="Включите трафик"/>
-		<text name="proShot_testing_disableTraffic" text="Выключить трафик"/>
-		<text name="proShot_testing_enablePedestrians" text="Включите пешеходов"/>
-		<text name="proShot_testing_disablePedestrians" text="Выключите пешеходов"/>
-		<text name="proShot_testing_pauseTraffic" text="Приостановить движение"/>
-		<text name="proShot_testing_resumeTraffic" text="Возобновить движение"/>
-		<text name="proShot_testing_pausePedestrians" text="Остановить пешеходов"/>
-		<text name="proShot_testing_resumePedestrians" text="Возобновить пешеходов"/>
-		<text name="proShot_testing_localSnow" text="Местный снег"/>
-		<text name="proShot_testing_groundWetness" text="Уменьшить/увеличить влажность почвы"/>
-		<text name="proShot_testing_removeTyreTracks" text="Удалить следы шин (невозможно отменить)"/>
-		<text name="proShot_testing_traffic" text="Трафик"/>
-		<text name="proShot_testing_trafficMotion" text="Транспортное движение"/>
-		<text name="proShot_testing_pedestrians" text="Пешеходы"/>
-		<text name="proShot_testing_pedestrianMotion" text="Пешеходное движение"/>
-		<text name="proShot_testing_paused" text="Приостановлено"/>
-		<text name="proShot_testing_running" text="В движении"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Влажность грунта"/>
-		<text name="proShot_testing_wildlife" text="Дикие животные"/>
-		<text name="proShot_testing_tyreTracks" text="Удаление следов шин"/>
-		<text name="proShot_testing_unavailable" text="Недоступно на этой карте"/>
-		<text name="proShot_testing_irreversible" text="Невозможно отменить"/>
-		<text name="proShot_testing_trafficUnavailable" text="На этой карте нет дорожной системы."/>
-		<text name="proShot_testing_pedestriansUnavailable" text="На этой карте нет пешеходной системы."/>
-		<text name="proShot_testing_birdUnavailable" text="Для этой карты не определены подходящие виды птиц."/>
-		<text name="proShot_testing_wildlifeRemoved" text="Удалено животных и групп птиц: %d"/>
-		<text name="proShot_testing_spawnFailed" text="Не удалось разместить животное"/>
-		<text name="proShot_testing_actionUnavailable" text="Это действие недоступно на этой карте."/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="В этой сборке игры недоступна пешеходная пауза."/>
-		<text name="proShot_testing_snowRadius" text="Уменьшить/Увеличить радиус"/>
-		<text name="proShot_testing_snowHeight" text="Опустить/поднять снег в выделенной области"/>
-		<text name="proShot_testing_snowTarget" text="Цель"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Радиус"/>
-		<text name="proShot_testing_snowHeightInfo" text="Снег в центре"/>
-		<text name="proShot_testing_noTarget" text="Нет цели на местности"/>
-		<text name="proShot_testing_snowNoTarget" text="В центре экрана не обнаружено местности"/>
-		<text name="proShot_testing_snowLowered" text="Уменьшен снег в выделенной области"/>
-		<text name="proShot_testing_snowRaised" text="Поднятый снег в выделенной области"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Удалить следы шин"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Выберите, какую часть карты следов шин нужно стереть."/>
-		<text name="proShot_testing_tyreTracks100m" text="В радиусе 100 м от камеры"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Вся карта"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Удалить следы шин в радиусе 100 м от камеры? Это невозможно отменить."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Удалить с карты все следы шин? Это невозможно отменить."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Удалены следы шин в радиусе 100 м от камеры."/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Убраны все следы шин."/>
+		<text name="proShot_scene_enableTraffic" text="Включите трафик"/>
+		<text name="proShot_scene_disableTraffic" text="Выключить трафик"/>
+		<text name="proShot_scene_enablePedestrians" text="Включите пешеходов"/>
+		<text name="proShot_scene_disablePedestrians" text="Выключите пешеходов"/>
+		<text name="proShot_scene_pauseTraffic" text="Приостановить движение"/>
+		<text name="proShot_scene_resumeTraffic" text="Возобновить движение"/>
+		<text name="proShot_scene_pausePedestrians" text="Остановить пешеходов"/>
+		<text name="proShot_scene_resumePedestrians" text="Возобновить пешеходов"/>
+		<text name="proShot_snow_menu" text="Местный снег"/>
+		<text name="proShot_environment_groundWetness" text="Уменьшить/увеличить влажность почвы"/>
+		<text name="proShot_scene_removeTyreTracks" text="Удалить следы шин (невозможно отменить)"/>
+		<text name="proShot_scene_traffic" text="Трафик"/>
+		<text name="proShot_scene_trafficMotion" text="Транспортное движение"/>
+		<text name="proShot_scene_pedestrians" text="Пешеходы"/>
+		<text name="proShot_scene_pedestrianMotion" text="Пешеходное движение"/>
+		<text name="proShot_value_paused" text="Приостановлено"/>
+		<text name="proShot_value_running" text="В движении"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Влажность грунта"/>
+		<text name="proShot_wildlife_title" text="Дикие животные"/>
+		<text name="proShot_scene_tyreTracks" text="Удаление следов шин"/>
+		<text name="proShot_value_unavailable" text="Недоступно на этой карте"/>
+		<text name="proShot_value_irreversible" text="Невозможно отменить"/>
+		<text name="proShot_scene_trafficUnavailable" text="На этой карте нет дорожной системы."/>
+		<text name="proShot_scene_pedestriansUnavailable" text="На этой карте нет пешеходной системы."/>
+		<text name="proShot_wildlife_birdUnavailable" text="Для этой карты не определены подходящие виды птиц."/>
+		<text name="proShot_wildlife_removedAll" text="Удалено животных и групп птиц: %d"/>
+		<text name="proShot_wildlife_spawnFailed" text="Не удалось разместить животное"/>
+		<text name="proShot_scene_actionUnavailable" text="Это действие недоступно на этой карте."/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="В этой сборке игры недоступна пешеходная пауза."/>
+		<text name="proShot_snow_radius" text="Уменьшить/Увеличить радиус"/>
+		<text name="proShot_snow_height" text="Опустить/поднять снег в выделенной области"/>
+		<text name="proShot_snow_target" text="Цель"/>
+		<text name="proShot_snow_radiusInfo" text="Радиус"/>
+		<text name="proShot_snow_heightInfo" text="Снег в центре"/>
+		<text name="proShot_snow_noTarget" text="Нет цели на местности"/>
+		<text name="proShot_snow_noTerrain" text="В центре экрана не обнаружено местности"/>
+		<text name="proShot_snow_lowered" text="Уменьшен снег в выделенной области"/>
+		<text name="proShot_snow_raised" text="Поднятый снег в выделенной области"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Удалить следы шин"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Выберите, какую часть карты следов шин нужно стереть."/>
+		<text name="proShot_scene_tyreTracks100m" text="В радиусе 100 м от камеры"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Вся карта"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Удалить следы шин в радиусе 100 м от камеры? Это невозможно отменить."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Удалить с карты все следы шин? Это невозможно отменить."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Удалены следы шин в радиусе 100 м от камеры."/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Убраны все следы шин."/>
 		<text name="proShot_wildlife_menu" text="Животные"/>
 		<text name="proShot_wildlife_selectAnimal" text="Выбрать: %s"/>
 		<text name="proShot_wildlife_selectBird" text="Выбрать: %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Фонарик"/>
 		<text name="input_PRO_SHOT_F1" text="Показать/скрыть HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Enter цифровой клавиатуры"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot перезагрузил транспорт: %d ед."/>
+		<text name="proShot_reload_cooldown" text="Подождите перед повторной перезагрузкой транспорта"/>
+		<text name="proShot_reload_vehiclesNearby" text="Перезагрузка всего транспорта в радиусе %d м"/>
+		<text name="proShot_reload_currentVehicle" text="Перезагрузка текущего транспортного средства"/>
+		<text name="proShot_reload_notInVehicle" text="Вы не в транспортном средстве. Попробуйте Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Перезагрузка всех размещаемых объектов"/>
 	</texts>
 </l10n>

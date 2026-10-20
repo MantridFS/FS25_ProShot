@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Hustota"/>
 		<text name="proShot_fog_extraHeightInfo" text="Výška"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Minimální hloubka údolí"/>
-		<text name="proShot_testing_enableTraffic" text="Zapněte provoz"/>
-		<text name="proShot_testing_disableTraffic" text="Vypněte provoz"/>
-		<text name="proShot_testing_enablePedestrians" text="Zapněte chodce"/>
-		<text name="proShot_testing_disablePedestrians" text="Vypněte chodce"/>
-		<text name="proShot_testing_pauseTraffic" text="Pozastavit provoz"/>
-		<text name="proShot_testing_resumeTraffic" text="Obnovit provoz"/>
-		<text name="proShot_testing_pausePedestrians" text="Zastavte chodce"/>
-		<text name="proShot_testing_resumePedestrians" text="Obnovit chodce"/>
-		<text name="proShot_testing_localSnow" text="Místní sníh"/>
-		<text name="proShot_testing_groundWetness" text="Snížit/Zvýšit půdní vlhkost"/>
-		<text name="proShot_testing_removeTyreTracks" text="Odstraňte stopy pneumatik (nelze vrátit zpět)"/>
-		<text name="proShot_testing_traffic" text="Provoz"/>
-		<text name="proShot_testing_trafficMotion" text="Dopravní pohyb"/>
-		<text name="proShot_testing_pedestrians" text="Chodci"/>
-		<text name="proShot_testing_pedestrianMotion" text="Pohyb chodců"/>
-		<text name="proShot_testing_paused" text="Pozastaveno"/>
-		<text name="proShot_testing_running" text="V pohybu"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Přízemní vlhkost"/>
-		<text name="proShot_testing_wildlife" text="Divoká zvěř"/>
-		<text name="proShot_testing_tyreTracks" text="Odstranění stop pneumatik"/>
-		<text name="proShot_testing_unavailable" text="Na této mapě nedostupné"/>
-		<text name="proShot_testing_irreversible" text="Nelze vrátit zpět"/>
-		<text name="proShot_testing_trafficUnavailable" text="Na této mapě není k dispozici žádný dopravní systém"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Na této mapě není k dispozici žádný pěší systém"/>
-		<text name="proShot_testing_birdUnavailable" text="Pro tuto mapu není definována žádná vhodná divoká zvěř"/>
-		<text name="proShot_testing_wildlifeRemoved" text="Odstraněno zvířat a skupin ptáků: %d"/>
-		<text name="proShot_testing_spawnFailed" text="Umístění zvířete se nezdařilo"/>
-		<text name="proShot_testing_actionUnavailable" text="Tato akce není na této mapě dostupná"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Pozastavení chodců není v tomto sestavení hry k dispozici"/>
-		<text name="proShot_testing_snowRadius" text="Zmenšit/Zvětšit poloměr"/>
-		<text name="proShot_testing_snowHeight" text="Snížit/Zvedat sníh ve zvýrazněné oblasti"/>
-		<text name="proShot_testing_snowTarget" text="Cíl"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Poloměr"/>
-		<text name="proShot_testing_snowHeightInfo" text="Sníh ve středu"/>
-		<text name="proShot_testing_noTarget" text="Žádný terénní cíl"/>
-		<text name="proShot_testing_snowNoTarget" text="Uprostřed obrazovky nebyl nalezen žádný terén"/>
-		<text name="proShot_testing_snowLowered" text="Snížený sníh ve zvýrazněné oblasti"/>
-		<text name="proShot_testing_snowRaised" text="Zvednutý sníh ve zvýrazněné oblasti"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Odstraňte stopy pneumatik"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Vyberte, jak velkou část mapy stopy pneumatik chcete vymazat."/>
-		<text name="proShot_testing_tyreTracks100m" text="Do 100 m od kamery"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Celá mapa"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Odstranit stopy pneumatik do 100 m od kamery? Toto nelze vrátit zpět."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Odstranit všechny stopy pneumatik z mapy? Toto nelze vrátit zpět."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Stopy pneumatik byly odstraněny do 100 m od kamery"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Odstraněny všechny stopy pneumatik"/>
+		<text name="proShot_scene_enableTraffic" text="Zapněte provoz"/>
+		<text name="proShot_scene_disableTraffic" text="Vypněte provoz"/>
+		<text name="proShot_scene_enablePedestrians" text="Zapněte chodce"/>
+		<text name="proShot_scene_disablePedestrians" text="Vypněte chodce"/>
+		<text name="proShot_scene_pauseTraffic" text="Pozastavit provoz"/>
+		<text name="proShot_scene_resumeTraffic" text="Obnovit provoz"/>
+		<text name="proShot_scene_pausePedestrians" text="Zastavte chodce"/>
+		<text name="proShot_scene_resumePedestrians" text="Obnovit chodce"/>
+		<text name="proShot_snow_menu" text="Místní sníh"/>
+		<text name="proShot_environment_groundWetness" text="Snížit/Zvýšit půdní vlhkost"/>
+		<text name="proShot_scene_removeTyreTracks" text="Odstraňte stopy pneumatik (nelze vrátit zpět)"/>
+		<text name="proShot_scene_traffic" text="Provoz"/>
+		<text name="proShot_scene_trafficMotion" text="Dopravní pohyb"/>
+		<text name="proShot_scene_pedestrians" text="Chodci"/>
+		<text name="proShot_scene_pedestrianMotion" text="Pohyb chodců"/>
+		<text name="proShot_value_paused" text="Pozastaveno"/>
+		<text name="proShot_value_running" text="V pohybu"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Přízemní vlhkost"/>
+		<text name="proShot_wildlife_title" text="Divoká zvěř"/>
+		<text name="proShot_scene_tyreTracks" text="Odstranění stop pneumatik"/>
+		<text name="proShot_value_unavailable" text="Na této mapě nedostupné"/>
+		<text name="proShot_value_irreversible" text="Nelze vrátit zpět"/>
+		<text name="proShot_scene_trafficUnavailable" text="Na této mapě není k dispozici žádný dopravní systém"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Na této mapě není k dispozici žádný pěší systém"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Pro tuto mapu není definována žádná vhodná divoká zvěř"/>
+		<text name="proShot_wildlife_removedAll" text="Odstraněno zvířat a skupin ptáků: %d"/>
+		<text name="proShot_wildlife_spawnFailed" text="Umístění zvířete se nezdařilo"/>
+		<text name="proShot_scene_actionUnavailable" text="Tato akce není na této mapě dostupná"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Pozastavení chodců není v tomto sestavení hry k dispozici"/>
+		<text name="proShot_snow_radius" text="Zmenšit/Zvětšit poloměr"/>
+		<text name="proShot_snow_height" text="Snížit/Zvedat sníh ve zvýrazněné oblasti"/>
+		<text name="proShot_snow_target" text="Cíl"/>
+		<text name="proShot_snow_radiusInfo" text="Poloměr"/>
+		<text name="proShot_snow_heightInfo" text="Sníh ve středu"/>
+		<text name="proShot_snow_noTarget" text="Žádný terénní cíl"/>
+		<text name="proShot_snow_noTerrain" text="Uprostřed obrazovky nebyl nalezen žádný terén"/>
+		<text name="proShot_snow_lowered" text="Snížený sníh ve zvýrazněné oblasti"/>
+		<text name="proShot_snow_raised" text="Zvednutý sníh ve zvýrazněné oblasti"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Odstraňte stopy pneumatik"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Vyberte, jak velkou část mapy stopy pneumatik chcete vymazat."/>
+		<text name="proShot_scene_tyreTracks100m" text="Do 100 m od kamery"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Celá mapa"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Odstranit stopy pneumatik do 100 m od kamery? Toto nelze vrátit zpět."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Odstranit všechny stopy pneumatik z mapy? Toto nelze vrátit zpět."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Stopy pneumatik byly odstraněny do 100 m od kamery"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Odstraněny všechny stopy pneumatik"/>
 		<text name="proShot_wildlife_menu" text="Zvířata"/>
 		<text name="proShot_wildlife_selectAnimal" text="Přepnout na: %s"/>
 		<text name="proShot_wildlife_selectBird" text="Přepnout na: %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Svítilna"/>
 		<text name="input_PRO_SHOT_F1" text="Zobrazit/skrýt HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Enter na numerické klávesnici"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot znovu načetl %d vozidel"/>
+		<text name="proShot_reload_cooldown" text="Před dalším načtením vozidel chvíli počkej"/>
+		<text name="proShot_reload_vehiclesNearby" text="Znovu se načítají všechna vozidla v okruhu %d m"/>
+		<text name="proShot_reload_currentVehicle" text="Znovu se načítá aktuální vozidlo"/>
+		<text name="proShot_reload_notInVehicle" text="Nejsi ve vozidle. Zkus Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Znovu se načítají všechny umístitelné objekty"/>
 	</texts>
 </l10n>

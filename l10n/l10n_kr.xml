@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="밀도"/>
 		<text name="proShot_fog_extraHeightInfo" text="높이"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="최소 계곡 깊이"/>
-		<text name="proShot_testing_enableTraffic" text="교통 켜기"/>
-		<text name="proShot_testing_disableTraffic" text="교통 끄기"/>
-		<text name="proShot_testing_enablePedestrians" text="보행자 켜기"/>
-		<text name="proShot_testing_disablePedestrians" text="보행자 끄기"/>
-		<text name="proShot_testing_pauseTraffic" text="교통 일시정지"/>
-		<text name="proShot_testing_resumeTraffic" text="교통 재개"/>
-		<text name="proShot_testing_pausePedestrians" text="보행자 일시정지"/>
-		<text name="proShot_testing_resumePedestrians" text="보행자 재개"/>
-		<text name="proShot_testing_localSnow" text="국소 눈"/>
-		<text name="proShot_testing_groundWetness" text="지면 젖음 감소/증가"/>
-		<text name="proShot_testing_removeTyreTracks" text="타이어 자국 제거(되돌릴 수 없음)"/>
-		<text name="proShot_testing_traffic" text="교통"/>
-		<text name="proShot_testing_trafficMotion" text="교통 이동"/>
-		<text name="proShot_testing_pedestrians" text="보행자"/>
-		<text name="proShot_testing_pedestrianMotion" text="보행자 이동"/>
-		<text name="proShot_testing_paused" text="일시정지됨"/>
-		<text name="proShot_testing_running" text="실행 중"/>
-		<text name="proShot_testing_groundWetnessInfo" text="지면 젖음"/>
-		<text name="proShot_testing_wildlife" text="야생동물"/>
-		<text name="proShot_testing_tyreTracks" text="타이어 자국 제거"/>
-		<text name="proShot_testing_unavailable" text="이 맵에서는 사용할 수 없음"/>
-		<text name="proShot_testing_irreversible" text="되돌릴 수 없음"/>
-		<text name="proShot_testing_trafficUnavailable" text="이 맵에는 교통 시스템이 없습니다"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="이 맵에는 보행자 시스템이 없습니다"/>
-		<text name="proShot_testing_birdUnavailable" text="이 맵에 적합한 야생 조류가 정의되어 있지 않습니다"/>
-		<text name="proShot_testing_wildlifeRemoved" text="배치된 동물 및 새 그룹 %d개 제거됨"/>
-		<text name="proShot_testing_spawnFailed" text="야생동물 생성 실패"/>
-		<text name="proShot_testing_actionUnavailable" text="이 작업은 이 맵에서 사용할 수 없습니다"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="이 게임 빌드에서는 보행자 일시정지를 사용할 수 없습니다"/>
-		<text name="proShot_testing_snowRadius" text="반경 감소/증가"/>
-		<text name="proShot_testing_snowHeight" text="강조 영역의 눈 낮추기/높이기"/>
-		<text name="proShot_testing_snowTarget" text="대상"/>
-		<text name="proShot_testing_snowRadiusInfo" text="반경"/>
-		<text name="proShot_testing_snowHeightInfo" text="중앙의 눈"/>
-		<text name="proShot_testing_noTarget" text="지형 대상 없음"/>
-		<text name="proShot_testing_snowNoTarget" text="화면 중앙에서 지형을 찾을 수 없습니다"/>
-		<text name="proShot_testing_snowLowered" text="강조 영역의 눈을 낮췄습니다"/>
-		<text name="proShot_testing_snowRaised" text="강조 영역의 눈을 높였습니다"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="타이어 자국 제거"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="타이어 자국 맵에서 지울 범위를 선택하세요."/>
-		<text name="proShot_testing_tyreTracks100m" text="카메라에서 100 m 이내"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="전체 맵"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="카메라에서 100 m 이내의 타이어 자국을 제거할까요? 되돌릴 수 없습니다."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="맵의 모든 타이어 자국을 제거할까요? 되돌릴 수 없습니다."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="카메라에서 100 m 이내의 타이어 자국 제거됨"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="모든 타이어 자국 제거됨"/>
+		<text name="proShot_scene_enableTraffic" text="교통 켜기"/>
+		<text name="proShot_scene_disableTraffic" text="교통 끄기"/>
+		<text name="proShot_scene_enablePedestrians" text="보행자 켜기"/>
+		<text name="proShot_scene_disablePedestrians" text="보행자 끄기"/>
+		<text name="proShot_scene_pauseTraffic" text="교통 일시정지"/>
+		<text name="proShot_scene_resumeTraffic" text="교통 재개"/>
+		<text name="proShot_scene_pausePedestrians" text="보행자 일시정지"/>
+		<text name="proShot_scene_resumePedestrians" text="보행자 재개"/>
+		<text name="proShot_snow_menu" text="국소 눈"/>
+		<text name="proShot_environment_groundWetness" text="지면 젖음 감소/증가"/>
+		<text name="proShot_scene_removeTyreTracks" text="타이어 자국 제거(되돌릴 수 없음)"/>
+		<text name="proShot_scene_traffic" text="교통"/>
+		<text name="proShot_scene_trafficMotion" text="교통 이동"/>
+		<text name="proShot_scene_pedestrians" text="보행자"/>
+		<text name="proShot_scene_pedestrianMotion" text="보행자 이동"/>
+		<text name="proShot_value_paused" text="일시정지됨"/>
+		<text name="proShot_value_running" text="실행 중"/>
+		<text name="proShot_environment_groundWetnessInfo" text="지면 젖음"/>
+		<text name="proShot_wildlife_title" text="야생동물"/>
+		<text name="proShot_scene_tyreTracks" text="타이어 자국 제거"/>
+		<text name="proShot_value_unavailable" text="이 맵에서는 사용할 수 없음"/>
+		<text name="proShot_value_irreversible" text="되돌릴 수 없음"/>
+		<text name="proShot_scene_trafficUnavailable" text="이 맵에는 교통 시스템이 없습니다"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="이 맵에는 보행자 시스템이 없습니다"/>
+		<text name="proShot_wildlife_birdUnavailable" text="이 맵에 적합한 야생 조류가 정의되어 있지 않습니다"/>
+		<text name="proShot_wildlife_removedAll" text="배치된 동물 및 새 그룹 %d개 제거됨"/>
+		<text name="proShot_wildlife_spawnFailed" text="야생동물 생성 실패"/>
+		<text name="proShot_scene_actionUnavailable" text="이 작업은 이 맵에서 사용할 수 없습니다"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="이 게임 빌드에서는 보행자 일시정지를 사용할 수 없습니다"/>
+		<text name="proShot_snow_radius" text="반경 감소/증가"/>
+		<text name="proShot_snow_height" text="강조 영역의 눈 낮추기/높이기"/>
+		<text name="proShot_snow_target" text="대상"/>
+		<text name="proShot_snow_radiusInfo" text="반경"/>
+		<text name="proShot_snow_heightInfo" text="중앙의 눈"/>
+		<text name="proShot_snow_noTarget" text="지형 대상 없음"/>
+		<text name="proShot_snow_noTerrain" text="화면 중앙에서 지형을 찾을 수 없습니다"/>
+		<text name="proShot_snow_lowered" text="강조 영역의 눈을 낮췄습니다"/>
+		<text name="proShot_snow_raised" text="강조 영역의 눈을 높였습니다"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="타이어 자국 제거"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="타이어 자국 맵에서 지울 범위를 선택하세요."/>
+		<text name="proShot_scene_tyreTracks100m" text="카메라에서 100 m 이내"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="전체 맵"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="카메라에서 100 m 이내의 타이어 자국을 제거할까요? 되돌릴 수 없습니다."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="맵의 모든 타이어 자국을 제거할까요? 되돌릴 수 없습니다."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="카메라에서 100 m 이내의 타이어 자국 제거됨"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="모든 타이어 자국 제거됨"/>
 		<text name="proShot_wildlife_menu" text="동물"/>
 		<text name="proShot_wildlife_selectAnimal" text="야생동물을 %s(으)로 변경"/>
 		<text name="proShot_wildlife_selectBird" text="새를 %s(으)로 변경"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="손전등"/>
 		<text name="input_PRO_SHOT_F1" text="HUD 전환"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="손전등 배치"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot이 차량 %d대를 다시 불러왔습니다"/>
+		<text name="proShot_reload_cooldown" text="차량을 다시 불러오려면 잠시 기다려 주세요"/>
+		<text name="proShot_reload_vehiclesNearby" text="반경 %d m 이내의 모든 차량을 다시 불러오는 중"/>
+		<text name="proShot_reload_currentVehicle" text="현재 차량을 다시 불러오는 중"/>
+		<text name="proShot_reload_notInVehicle" text="차량에 탑승하지 않았습니다. Shift+Alt+R을 눌러 보세요"/>
+		<text name="proShot_reload_placeables" text="모든 배치 가능한 오브젝트를 다시 불러오는 중"/>
 	</texts>
 </l10n>

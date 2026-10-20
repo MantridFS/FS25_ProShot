@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="密度"/>
 		<text name="proShot_fog_extraHeightInfo" text="高度"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="最小山谷深度"/>
-		<text name="proShot_testing_enableTraffic" text="开启交通"/>
-		<text name="proShot_testing_disableTraffic" text="关闭交通"/>
-		<text name="proShot_testing_enablePedestrians" text="开启行人"/>
-		<text name="proShot_testing_disablePedestrians" text="关闭行人"/>
-		<text name="proShot_testing_pauseTraffic" text="暂停交通"/>
-		<text name="proShot_testing_resumeTraffic" text="恢复交通"/>
-		<text name="proShot_testing_pausePedestrians" text="暂停行人"/>
-		<text name="proShot_testing_resumePedestrians" text="恢复行人"/>
-		<text name="proShot_testing_localSnow" text="局部积雪"/>
-		<text name="proShot_testing_groundWetness" text="减少/增加地面湿度"/>
-		<text name="proShot_testing_removeTyreTracks" text="移除轮胎痕迹（无法撤销）"/>
-		<text name="proShot_testing_traffic" text="交通"/>
-		<text name="proShot_testing_trafficMotion" text="交通移动"/>
-		<text name="proShot_testing_pedestrians" text="行人"/>
-		<text name="proShot_testing_pedestrianMotion" text="行人移动"/>
-		<text name="proShot_testing_paused" text="已暂停"/>
-		<text name="proShot_testing_running" text="运行中"/>
-		<text name="proShot_testing_groundWetnessInfo" text="地面湿度"/>
-		<text name="proShot_testing_wildlife" text="野生动物"/>
-		<text name="proShot_testing_tyreTracks" text="移除轮胎痕迹"/>
-		<text name="proShot_testing_unavailable" text="此地图不可用"/>
-		<text name="proShot_testing_irreversible" text="无法撤销"/>
-		<text name="proShot_testing_trafficUnavailable" text="此地图没有可用的交通系统"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="此地图没有可用的行人系统"/>
-		<text name="proShot_testing_birdUnavailable" text="此地图未定义合适的野生鸟类"/>
-		<text name="proShot_testing_wildlifeRemoved" text="已移除 %d 个已放置的动物和鸟群"/>
-		<text name="proShot_testing_spawnFailed" text="生成野生动物失败"/>
-		<text name="proShot_testing_actionUnavailable" text="此操作在本地图不可用"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="此游戏版本无法暂停行人"/>
-		<text name="proShot_testing_snowRadius" text="减小/增大半径"/>
-		<text name="proShot_testing_snowHeight" text="降低/提高高亮区域的积雪"/>
-		<text name="proShot_testing_snowTarget" text="目标"/>
-		<text name="proShot_testing_snowRadiusInfo" text="半径"/>
-		<text name="proShot_testing_snowHeightInfo" text="中心积雪"/>
-		<text name="proShot_testing_noTarget" text="没有地形目标"/>
-		<text name="proShot_testing_snowNoTarget" text="屏幕中心未找到地形"/>
-		<text name="proShot_testing_snowLowered" text="已降低高亮区域的积雪"/>
-		<text name="proShot_testing_snowRaised" text="已提高高亮区域的积雪"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="移除轮胎痕迹"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="选择要清除多少轮胎痕迹地图。"/>
-		<text name="proShot_testing_tyreTracks100m" text="相机 100 米范围内"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="整张地图"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="移除相机 100 米范围内的轮胎痕迹？此操作无法撤销。"/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="移除地图上的所有轮胎痕迹？此操作无法撤销。"/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="已移除相机 100 米范围内的轮胎痕迹"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="已移除所有轮胎痕迹"/>
+		<text name="proShot_scene_enableTraffic" text="开启交通"/>
+		<text name="proShot_scene_disableTraffic" text="关闭交通"/>
+		<text name="proShot_scene_enablePedestrians" text="开启行人"/>
+		<text name="proShot_scene_disablePedestrians" text="关闭行人"/>
+		<text name="proShot_scene_pauseTraffic" text="暂停交通"/>
+		<text name="proShot_scene_resumeTraffic" text="恢复交通"/>
+		<text name="proShot_scene_pausePedestrians" text="暂停行人"/>
+		<text name="proShot_scene_resumePedestrians" text="恢复行人"/>
+		<text name="proShot_snow_menu" text="局部积雪"/>
+		<text name="proShot_environment_groundWetness" text="减少/增加地面湿度"/>
+		<text name="proShot_scene_removeTyreTracks" text="移除轮胎痕迹（无法撤销）"/>
+		<text name="proShot_scene_traffic" text="交通"/>
+		<text name="proShot_scene_trafficMotion" text="交通移动"/>
+		<text name="proShot_scene_pedestrians" text="行人"/>
+		<text name="proShot_scene_pedestrianMotion" text="行人移动"/>
+		<text name="proShot_value_paused" text="已暂停"/>
+		<text name="proShot_value_running" text="运行中"/>
+		<text name="proShot_environment_groundWetnessInfo" text="地面湿度"/>
+		<text name="proShot_wildlife_title" text="野生动物"/>
+		<text name="proShot_scene_tyreTracks" text="移除轮胎痕迹"/>
+		<text name="proShot_value_unavailable" text="此地图不可用"/>
+		<text name="proShot_value_irreversible" text="无法撤销"/>
+		<text name="proShot_scene_trafficUnavailable" text="此地图没有可用的交通系统"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="此地图没有可用的行人系统"/>
+		<text name="proShot_wildlife_birdUnavailable" text="此地图未定义合适的野生鸟类"/>
+		<text name="proShot_wildlife_removedAll" text="已移除 %d 个已放置的动物和鸟群"/>
+		<text name="proShot_wildlife_spawnFailed" text="生成野生动物失败"/>
+		<text name="proShot_scene_actionUnavailable" text="此操作在本地图不可用"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="此游戏版本无法暂停行人"/>
+		<text name="proShot_snow_radius" text="减小/增大半径"/>
+		<text name="proShot_snow_height" text="降低/提高高亮区域的积雪"/>
+		<text name="proShot_snow_target" text="目标"/>
+		<text name="proShot_snow_radiusInfo" text="半径"/>
+		<text name="proShot_snow_heightInfo" text="中心积雪"/>
+		<text name="proShot_snow_noTarget" text="没有地形目标"/>
+		<text name="proShot_snow_noTerrain" text="屏幕中心未找到地形"/>
+		<text name="proShot_snow_lowered" text="已降低高亮区域的积雪"/>
+		<text name="proShot_snow_raised" text="已提高高亮区域的积雪"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="移除轮胎痕迹"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="选择要清除多少轮胎痕迹地图。"/>
+		<text name="proShot_scene_tyreTracks100m" text="相机 100 米范围内"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="整张地图"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="移除相机 100 米范围内的轮胎痕迹？此操作无法撤销。"/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="移除地图上的所有轮胎痕迹？此操作无法撤销。"/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="已移除相机 100 米范围内的轮胎痕迹"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="已移除所有轮胎痕迹"/>
 		<text name="proShot_wildlife_menu" text="动物"/>
 		<text name="proShot_wildlife_selectAnimal" text="将野生动物切换为 %s"/>
 		<text name="proShot_wildlife_selectBird" text="将鸟类切换为 %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="手电筒"/>
 		<text name="input_PRO_SHOT_F1" text="切换 HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="放置手电筒"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot 已重新加载 %d 辆载具"/>
+		<text name="proShot_reload_cooldown" text="载具重新加载正在冷却中"/>
+		<text name="proShot_reload_vehiclesNearby" text="正在重新加载 %d 米范围内的所有载具"/>
+		<text name="proShot_reload_currentVehicle" text="正在重新加载当前载具"/>
+		<text name="proShot_reload_notInVehicle" text="你不在载具内。请尝试 Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="正在重新加载所有可放置物体"/>
 	</texts>
 </l10n>

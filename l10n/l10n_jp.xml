@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="密度"/>
 		<text name="proShot_fog_extraHeightInfo" text="高さ"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="最小谷深度"/>
-		<text name="proShot_testing_enableTraffic" text="交通をオン"/>
-		<text name="proShot_testing_disableTraffic" text="交通をオフ"/>
-		<text name="proShot_testing_enablePedestrians" text="歩行者をオン"/>
-		<text name="proShot_testing_disablePedestrians" text="歩行者をオフ"/>
-		<text name="proShot_testing_pauseTraffic" text="交通を一時停止"/>
-		<text name="proShot_testing_resumeTraffic" text="交通を再開"/>
-		<text name="proShot_testing_pausePedestrians" text="歩行者を一時停止"/>
-		<text name="proShot_testing_resumePedestrians" text="歩行者を再開"/>
-		<text name="proShot_testing_localSnow" text="局所的な雪"/>
-		<text name="proShot_testing_groundWetness" text="地面の濡れを下げる/上げる"/>
-		<text name="proShot_testing_removeTyreTracks" text="タイヤ跡を削除（元に戻せません）"/>
-		<text name="proShot_testing_traffic" text="交通"/>
-		<text name="proShot_testing_trafficMotion" text="交通の動き"/>
-		<text name="proShot_testing_pedestrians" text="歩行者"/>
-		<text name="proShot_testing_pedestrianMotion" text="歩行者の動き"/>
-		<text name="proShot_testing_paused" text="一時停止中"/>
-		<text name="proShot_testing_running" text="稼働中"/>
-		<text name="proShot_testing_groundWetnessInfo" text="地面の濡れ"/>
-		<text name="proShot_testing_wildlife" text="野生動物"/>
-		<text name="proShot_testing_tyreTracks" text="タイヤ跡の削除"/>
-		<text name="proShot_testing_unavailable" text="このマップでは利用できません"/>
-		<text name="proShot_testing_irreversible" text="元に戻せません"/>
-		<text name="proShot_testing_trafficUnavailable" text="このマップには交通システムがありません"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="このマップには歩行者システムがありません"/>
-		<text name="proShot_testing_birdUnavailable" text="このマップには適切な野鳥が定義されていません"/>
-		<text name="proShot_testing_wildlifeRemoved" text="配置した動物と鳥のグループを %d 個削除しました"/>
-		<text name="proShot_testing_spawnFailed" text="野生動物の生成に失敗しました"/>
-		<text name="proShot_testing_actionUnavailable" text="この操作はこのマップでは利用できません"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="このゲームビルドでは歩行者の一時停止を利用できません"/>
-		<text name="proShot_testing_snowRadius" text="半径を小さく/大きく"/>
-		<text name="proShot_testing_snowHeight" text="強調範囲の雪を下げる/上げる"/>
-		<text name="proShot_testing_snowTarget" text="ターゲット"/>
-		<text name="proShot_testing_snowRadiusInfo" text="半径"/>
-		<text name="proShot_testing_snowHeightInfo" text="中央の雪"/>
-		<text name="proShot_testing_noTarget" text="地形ターゲットなし"/>
-		<text name="proShot_testing_snowNoTarget" text="画面中央に地形が見つかりません"/>
-		<text name="proShot_testing_snowLowered" text="強調範囲の雪を下げました"/>
-		<text name="proShot_testing_snowRaised" text="強調範囲の雪を上げました"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="タイヤ跡を削除"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="タイヤ跡マップをどこまで消去するか選択してください。"/>
-		<text name="proShot_testing_tyreTracks100m" text="カメラから100 m以内"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="マップ全体"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="カメラから100 m以内のタイヤ跡を削除しますか？元に戻せません。"/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="マップ上のすべてのタイヤ跡を削除しますか？元に戻せません。"/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="カメラから100 m以内のタイヤ跡を削除しました"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="すべてのタイヤ跡を削除しました"/>
+		<text name="proShot_scene_enableTraffic" text="交通をオン"/>
+		<text name="proShot_scene_disableTraffic" text="交通をオフ"/>
+		<text name="proShot_scene_enablePedestrians" text="歩行者をオン"/>
+		<text name="proShot_scene_disablePedestrians" text="歩行者をオフ"/>
+		<text name="proShot_scene_pauseTraffic" text="交通を一時停止"/>
+		<text name="proShot_scene_resumeTraffic" text="交通を再開"/>
+		<text name="proShot_scene_pausePedestrians" text="歩行者を一時停止"/>
+		<text name="proShot_scene_resumePedestrians" text="歩行者を再開"/>
+		<text name="proShot_snow_menu" text="局所的な雪"/>
+		<text name="proShot_environment_groundWetness" text="地面の濡れを下げる/上げる"/>
+		<text name="proShot_scene_removeTyreTracks" text="タイヤ跡を削除（元に戻せません）"/>
+		<text name="proShot_scene_traffic" text="交通"/>
+		<text name="proShot_scene_trafficMotion" text="交通の動き"/>
+		<text name="proShot_scene_pedestrians" text="歩行者"/>
+		<text name="proShot_scene_pedestrianMotion" text="歩行者の動き"/>
+		<text name="proShot_value_paused" text="一時停止中"/>
+		<text name="proShot_value_running" text="稼働中"/>
+		<text name="proShot_environment_groundWetnessInfo" text="地面の濡れ"/>
+		<text name="proShot_wildlife_title" text="野生動物"/>
+		<text name="proShot_scene_tyreTracks" text="タイヤ跡の削除"/>
+		<text name="proShot_value_unavailable" text="このマップでは利用できません"/>
+		<text name="proShot_value_irreversible" text="元に戻せません"/>
+		<text name="proShot_scene_trafficUnavailable" text="このマップには交通システムがありません"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="このマップには歩行者システムがありません"/>
+		<text name="proShot_wildlife_birdUnavailable" text="このマップには適切な野鳥が定義されていません"/>
+		<text name="proShot_wildlife_removedAll" text="配置した動物と鳥のグループを %d 個削除しました"/>
+		<text name="proShot_wildlife_spawnFailed" text="野生動物の生成に失敗しました"/>
+		<text name="proShot_scene_actionUnavailable" text="この操作はこのマップでは利用できません"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="このゲームビルドでは歩行者の一時停止を利用できません"/>
+		<text name="proShot_snow_radius" text="半径を小さく/大きく"/>
+		<text name="proShot_snow_height" text="強調範囲の雪を下げる/上げる"/>
+		<text name="proShot_snow_target" text="ターゲット"/>
+		<text name="proShot_snow_radiusInfo" text="半径"/>
+		<text name="proShot_snow_heightInfo" text="中央の雪"/>
+		<text name="proShot_snow_noTarget" text="地形ターゲットなし"/>
+		<text name="proShot_snow_noTerrain" text="画面中央に地形が見つかりません"/>
+		<text name="proShot_snow_lowered" text="強調範囲の雪を下げました"/>
+		<text name="proShot_snow_raised" text="強調範囲の雪を上げました"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="タイヤ跡を削除"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="タイヤ跡マップをどこまで消去するか選択してください。"/>
+		<text name="proShot_scene_tyreTracks100m" text="カメラから100 m以内"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="マップ全体"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="カメラから100 m以内のタイヤ跡を削除しますか？元に戻せません。"/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="マップ上のすべてのタイヤ跡を削除しますか？元に戻せません。"/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="カメラから100 m以内のタイヤ跡を削除しました"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="すべてのタイヤ跡を削除しました"/>
 		<text name="proShot_wildlife_menu" text="動物"/>
 		<text name="proShot_wildlife_selectAnimal" text="野生動物を %s に切り替え"/>
 		<text name="proShot_wildlife_selectBird" text="鳥を %s に切り替え"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="フラッシュライト"/>
 		<text name="input_PRO_SHOT_F1" text="HUD を切り替え"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="フラッシュライトを設置"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot が %d 台の車両を再読み込みしました"/>
+		<text name="proShot_reload_cooldown" text="車両を再読み込みするには、しばらくお待ちください"/>
+		<text name="proShot_reload_vehiclesNearby" text="半径 %d m 以内のすべての車両を再読み込み中"/>
+		<text name="proShot_reload_currentVehicle" text="現在の車両を再読み込み中"/>
+		<text name="proShot_reload_notInVehicle" text="車両に乗っていません。Shift+Alt+R を試してください"/>
+		<text name="proShot_reload_placeables" text="すべての設置可能なオブジェクトを再読み込み中"/>
 	</texts>
 </l10n>

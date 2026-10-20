@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Dikte"/>
 		<text name="proShot_fog_extraHeightInfo" text="Hoogte"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Minimale daldiepte"/>
-		<text name="proShot_testing_enableTraffic" text="Schakel verkeer in"/>
-		<text name="proShot_testing_disableTraffic" text="Schakel het verkeer uit"/>
-		<text name="proShot_testing_enablePedestrians" text="Zet voetgangers aan"/>
-		<text name="proShot_testing_disablePedestrians" text="Schakel voetgangers uit"/>
-		<text name="proShot_testing_pauseTraffic" text="Pauzeer het verkeer"/>
-		<text name="proShot_testing_resumeTraffic" text="Hervat het verkeer"/>
-		<text name="proShot_testing_pausePedestrians" text="Pauzeer voetgangers"/>
-		<text name="proShot_testing_resumePedestrians" text="Hervat voetgangers"/>
-		<text name="proShot_testing_localSnow" text="Lokale sneeuw"/>
-		<text name="proShot_testing_groundWetness" text="Verminder/verhoog de vochtigheid van de grond"/>
-		<text name="proShot_testing_removeTyreTracks" text="Bandensporen verwijderen (kan niet ongedaan worden gemaakt)"/>
-		<text name="proShot_testing_traffic" text="Verkeer"/>
-		<text name="proShot_testing_trafficMotion" text="Verkeersbeweging"/>
-		<text name="proShot_testing_pedestrians" text="Voetgangers"/>
-		<text name="proShot_testing_pedestrianMotion" text="Voetgangersbeweging"/>
-		<text name="proShot_testing_paused" text="Gepauzeerd"/>
-		<text name="proShot_testing_running" text="In beweging"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Grondvochtigheid"/>
-		<text name="proShot_testing_wildlife" text="Wilde dieren"/>
-		<text name="proShot_testing_tyreTracks" text="Bandensporen verwijderen"/>
-		<text name="proShot_testing_unavailable" text="Niet beschikbaar op deze kaart"/>
-		<text name="proShot_testing_irreversible" text="Kan niet ongedaan worden gemaakt"/>
-		<text name="proShot_testing_trafficUnavailable" text="Er is geen verkeerssysteem beschikbaar op deze kaart"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Er is geen voetgangerssysteem beschikbaar op deze kaart"/>
-		<text name="proShot_testing_birdUnavailable" text="Er zijn geen geschikte vogelsoorten gedefinieerd voor deze kaart"/>
-		<text name="proShot_testing_wildlifeRemoved" text="%d geplaatste dieren of vogelgroepen verwijderd"/>
-		<text name="proShot_testing_spawnFailed" text="Plaatsen van wild dier mislukt"/>
-		<text name="proShot_testing_actionUnavailable" text="Deze actie is niet beschikbaar op deze kaart"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Voetgangerspauzeren is niet beschikbaar in deze gamebuild"/>
-		<text name="proShot_testing_snowRadius" text="Radius verkleinen/vergroten"/>
-		<text name="proShot_testing_snowHeight" text="Sneeuw laten zakken/optillen in het gemarkeerde gebied"/>
-		<text name="proShot_testing_snowTarget" text="Doel"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Radius"/>
-		<text name="proShot_testing_snowHeightInfo" text="Sneeuw in het midden"/>
-		<text name="proShot_testing_noTarget" text="Geen terreindoel"/>
-		<text name="proShot_testing_snowNoTarget" text="Geen terrein gevonden in het midden van het scherm"/>
-		<text name="proShot_testing_snowLowered" text="Sneeuw verlaagd in het gemarkeerde gebied"/>
-		<text name="proShot_testing_snowRaised" text="Opgeheven sneeuw in het gemarkeerde gebied"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Bandensporen verwijderen"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Kies hoeveel van de bandensporenkaart u wilt wissen."/>
-		<text name="proShot_testing_tyreTracks100m" text="Binnen 100 m van de camera"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Hele kaart"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Bandensporen binnen 100 m van de camera verwijderen? Dit kan niet ongedaan worden gemaakt."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Elk bandenspoor van de kaart verwijderen? Dit kan niet ongedaan worden gemaakt."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Bandensporen binnen 100 m van de camera verwijderd"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Alle bandensporen verwijderd"/>
+		<text name="proShot_scene_enableTraffic" text="Schakel verkeer in"/>
+		<text name="proShot_scene_disableTraffic" text="Schakel het verkeer uit"/>
+		<text name="proShot_scene_enablePedestrians" text="Zet voetgangers aan"/>
+		<text name="proShot_scene_disablePedestrians" text="Schakel voetgangers uit"/>
+		<text name="proShot_scene_pauseTraffic" text="Pauzeer het verkeer"/>
+		<text name="proShot_scene_resumeTraffic" text="Hervat het verkeer"/>
+		<text name="proShot_scene_pausePedestrians" text="Pauzeer voetgangers"/>
+		<text name="proShot_scene_resumePedestrians" text="Hervat voetgangers"/>
+		<text name="proShot_snow_menu" text="Lokale sneeuw"/>
+		<text name="proShot_environment_groundWetness" text="Verminder/verhoog de vochtigheid van de grond"/>
+		<text name="proShot_scene_removeTyreTracks" text="Bandensporen verwijderen (kan niet ongedaan worden gemaakt)"/>
+		<text name="proShot_scene_traffic" text="Verkeer"/>
+		<text name="proShot_scene_trafficMotion" text="Verkeersbeweging"/>
+		<text name="proShot_scene_pedestrians" text="Voetgangers"/>
+		<text name="proShot_scene_pedestrianMotion" text="Voetgangersbeweging"/>
+		<text name="proShot_value_paused" text="Gepauzeerd"/>
+		<text name="proShot_value_running" text="In beweging"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Grondvochtigheid"/>
+		<text name="proShot_wildlife_title" text="Wilde dieren"/>
+		<text name="proShot_scene_tyreTracks" text="Bandensporen verwijderen"/>
+		<text name="proShot_value_unavailable" text="Niet beschikbaar op deze kaart"/>
+		<text name="proShot_value_irreversible" text="Kan niet ongedaan worden gemaakt"/>
+		<text name="proShot_scene_trafficUnavailable" text="Er is geen verkeerssysteem beschikbaar op deze kaart"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Er is geen voetgangerssysteem beschikbaar op deze kaart"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Er zijn geen geschikte vogelsoorten gedefinieerd voor deze kaart"/>
+		<text name="proShot_wildlife_removedAll" text="%d geplaatste dieren of vogelgroepen verwijderd"/>
+		<text name="proShot_wildlife_spawnFailed" text="Plaatsen van wild dier mislukt"/>
+		<text name="proShot_scene_actionUnavailable" text="Deze actie is niet beschikbaar op deze kaart"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Voetgangerspauzeren is niet beschikbaar in deze gamebuild"/>
+		<text name="proShot_snow_radius" text="Radius verkleinen/vergroten"/>
+		<text name="proShot_snow_height" text="Sneeuw laten zakken/optillen in het gemarkeerde gebied"/>
+		<text name="proShot_snow_target" text="Doel"/>
+		<text name="proShot_snow_radiusInfo" text="Radius"/>
+		<text name="proShot_snow_heightInfo" text="Sneeuw in het midden"/>
+		<text name="proShot_snow_noTarget" text="Geen terreindoel"/>
+		<text name="proShot_snow_noTerrain" text="Geen terrein gevonden in het midden van het scherm"/>
+		<text name="proShot_snow_lowered" text="Sneeuw verlaagd in het gemarkeerde gebied"/>
+		<text name="proShot_snow_raised" text="Opgeheven sneeuw in het gemarkeerde gebied"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Bandensporen verwijderen"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Kies hoeveel van de bandensporenkaart u wilt wissen."/>
+		<text name="proShot_scene_tyreTracks100m" text="Binnen 100 m van de camera"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Hele kaart"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Bandensporen binnen 100 m van de camera verwijderen? Dit kan niet ongedaan worden gemaakt."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Elk bandenspoor van de kaart verwijderen? Dit kan niet ongedaan worden gemaakt."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Bandensporen binnen 100 m van de camera verwijderd"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Alle bandensporen verwijderd"/>
 		<text name="proShot_wildlife_menu" text="Dieren"/>
 		<text name="proShot_wildlife_selectAnimal" text="Wisselen naar %s"/>
 		<text name="proShot_wildlife_selectBird" text="Wisselen naar %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Zaklamp"/>
 		<text name="input_PRO_SHOT_F1" text="HUD tonen/verbergen"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Enter op numeriek toetsenblok"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot heeft %d voertuig(en) opnieuw geladen"/>
+		<text name="proShot_reload_cooldown" text="Wacht even voordat je voertuigen opnieuw laadt"/>
+		<text name="proShot_reload_vehiclesNearby" text="Alle voertuigen binnen %d m worden opnieuw geladen"/>
+		<text name="proShot_reload_currentVehicle" text="Huidig voertuig wordt opnieuw geladen"/>
+		<text name="proShot_reload_notInVehicle" text="Je zit niet in een voertuig. Probeer Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Alle plaatsbare objecten worden opnieuw geladen"/>
 	</texts>
 </l10n>

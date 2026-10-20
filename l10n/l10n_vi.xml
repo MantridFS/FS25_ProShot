@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Mật độ"/>
 		<text name="proShot_fog_extraHeightInfo" text="Độ cao"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Độ sâu thung lũng tối thiểu"/>
-		<text name="proShot_testing_enableTraffic" text="Bật giao thông"/>
-		<text name="proShot_testing_disableTraffic" text="Tắt giao thông"/>
-		<text name="proShot_testing_enablePedestrians" text="Bật người đi bộ"/>
-		<text name="proShot_testing_disablePedestrians" text="Tắt người đi bộ"/>
-		<text name="proShot_testing_pauseTraffic" text="Tạm dừng giao thông"/>
-		<text name="proShot_testing_resumeTraffic" text="Tiếp tục giao thông"/>
-		<text name="proShot_testing_pausePedestrians" text="Tạm dừng người đi bộ"/>
-		<text name="proShot_testing_resumePedestrians" text="Tiếp tục người đi bộ"/>
-		<text name="proShot_testing_localSnow" text="Tuyết cục bộ"/>
-		<text name="proShot_testing_groundWetness" text="Giảm/Tăng độ ướt mặt đất"/>
-		<text name="proShot_testing_removeTyreTracks" text="Xóa vết lốp xe (không thể hoàn tác)"/>
-		<text name="proShot_testing_traffic" text="Giao thông"/>
-		<text name="proShot_testing_trafficMotion" text="Chuyển động giao thông"/>
-		<text name="proShot_testing_pedestrians" text="Người đi bộ"/>
-		<text name="proShot_testing_pedestrianMotion" text="Chuyển động người đi bộ"/>
-		<text name="proShot_testing_paused" text="Đã tạm dừng"/>
-		<text name="proShot_testing_running" text="Đang chạy"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Độ ướt mặt đất"/>
-		<text name="proShot_testing_wildlife" text="Động vật hoang dã"/>
-		<text name="proShot_testing_tyreTracks" text="Xóa vết lốp xe"/>
-		<text name="proShot_testing_unavailable" text="Không khả dụng trên bản đồ này"/>
-		<text name="proShot_testing_irreversible" text="Không thể hoàn tác"/>
-		<text name="proShot_testing_trafficUnavailable" text="Không có hệ thống giao thông trên bản đồ này"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Không có hệ thống người đi bộ trên bản đồ này"/>
-		<text name="proShot_testing_birdUnavailable" text="Không có loài chim hoang dã phù hợp được định nghĩa cho bản đồ này"/>
-		<text name="proShot_testing_wildlifeRemoved" text="Đã xóa %d động vật và nhóm chim đã đặt"/>
-		<text name="proShot_testing_spawnFailed" text="Không thể tạo động vật hoang dã"/>
-		<text name="proShot_testing_actionUnavailable" text="Hành động này không khả dụng trên bản đồ này"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Tạm dừng người đi bộ không khả dụng trong phiên bản game này"/>
-		<text name="proShot_testing_snowRadius" text="Giảm/Tăng bán kính"/>
-		<text name="proShot_testing_snowHeight" text="Hạ/Nâng tuyết trong vùng được tô sáng"/>
-		<text name="proShot_testing_snowTarget" text="Mục tiêu"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Bán kính"/>
-		<text name="proShot_testing_snowHeightInfo" text="Tuyết ở giữa"/>
-		<text name="proShot_testing_noTarget" text="Không có mục tiêu địa hình"/>
-		<text name="proShot_testing_snowNoTarget" text="Không tìm thấy địa hình ở giữa màn hình"/>
-		<text name="proShot_testing_snowLowered" text="Đã hạ tuyết trong vùng được tô sáng"/>
-		<text name="proShot_testing_snowRaised" text="Đã nâng tuyết trong vùng được tô sáng"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Xóa Vết Lốp Xe"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Chọn mức độ bản đồ vết lốp cần xóa."/>
-		<text name="proShot_testing_tyreTracks100m" text="Trong phạm vi 100 m từ camera"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Toàn bộ bản đồ"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Xóa vết lốp trong phạm vi 100 m từ camera? Không thể hoàn tác."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Xóa mọi vết lốp khỏi bản đồ? Không thể hoàn tác."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Đã xóa vết lốp trong phạm vi 100 m từ camera"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Đã xóa tất cả vết lốp"/>
+		<text name="proShot_scene_enableTraffic" text="Bật giao thông"/>
+		<text name="proShot_scene_disableTraffic" text="Tắt giao thông"/>
+		<text name="proShot_scene_enablePedestrians" text="Bật người đi bộ"/>
+		<text name="proShot_scene_disablePedestrians" text="Tắt người đi bộ"/>
+		<text name="proShot_scene_pauseTraffic" text="Tạm dừng giao thông"/>
+		<text name="proShot_scene_resumeTraffic" text="Tiếp tục giao thông"/>
+		<text name="proShot_scene_pausePedestrians" text="Tạm dừng người đi bộ"/>
+		<text name="proShot_scene_resumePedestrians" text="Tiếp tục người đi bộ"/>
+		<text name="proShot_snow_menu" text="Tuyết cục bộ"/>
+		<text name="proShot_environment_groundWetness" text="Giảm/Tăng độ ướt mặt đất"/>
+		<text name="proShot_scene_removeTyreTracks" text="Xóa vết lốp xe (không thể hoàn tác)"/>
+		<text name="proShot_scene_traffic" text="Giao thông"/>
+		<text name="proShot_scene_trafficMotion" text="Chuyển động giao thông"/>
+		<text name="proShot_scene_pedestrians" text="Người đi bộ"/>
+		<text name="proShot_scene_pedestrianMotion" text="Chuyển động người đi bộ"/>
+		<text name="proShot_value_paused" text="Đã tạm dừng"/>
+		<text name="proShot_value_running" text="Đang chạy"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Độ ướt mặt đất"/>
+		<text name="proShot_wildlife_title" text="Động vật hoang dã"/>
+		<text name="proShot_scene_tyreTracks" text="Xóa vết lốp xe"/>
+		<text name="proShot_value_unavailable" text="Không khả dụng trên bản đồ này"/>
+		<text name="proShot_value_irreversible" text="Không thể hoàn tác"/>
+		<text name="proShot_scene_trafficUnavailable" text="Không có hệ thống giao thông trên bản đồ này"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Không có hệ thống người đi bộ trên bản đồ này"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Không có loài chim hoang dã phù hợp được định nghĩa cho bản đồ này"/>
+		<text name="proShot_wildlife_removedAll" text="Đã xóa %d động vật và nhóm chim đã đặt"/>
+		<text name="proShot_wildlife_spawnFailed" text="Không thể tạo động vật hoang dã"/>
+		<text name="proShot_scene_actionUnavailable" text="Hành động này không khả dụng trên bản đồ này"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Tạm dừng người đi bộ không khả dụng trong phiên bản game này"/>
+		<text name="proShot_snow_radius" text="Giảm/Tăng bán kính"/>
+		<text name="proShot_snow_height" text="Hạ/Nâng tuyết trong vùng được tô sáng"/>
+		<text name="proShot_snow_target" text="Mục tiêu"/>
+		<text name="proShot_snow_radiusInfo" text="Bán kính"/>
+		<text name="proShot_snow_heightInfo" text="Tuyết ở giữa"/>
+		<text name="proShot_snow_noTarget" text="Không có mục tiêu địa hình"/>
+		<text name="proShot_snow_noTerrain" text="Không tìm thấy địa hình ở giữa màn hình"/>
+		<text name="proShot_snow_lowered" text="Đã hạ tuyết trong vùng được tô sáng"/>
+		<text name="proShot_snow_raised" text="Đã nâng tuyết trong vùng được tô sáng"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Xóa Vết Lốp Xe"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Chọn mức độ bản đồ vết lốp cần xóa."/>
+		<text name="proShot_scene_tyreTracks100m" text="Trong phạm vi 100 m từ camera"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Toàn bộ bản đồ"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Xóa vết lốp trong phạm vi 100 m từ camera? Không thể hoàn tác."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Xóa mọi vết lốp khỏi bản đồ? Không thể hoàn tác."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Đã xóa vết lốp trong phạm vi 100 m từ camera"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Đã xóa tất cả vết lốp"/>
 		<text name="proShot_wildlife_menu" text="Động vật"/>
 		<text name="proShot_wildlife_selectAnimal" text="Đổi động vật hoang dã thành %s"/>
 		<text name="proShot_wildlife_selectBird" text="Đổi chim thành %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Đèn pin"/>
 		<text name="input_PRO_SHOT_F1" text="Bật/tắt HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Đặt Đèn pin"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot đã tải lại %d phương tiện"/>
+		<text name="proShot_reload_cooldown" text="Hãy chờ một lát trước khi tải lại phương tiện"/>
+		<text name="proShot_reload_vehiclesNearby" text="Đang tải lại tất cả phương tiện trong bán kính %d m"/>
+		<text name="proShot_reload_currentVehicle" text="Đang tải lại phương tiện hiện tại"/>
+		<text name="proShot_reload_notInVehicle" text="Bạn không ở trong phương tiện. Hãy thử Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Đang tải lại tất cả vật thể có thể đặt"/>
 	</texts>
 </l10n>

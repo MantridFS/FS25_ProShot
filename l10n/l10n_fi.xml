@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Tiheys"/>
 		<text name="proShot_fog_extraHeightInfo" text="Korkeus"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Laakson vähimmäissyvyys"/>
-		<text name="proShot_testing_enableTraffic" text="Kytke liikenne päälle"/>
-		<text name="proShot_testing_disableTraffic" text="Poista liikenne käytöstä"/>
-		<text name="proShot_testing_enablePedestrians" text="Kytke jalankulkijat päälle"/>
-		<text name="proShot_testing_disablePedestrians" text="Poista jalankulkijat käytöstä"/>
-		<text name="proShot_testing_pauseTraffic" text="Keskeytä liikenne"/>
-		<text name="proShot_testing_resumeTraffic" text="Jatka liikennettä"/>
-		<text name="proShot_testing_pausePedestrians" text="Pysäytä jalankulkijat"/>
-		<text name="proShot_testing_resumePedestrians" text="Jatka jalankulkijoita"/>
-		<text name="proShot_testing_localSnow" text="Paikallinen lumi"/>
-		<text name="proShot_testing_groundWetness" text="Vähennä/lisää maan kosteutta"/>
-		<text name="proShot_testing_removeTyreTracks" text="Poista rengasjäljet (ei voi kumota)"/>
-		<text name="proShot_testing_traffic" text="Liikenne"/>
-		<text name="proShot_testing_trafficMotion" text="Liikenteen liike"/>
-		<text name="proShot_testing_pedestrians" text="Jalankulkijat"/>
-		<text name="proShot_testing_pedestrianMotion" text="Jalankulkijoiden liike"/>
-		<text name="proShot_testing_paused" text="Keskeytetty"/>
-		<text name="proShot_testing_running" text="Liikkeessä"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Maan kosteus"/>
-		<text name="proShot_testing_wildlife" text="Villieläimet"/>
-		<text name="proShot_testing_tyreTracks" text="Rengasjälkien poisto"/>
-		<text name="proShot_testing_unavailable" text="Ei saatavilla tällä kartalla"/>
-		<text name="proShot_testing_irreversible" text="Ei voi kumota"/>
-		<text name="proShot_testing_trafficUnavailable" text="Tällä kartalla ei ole saatavilla liikennejärjestelmää"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Tällä kartalla ei ole saatavilla jalankulkujärjestelmää"/>
-		<text name="proShot_testing_birdUnavailable" text="Tälle kartalle ei ole määritelty sopivia lintuja"/>
-		<text name="proShot_testing_wildlifeRemoved" text="Poistettiin %d sijoitettua eläintä tai lintuparvea"/>
-		<text name="proShot_testing_spawnFailed" text="Villieläimen sijoittaminen epäonnistui"/>
-		<text name="proShot_testing_actionUnavailable" text="Tämä toiminto ei ole käytettävissä tällä kartalla"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="Jalankulkijoiden tauko ei ole käytettävissä tässä peliversiossa"/>
-		<text name="proShot_testing_snowRadius" text="Pienennä/lisää sädettä"/>
-		<text name="proShot_testing_snowHeight" text="Laske / nosta lunta korostetulla alueella"/>
-		<text name="proShot_testing_snowTarget" text="Kohde"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Säde"/>
-		<text name="proShot_testing_snowHeightInfo" text="Lunta keskellä"/>
-		<text name="proShot_testing_noTarget" text="Ei maastokohdetta"/>
-		<text name="proShot_testing_snowNoTarget" text="Näytön keskeltä ei löytynyt maastoa"/>
-		<text name="proShot_testing_snowLowered" text="Lunta vähennettiin korostetulla alueella"/>
-		<text name="proShot_testing_snowRaised" text="Lunta lisättiin korostetulla alueella"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Poista rengasjäljet"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Valitse, kuinka suuri osa rengasjäljen kartasta poistetaan."/>
-		<text name="proShot_testing_tyreTracks100m" text="100 metrin säteellä kamerasta"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Koko kartta"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Poistetaanko renkaan jäljet 100 metrin etäisyydeltä kamerasta? Tätä ei voi kumota."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Poistetaanko kaikki rengasjäljet kartalta? Tätä ei voi kumota."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Rengasjäljet poistettu 100 metrin etäisyydeltä kamerasta"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Kaikki renkaan jäljet poistettu"/>
+		<text name="proShot_scene_enableTraffic" text="Kytke liikenne päälle"/>
+		<text name="proShot_scene_disableTraffic" text="Poista liikenne käytöstä"/>
+		<text name="proShot_scene_enablePedestrians" text="Kytke jalankulkijat päälle"/>
+		<text name="proShot_scene_disablePedestrians" text="Poista jalankulkijat käytöstä"/>
+		<text name="proShot_scene_pauseTraffic" text="Keskeytä liikenne"/>
+		<text name="proShot_scene_resumeTraffic" text="Jatka liikennettä"/>
+		<text name="proShot_scene_pausePedestrians" text="Pysäytä jalankulkijat"/>
+		<text name="proShot_scene_resumePedestrians" text="Jatka jalankulkijoita"/>
+		<text name="proShot_snow_menu" text="Paikallinen lumi"/>
+		<text name="proShot_environment_groundWetness" text="Vähennä/lisää maan kosteutta"/>
+		<text name="proShot_scene_removeTyreTracks" text="Poista rengasjäljet (ei voi kumota)"/>
+		<text name="proShot_scene_traffic" text="Liikenne"/>
+		<text name="proShot_scene_trafficMotion" text="Liikenteen liike"/>
+		<text name="proShot_scene_pedestrians" text="Jalankulkijat"/>
+		<text name="proShot_scene_pedestrianMotion" text="Jalankulkijoiden liike"/>
+		<text name="proShot_value_paused" text="Keskeytetty"/>
+		<text name="proShot_value_running" text="Liikkeessä"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Maan kosteus"/>
+		<text name="proShot_wildlife_title" text="Villieläimet"/>
+		<text name="proShot_scene_tyreTracks" text="Rengasjälkien poisto"/>
+		<text name="proShot_value_unavailable" text="Ei saatavilla tällä kartalla"/>
+		<text name="proShot_value_irreversible" text="Ei voi kumota"/>
+		<text name="proShot_scene_trafficUnavailable" text="Tällä kartalla ei ole saatavilla liikennejärjestelmää"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Tällä kartalla ei ole saatavilla jalankulkujärjestelmää"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Tälle kartalle ei ole määritelty sopivia lintuja"/>
+		<text name="proShot_wildlife_removedAll" text="Poistettiin %d sijoitettua eläintä tai lintuparvea"/>
+		<text name="proShot_wildlife_spawnFailed" text="Villieläimen sijoittaminen epäonnistui"/>
+		<text name="proShot_scene_actionUnavailable" text="Tämä toiminto ei ole käytettävissä tällä kartalla"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="Jalankulkijoiden tauko ei ole käytettävissä tässä peliversiossa"/>
+		<text name="proShot_snow_radius" text="Pienennä/lisää sädettä"/>
+		<text name="proShot_snow_height" text="Laske / nosta lunta korostetulla alueella"/>
+		<text name="proShot_snow_target" text="Kohde"/>
+		<text name="proShot_snow_radiusInfo" text="Säde"/>
+		<text name="proShot_snow_heightInfo" text="Lunta keskellä"/>
+		<text name="proShot_snow_noTarget" text="Ei maastokohdetta"/>
+		<text name="proShot_snow_noTerrain" text="Näytön keskeltä ei löytynyt maastoa"/>
+		<text name="proShot_snow_lowered" text="Lunta vähennettiin korostetulla alueella"/>
+		<text name="proShot_snow_raised" text="Lunta lisättiin korostetulla alueella"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Poista rengasjäljet"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Valitse, kuinka suuri osa rengasjäljen kartasta poistetaan."/>
+		<text name="proShot_scene_tyreTracks100m" text="100 metrin säteellä kamerasta"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Koko kartta"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Poistetaanko renkaan jäljet 100 metrin etäisyydeltä kamerasta? Tätä ei voi kumota."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Poistetaanko kaikki rengasjäljet kartalta? Tätä ei voi kumota."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Rengasjäljet poistettu 100 metrin etäisyydeltä kamerasta"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Kaikki renkaan jäljet poistettu"/>
 		<text name="proShot_wildlife_menu" text="Eläimet"/>
 		<text name="proShot_wildlife_selectAnimal" text="Vaihda kohteeseen %s"/>
 		<text name="proShot_wildlife_selectBird" text="Vaihda kohteeseen %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Taskulamppu"/>
 		<text name="input_PRO_SHOT_F1" text="Näytä/piilota HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Numeronäppäimistön Enter"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot latasi uudelleen %d ajoneuvoa"/>
+		<text name="proShot_reload_cooldown" text="Odota hetki ennen ajoneuvojen lataamista uudelleen"/>
+		<text name="proShot_reload_vehiclesNearby" text="Ladataan uudelleen kaikki ajoneuvot %d m säteellä"/>
+		<text name="proShot_reload_currentVehicle" text="Ladataan nykyinen ajoneuvo uudelleen"/>
+		<text name="proShot_reload_notInVehicle" text="Et ole ajoneuvossa. Kokeile Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Ladataan kaikki sijoitettavat kohteet uudelleen"/>
 	</texts>
 </l10n>

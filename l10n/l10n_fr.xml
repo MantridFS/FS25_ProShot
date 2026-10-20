@@ -152,52 +152,52 @@
 		<text name="proShot_fog_groundDensityInfo" text="Densité"/>
 		<text name="proShot_fog_extraHeightInfo" text="Hauteur"/>
 		<text name="proShot_fog_minValleyDepthInfo" text="Profondeur minimale de la vallée"/>
-		<text name="proShot_testing_enableTraffic" text="Activez le trafic"/>
-		<text name="proShot_testing_disableTraffic" text="Éteignez le trafic"/>
-		<text name="proShot_testing_enablePedestrians" text="Allumez les piétons"/>
-		<text name="proShot_testing_disablePedestrians" text="Éteignez les piétons"/>
-		<text name="proShot_testing_pauseTraffic" text="Suspendre le trafic"/>
-		<text name="proShot_testing_resumeTraffic" text="Reprendre le trafic"/>
-		<text name="proShot_testing_pausePedestrians" text="Mettre les piétons en pause"/>
-		<text name="proShot_testing_resumePedestrians" text="Reprendre les piétons"/>
-		<text name="proShot_testing_localSnow" text="Neige locale"/>
-		<text name="proShot_testing_groundWetness" text="Réduire/Augmenter l’humidité du sol"/>
-		<text name="proShot_testing_removeTyreTracks" text="Supprimer les traces de pneus (impossible à annuler)"/>
-		<text name="proShot_testing_traffic" text="Trafic"/>
-		<text name="proShot_testing_trafficMotion" text="Mouvement de la circulation"/>
-		<text name="proShot_testing_pedestrians" text="Piétons"/>
-		<text name="proShot_testing_pedestrianMotion" text="Mouvement piéton"/>
-		<text name="proShot_testing_paused" text="En pause"/>
-		<text name="proShot_testing_running" text="En mouvement"/>
-		<text name="proShot_testing_groundWetnessInfo" text="Humidité du sol"/>
-		<text name="proShot_testing_wildlife" text="Faune"/>
-		<text name="proShot_testing_tyreTracks" text="Suppression des traces de pneus"/>
-		<text name="proShot_testing_unavailable" text="Indisponible sur cette carte"/>
-		<text name="proShot_testing_irreversible" text="Ne peut pas être annulé"/>
-		<text name="proShot_testing_trafficUnavailable" text="Aucun système de circulation n'est disponible sur cette carte"/>
-		<text name="proShot_testing_pedestriansUnavailable" text="Aucun système piétonnier n'est disponible sur cette carte"/>
-		<text name="proShot_testing_birdUnavailable" text="Aucune faune aviaire appropriée n'est définie pour cette carte."/>
-		<text name="proShot_testing_wildlifeRemoved" text="%d animaux ou groupes d’oiseaux placés supprimés"/>
-		<text name="proShot_testing_spawnFailed" text="Échec du placement de la faune"/>
-		<text name="proShot_testing_actionUnavailable" text="Cette action n'est pas disponible sur cette carte"/>
-		<text name="proShot_testing_pedestrianPauseUnavailable" text="La pause piétonne n'est pas disponible dans cette version du jeu"/>
-		<text name="proShot_testing_snowRadius" text="Réduire/Augmenter le rayon"/>
-		<text name="proShot_testing_snowHeight" text="Abaisser/élever la neige dans la zone en surbrillance"/>
-		<text name="proShot_testing_snowTarget" text="Cible"/>
-		<text name="proShot_testing_snowRadiusInfo" text="Rayon"/>
-		<text name="proShot_testing_snowHeightInfo" text="Neige au centre"/>
-		<text name="proShot_testing_noTarget" text="Aucune cible de terrain"/>
-		<text name="proShot_testing_snowNoTarget" text="Aucun terrain trouvé au centre de l'écran"/>
-		<text name="proShot_testing_snowLowered" text="Neige réduite dans la zone en surbrillance"/>
-		<text name="proShot_testing_snowRaised" text="Neige soulevée dans la zone en surbrillance"/>
-		<text name="proShot_testing_removeTyreTracksTitle" text="Supprimer les traces de pneus"/>
-		<text name="proShot_testing_removeTyreTracksChoose" text="Choisissez la quantité de carte de trace des pneus à effacer."/>
-		<text name="proShot_testing_tyreTracks100m" text="À moins de 100 m de la caméra"/>
-		<text name="proShot_testing_tyreTracksWholeMap" text="Carte entière"/>
-		<text name="proShot_testing_removeTyreTracksPrompt100m" text="Supprimer les traces de pneus à moins de 100 m de la caméra ? Cela ne peut pas être annulé."/>
-		<text name="proShot_testing_removeTyreTracksPromptAll" text="Supprimer toutes les traces de pneus de la carte ? Cela ne peut pas être annulé."/>
-		<text name="proShot_testing_tyreTracksRemoved100m" text="Traces de pneus supprimées à moins de 100 m de la caméra"/>
-		<text name="proShot_testing_tyreTracksRemovedAll" text="Suppression de toutes les traces de pneus"/>
+		<text name="proShot_scene_enableTraffic" text="Activez le trafic"/>
+		<text name="proShot_scene_disableTraffic" text="Éteignez le trafic"/>
+		<text name="proShot_scene_enablePedestrians" text="Allumez les piétons"/>
+		<text name="proShot_scene_disablePedestrians" text="Éteignez les piétons"/>
+		<text name="proShot_scene_pauseTraffic" text="Suspendre le trafic"/>
+		<text name="proShot_scene_resumeTraffic" text="Reprendre le trafic"/>
+		<text name="proShot_scene_pausePedestrians" text="Mettre les piétons en pause"/>
+		<text name="proShot_scene_resumePedestrians" text="Reprendre les piétons"/>
+		<text name="proShot_snow_menu" text="Neige locale"/>
+		<text name="proShot_environment_groundWetness" text="Réduire/Augmenter l’humidité du sol"/>
+		<text name="proShot_scene_removeTyreTracks" text="Supprimer les traces de pneus (impossible à annuler)"/>
+		<text name="proShot_scene_traffic" text="Trafic"/>
+		<text name="proShot_scene_trafficMotion" text="Mouvement de la circulation"/>
+		<text name="proShot_scene_pedestrians" text="Piétons"/>
+		<text name="proShot_scene_pedestrianMotion" text="Mouvement piéton"/>
+		<text name="proShot_value_paused" text="En pause"/>
+		<text name="proShot_value_running" text="En mouvement"/>
+		<text name="proShot_environment_groundWetnessInfo" text="Humidité du sol"/>
+		<text name="proShot_wildlife_title" text="Faune"/>
+		<text name="proShot_scene_tyreTracks" text="Suppression des traces de pneus"/>
+		<text name="proShot_value_unavailable" text="Indisponible sur cette carte"/>
+		<text name="proShot_value_irreversible" text="Ne peut pas être annulé"/>
+		<text name="proShot_scene_trafficUnavailable" text="Aucun système de circulation n'est disponible sur cette carte"/>
+		<text name="proShot_scene_pedestriansUnavailable" text="Aucun système piétonnier n'est disponible sur cette carte"/>
+		<text name="proShot_wildlife_birdUnavailable" text="Aucune faune aviaire appropriée n'est définie pour cette carte."/>
+		<text name="proShot_wildlife_removedAll" text="%d animaux ou groupes d’oiseaux placés supprimés"/>
+		<text name="proShot_wildlife_spawnFailed" text="Échec du placement de la faune"/>
+		<text name="proShot_scene_actionUnavailable" text="Cette action n'est pas disponible sur cette carte"/>
+		<text name="proShot_scene_pedestrianPauseUnavailable" text="La pause piétonne n'est pas disponible dans cette version du jeu"/>
+		<text name="proShot_snow_radius" text="Réduire/Augmenter le rayon"/>
+		<text name="proShot_snow_height" text="Abaisser/élever la neige dans la zone en surbrillance"/>
+		<text name="proShot_snow_target" text="Cible"/>
+		<text name="proShot_snow_radiusInfo" text="Rayon"/>
+		<text name="proShot_snow_heightInfo" text="Neige au centre"/>
+		<text name="proShot_snow_noTarget" text="Aucune cible de terrain"/>
+		<text name="proShot_snow_noTerrain" text="Aucun terrain trouvé au centre de l'écran"/>
+		<text name="proShot_snow_lowered" text="Neige réduite dans la zone en surbrillance"/>
+		<text name="proShot_snow_raised" text="Neige soulevée dans la zone en surbrillance"/>
+		<text name="proShot_scene_removeTyreTracksTitle" text="Supprimer les traces de pneus"/>
+		<text name="proShot_scene_removeTyreTracksChoose" text="Choisissez la quantité de carte de trace des pneus à effacer."/>
+		<text name="proShot_scene_tyreTracks100m" text="À moins de 100 m de la caméra"/>
+		<text name="proShot_scene_tyreTracksWholeMap" text="Carte entière"/>
+		<text name="proShot_scene_removeTyreTracksPrompt100m" text="Supprimer les traces de pneus à moins de 100 m de la caméra ? Cela ne peut pas être annulé."/>
+		<text name="proShot_scene_removeTyreTracksPromptAll" text="Supprimer toutes les traces de pneus de la carte ? Cela ne peut pas être annulé."/>
+		<text name="proShot_scene_tyreTracksRemoved100m" text="Traces de pneus supprimées à moins de 100 m de la caméra"/>
+		<text name="proShot_scene_tyreTracksRemovedAll" text="Suppression de toutes les traces de pneus"/>
 		<text name="proShot_wildlife_menu" text="Animaux"/>
 		<text name="proShot_wildlife_selectAnimal" text="Passer à %s"/>
 		<text name="proShot_wildlife_selectBird" text="Passer à %s"/>
@@ -412,5 +412,11 @@
 		<text name="input_PRO_SHOT_F" text="Lampe de poche"/>
 		<text name="input_PRO_SHOT_F1" text="Afficher/masquer le HUD"/>
 		<text name="input_PRO_SHOT_KP_ENTER" text="Entrée du pavé numérique"/>
+		<text name="proShot_reload_vehiclesDone" text="ProShot a rechargé %d véhicule(s)"/>
+		<text name="proShot_reload_cooldown" text="Patientez avant de recharger les véhicules à nouveau"/>
+		<text name="proShot_reload_vehiclesNearby" text="Rechargement de tous les véhicules dans un rayon de %d m"/>
+		<text name="proShot_reload_currentVehicle" text="Rechargement du véhicule actuel"/>
+		<text name="proShot_reload_notInVehicle" text="Vous n’êtes pas dans un véhicule. Essayez Shift+Alt+R"/>
+		<text name="proShot_reload_placeables" text="Rechargement de tous les objets à placer"/>
 	</texts>
 </l10n>
